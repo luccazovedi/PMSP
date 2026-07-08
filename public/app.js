@@ -1,4 +1,8 @@
-/* Landing page de consulta ao Código Penal — consome a API local (/api). */
+/* Landing page de consulta ao Código Penal.
+ * A busca roda no navegador sobre data/codigo-penal.json, então funciona
+ * tanto servida pelo Express quanto como site estático (GitHub Pages). */
+
+import { criarConsulta } from './lib/consulta.js';
 
 const form = document.getElementById('form-busca');
 const campo = document.getElementById('campo-busca');
@@ -51,10 +55,7 @@ function caminhoDe(hierarquia) {
 
 function renderDispositivo(d, termo) {
   const p = el('p', `dispositivo tipo-${d.tipo}${d.situacao === 'historico' ? ' historico' : ''}`);
-  if (d.tipo === 'caput' && d.rotuloArtigo) {
-    const b = el('strong', null, d.rotuloArtigo + ' ');
-    p.appendChild(b);
-  }
+  if (d.rotuloArtigo) p.appendChild(el('strong', null, d.rotuloArtigo + ' '));
   p.appendChild(comDestaque(d.texto, termo));
   for (const nota of d.notas || []) p.appendChild(el('small', 'nota', nota));
   return p;
@@ -96,14 +97,15 @@ function renderArtigo(artigo, termo) {
 }
 
 // ---------------------------------------------------------------------------
-// Renderização dos resultados de busca textual
+// Resultados de busca textual
 // ---------------------------------------------------------------------------
 
-function renderResultadoBusca(r, termo) {
+function renderResultadoBusca(r, termo, consulta) {
   const cartao = el('article', 'cartao');
 
   const titulo = el('h2');
   titulo.appendChild(el('span', null, r.rotulo));
+  if (r.situacao === 'revogado') titulo.appendChild(el('span', 'selo-revogado', 'REVOGADO'));
   if (r.rubricas.length) titulo.appendChild(el('span', 'rubrica', r.rubricas.join(' · ')));
   cartao.appendChild(titulo);
 
@@ -118,10 +120,8 @@ function renderResultadoBusca(r, termo) {
 
   const acoes = el('div', 'acoes');
   const botao = el('button', null, 'Ver artigo completo');
-  botao.addEventListener('click', async () => {
-    const resposta = await fetch(`/api/artigos/${encodeURIComponent(r.numero)}`);
-    const artigo = await resposta.json();
-    cartao.replaceWith(renderArtigo(artigo, termo));
+  botao.addEventListener('click', () => {
+    cartao.replaceWith(renderArtigo(consulta.artigo(r.numero), termo));
   });
   acoes.appendChild(botao);
   cartao.appendChild(acoes);
@@ -130,57 +130,57 @@ function renderResultadoBusca(r, termo) {
 }
 
 // ---------------------------------------------------------------------------
-// Busca
+// Carga dos dados e busca
 // ---------------------------------------------------------------------------
 
-async function buscar(consulta) {
-  resumo.textContent = 'Buscando…';
-  resultados.replaceChildren();
+let consultaPronta = null;
 
+async function carregar() {
+  resumo.textContent = 'Carregando o Código Penal…';
   try {
-    const resposta = await fetch(`/api/busca?q=${encodeURIComponent(consulta)}`);
-    const dados = await resposta.json();
+    const resposta = await fetch('./data/codigo-penal.json');
+    const lei = await resposta.json();
+    consultaPronta = criarConsulta(lei);
 
-    if (!resposta.ok) {
-      resumo.textContent = dados.erro || 'Erro na busca.';
-      return;
-    }
-
-    if (dados.tipo === 'artigo') {
-      resumo.textContent = `Artigo encontrado para “${consulta}”.`;
-      resultados.appendChild(renderArtigo(dados.resultados[0], null));
-      return;
-    }
-
-    if (dados.total === 0) {
-      resumo.textContent = '';
-      resultados.appendChild(el('p', 'vazio',
-        `Nenhum artigo contém “${consulta}”. Tente outra palavra ou um número de artigo.`));
-      return;
-    }
-
-    resumo.textContent = `${dados.total} artigo(s) mencionam “${consulta}”.`;
-    for (const r of dados.resultados) {
-      resultados.appendChild(renderResultadoBusca(r, consulta));
-    }
-  } catch (erro) {
-    resumo.textContent = 'Não foi possível consultar a API. O servidor está no ar?';
+    const data = new Date(lei.meta.geradoEm).toLocaleDateString('pt-BR');
+    infoFonte.textContent =
+      `${lei.meta.lei} · dados extraídos do texto oficial do Planalto em ${data}. ` +
+      'Este site não substitui o texto publicado no DOU.';
+    resumo.textContent = '';
+  } catch {
+    resumo.textContent = 'Não foi possível carregar os dados do Código Penal.';
   }
+  return consultaPronta;
 }
 
-form.addEventListener('submit', (evento) => {
-  evento.preventDefault();
-  const consulta = campo.value.trim();
-  if (consulta) buscar(consulta);
-});
+const carregamento = carregar();
 
-// Rodapé com metadados da fonte
-fetch('/api/lei')
-  .then((r) => r.json())
-  .then(({ meta }) => {
-    const data = new Date(meta.geradoEm).toLocaleDateString('pt-BR');
-    infoFonte.textContent =
-      `${meta.lei} · dados extraídos do texto oficial do Planalto em ${data}. ` +
-      'Este site não substitui o texto publicado no DOU.';
-  })
-  .catch(() => {});
+form.addEventListener('submit', async (evento) => {
+  evento.preventDefault();
+  const termo = campo.value.trim();
+  if (!termo) return;
+
+  const consulta = consultaPronta || (await carregamento);
+  if (!consulta) return;
+
+  resultados.replaceChildren();
+  const dados = consulta.buscar(termo);
+
+  if (dados.tipo === 'artigo') {
+    resumo.textContent = `Artigo encontrado para “${termo}”.`;
+    resultados.appendChild(renderArtigo(dados.resultados[0], null));
+    return;
+  }
+
+  if (dados.total === 0) {
+    resumo.textContent = '';
+    resultados.appendChild(el('p', 'vazio',
+      `Nenhum artigo contém “${termo}”. Tente outra palavra ou um número de artigo.`));
+    return;
+  }
+
+  resumo.textContent = `${dados.total} artigo(s) mencionam “${termo}”.`;
+  for (const r of dados.resultados) {
+    resultados.appendChild(renderResultadoBusca(r, termo, consulta));
+  }
+});

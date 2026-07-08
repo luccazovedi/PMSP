@@ -1,11 +1,26 @@
 # Código Penal — API + Landing Page
 
-API REST do **Código Penal brasileiro** (Decreto-Lei nº 2.848, de 7 de dezembro de 1940),
+API do **Código Penal brasileiro** (Decreto-Lei nº 2.848, de 7 de dezembro de 1940),
 gerada a partir do HTML oficial do Planalto
 ([del2848.htm](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm)),
 com uma landing page simples para buscar por **número de artigo** ou por **palavra**.
 
-## Como rodar
+## Site publicado (GitHub Pages)
+
+O site é publicado automaticamente pelo workflow **"Publicar no GitHub Pages"** a cada
+push na branch: **https://luccazovedi.github.io/PMSP/**
+
+No Pages tudo é estático: a busca roda no navegador (mesma lógica do servidor, via
+`lib/consulta.js`) e a API vira arquivos JSON pré-gerados:
+
+- `api/lei.json`, `api/estrutura.json`, `api/artigos.json`
+- `api/artigos/121.json`, `api/artigos/121-A.json`, … (um por artigo)
+- `data/codigo-penal.json` (dados completos)
+
+> O repositório precisa estar **público** (ou ter plano GitHub Pro) para o GitHub
+> Pages funcionar. `npm run build-site` gera a mesma versão estática em `_site/`.
+
+## Como rodar localmente
 
 ```bash
 npm install
@@ -13,7 +28,7 @@ npm start          # http://localhost:3000
 ```
 
 - `http://localhost:3000/` — landing page de busca
-- `http://localhost:3000/api` — documentação viva da API
+- `http://localhost:3000/api` — documentação viva da API (inclui `/api/busca?q=`)
 
 ## Endpoints
 
