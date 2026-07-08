@@ -1,0 +1,20 @@
+{
+  "name": "pmsp-codigo-penal-api",
+  "version": "1.0.0",
+  "description": "API do Código Penal brasileiro (Decreto-Lei nº 2.848/1940) gerada a partir do HTML oficial do Planalto, com landing page de busca",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "build-data": "node scripts/build-data.js",
+    "test": "node scripts/validate-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}

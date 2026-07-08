@@ -1,35 +1,44 @@
-name: Baixar fonte do Planalto
+name: Atualizar dados do Planalto
 
+# Baixa o HTML oficial do Código Penal, regera o JSON estruturado, valida e
+# commita. Rode manualmente (workflow_dispatch) sempre que quiser sincronizar
+# com o texto vigente no Planalto.
 on:
   workflow_dispatch:
-  push:
-    branches: [claude/penal-code-api-landing-7lnmbp]
-    paths: ['.github/workflows/fetch-planalto.yml']
 
 jobs:
-  fetch:
+  atualizar:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Baixar HTML do Código Penal (Planalto)
         run: |
           mkdir -p data/fonte
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
           curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
-            "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm" \
-            -o data/fonte/del2848compilado.htm
-          curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
             "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm" \
             -o data/fonte/del2848.htm
-          ls -la data/fonte
+          curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
+            "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm" \
+            -o data/fonte/del2848compilado.htm
 
-      - name: Commitar fonte baixada
+      - name: Regerar e validar o JSON
+        run: |
+          npm ci
+          npm run build-data
+          npm test
+
+      - name: Commitar atualização
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/fonte
-          git commit -m "chore: adiciona HTML oficial do Código Penal baixado do Planalto" || echo "sem mudanças"
+          git add data
+          git commit -m "chore: atualiza dados do Código Penal a partir do Planalto" || echo "sem mudanças"
           git push

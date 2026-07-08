@@ -1,0 +1,217 @@
+:root {
+  --fundo: #f6f5f2;
+  --papel: #ffffff;
+  --tinta: #1e2430;
+  --tinta-suave: #5c6675;
+  --destaque: #14532d;
+  --destaque-claro: #e7f3ec;
+  --marca: #fff3bf;
+  --borda: #e2e0da;
+  --revogado: #a13333;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--fundo);
+  color: var(--tinta);
+  line-height: 1.6;
+}
+
+.topo {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 20px 12px;
+  text-align: center;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  letter-spacing: 0.02em;
+  color: var(--destaque);
+}
+
+.subtitulo {
+  margin: 6px 0 28px;
+  color: var(--tinta-suave);
+  font-size: 0.95rem;
+}
+
+.subtitulo a { color: inherit; }
+
+.busca {
+  display: flex;
+  gap: 8px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.busca input {
+  flex: 1;
+  padding: 13px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.busca input:focus {
+  outline: 2px solid var(--destaque);
+  border-color: transparent;
+}
+
+.busca button {
+  padding: 13px 22px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background: var(--destaque);
+  color: #fff;
+  cursor: pointer;
+}
+
+.busca button:hover { background: #0e3d21; }
+
+.resumo {
+  min-height: 1.4em;
+  margin: 14px 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.resultados {
+  max-width: 860px;
+  margin: 20px auto 60px;
+  padding: 0 20px;
+}
+
+.cartao {
+  background: var(--papel);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+}
+
+.cartao h2 {
+  margin: 0 0 2px;
+  font-size: 1.15rem;
+  color: var(--destaque);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cartao h2 .rubrica {
+  font-size: 0.85rem;
+  font-weight: normal;
+  font-style: italic;
+  color: var(--tinta-suave);
+}
+
+.selo-revogado {
+  font-size: 0.7rem;
+  font-family: system-ui, sans-serif;
+  font-style: normal;
+  color: var(--revogado);
+  border: 1px solid var(--revogado);
+  border-radius: 4px;
+  padding: 1px 6px;
+  vertical-align: middle;
+}
+
+.caminho {
+  font-size: 0.75rem;
+  font-family: system-ui, sans-serif;
+  color: var(--tinta-suave);
+  margin: 0 0 12px;
+}
+
+.trecho { margin: 8px 0; }
+
+.trecho mark, .dispositivo mark {
+  background: var(--marca);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.dispositivo { margin: 7px 0; }
+.dispositivo.tipo-rubrica { font-weight: bold; font-style: italic; margin-top: 16px; }
+.dispositivo.tipo-pena { padding-left: 1.5em; }
+.dispositivo.tipo-inciso { padding-left: 1.5em; }
+.dispositivo.tipo-alinea { padding-left: 3em; }
+
+.dispositivo.historico {
+  text-decoration: line-through;
+  color: var(--tinta-suave);
+  opacity: 0.75;
+}
+
+.nota {
+  font-size: 0.78rem;
+  font-family: system-ui, sans-serif;
+  color: var(--tinta-suave);
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.acoes { margin-top: 12px; }
+
+.acoes button {
+  background: var(--destaque-claro);
+  color: var(--destaque);
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.acoes button:hover { background: #d6eade; }
+
+.versoes-anteriores summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: system-ui, sans-serif;
+  color: var(--tinta-suave);
+  margin-top: 14px;
+}
+
+.vazio {
+  text-align: center;
+  color: var(--tinta-suave);
+  font-style: italic;
+  padding: 40px 0;
+}
+
+.rodape {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  text-align: center;
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+  font-family: system-ui, sans-serif;
+}
+
+.rodape code {
+  background: var(--papel);
+  border: 1px solid var(--borda);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+@media (max-width: 560px) {
+  .topo h1 { font-size: 2rem; }
+  .busca { flex-direction: column; }
+}
