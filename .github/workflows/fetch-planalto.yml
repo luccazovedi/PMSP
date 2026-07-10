@@ -31,6 +31,18 @@ jobs:
             "https://www.planalto.gov.br/ccivil_03/leis/l9503.htm" \
             -o data/fonte/l9503.htm
 
+      - name: Baixar RDPM da PMESP (LC 893/2001 — ALESP)
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          # tenta o texto compilado; se não existir, usa o original
+          curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
+            "https://www.al.sp.gov.br/repositorio/legislacao/lei.complementar/2001/compilacao-lei.complementar-893-09.03.2001.html" \
+            -o data/fonte/lc893.html \
+          || curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
+            "https://www.al.sp.gov.br/repositorio/legislacao/lei.complementar/2001/lei.complementar-893-09.03.2001.html" \
+            -o data/fonte/lc893.html
+          ls -la data/fonte
+
       - name: Regerar e validar o JSON e o site estático
         run: |
           npm ci
