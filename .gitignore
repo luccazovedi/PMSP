@@ -1,2 +1,22 @@
+# Dependências e artefatos locais
 node_modules/
 *.log
+_site/
+
+# Ferramentas de IA (instruções, caches e configurações de assistentes)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.cursor/
+.cursorrules
+.cursorignore
+.aider*
+.copilot/
+.github/copilot-instructions.md
+AGENTS.md
+GEMINI.md
+.gemini/
+.windsurf/
+.windsurfrules
+.codeium/
+.continue/
