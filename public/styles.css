@@ -89,12 +89,14 @@ mark {
 
 .seletor-lei {
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 4px;
   padding: 4px;
   margin-bottom: 22px;
   background: var(--papel);
   border: 1px solid var(--borda);
-  border-radius: 999px;
+  border-radius: 20px;
   box-shadow: var(--sombra);
 }
 

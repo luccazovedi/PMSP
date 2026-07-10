@@ -29,6 +29,18 @@ const LEIS = {
       { q: '322', nome: 'Fiança' },
     ],
   },
+  cpm: {
+    arquivo: 'cpm.json',
+    exemplo: 'ex.: 9, 187, 205 — ou deserção, sentinela, insubordinação',
+    atalhos: [
+      { q: '9', nome: 'Crime militar' },
+      { q: '187', nome: 'Deserção' },
+      { q: '195', nome: 'Abandono de posto' },
+      { q: '202', nome: 'Embriaguez em serviço' },
+      { q: '205', nome: 'Homicídio' },
+      { q: '303', nome: 'Peculato' },
+    ],
+  },
   ctb: {
     arquivo: 'ctb.json',
     exemplo: 'ex.: 165, 306, 165-B — ou capacete, celular, álcool',

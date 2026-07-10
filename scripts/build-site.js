@@ -20,6 +20,7 @@ const SITE = path.join(RAIZ, 'docs');
 const LEIS = {
   cp: { arquivo: 'codigo-penal.json' },
   cpp: { arquivo: 'cpp.json' },
+  cpm: { arquivo: 'cpm.json' },
   ctb: { arquivo: 'ctb.json' },
   rdpm: { arquivo: 'rdpm.json' },
 };

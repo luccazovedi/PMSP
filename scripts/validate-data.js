@@ -48,6 +48,21 @@ const REGRAS = [
     extras: () => [],
   },
   {
+    arquivo: 'cpm.json',
+    ultimoArtigo: 410,
+    preambuloContem: 'Ministros da Marinha',
+    fechoContem: '21 de outubro de 1969',
+    conteudos: [
+      ['9', 'crimes militares, em tempo de paz'],
+      ['187', 'Ausentar-se'],           // deserção
+      ['195', 'Abandonar'],             // abandono de posto
+      ['202', 'embriaguez'],            // embriaguez em serviço
+      ['205', 'Matar alguém'],          // homicídio
+      ['303', 'Apropriar-se'],          // peculato
+    ],
+    extras: () => [],
+  },
+  {
     arquivo: 'rdpm.json',
     ultimoArtigo: 89,
     preambuloContem: 'GOVERNADOR DO ESTADO',

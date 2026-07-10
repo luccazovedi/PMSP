@@ -50,6 +50,17 @@ export const LEIS = [
     ementa: 'Código de Processo Penal.',
   },
   {
+    id: 'cpm',
+    arquivo: 'del1001.htm',
+    saida: 'cpm.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/del1001.htm',
+    lei: 'Decreto-Lei nº 1.001, de 21 de outubro de 1969',
+    apelido: 'Código Penal Militar',
+    ementa: 'Código Penal Militar.',
+    // O CPM foi decretado pela junta militar, não pelo Presidente
+    rePreambulo: /MINISTROS\s+DA\s+MARINHA/i,
+  },
+  {
     id: 'rdpm',
     arquivo: 'lc893.html',
     saida: 'rdpm.json',
@@ -201,7 +212,10 @@ function parseLei(cfg) {
   html = html
     .replace(/\r\n?/g, '\n')
     .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ');
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    // Cura marcação quebrada do Planalto: "A<strike>rt. 65..." deixa o "A"
+    // fora do riscado e esconde o início do artigo
+    .replace(/A<(strike|del|s)\b([^>]*)>\s*rt\b/gi, '<$1$2>Art');
 
   if (cfg.formato === 'alesp') html = preprocessarAlesp(html);
 
@@ -213,7 +227,7 @@ function parseLei(cfg) {
   if (posPreambulo === -1) throw new Error(`[${cfg.id}] preâmbulo não encontrado — o HTML da fonte mudou?`);
   const inicioCorpo = Math.max(0, html.toLowerCase().lastIndexOf('<p', posPreambulo));
 
-  const reBloco = /<(p|li)\b[^>]*>/gi;
+  const reBloco = /<(p|li|h[1-6])\b[^>]*>/gi;
   reBloco.lastIndex = inicioCorpo;
   const blocosBrutos = [];
   let m;
@@ -411,6 +425,9 @@ function parseLei(cfg) {
       let { texto, notas } = separarAnotacoes(conteudo);
       // Pontuação órfã fora do <strike> (ex.: "…veículos</strike>.") não é texto
       if (/^[\s.,;:–—-]*$/.test(texto)) texto = '';
+      // Link "Vigência" solto ao lado de "(Revogado...)" é anotação, não texto
+      const soVigencia = texto.match(/^[\s.,;:–—-]*Vig[êe]ncia[\s.,;:–—-]*$/i);
+      if (soVigencia) { notas.push('(Vigência)'); texto = ''; }
       if (!texto && notas.length === 0) continue;
 
       if (situacao === 'vigente' && !texto && notas.length && bloco.riscado &&
