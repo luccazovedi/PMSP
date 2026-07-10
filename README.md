@@ -1,8 +1,9 @@
-# Consulta de Legislação — Código Penal e CTB
+# Consulta de Legislação — Código Penal, CTB e RDPM
 
-API e landing page de busca para o **Código Penal** (Decreto-Lei nº 2.848/1940) e o
-**Código de Trânsito Brasileiro** (Lei nº 9.503/1997), gerados a partir do HTML
-oficial do Planalto. Busque por **número de artigo** ou por **palavra**; no CTB,
+API e landing page de busca para o **Código Penal** (Decreto-Lei nº 2.848/1940), o
+**Código de Trânsito Brasileiro** (Lei nº 9.503/1997) e o **RDPM da PMESP**
+(Lei Complementar estadual nº 893/2001), gerados a partir do HTML oficial do
+Planalto e da ALESP. Busque por **número de artigo** ou por **palavra**; no CTB,
 cada artigo de infração exibe uma **ficha operacional** com gravidade, penalidade
 e medidas administrativas (as providências a cargo do agente de fiscalização).
 
@@ -19,7 +20,8 @@ servidor, via `lib/consulta.js`) e a API vira arquivos JSON pré-gerados por lei
 - `api/index.json` — índice das leis
 - `api/cp/lei.json`, `api/cp/estrutura.json`, `api/cp/artigos.json`, `api/cp/artigos/121.json`, …
 - `api/ctb/lei.json` (inclui os anexos), `api/ctb/artigos/165.json`, `api/ctb/artigos/ANEXO-I.json`, …
-- `data/codigo-penal.json` e `data/ctb.json` (dados completos)
+- `api/rdpm/lei.json`, `api/rdpm/artigos/13.json`, …
+- `data/codigo-penal.json`, `data/ctb.json` e `data/rdpm.json` (dados completos)
 
 ## Como rodar localmente
 
@@ -33,7 +35,8 @@ npm start          # http://localhost:3000
 
 ## Endpoints (servidor Node)
 
-`:lei` = `cp` (Código Penal) ou `ctb` (Código de Trânsito Brasileiro).
+`:lei` = `cp` (Código Penal), `ctb` (Código de Trânsito Brasileiro) ou `rdpm`
+(Regulamento Disciplinar da PMESP).
 
 | Rota | Descrição |
 |---|---|
@@ -56,13 +59,16 @@ que a landing page monta a ficha operacional (gravidade da infração, penalidad
 providências do agente). O Anexo I (conceitos e definições) vira o registro
 pesquisável `ANEXO-I`.
 
+No RDPM, as 132 transgressões do art. 13 viram dispositivos `item`, e a landing
+page exibe a gravidade de cada uma — (G) grave, (M) média, (L) leve — como selo.
+
 ## Fidelidade dos dados — nada fica de fora
 
 O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial do Planalto
 (cópias versionadas em `data/fonte/`), preservando, para as duas leis:
 
 - todos os artigos (CP: 432 registros, arts. 1º a 361; CTB: 393 registros, arts. 1º
-  a 341, mais sufixados como 165-A e o Anexo I);
+  a 341, mais sufixados como 165-A e o Anexo I; RDPM: 89 artigos);
 - os dispositivos completos na ordem do texto oficial;
 - as rubricas (nomes marginais), as anotações oficiais ("Redação dada pela…",
   "Incluído pela…", "Revogado pela…", "Vide…", "(VETADO)");
@@ -75,7 +81,7 @@ contagens mínimas de infrações/penalidades/medidas no CTB).
 
 ## Atualizando quando a lei mudar
 
-O Planalto bloqueia acesso de datacenters, então o download é feito pelo GitHub
+O Planalto e a ALESP bloqueiam/limitam acesso de datacenters, então o download é feito pelo GitHub
 Actions: rode o workflow **"Atualizar dados do Planalto"** (aba Actions → Run
 workflow). Ele baixa os HTML atuais, regera os JSON, valida, regenera `docs/` e
 commita — e o Pages republica sozinho.
@@ -86,6 +92,7 @@ commita — e o Pages republica sozinho.
 data/fonte/              HTML oficial do Planalto (fonte da verdade, versionada)
 data/codigo-penal.json   dados estruturados do CP (gerado — não editar à mão)
 data/ctb.json            dados estruturados do CTB (gerado)
+data/rdpm.json           dados estruturados do RDPM (gerado)
 scripts/build-data.js    parser HTML → JSON (multi-lei)
 scripts/validate-data.js validação de integridade (npm test)
 scripts/build-site.js    gera o site estático em docs/ (npm run build-site)

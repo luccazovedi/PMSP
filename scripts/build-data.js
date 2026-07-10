@@ -40,6 +40,18 @@ export const LEIS = [
     apelido: 'Código de Trânsito Brasileiro',
     ementa: 'Institui o Código de Trânsito Brasileiro.',
   },
+  {
+    id: 'rdpm',
+    arquivo: 'lc893.html',
+    saida: 'rdpm.json',
+    url: 'https://www.al.sp.gov.br/repositorio/legislacao/lei.complementar/2001/lei.complementar-893-09.03.2001.html',
+    lei: 'Lei Complementar nº 893, de 9 de março de 2001 (Estado de São Paulo)',
+    apelido: 'RDPM — Regulamento Disciplinar da PMESP',
+    ementa: 'Institui o Regulamento Disciplinar da Polícia Militar do Estado de São Paulo.',
+    charset: 'utf-8',
+    formato: 'alesp',
+    rePreambulo: /O\s+GOVERNADOR\s+DO\s+ESTADO\s+DE\s+S[ÃA]O\s+PAULO/i,
+  },
 ];
 
 // ---------------------------------------------------------------------------
@@ -54,6 +66,10 @@ const ENTIDADES = {
   '&Aacute;': 'Á', '&Eacute;': 'É', '&Iacute;': 'Í', '&Oacute;': 'Ó', '&Uacute;': 'Ú',
   '&Atilde;': 'Ã', '&Otilde;': 'Õ', '&Acirc;': 'Â', '&Ecirc;': 'Ê', '&Ocirc;': 'Ô',
   '&Agrave;': 'À', '&Ccedil;': 'Ç', '&deg;': '°', '&middot;': '·', '&shy;': '',
+  '&uuml;': 'ü', '&Uuml;': 'Ü', '&euml;': 'ë', '&iuml;': 'ï', '&ouml;': 'ö', '&auml;': 'ä',
+  '&ntilde;': 'ñ', '&Ntilde;': 'Ñ', '&ndash;': '–', '&mdash;': '—', '&hellip;': '…',
+  '&lsquo;': '‘', '&rsquo;': '’', '&ldquo;': '“', '&rdquo;': '”',
+  '&sup1;': '¹', '&sup2;': '²', '&sup3;': '³', '&frac12;': '½', '&apos;': "'",
 };
 
 function decodificarEntidades(s) {
@@ -75,8 +91,9 @@ function limparEspacos(s) {
 const RE_ANOTACAO = /\(\s*(Reda[cç][aã]o dada|Reda[cç][aã]o do|Inclu[ií]d[oa]|Acrescentad[oa]|Revogad[oa]|Vide|Vig[êe]ncia|Renumerad[oa]|Restabelecid[oa]|Retificad[oa]|Regulamento|Promulga[cç][aã]o|Execu[cç][aã]o suspensa|Suprimid[oa]|Alterad[oa]|Express[aã]o|Dispositivo|Par[áa]grafo [úu]nico renumerado|Artigo renumerado|Caput renumerado)[^()]*\)/g;
 
 // O sufixo de letra ("Art. 121-A") vem SEM espaço antes do hífen; com espaço
-// ("Art. 10 - O tempo...") é o início do caput, não sufixo.
-const RE_ARTIGO = /^Art\.?\s*(\d+)(?:\s*[ºo°])?(?:-([A-Z])(?![\wÀ-ÿ]))?\s*[-–—.]?\s*/;
+// ("Art. 10 - O tempo...") é o início do caput, não sufixo. A ALESP escreve
+// "Artigo 13" por extenso.
+const RE_ARTIGO = /^Art(?:igo)?\.?\s*(\d+)(?:\s*[ºo°ª])?(?:-([A-Z])(?![\wÀ-ÿ]))?\s*[-–—.]?\s*/;
 const RE_PARAGRAFO = /^§\s*\d+[ºo°]?(?:\s*-?\s*[A-Z]\b)?|^Par[áa]grafo [úu]nico/;
 const RE_INCISO = /^[IVXLCDM]+\s*[-–—]/;
 const RE_ALINEA = /^[a-z]\s*\)/;
@@ -86,8 +103,10 @@ const RE_PENALIDADE = /^Penalidade(s)?\s*[-–—]/;
 const RE_MEDIDA_ADM = /^Medida(s)?\s+administrativa(s)?\s*[-–—]/i;
 const RE_HIERARQUIA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[CÇ][CÇ]?[ÃA]O|DISPOSI[CÇ][ÕO]ES FINAIS)/i;
 const RE_ROTULO_HIER = /^(PARTE\s+\w+|LIVRO\s+[IVXLC]+|T[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|CAP[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|SE[CÇ][CÇ]?[ÃA]O\s+[IVXLC]+(?:-[A-Z])?|DISPOSI[CÇ][ÕO]ES FINAIS|PARTE GERAL|PARTE ESPECIAL)/i;
-const RE_FECHO = /^(Rio de Janeiro|Bras[íi]lia)\s*,\s*\d+[ºo°]?\s+de\s+\w+\s+de\s+\d{4}.*da\s+Rep[úu]blica\.?$/i;
+const RE_FECHO = /^(?:(Rio de Janeiro|Bras[íi]lia)\s*,\s*\d+[ºo°]?\s+de\s+\w+\s+de\s+\d{4}.*da\s+Rep[úu]blica\.?|Pal[áa]cio dos Bandeirantes\s*,\s*(aos\s+)?\d+.*\d{4}\s*\.?)$/i;
 const RE_ANEXO = /^ANEXO\s+([IVXLC]+|\d+)\b/i;
+
+const RE_ITEM = /^\d+(?:\.\d+)*\s*[-–—]\s/; // transgressões numeradas do RDPM
 
 function tipoDispositivo(texto) {
   if (RE_PARAGRAFO.test(texto)) return 'paragrafo';
@@ -97,6 +116,7 @@ function tipoDispositivo(texto) {
   if (RE_INCISO.test(texto)) return 'inciso';
   if (RE_ALINEA.test(texto)) return 'alinea';
   if (RE_PENA.test(texto)) return 'pena';
+  if (RE_ITEM.test(texto)) return 'item';
   return 'texto';
 }
 
@@ -127,21 +147,57 @@ function separarAnotacoes(texto) {
 // Parser de uma lei
 // ---------------------------------------------------------------------------
 
+/**
+ * Normaliza o HTML da ALESP para as convenções que o parser espera:
+ * cabeçalhos <h4> viram <p align="center"> (um por CAPÍTULO/SEÇÃO) e os
+ * <br> que separam dispositivos dentro de um mesmo <p> viram novos blocos.
+ */
+function preprocessarAlesp(html) {
+  html = decodificarEntidades(html.slice(Math.max(0, html.search(/<body/i))));
+
+  html = html.replace(/<h\d[^>]*>([\s\S]*?)<\/h\d>/gi, (_, conteudo) => {
+    const linhas = conteudo.split(/<br\s*\/?>/i);
+    const blocos = [];
+    for (const linha of linhas) {
+      const texto = limparEspacos(linha.replace(/<[^>]*>/g, ' '));
+      if (!texto) continue;
+      // Um mesmo <h4> pode conter "CAPÍTULO II ... SEÇÃO I ...": cada rótulo
+      // de hierarquia abre um bloco centralizado próprio
+      if (blocos.length && RE_HIERARQUIA.test(texto)) {
+        blocos.push(linha);
+      } else if (blocos.length) {
+        blocos[blocos.length - 1] += ' ' + linha;
+      } else {
+        blocos.push(linha);
+      }
+    }
+    return blocos.map((b) => `<p align="center">${b}</p>`).join('\n');
+  });
+
+  return html.replace(/<br\s*\/?>/gi, '</p>\n<p>');
+}
+
 function parseLei(cfg) {
   const bruto = fs.readFileSync(path.join(RAIZ, 'data', 'fonte', cfg.arquivo));
   let html;
-  try {
-    html = new TextDecoder('windows-1252').decode(bruto);
-  } catch {
-    html = bruto.toString('latin1');
+  if (cfg.charset === 'utf-8') {
+    html = bruto.toString('utf8');
+  } else {
+    try {
+      html = new TextDecoder('windows-1252').decode(bruto);
+    } catch {
+      html = bruto.toString('latin1');
+    }
   }
   html = html
     .replace(/\r\n?/g, '\n')
     .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style\b[\s\S]*?<\/style>/gi, ' ');
 
+  if (cfg.formato === 'alesp') html = preprocessarAlesp(html);
+
   // ---- tokenização em blocos (<p> e <li>) ----------------------------------
-  const posPreambulo = html.search(/O\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
+  const posPreambulo = html.search(cfg.rePreambulo || /O\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
   if (posPreambulo === -1) throw new Error(`[${cfg.id}] preâmbulo não encontrado — o HTML da fonte mudou?`);
   const inicioCorpo = Math.max(0, html.toLowerCase().lastIndexOf('<p', posPreambulo));
 
@@ -174,8 +230,8 @@ function parseLei(cfg) {
     for (const parte of partes) {
       if (parte.startsWith('<')) {
         const tag = parte.toLowerCase();
-        if (/^<(strike|del)\b/.test(tag)) riscadoAberto++;
-        else if (/^<\/(strike|del)/.test(tag)) riscadoAberto = Math.max(0, riscadoAberto - 1);
+        if (/^<(strike|del|s)\b/.test(tag)) riscadoAberto++;
+        else if (/^<\/(strike|del|s)\b/.test(tag)) riscadoAberto = Math.max(0, riscadoAberto - 1);
         else if (/^<b\b|^<strong\b/.test(tag)) negrito++;
         else if (/^<\/(b|strong)/.test(tag)) negrito = Math.max(0, negrito - 1);
         else if (/^<a\b/.test(tag)) {
@@ -323,7 +379,8 @@ function parseLei(cfg) {
     if (temVigente) aguardandoNomeDe = null;
 
     // ---- preâmbulo -----------------------------------------------------------
-    if (!registroAtual && registros.length === 0 && temVigente && /PRESIDENTE DA REP/i.test(bloco.vigente)) {
+    if (!registroAtual && registros.length === 0 && temVigente &&
+        (cfg.rePreambulo || /PRESIDENTE DA REP/i).test(bloco.vigente)) {
       preambulo = separarAnotacoes(bloco.vigente).texto;
       continue;
     }
@@ -379,6 +436,13 @@ function parseLei(cfg) {
           ancoras: bloco.ancoras,
         });
         continue;
+      }
+
+      // Nota de alteração da ALESP: parágrafo avulso "- Artigo 83 com redação
+      // dada pela Lei..." vira anotação do último dispositivo do artigo
+      if (/^-\s/.test(texto) && /reda[cç][aã]o dada|revogad|acrescentad|alterad|retificad|inclu[ií]d/i.test(texto) && registroAtual) {
+        const alvo = registroAtual.dispositivos[registroAtual.dispositivos.length - 1];
+        if (alvo) { alvo.notas.push(texto.replace(/^-\s*/, '')); continue; }
       }
 
       // Rubrica (nome marginal em negrito, não centralizado)

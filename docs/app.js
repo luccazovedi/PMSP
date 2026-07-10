@@ -29,6 +29,18 @@ const LEIS = {
       { q: '306', nome: 'Crime de embriaguez' },
     ],
   },
+  rdpm: {
+    arquivo: 'rdpm.json',
+    exemplo: 'ex.: 13, 17, 26 — ou transgressão, atrasado, uniforme',
+    atalhos: [
+      { q: '13', nome: 'Transgressões' },
+      { q: '14', nome: 'Sanções' },
+      { q: '17', nome: 'Permanência disciplinar' },
+      { q: '26', nome: 'Recolhimento' },
+      { q: '53', nome: 'Comportamento' },
+      { q: '56', nome: 'Recursos' },
+    ],
+  },
 };
 
 const form = document.getElementById('form-busca');
@@ -146,13 +158,31 @@ function renderFicha(ficha) {
 // Renderização de um artigo completo
 // ---------------------------------------------------------------------------
 
+// Transgressões do RDPM terminam com a gravidade entre parênteses: (G)/(M)/(L)
+const GRAVIDADE_RDPM = {
+  G: ['GRAVE', 'gravidade-grave'],
+  M: ['MÉDIA', 'gravidade-media'],
+  L: ['LEVE', 'gravidade-leve'],
+};
+
 function renderDispositivo(d, termo) {
   const p = el('p', `dispositivo tipo-${d.tipo}${d.situacao === 'historico' ? ' historico' : ''}`);
   if (d.rotuloArtigo) p.appendChild(el('strong', null, d.rotuloArtigo + ' '));
   if (ROTULOS_FICHA[d.tipo] && d.situacao !== 'historico') {
     p.appendChild(el('span', `etiqueta etiqueta-${d.tipo}`, ROTULOS_FICHA[d.tipo]));
   }
-  p.appendChild(comDestaque(d.texto, termo));
+
+  const mGravidade = leiAtual === 'rdpm' && d.tipo === 'item' &&
+    d.situacao !== 'historico' && d.texto.match(/\(([GML])\)\s*[;.]?\s*$/);
+  if (mGravidade) {
+    const [rotulo, classe] = GRAVIDADE_RDPM[mGravidade[1]];
+    p.appendChild(comDestaque(d.texto.slice(0, mGravidade.index).trimEnd(), termo));
+    p.appendChild(document.createTextNode(' '));
+    p.appendChild(el('span', `selo-gravidade ${classe}`, rotulo));
+  } else {
+    p.appendChild(comDestaque(d.texto, termo));
+  }
+
   for (const nota of d.notas || []) p.appendChild(el('small', 'nota', nota));
   return p;
 }
@@ -273,18 +303,20 @@ async function carregarLei(id) {
 }
 
 function atualizarCabecalho(meta) {
+  const nomeFonte = meta.fonte.includes('al.sp.gov.br') ? 'ALESP' : 'Planalto';
   subtitulo.replaceChildren();
-  subtitulo.appendChild(document.createTextNode(`${meta.lei} — texto compilado do `));
-  const a = el('a', null, 'Planalto');
+  subtitulo.appendChild(document.createTextNode(`${meta.lei} — texto atualizado da fonte oficial (`));
+  const a = el('a', null, nomeFonte);
   a.href = meta.fonte;
   a.target = '_blank';
   a.rel = 'noopener';
   subtitulo.appendChild(a);
+  subtitulo.appendChild(document.createTextNode(')'));
 
   const data = new Date(meta.geradoEm).toLocaleDateString('pt-BR');
   infoFonte.textContent =
-    `${meta.apelido}: dados extraídos do texto oficial do Planalto em ${data}. ` +
-    'Este site não substitui o texto publicado no DOU.';
+    `${meta.apelido}: dados extraídos do texto oficial (${nomeFonte}) em ${data}. ` +
+    'Este site não substitui o texto publicado no Diário Oficial.';
 }
 
 const atalhosEl = document.getElementById('atalhos');

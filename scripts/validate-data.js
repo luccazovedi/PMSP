@@ -31,6 +31,28 @@ const REGRAS = [
     extras: () => [],
   },
   {
+    arquivo: 'rdpm.json',
+    ultimoArtigo: 89,
+    preambuloContem: 'GOVERNADOR DO ESTADO',
+    fechoContem: '09 de março de 2001',
+    conteudos: [
+      ['1', 'hierarquia e a disciplina'],
+      ['12', 'Transgressão disciplinar'],
+      ['13', 'usar de força desnecessária'],
+      ['13', 'classificadas de acordo com sua gravidade'],
+      ['17', 'permanência disciplinar'],
+      ['26', 'recolhimento'],
+      ['53', 'comportamento'],
+    ],
+    extras: (dados) => {
+      const erros = [];
+      const a13 = dados.artigos.find((a) => a.numero === '13');
+      const itens = a13 ? a13.dispositivos.filter((d) => d.tipo === 'item' && d.situacao === 'vigente').length : 0;
+      if (itens < 100) erros.push(`RDPM: art. 13 com apenas ${itens} transgressões classificadas (esperado 100+)`);
+      return erros;
+    },
+  },
+  {
     arquivo: 'ctb.json',
     ultimoArtigo: 341,
     fechoContem: '23 de setembro de 1997',
@@ -107,9 +129,9 @@ for (const regra of REGRAS) {
     `${rotulo}: estrutura tem ${contar(dados.estrutura)} artigos, esperado ${ativos.length}`);
 
   // 7. Metadados e molduras
-  ok(dados.preambulo.includes('PRESIDENTE DA REPÚBLICA'), `${rotulo}: preâmbulo ausente`);
+  ok(dados.preambulo.includes(regra.preambuloContem || 'PRESIDENTE DA REPÚBLICA'), `${rotulo}: preâmbulo ausente`);
   ok(dados.fecho.texto.some((t) => t.includes(regra.fechoContem)), `${rotulo}: fecho ausente`);
-  ok(dados.meta.fonte.includes('planalto.gov.br'), `${rotulo}: fonte ausente nos metadados`);
+  ok(/planalto\.gov\.br|al\.sp\.gov\.br/.test(dados.meta.fonte), `${rotulo}: fonte ausente nos metadados`);
 
   erros.push(...regra.extras(dados));
 }

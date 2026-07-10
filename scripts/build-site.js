@@ -20,6 +20,7 @@ const SITE = path.join(RAIZ, 'docs');
 const LEIS = {
   cp: { arquivo: 'codigo-penal.json' },
   ctb: { arquivo: 'ctb.json' },
+  rdpm: { arquivo: 'rdpm.json' },
 };
 
 fs.rmSync(SITE, { recursive: true, force: true });

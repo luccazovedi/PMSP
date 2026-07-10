@@ -5,7 +5,7 @@
   "ementa": "Institui o Código de Trânsito Brasileiro.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9503.htm",
   "fonteSha256": "b44b4c9cfc41c27cb89f6d95c71c2119c7d143f9e5362e6470577cacf43c5734",
-  "geradoEm": "2026-07-10T16:59:01.306Z",
+  "geradoEm": "2026-07-10T17:03:46.648Z",
   "notasGerais": [
    "(Vide ADI 5322)"
   ]
@@ -3642,11 +3642,20 @@
     {
      "tipo": "inciso",
      "situacao": "vigente",
-     "texto": "XIII - coordenar a administração do registro das infrações de trânsito, da pontuação e das penalidades aplicadas no prontuário do infrator, da arrecadação de multas e do repasse de que trata o § 1º do art. 320;",
+     "texto": "XIII - coordenar a administração do registro das infrações de trânsito, da pontuação e das penalidades aplicadas no prontuário do infrator, da arrecadação de multas e do repasse de que trata o § 1 do art. 320;",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art19xiii."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art19xiii."
      ]
@@ -3882,11 +3891,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 4º (VETADO).",
+     "texto": "§ 4 (VETADO).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art19§4"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art19§4"
      ]
@@ -3915,8 +3933,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 19 Compete ao órgão máximo executivo de trânsito da União:\nI - cumprir e fazer cumprir a legislação de trânsito e a execução das normas e diretrizes estabelecidas pelo CONTRAN, no âmbito de suas atribuições;\nII - proceder à supervisão, à coordenação, à correição dos órgãos delegados, ao controle e à fiscalização da execução da Política Nacional de Trânsito e do Programa Nacional de Trânsito;\nIII - articular-se com os órgãos dos Sistemas Nacionais de Trânsito, de Transporte e de Segurança Pública, objetivando o combate à violência no trânsito, promovendo, coordenando e executando o controle de ações para a preservação do ordenamento e da segurança do trânsito;\nIV - apurar, prevenir e reprimir a prática de atos de improbidade contra a fé pública, o patrimônio, ou a administração pública ou privada, referentes à segurança do trânsito;\nV - supervisionar a implantação de projetos e programas relacionados com a engenharia, educação, administração, policiamento e fiscalização do trânsito e outros, visando à uniformidade de procedimento;\nVI - estabelecer procedimentos sobre a aprendizagem e habilitação de condutores de veículos, a expedição de documentos de condutores, de registro e licenciamento de veículos;\nVII - expedir a Permissão para Dirigir, a Carteira Nacional de Habilitação, os Certificados de Registro e o de Licenciamento Anual mediante delegação aos órgãos executivos dos Estados e do Distrito Federal;\nVIII - organizar e manter o Registro Nacional de Carteiras de Habilitação - RENACH;\nIX - organizar e manter o Registro Nacional de Veículos Automotores - RENAVAM;\nX - organizar a estatística geral de trânsito no território nacional, definindo os dados a serem fornecidos pelos demais órgãos e promover sua divulgação;\nXI - estabelecer modelo padrão de coleta de informações sobre as ocorrências de sinistros de trânsito e as estatísticas de trânsito;\n(Redação dada pela Lei nº 14.599, de 2023)\nXII - administrar fundo de âmbito nacional destinado à segurança e à educação de trânsito;\nXIII - coordenar a administração do registro das infrações de trânsito, da pontuação e das penalidades aplicadas no prontuário do infrator, da arrecadação de multas e do repasse de que trata o § 1º do art. 320;\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nXIV - fornecer aos órgãos e entidades do Sistema Nacional de Trânsito informações sobre registros de veículos e de condutores, mantendo o fluxo permanente de informações com os demais órgãos do Sistema;\nXV - promover, em conjunto com os órgãos competentes do Ministério da Educação, de acordo com as diretrizes do Contran, a elaboração e a implementação de programas de educação de trânsito nos estabelecimentos de ensino;\n(Redação dada pela Lei nº 14.599, de 2023)\nXVI - elaborar e distribuir conteúdos programáticos para a educação de trânsito;\nXVII - promover a divulgação de trabalhos técnicos sobre o trânsito;\nXVIII - elaborar, juntamente com os demais órgãos e entidades do Sistema Nacional de Trânsito, e submeter à aprovação do CONTRAN, a complementação ou alteração da sinalização e dos dispositivos e equipamentos de trânsito;\nXIX - organizar, elaborar, complementar e alterar os manuais e normas de projetos de implementação da sinalização, dos dispositivos e equipamentos de trânsito aprovados pelo CONTRAN;\nXX – expedir a permissão internacional para conduzir veículo e o certificado de passagem nas alfândegas mediante delegação aos órgãos executivos dos Estados e do Distrito Federal ou a entidade habilitada para esse fim pelo poder público federal;\n(Redação dada pela lei nº 13.258, de 2016)\nXXI - promover a realização periódica de reuniões regionais e congressos nacionais de trânsito, bem como propor a representação do Brasil em congressos ou reuniões internacionais;\nXXII - propor acordos de cooperação com organismos internacionais, com vistas ao aperfeiçoamento das ações inerentes à segurança e educação de trânsito;\nXXIII - elaborar projetos e programas de formação, treinamento e especialização do pessoal encarregado da execução das atividades de engenharia, educação, policiamento ostensivo, fiscalização, operação e administração de trânsito, propondo medidas que estimulem a pesquisa científica e o ensino técnico-profissional de interesse do trânsito, e promovendo a sua realização;\nXXIV - opinar sobre assuntos relacionados ao trânsito interestadual e internacional;\nXXV - elaborar e submeter à aprovação do CONTRAN as normas e requisitos de segurança veicular para fabricação e montagem de veículos, consoante sua destinação;\nXXVI - estabelecer procedimentos para a concessão do código marca-modelo dos veículos para efeito de registro, emplacamento e licenciamento;\nXXVII - instruir os recursos interpostos das decisões do CONTRAN, ao ministro ou dirigente coordenador máximo do Sistema Nacional de Trânsito;\nXXVIII - estudar os casos omissos na legislação de trânsito e submetê-los, com proposta de solução, ao Ministério ou órgão coordenador máximo do Sistema Nacional de Trânsito;\nXXIX - prestar suporte técnico, jurídico, administrativo e financeiro ao CONTRAN.\nXXX - organizar e manter o Registro Nacional de Infrações de Trânsito (Renainf).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nXXXI - organizar, manter e atualizar o Registro Nacional Positivo de Condutores (RNPC).\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nXXXII - organizar e manter o Registro Nacional de Sinistros e Estatísticas de Trânsito (Renaest).\n(Incluído pela Lei nº 14.599, de 2023)\n§ 1º Comprovada, por meio de sindicância, a deficiência técnica ou administrativa ou a prática constante de atos de improbidade contra a fé pública, contra o patrimônio ou contra a administração pública, o órgão executivo de trânsito da União, mediante aprovação do CONTRAN, assumirá diretamente ou por delegação, a execução total ou parcial das atividades do órgão executivo de trânsito estadual que tenha motivado a investigação, até que as irregularidades sejam sanadas.\n§ 2º O regimento interno do órgão executivo de trânsito da União disporá sobre sua estrutura organizacional e seu funcionamento.\n§ 3º Os órgãos e entidades executivos de trânsito e executivos rodoviários da União, dos Estados, do Distrito Federal e dos Municípios fornecerão, obrigatoriamente, mês a mês, os dados estatísticos para os fins previstos no inciso X.\n§ 4º (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º As informações constantes do Renach e do Renavam deverão ser disponibilizadas na internet para consulta, pelo motorista habilitado, dos dados de sua habilitação, e, pelo proprietário de veículo, dos dados de veículo de sua propriedade. Vigência\n(Incluído pela Lei nº 14.861, de 2024)",
-   "textoHistorico": "XI - estabelecer modelo padrão de coleta de informações sobre as ocorrências de acidentes de trânsito e as estatísticas do trânsito;\nXIII - coordenar a administração da arrecadação de multas por infrações ocorridas em localidade diferente daquela da habilitação do condutor infrator e em unidade da Federação diferente daquela do licenciamento do veículo;\nXV - promover, em conjunto com os órgãos competentes do Ministério da Educação e do Desporto, de acordo com as diretrizes do CONTRAN, a elaboração e a implementação de programas de educação de trânsito nos estabelecimentos de ensino;\nXX - expedir a permissão internacional para conduzir veículo e o certificado de passagem nas alfândegas, mediante delegação aos órgãos executivos dos Estados e do Distrito Federal;",
+   "texto": "Art. 19 Compete ao órgão máximo executivo de trânsito da União:\nI - cumprir e fazer cumprir a legislação de trânsito e a execução das normas e diretrizes estabelecidas pelo CONTRAN, no âmbito de suas atribuições;\nII - proceder à supervisão, à coordenação, à correição dos órgãos delegados, ao controle e à fiscalização da execução da Política Nacional de Trânsito e do Programa Nacional de Trânsito;\nIII - articular-se com os órgãos dos Sistemas Nacionais de Trânsito, de Transporte e de Segurança Pública, objetivando o combate à violência no trânsito, promovendo, coordenando e executando o controle de ações para a preservação do ordenamento e da segurança do trânsito;\nIV - apurar, prevenir e reprimir a prática de atos de improbidade contra a fé pública, o patrimônio, ou a administração pública ou privada, referentes à segurança do trânsito;\nV - supervisionar a implantação de projetos e programas relacionados com a engenharia, educação, administração, policiamento e fiscalização do trânsito e outros, visando à uniformidade de procedimento;\nVI - estabelecer procedimentos sobre a aprendizagem e habilitação de condutores de veículos, a expedição de documentos de condutores, de registro e licenciamento de veículos;\nVII - expedir a Permissão para Dirigir, a Carteira Nacional de Habilitação, os Certificados de Registro e o de Licenciamento Anual mediante delegação aos órgãos executivos dos Estados e do Distrito Federal;\nVIII - organizar e manter o Registro Nacional de Carteiras de Habilitação - RENACH;\nIX - organizar e manter o Registro Nacional de Veículos Automotores - RENAVAM;\nX - organizar a estatística geral de trânsito no território nacional, definindo os dados a serem fornecidos pelos demais órgãos e promover sua divulgação;\nXI - estabelecer modelo padrão de coleta de informações sobre as ocorrências de sinistros de trânsito e as estatísticas de trânsito;\n(Redação dada pela Lei nº 14.599, de 2023)\nXII - administrar fundo de âmbito nacional destinado à segurança e à educação de trânsito;\nXIII - coordenar a administração do registro das infrações de trânsito, da pontuação e das penalidades aplicadas no prontuário do infrator, da arrecadação de multas e do repasse de que trata o § 1 do art. 320;\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nXIV - fornecer aos órgãos e entidades do Sistema Nacional de Trânsito informações sobre registros de veículos e de condutores, mantendo o fluxo permanente de informações com os demais órgãos do Sistema;\nXV - promover, em conjunto com os órgãos competentes do Ministério da Educação, de acordo com as diretrizes do Contran, a elaboração e a implementação de programas de educação de trânsito nos estabelecimentos de ensino;\n(Redação dada pela Lei nº 14.599, de 2023)\nXVI - elaborar e distribuir conteúdos programáticos para a educação de trânsito;\nXVII - promover a divulgação de trabalhos técnicos sobre o trânsito;\nXVIII - elaborar, juntamente com os demais órgãos e entidades do Sistema Nacional de Trânsito, e submeter à aprovação do CONTRAN, a complementação ou alteração da sinalização e dos dispositivos e equipamentos de trânsito;\nXIX - organizar, elaborar, complementar e alterar os manuais e normas de projetos de implementação da sinalização, dos dispositivos e equipamentos de trânsito aprovados pelo CONTRAN;\nXX – expedir a permissão internacional para conduzir veículo e o certificado de passagem nas alfândegas mediante delegação aos órgãos executivos dos Estados e do Distrito Federal ou a entidade habilitada para esse fim pelo poder público federal;\n(Redação dada pela lei nº 13.258, de 2016)\nXXI - promover a realização periódica de reuniões regionais e congressos nacionais de trânsito, bem como propor a representação do Brasil em congressos ou reuniões internacionais;\nXXII - propor acordos de cooperação com organismos internacionais, com vistas ao aperfeiçoamento das ações inerentes à segurança e educação de trânsito;\nXXIII - elaborar projetos e programas de formação, treinamento e especialização do pessoal encarregado da execução das atividades de engenharia, educação, policiamento ostensivo, fiscalização, operação e administração de trânsito, propondo medidas que estimulem a pesquisa científica e o ensino técnico-profissional de interesse do trânsito, e promovendo a sua realização;\nXXIV - opinar sobre assuntos relacionados ao trânsito interestadual e internacional;\nXXV - elaborar e submeter à aprovação do CONTRAN as normas e requisitos de segurança veicular para fabricação e montagem de veículos, consoante sua destinação;\nXXVI - estabelecer procedimentos para a concessão do código marca-modelo dos veículos para efeito de registro, emplacamento e licenciamento;\nXXVII - instruir os recursos interpostos das decisões do CONTRAN, ao ministro ou dirigente coordenador máximo do Sistema Nacional de Trânsito;\nXXVIII - estudar os casos omissos na legislação de trânsito e submetê-los, com proposta de solução, ao Ministério ou órgão coordenador máximo do Sistema Nacional de Trânsito;\nXXIX - prestar suporte técnico, jurídico, administrativo e financeiro ao CONTRAN.\nXXX - organizar e manter o Registro Nacional de Infrações de Trânsito (Renainf).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nXXXI - organizar, manter e atualizar o Registro Nacional Positivo de Condutores (RNPC).\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nXXXII - organizar e manter o Registro Nacional de Sinistros e Estatísticas de Trânsito (Renaest).\n(Incluído pela Lei nº 14.599, de 2023)\n§ 1º Comprovada, por meio de sindicância, a deficiência técnica ou administrativa ou a prática constante de atos de improbidade contra a fé pública, contra o patrimônio ou contra a administração pública, o órgão executivo de trânsito da União, mediante aprovação do CONTRAN, assumirá diretamente ou por delegação, a execução total ou parcial das atividades do órgão executivo de trânsito estadual que tenha motivado a investigação, até que as irregularidades sejam sanadas.\n§ 2º O regimento interno do órgão executivo de trânsito da União disporá sobre sua estrutura organizacional e seu funcionamento.\n§ 3º Os órgãos e entidades executivos de trânsito e executivos rodoviários da União, dos Estados, do Distrito Federal e dos Municípios fornecerão, obrigatoriamente, mês a mês, os dados estatísticos para os fins previstos no inciso X.\n§ 4 (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º As informações constantes do Renach e do Renavam deverão ser disponibilizadas na internet para consulta, pelo motorista habilitado, dos dados de sua habilitação, e, pelo proprietário de veículo, dos dados de veículo de sua propriedade. Vigência\n(Incluído pela Lei nº 14.861, de 2024)",
+   "textoHistorico": "XI - estabelecer modelo padrão de coleta de informações sobre as ocorrências de acidentes de trânsito e as estatísticas do trânsito;\nXIII - coordenar a administração da arrecadação de multas por infrações ocorridas em localidade diferente daquela da habilitação do condutor infrator e em unidade da Federação diferente daquela do licenciamento do veículo;\nº\nXV - promover, em conjunto com os órgãos competentes do Ministério da Educação e do Desporto, de acordo com as diretrizes do CONTRAN, a elaboração e a implementação de programas de educação de trânsito nos estabelecimentos de ensino;\nXX - expedir a permissão internacional para conduzir veículo e o certificado de passagem nas alfândegas, mediante delegação aos órgãos executivos dos Estados e do Distrito Federal;\nº",
    "caput": "Compete ao órgão máximo executivo de trânsito da União:"
   },
   {
@@ -9447,11 +9465,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é de seu proprietário.",
+     "texto": "§ 3 A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é de seu proprietário.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art80§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art80§3"
      ]
@@ -9464,8 +9491,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 80 Sempre que necessário, será colocada ao longo da via, sinalização prevista neste Código e em legislação complementar, destinada a condutores e pedestres, vedada a utilização de qualquer outra.\n§ 1º A sinalização será colocada em posição e condições que a tornem perfeitamente visível e legível durante o dia e a noite, em distância compatível com a segurança do trânsito, conforme normas e especificações do CONTRAN.\n§ 2º O órgão máximo executivo de trânsito da União poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização e equipamentos não previstos neste Código.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 3º A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é de seu proprietário.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "§ 2º O CONTRAN poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização não prevista neste Código.\n§ 2º O órgão máximo executivo de trânsito da União poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização e equipamentos não previstos neste Código.\n(Redação dada pela Medida Provisória nº 1.153, de 2022)",
+   "texto": "Art. 80 Sempre que necessário, será colocada ao longo da via, sinalização prevista neste Código e em legislação complementar, destinada a condutores e pedestres, vedada a utilização de qualquer outra.\n§ 1º A sinalização será colocada em posição e condições que a tornem perfeitamente visível e legível durante o dia e a noite, em distância compatível com a segurança do trânsito, conforme normas e especificações do CONTRAN.\n§ 2º O órgão máximo executivo de trânsito da União poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização e equipamentos não previstos neste Código.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 3 A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é de seu proprietário.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "§ 2º O CONTRAN poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização não prevista neste Código.\n§ 2º O órgão máximo executivo de trânsito da União poderá autorizar, em caráter experimental e por período prefixado, a utilização de sinalização e equipamentos não previstos neste Código.\n(Redação dada pela Medida Provisória nº 1.153, de 2022)\nº",
    "caput": "Sempre que necessário, será colocada ao longo da via, sinalização prevista neste Código e em legislação complementar, destinada a condutores e pedestres, vedada a utilização de qualquer outra."
   },
   {
@@ -10054,10 +10081,19 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º O descumprimento do disposto neste artigo será punido com multa de R$ 81,35 (oitenta e um reais e trinta e cinco centavos) a R$ 488,10 (quatrocentos e oitenta e oito reais e dez centavos), independentemente das cominações cíveis e penais cabíveis, além de multa diária no mesmo valor até a regularização da situação, a partir do prazo final concedido pela autoridade de trânsito, levando-se em consideração a dimensão da obra ou do evento e o prejuízo causado ao trânsito. (Redação pela Lei nº 13.281, de 2016)",
+     "texto": "§ 3 O descumprimento do disposto neste artigo será punido com multa de R$ 81,35 (oitenta e um reais e trinta e cinco centavos) a R$ 488,10 (quatrocentos e oitenta e oito reais e dez centavos), independentemente das cominações cíveis e penais cabíveis, além de multa diária no mesmo valor até a regularização da situação, a partir do prazo final concedido pela autoridade de trânsito, levando-se em consideração a dimensão da obra ou do evento e o prejuízo causado ao trânsito. (Redação pela Lei nº 13.281, de 2016)",
      "notas": [
       "(Vigência)"
      ],
+     "ancoras": [
+      "art95§3."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art95§3."
      ]
@@ -10079,8 +10115,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 95 Nenhuma obra ou evento que possa perturbar ou interromper a livre circulação de veículos e pedestres, ou colocar em risco sua segurança, será iniciada sem permissão prévia do órgão ou entidade de trânsito com circunscrição sobre a via.\n§ 1º A obrigação de sinalizar é do responsável pela execução ou manutenção da obra ou do evento.\n§ 2º Salvo em casos de emergência, a autoridade de trânsito com circunscrição sobre a via avisará a comunidade, por intermédio dos meios de comunicação social, com quarenta e oito horas de antecedência, de qualquer interdição da via, indicando-se os caminhos alternativos a serem utilizados.\n§ 3º O descumprimento do disposto neste artigo será punido com multa de R$ 81,35 (oitenta e um reais e trinta e cinco centavos) a R$ 488,10 (quatrocentos e oitenta e oito reais e dez centavos), independentemente das cominações cíveis e penais cabíveis, além de multa diária no mesmo valor até a regularização da situação, a partir do prazo final concedido pela autoridade de trânsito, levando-se em consideração a dimensão da obra ou do evento e o prejuízo causado ao trânsito. (Redação pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º Ao servidor público responsável pela inobservância de qualquer das normas previstas neste e nos arts. 93 e 94, a autoridade de trânsito aplicará multa diária na base de cinqüenta por cento do dia de vencimento ou remuneração devida enquanto permanecer a irregularidade.",
-   "textoHistorico": "§ 3º A inobservância do disposto neste artigo será punida com multa que varia entre cinqüenta e trezentas UFIR, independentemente das cominações cíveis e penais cabíveis.",
+   "texto": "Art. 95 Nenhuma obra ou evento que possa perturbar ou interromper a livre circulação de veículos e pedestres, ou colocar em risco sua segurança, será iniciada sem permissão prévia do órgão ou entidade de trânsito com circunscrição sobre a via.\n§ 1º A obrigação de sinalizar é do responsável pela execução ou manutenção da obra ou do evento.\n§ 2º Salvo em casos de emergência, a autoridade de trânsito com circunscrição sobre a via avisará a comunidade, por intermédio dos meios de comunicação social, com quarenta e oito horas de antecedência, de qualquer interdição da via, indicando-se os caminhos alternativos a serem utilizados.\n§ 3 O descumprimento do disposto neste artigo será punido com multa de R$ 81,35 (oitenta e um reais e trinta e cinco centavos) a R$ 488,10 (quatrocentos e oitenta e oito reais e dez centavos), independentemente das cominações cíveis e penais cabíveis, além de multa diária no mesmo valor até a regularização da situação, a partir do prazo final concedido pela autoridade de trânsito, levando-se em consideração a dimensão da obra ou do evento e o prejuízo causado ao trânsito. (Redação pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º Ao servidor público responsável pela inobservância de qualquer das normas previstas neste e nos arts. 93 e 94, a autoridade de trânsito aplicará multa diária na base de cinqüenta por cento do dia de vencimento ou remuneração devida enquanto permanecer a irregularidade.",
+   "textoHistorico": "§ 3º A inobservância do disposto neste artigo será punida com multa que varia entre cinqüenta e trezentas UFIR, independentemente das cominações cíveis e penais cabíveis.\nº",
    "caput": "Nenhuma obra ou evento que possa perturbar ou interromper a livre circulação de veículos e pedestres, ou colocar em risco sua segurança, será iniciada sem permissão prévia do órgão ou entidade de trânsito com circunscrição sobre a via."
   },
   {
@@ -10183,7 +10219,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "1 - bicicleta;",
      "notas": [],
@@ -10192,7 +10228,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "2 - ciclomotor;",
      "notas": [],
@@ -10201,7 +10237,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "3 - motoneta;",
      "notas": [],
@@ -10210,7 +10246,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "4 - motocicleta;",
      "notas": [],
@@ -10219,7 +10255,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "5 - triciclo;",
      "notas": [],
@@ -10228,7 +10264,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "6 - quadriciclo;",
      "notas": [],
@@ -10237,7 +10273,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "7 - automóvel;",
      "notas": [],
@@ -10246,7 +10282,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "8 - microônibus;",
      "notas": [],
@@ -10255,7 +10291,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "9 - ônibus;",
      "notas": [],
@@ -10264,7 +10300,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "10 - bonde;",
      "notas": [],
@@ -10273,7 +10309,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "11 - reboque ou semi-reboque;",
      "notas": [],
@@ -10282,7 +10318,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "12 - charrete;",
      "notas": [],
@@ -10300,7 +10336,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "1 - motoneta;",
      "notas": [],
@@ -10309,7 +10345,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "2 - motocicleta;",
      "notas": [],
@@ -10318,7 +10354,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "3 - triciclo;",
      "notas": [],
@@ -10327,7 +10363,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "4 - quadriciclo;",
      "notas": [],
@@ -10336,7 +10372,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "5 - caminhonete;",
      "notas": [],
@@ -10345,7 +10381,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "6 - caminhão;",
      "notas": [],
@@ -10354,7 +10390,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "7 - reboque ou semi-reboque;",
      "notas": [],
@@ -10363,7 +10399,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "8 - carroça;",
      "notas": [],
@@ -10372,7 +10408,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "9 - carro-de-mão;",
      "notas": [],
@@ -10390,7 +10426,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "1 - camioneta;",
      "notas": [],
@@ -10399,7 +10435,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "2 - utilitário;",
      "notas": [],
@@ -10408,7 +10444,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "3 - outros;",
      "notas": [],
@@ -10435,7 +10471,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "1 - caminhão-trator;",
      "notas": [],
@@ -10444,7 +10480,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "2 - trator de rodas;",
      "notas": [],
@@ -10453,7 +10489,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "3 - trator de esteiras;",
      "notas": [],
@@ -10462,7 +10498,7 @@
      ]
     },
     {
-     "tipo": "texto",
+     "tipo": "item",
      "situacao": "vigente",
      "texto": "4 - trator misto;",
      "notas": [],
@@ -10887,7 +10923,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º Os veículos de transporte coletivo de passageiros poderão ser dotados de pneus extralargos.",
+     "texto": "§ 1 Os veículos de transporte coletivo de passageiros poderão ser dotados de pneus extralargos.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -10897,9 +10933,18 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art100§1"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º O Contran regulamentará o uso de pneus extralargos para os demais veículos.",
+     "texto": "§ 2 O Contran regulamentará o uso de pneus extralargos para os demais veículos.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -10909,13 +10954,31 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art100§2"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º É permitida a fabricação de veículos de transporte de passageiros de até 15 m (quinze metros) de comprimento na configuração de chassi 8x2.",
+     "texto": "§ 3 É permitida a fabricação de veículos de transporte de passageiros de até 15 m (quinze metros) de comprimento na configuração de chassi 8x2.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art100§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art100§3"
      ]
@@ -10933,8 +10996,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 100 Nenhum veículo ou combinação de veículos poderá transitar com lotação de passageiros, com peso bruto total, ou com peso bruto total combinado com peso por eixo, superior ao fixado pelo fabricante, nem ultrapassar a capacidade máxima de tração da unidade tratora.\n§ 1º Os veículos de transporte coletivo de passageiros poderão ser dotados de pneus extralargos.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º O Contran regulamentará o uso de pneus extralargos para os demais veículos.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º É permitida a fabricação de veículos de transporte de passageiros de até 15 m (quinze metros) de comprimento na configuração de chassi 8x2.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "Parágrafo único. O CONTRAN regulamentará o uso de pneus extralargos, definindo seus limites de peso.",
+   "texto": "Art. 100 Nenhum veículo ou combinação de veículos poderá transitar com lotação de passageiros, com peso bruto total, ou com peso bruto total combinado com peso por eixo, superior ao fixado pelo fabricante, nem ultrapassar a capacidade máxima de tração da unidade tratora.\n§ 1 Os veículos de transporte coletivo de passageiros poderão ser dotados de pneus extralargos.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2 O Contran regulamentará o uso de pneus extralargos para os demais veículos.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3 É permitida a fabricação de veículos de transporte de passageiros de até 15 m (quinze metros) de comprimento na configuração de chassi 8x2.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "Parágrafo único. O CONTRAN regulamentará o uso de pneus extralargos, definindo seus limites de peso.\nº\nº\nº",
    "caput": "Nenhum veículo ou combinação de veículos poderá transitar com lotação de passageiros, com peso bruto total, ou com peso bruto total combinado com peso por eixo, superior ao fixado pelo fabricante, nem ultrapassar a capacidade máxima de tração da unidade tratora."
   },
   {
@@ -11187,18 +11250,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art104§6"
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 6 Estarão isentos da inspeção de que trata o caput, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.",
+     "texto": "§ 6º Estarão isentos da inspeção de que trata o caput, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -11219,18 +11273,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "ºº",
-     "notas": [],
-     "ancoras": [
-      "art104§7"
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 7 Para os demais veículos novos, o período de que trata o § 6 será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.",
+     "texto": "§ 7º Para os demais veículos novos, o período de que trata o § 6º será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -11263,8 +11308,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 104 Os veículos em circulação terão suas condições de segurança, de controle de emissão de gases poluentes e de ruído avaliadas mediante inspeção, que será obrigatória, na forma e periodicidade estabelecidas pelo CONTRAN para os itens de segurança e pelo CONAMA para emissão de gases poluentes e ruído.\n§ 1º (VETADO)\n§ 2º (VETADO)\n§ 3º (VETADO)\n§ 4º (VETADO)\n§ 5º Será aplicada a medida administrativa de retenção aos veículos reprovados na inspeção de segurança e na de emissão de gases poluentes e ruído.\nº\n§ 6º Estarão isentos da inspeção de que trata o caput deste artigo, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em sinistro de trânsito com danos de média ou grande monta.\n(Redação dada pela Lei nº 14.599, de 2023)\nºº\n§ 7º Para os demais veículos novos, o período de que trata o § 6º deste artigo será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em sinistro de trânsito com danos de média ou grande monta.\n(Redação dada pela Lei nº 14.599, de 2023)",
-   "textoHistorico": "§ 6 Estarão isentos da inspeção de que trata o caput, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 7 Para os demais veículos novos, o período de que trata o § 6 será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "texto": "Art. 104 Os veículos em circulação terão suas condições de segurança, de controle de emissão de gases poluentes e de ruído avaliadas mediante inspeção, que será obrigatória, na forma e periodicidade estabelecidas pelo CONTRAN para os itens de segurança e pelo CONAMA para emissão de gases poluentes e ruído.\n§ 1º (VETADO)\n§ 2º (VETADO)\n§ 3º (VETADO)\n§ 4º (VETADO)\n§ 5º Será aplicada a medida administrativa de retenção aos veículos reprovados na inspeção de segurança e na de emissão de gases poluentes e ruído.\n§ 6º Estarão isentos da inspeção de que trata o caput deste artigo, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em sinistro de trânsito com danos de média ou grande monta.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 7º Para os demais veículos novos, o período de que trata o § 6º deste artigo será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em sinistro de trânsito com danos de média ou grande monta.\n(Redação dada pela Lei nº 14.599, de 2023)",
+   "textoHistorico": "§ 6º Estarão isentos da inspeção de que trata o caput, durante 3 (três) anos a partir do primeiro licenciamento, os veículos novos classificados na categoria particular, com capacidade para até 7 (sete) passageiros, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 7º Para os demais veículos novos, o período de que trata o § 6º será de 2 (dois) anos, desde que mantenham suas características originais de fábrica e não se envolvam em acidente de trânsito com danos de média ou grande monta.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
    "caput": "Os veículos em circulação terão suas condições de segurança, de controle de emissão de gases poluentes e de ruído avaliadas mediante inspeção, que será obrigatória, na forma e periodicidade estabelecidas pelo CONTRAN para os itens de segurança e pelo CONAMA para emissão de gases poluentes e ruído."
   },
   {
@@ -11882,18 +11927,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art115§4."
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 4 Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que transitem em vias públicas, ao registro e ao licenciamento na repartição competente.",
+     "texto": "§ 4º Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que transitem em vias públicas, ao registro e ao licenciamento na repartição competente.",
      "notas": [
       "(Redação dada pela Medida Provisória nº 646, de 2014)",
       "(Vigência encerrada)"
@@ -11912,18 +11948,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art115§4..."
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 4 Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos, se transitarem em via pública, ao registro e ao licenciamento da repartição competente.",
+     "texto": "§ 4º Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos, se transitarem em via pública, ao registro e ao licenciamento da repartição competente.",
      "notas": [
       "(Redação dada pela Medida Provisória nº 673, de 2015)"
      ],
@@ -12076,8 +12103,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 115 O veículo será identificado externamente por meio de placas dianteira e traseira, sendo esta lacrada em sua estrutura, obedecidas as especificações e modelos estabelecidos pelo CONTRAN.\n§ 1º Os caracteres das placas serão individualizados para cada veículo e o acompanharão até a baixa do registro, sendo vedado seu reaproveitamento.\n§ 2º As placas com as cores verde e amarela da Bandeira Nacional serão usadas somente pelos veículos de representação pessoal do Presidente e do Vice-Presidente da República, dos Presidentes do Senado Federal e da Câmara dos Deputados, do Presidente e dos Ministros do Supremo Tribunal Federal, dos Ministros de Estado, do Advogado-Geral da União e do Procurador-Geral da República.\n§ 3º Os veículos de representação dos Presidentes dos Tribunais Federais, dos Governadores, Prefeitos, Secretários Estaduais e Municipais, dos Presidentes das Assembléias Legislativas, das Câmaras Municipais, dos Presidentes dos Tribunais Estaduais e do Distrito Federal, e do respectivo chefe do Ministério Público e ainda dos Oficiais Generais das Forças Armadas terão placas especiais, de acordo com os modelos estabelecidos pelo CONTRAN.\nº\nº\n§ 4o Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos ao registro na repartição competente, se transitarem em via pública, dispensados o licenciamento e o emplacamento.\n(Redação dada pela Lei nº 13.154, de 2015)\n(Vide)\n§ 4º-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas, desde que facultados a transitar em via pública, são sujeitos ao registro único, sem ônus, em cadastro específico do Ministério da Agricultura e Pecuária, acessível aos componentes do Sistema Nacional de Trânsito.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 5º O disposto neste artigo não se aplica aos veículos de uso bélico.\n§ 6º Os veículos de duas ou três rodas são dispensados da placa dianteira.\n§ 7o Excepcionalmente, mediante autorização específica e fundamentada das respectivas corregedorias e com a devida comunicação aos órgãos de trânsito competentes, os veículos utilizados por membros do Poder Judiciário e do Ministério Público que exerçam competência ou atribuição criminal poderão temporariamente ter placas especiais, de forma a impedir a identificação de seus usuários específicos, na forma de regulamento a ser emitido, conjuntamente, pelo Conselho Nacional de Justiça - CNJ, pelo Conselho Nacional do Ministério Público - CNMP e pelo Conselho Nacional de Trânsito - CONTRAN.\n(Incluído pela Lei nº 12.694, de 2012)\n(Vigência encerrada)\n§ 8o Os veículos artesanais utilizados para trabalho agrícola (jericos), para efeito do registro de que trata o § 4o-A, ficam dispensados da exigência prevista no art. 106.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 9º As placas que possuírem tecnologia que permita a identificação do veículo ao qual estão atreladas são dispensadas da utilização do lacre previsto no caput, na forma a ser regulamentada pelo Contran.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 10. O Contran estabelecerá os meios técnicos, de uso obrigatório, para garantir a identificação dos veículos que transitarem por rodovias e vias urbanas com cobrança de uso pelo sistema de livre passagem.\n(Incluído pela Lei nº 14.157, de 2021)",
-   "textoHistorico": "§ 4º Os aparelhos automotores destinados a puxar ou arrastar maquinaria de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que lhes seja facultado transitar nas vias, ao registro e licenciamento da repartição competente, devendo receber numeração especial.\n§ 4 Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que transitem em vias públicas, ao registro e ao licenciamento na repartição competente.\n(Redação dada pela Medida Provisória nº 646, de 2014)\n(Vigência encerrada)\n§ 4º Os aparelhos automotores destinados a puxar ou arrastar maquinaria de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que lhes seja facultado transitar nas vias, ao registro e licenciamento da repartição competente, devendo receber numeração especial.\n§ 4 Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos, se transitarem em via pública, ao registro e ao licenciamento da repartição competente.\n(Redação dada pela Medida Provisória nº 673, de 2015)\n§ 4º-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas são sujeitos ao registro único em cadastro específico da repartição competente, dispensado o licenciamento e o emplacamento.\n(Vide art 2º da Medida Provisória nº 673, de 2015)\n(Incluído pela Medida Provisória nº 673, de 2015)\n§ 4o-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas, desde que facultados a transitar em via pública, são sujeitos ao registro único, sem ônus, em cadastro específico do Ministério da Agricultura, Pecuária e Abastecimento, acessível aos componentes do Sistema Nacional de Trânsito.\n(Redação dada pela Lei nº 13.154, de 2015)\n(Vide)\n§ 8o Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas, licenciados na forma do § 4o, não estão sujeitos à renovação periódica do licenciamento.\n(Incluído pela Medida Provisória nº 646, de 2014)",
+   "texto": "Art. 115 O veículo será identificado externamente por meio de placas dianteira e traseira, sendo esta lacrada em sua estrutura, obedecidas as especificações e modelos estabelecidos pelo CONTRAN.\n§ 1º Os caracteres das placas serão individualizados para cada veículo e o acompanharão até a baixa do registro, sendo vedado seu reaproveitamento.\n§ 2º As placas com as cores verde e amarela da Bandeira Nacional serão usadas somente pelos veículos de representação pessoal do Presidente e do Vice-Presidente da República, dos Presidentes do Senado Federal e da Câmara dos Deputados, do Presidente e dos Ministros do Supremo Tribunal Federal, dos Ministros de Estado, do Advogado-Geral da União e do Procurador-Geral da República.\n§ 3º Os veículos de representação dos Presidentes dos Tribunais Federais, dos Governadores, Prefeitos, Secretários Estaduais e Municipais, dos Presidentes das Assembléias Legislativas, das Câmaras Municipais, dos Presidentes dos Tribunais Estaduais e do Distrito Federal, e do respectivo chefe do Ministério Público e ainda dos Oficiais Generais das Forças Armadas terão placas especiais, de acordo com os modelos estabelecidos pelo CONTRAN.\n§ 4o Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos ao registro na repartição competente, se transitarem em via pública, dispensados o licenciamento e o emplacamento.\n(Redação dada pela Lei nº 13.154, de 2015)\n(Vide)\n§ 4º-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas, desde que facultados a transitar em via pública, são sujeitos ao registro único, sem ônus, em cadastro específico do Ministério da Agricultura e Pecuária, acessível aos componentes do Sistema Nacional de Trânsito.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 5º O disposto neste artigo não se aplica aos veículos de uso bélico.\n§ 6º Os veículos de duas ou três rodas são dispensados da placa dianteira.\n§ 7o Excepcionalmente, mediante autorização específica e fundamentada das respectivas corregedorias e com a devida comunicação aos órgãos de trânsito competentes, os veículos utilizados por membros do Poder Judiciário e do Ministério Público que exerçam competência ou atribuição criminal poderão temporariamente ter placas especiais, de forma a impedir a identificação de seus usuários específicos, na forma de regulamento a ser emitido, conjuntamente, pelo Conselho Nacional de Justiça - CNJ, pelo Conselho Nacional do Ministério Público - CNMP e pelo Conselho Nacional de Trânsito - CONTRAN.\n(Incluído pela Lei nº 12.694, de 2012)\n(Vigência encerrada)\n§ 8o Os veículos artesanais utilizados para trabalho agrícola (jericos), para efeito do registro de que trata o § 4o-A, ficam dispensados da exigência prevista no art. 106.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 9º As placas que possuírem tecnologia que permita a identificação do veículo ao qual estão atreladas são dispensadas da utilização do lacre previsto no caput, na forma a ser regulamentada pelo Contran.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 10. O Contran estabelecerá os meios técnicos, de uso obrigatório, para garantir a identificação dos veículos que transitarem por rodovias e vias urbanas com cobrança de uso pelo sistema de livre passagem.\n(Incluído pela Lei nº 14.157, de 2021)",
+   "textoHistorico": "§ 4º Os aparelhos automotores destinados a puxar ou arrastar maquinaria de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que lhes seja facultado transitar nas vias, ao registro e licenciamento da repartição competente, devendo receber numeração especial.\n§ 4º Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que transitem em vias públicas, ao registro e ao licenciamento na repartição competente.\n(Redação dada pela Medida Provisória nº 646, de 2014)\n(Vigência encerrada)\n§ 4º Os aparelhos automotores destinados a puxar ou arrastar maquinaria de qualquer natureza ou a executar trabalhos agrícolas e de construção ou de pavimentação são sujeitos, desde que lhes seja facultado transitar nas vias, ao registro e licenciamento da repartição competente, devendo receber numeração especial.\n§ 4º Os aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos, se transitarem em via pública, ao registro e ao licenciamento da repartição competente.\n(Redação dada pela Medida Provisória nº 673, de 2015)\n§ 4º-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas são sujeitos ao registro único em cadastro específico da repartição competente, dispensado o licenciamento e o emplacamento.\n(Vide art 2º da Medida Provisória nº 673, de 2015)\n(Incluído pela Medida Provisória nº 673, de 2015)\n§ 4o-A. Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinaria agrícola ou a executar trabalhos agrícolas, desde que facultados a transitar em via pública, são sujeitos ao registro único, sem ônus, em cadastro específico do Ministério da Agricultura, Pecuária e Abastecimento, acessível aos componentes do Sistema Nacional de Trânsito.\n(Redação dada pela Lei nº 13.154, de 2015)\n(Vide)\n§ 8o Os tratores e demais aparelhos automotores destinados a puxar ou a arrastar maquinário agrícola de qualquer natureza ou a executar trabalhos agrícolas, licenciados na forma do § 4o, não estão sujeitos à renovação periódica do licenciamento.\n(Incluído pela Medida Provisória nº 646, de 2014)",
    "caput": "O veículo será identificado externamente por meio de placas dianteira e traseira, sendo esta lacrada em sua estrutura, obedecidas as especificações e modelos estabelecidos pelo CONTRAN."
   },
   {
@@ -12254,11 +12281,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º Os veículos que saírem do território nacional sem o cumprimento do disposto no § 1º e que posteriormente forem flagrados tentando ingressar ou já em circulação no território nacional serão retidos até a regularização da situação.",
+     "texto": "§ 2 Os veículos que saírem do território nacional sem o cumprimento do disposto no § 1 e que posteriormente forem flagrados tentando ingressar ou já em circulação no território nacional serão retidos até a regularização da situação.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art119§2"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ºº",
+     "notas": [],
      "ancoras": [
       "art119§2"
      ]
@@ -12271,8 +12307,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 119 As repartições aduaneiras e os órgãos de controle de fronteira comunicarão diretamente ao RENAVAM a entrada e saída temporária ou definitiva de veículos.\n§ 1º Os veículos licenciados no exterior não poderão sair do território nacional sem o prévio pagamento ou o depósito, judicial ou administrativo, dos valores correspondentes às infrações de trânsito cometidas e ao ressarcimento de danos que tiverem causado ao patrimônio público ou de particulares, independentemente da fase do processo administrativo ou judicial envolvendo a questão.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º Os veículos que saírem do território nacional sem o cumprimento do disposto no § 1º e que posteriormente forem flagrados tentando ingressar ou já em circulação no território nacional serão retidos até a regularização da situação.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "Parágrafo único. Os veículos licenciados no exterior não poderão sair do território nacional sem prévia quitação de débitos de multa por infrações de trânsito e o ressarcimento de danos que tiverem causado a bens do patrimônio público, respeitado o princípio da reciprocidade.",
+   "texto": "Art. 119 As repartições aduaneiras e os órgãos de controle de fronteira comunicarão diretamente ao RENAVAM a entrada e saída temporária ou definitiva de veículos.\n§ 1º Os veículos licenciados no exterior não poderão sair do território nacional sem o prévio pagamento ou o depósito, judicial ou administrativo, dos valores correspondentes às infrações de trânsito cometidas e ao ressarcimento de danos que tiverem causado ao patrimônio público ou de particulares, independentemente da fase do processo administrativo ou judicial envolvendo a questão.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2 Os veículos que saírem do território nacional sem o cumprimento do disposto no § 1 e que posteriormente forem flagrados tentando ingressar ou já em circulação no território nacional serão retidos até a regularização da situação.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "Parágrafo único. Os veículos licenciados no exterior não poderão sair do território nacional sem prévia quitação de débitos de multa por infrações de trânsito e o ressarcimento de danos que tiverem causado a bens do patrimônio público, respeitado o princípio da reciprocidade.\nºº",
    "caput": "As repartições aduaneiras e os órgãos de controle de fronteira comunicarão diretamente ao RENAVAM a entrada e saída temporária ou definitiva de veículos."
   },
   {
@@ -15558,11 +15594,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º O militar, o policial ou o bombeiro militar interessado na dispensa de que trata o § 2º instruirá seu requerimento com ofício do comandante, chefe ou diretor da unidade administrativa onde prestar serviço, do qual constarão o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópia das atas dos exames prestados.",
+     "texto": "§ 3 O militar, o policial ou o bombeiro militar interessado na dispensa de que trata o § 2 instruirá seu requerimento com ofício do comandante, chefe ou diretor da unidade administrativa onde prestar serviço, do qual constarão o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópia das atas dos exames prestados.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art152§3."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ºº",
+     "notas": [],
      "ancoras": [
       "art152§3."
      ]
@@ -15584,8 +15629,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 152 O exame de direção veicular será realizado perante comissão integrada por 3 (três) membros designados pelo dirigente do órgão executivo local de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Na comissão de exame de direção veicular, pelo menos um membro deverá ser habilitado na categoria igual ou superior à pretendida pelo candidato.\n§ 2º Os militares das Forças Armadas e os policiais e bombeiros dos órgãos de segurança pública da União, dos Estados e do Distrito Federal que possuírem curso de formação de condutor ministrado em suas corporações serão dispensados, para a concessão do documento de habilitação, dos exames aos quais se houverem submetido com aprovação naquele curso, desde que neles sejam observadas as normas estabelecidas pelo Contran.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º O militar, o policial ou o bombeiro militar interessado na dispensa de que trata o § 2º instruirá seu requerimento com ofício do comandante, chefe ou diretor da unidade administrativa onde prestar serviço, do qual constarão o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópia das atas dos exames prestados.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º (VETADO)",
-   "textoHistorico": "O exame de direção veicular será realizado perante uma comissão integrada por três membros designados pelo dirigente do órgão executivo local de trânsito, para o período de um ano, permitida a recondução por mais um período de igual duração.\n§ 2º Os militares das Forças Armadas e Auxiliares que possuírem curso de formação de condutor, ministrado em suas corporações, serão dispensados, para a concessão da Carteira Nacional de Habilitação, dos exames a que se houverem submetido com aprovação naquele curso, desde que neles sejam observadas as normas estabelecidas pelo CONTRAN.\n§ 3º O militar interessado instruirá seu requerimento com ofício do Comandante, Chefe ou Diretor da organização militar em que servir, do qual constarão: o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópias das atas dos exames prestados.",
+   "texto": "Art. 152 O exame de direção veicular será realizado perante comissão integrada por 3 (três) membros designados pelo dirigente do órgão executivo local de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Na comissão de exame de direção veicular, pelo menos um membro deverá ser habilitado na categoria igual ou superior à pretendida pelo candidato.\n§ 2º Os militares das Forças Armadas e os policiais e bombeiros dos órgãos de segurança pública da União, dos Estados e do Distrito Federal que possuírem curso de formação de condutor ministrado em suas corporações serão dispensados, para a concessão do documento de habilitação, dos exames aos quais se houverem submetido com aprovação naquele curso, desde que neles sejam observadas as normas estabelecidas pelo Contran.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3 O militar, o policial ou o bombeiro militar interessado na dispensa de que trata o § 2 instruirá seu requerimento com ofício do comandante, chefe ou diretor da unidade administrativa onde prestar serviço, do qual constarão o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópia das atas dos exames prestados.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º (VETADO)",
+   "textoHistorico": "O exame de direção veicular será realizado perante uma comissão integrada por três membros designados pelo dirigente do órgão executivo local de trânsito, para o período de um ano, permitida a recondução por mais um período de igual duração.\n§ 2º Os militares das Forças Armadas e Auxiliares que possuírem curso de formação de condutor, ministrado em suas corporações, serão dispensados, para a concessão da Carteira Nacional de Habilitação, dos exames a que se houverem submetido com aprovação naquele curso, desde que neles sejam observadas as normas estabelecidas pelo CONTRAN.\n§ 3º O militar interessado instruirá seu requerimento com ofício do Comandante, Chefe ou Diretor da organização militar em que servir, do qual constarão: o número do registro de identificação, naturalidade, nome, filiação, idade e categoria em que se habilitou a conduzir, acompanhado de cópias das atas dos exames prestados.\nºº",
    "caput": "O exame de direção veicular será realizado perante comissão integrada por 3 (três) membros designados pelo dirigente do órgão executivo local de trânsito."
   },
   {
@@ -16975,11 +17020,18 @@
     {
      "tipo": "medida-administrativa",
      "situacao": "vigente",
-     "texto": "Medida administrativa - recolhimento do documento de habilitação e retenção do veículo, observado o disposto no § 4º do art. 270.",
+     "texto": "Medida administrativa - recolhimento do documento de habilitação e retenção do veículo, observado o disposto no § 4 do art. 270.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": []
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": []
     },
     {
@@ -17002,8 +17054,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 165-A Recusar-se a ser submetido a teste, exame clínico, perícia ou outro procedimento que permita certificar influência de álcool ou outra substância psicoativa, na forma estabelecida pelo art. 277:\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nInfração - gravíssima;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nPenalidade - multa (dez vezes) e suspensão do direito de dirigir por 12 (doze) meses;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nMedida administrativa - recolhimento do documento de habilitação e retenção do veículo, observado o disposto no § 4º do art. 270.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nParágrafo único. Aplica-se em dobro a multa prevista no caput em caso de reincidência no período de até 12 (doze) meses\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "",
+   "texto": "Art. 165-A Recusar-se a ser submetido a teste, exame clínico, perícia ou outro procedimento que permita certificar influência de álcool ou outra substância psicoativa, na forma estabelecida pelo art. 277:\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nInfração - gravíssima;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nPenalidade - multa (dez vezes) e suspensão do direito de dirigir por 12 (doze) meses;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nMedida administrativa - recolhimento do documento de habilitação e retenção do veículo, observado o disposto no § 4 do art. 270.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nParágrafo único. Aplica-se em dobro a multa prevista no caput em caso de reincidência no período de até 12 (doze) meses\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "º",
    "caput": "Recusar-se a ser submetido a teste, exame clínico, perícia ou outro procedimento que permita certificar influência de álcool ou outra substância psicoativa, na forma estabelecida pelo art. 277:"
   },
   {
@@ -25027,7 +25079,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º Aplica-se a multa agravada em 60 (sessenta) vezes aos organizadores da conduta prevista no caput.",
+     "texto": "§ 1 Aplica-se a multa agravada em 60 (sessenta) vezes aos organizadores da conduta prevista no caput.",
      "notas": [
       "(Incluído pela Lei nº 13. 281, de 2016)"
      ],
@@ -25036,9 +25088,18 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art253a§1."
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º Aplica-se em dobro a multa em caso de reincidência no período de 12 (doze) meses.",
+     "texto": "§ 2 Aplica-se em dobro a multa em caso de reincidência no período de 12 (doze) meses.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)"
      ],
@@ -25047,12 +25108,30 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art253a§2."
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º As penalidades são aplicáveis a pessoas físicas ou jurídicas que incorram na infração, devendo a autoridade com circunscrição sobre a via restabelecer de imediato, se possível, as condições de normalidade para a circulação na via.",
+     "texto": "§ 3 As penalidades são aplicáveis a pessoas físicas ou jurídicas que incorram na infração, devendo a autoridade com circunscrição sobre a via restabelecer de imediato, se possível, as condições de normalidade para a circulação na via.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)"
      ],
+     "ancoras": [
+      "art253a§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art253a§3"
      ]
@@ -25065,8 +25144,8 @@
      "notas": []
     }
    },
-   "texto": "Infração - gravíssima;\n(Incluído pela Medida Provisória nº 699, de 2015)\nPenalidade - multa (trinta vezes), suspensão do direito de dirigir por doze meses e apreensão do veículo;\n(Incluído pela Medida Provisória nº 699, de 2015)\nMedida administrativa - recolhimento do documento de habilitação, remoção do veículo e proibição de receber incentivo creditício por dez anos para aquisição de veículos.\n(Incluído pela Medida Provisória nº 699, de 2015)\n§ 1o Aplica-se a multa agravada em cem vezes aos organizadores da conduta prevista no caput.\n(Incluído pela Medida Provisória nº 699, de 2015)\n§ 2o Aplica-se em dobro a multa em caso de reincidência no período de doze meses.\n(Incluído pela Medida Provisória nº 699, de 2015)\nArt. 253-A Usar qualquer veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via sem autorização do órgão ou entidade de trânsito com circunscrição sobre ela:\n(Incluído pela Lei nº 13. 281, de 2016)\nInfração - gravíssima;\n(Incluído pela Lei nº 13.281, de 2016)\nPenalidade - multa (vinte vezes) e suspensão do direito de dirigir por 12 (doze) meses;\n(Incluído pela Lei nº 13.281, de 2016)\nMedida administrativa - remoção do veículo.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 1º Aplica-se a multa agravada em 60 (sessenta) vezes aos organizadores da conduta prevista no caput.\n(Incluído pela Lei nº 13. 281, de 2016)\n§ 2º Aplica-se em dobro a multa em caso de reincidência no período de 12 (doze) meses.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 3º As penalidades são aplicáveis a pessoas físicas ou jurídicas que incorram na infração, devendo a autoridade com circunscrição sobre a via restabelecer de imediato, se possível, as condições de normalidade para a circulação na via.\n(Incluído pela Lei nº 13.281, de 2016)",
-   "textoHistorico": "Usar veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via:\n(Incluído pela Medida Provisória nº 699, de 2015)",
+   "texto": "Infração - gravíssima;\n(Incluído pela Medida Provisória nº 699, de 2015)\nPenalidade - multa (trinta vezes), suspensão do direito de dirigir por doze meses e apreensão do veículo;\n(Incluído pela Medida Provisória nº 699, de 2015)\nMedida administrativa - recolhimento do documento de habilitação, remoção do veículo e proibição de receber incentivo creditício por dez anos para aquisição de veículos.\n(Incluído pela Medida Provisória nº 699, de 2015)\n§ 1o Aplica-se a multa agravada em cem vezes aos organizadores da conduta prevista no caput.\n(Incluído pela Medida Provisória nº 699, de 2015)\n§ 2o Aplica-se em dobro a multa em caso de reincidência no período de doze meses.\n(Incluído pela Medida Provisória nº 699, de 2015)\nArt. 253-A Usar qualquer veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via sem autorização do órgão ou entidade de trânsito com circunscrição sobre ela:\n(Incluído pela Lei nº 13. 281, de 2016)\nInfração - gravíssima;\n(Incluído pela Lei nº 13.281, de 2016)\nPenalidade - multa (vinte vezes) e suspensão do direito de dirigir por 12 (doze) meses;\n(Incluído pela Lei nº 13.281, de 2016)\nMedida administrativa - remoção do veículo.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 1 Aplica-se a multa agravada em 60 (sessenta) vezes aos organizadores da conduta prevista no caput.\n(Incluído pela Lei nº 13. 281, de 2016)\n§ 2 Aplica-se em dobro a multa em caso de reincidência no período de 12 (doze) meses.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 3 As penalidades são aplicáveis a pessoas físicas ou jurídicas que incorram na infração, devendo a autoridade com circunscrição sobre a via restabelecer de imediato, se possível, as condições de normalidade para a circulação na via.\n(Incluído pela Lei nº 13.281, de 2016)",
+   "textoHistorico": "Usar veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via:\n(Incluído pela Medida Provisória nº 699, de 2015)\nº\nº\nº",
    "caput": "Usar qualquer veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via sem autorização do órgão ou entidade de trânsito com circunscrição sobre ela:"
   },
   {
@@ -25167,7 +25246,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º (VETADO).",
+     "texto": "§ 1 (VETADO).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)"
      ],
@@ -25176,9 +25255,18 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art254§1"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º (VETADO).",
+     "texto": "§ 2 (VETADO).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)"
      ],
@@ -25187,12 +25275,30 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art254§2"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º (VETADO).",
+     "texto": "§ 3 (VETADO).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)"
      ],
+     "ancoras": [
+      "art254§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art254§3"
      ]
@@ -25205,8 +25311,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 254 É proibido ao pedestre:\nI - permanecer ou andar nas pistas de rolamento, exceto para cruzá-las onde for permitido;\nII - cruzar pistas de rolamento nos viadutos, pontes, ou túneis, salvo onde exista permissão;\nIII - atravessar a via dentro das áreas de cruzamento, salvo quando houver sinalização para esse fim;\nIV - utilizar-se da via em agrupamentos capazes de perturbar o trânsito, ou para a prática de qualquer folguedo, esporte, desfiles e similares, salvo em casos especiais e com a devida licença da autoridade competente;\nV - andar fora da faixa própria, passarela, passagem aérea ou subterrânea;\nVI - desobedecer à sinalização de trânsito específica;\nInfração - leve;\nPenalidade - multa, em 50% (cinqüenta por cento) do valor da infração de natureza leve.\nVII - (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 1º (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 2º (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 3º (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)",
-   "textoHistorico": "",
+   "texto": "Art. 254 É proibido ao pedestre:\nI - permanecer ou andar nas pistas de rolamento, exceto para cruzá-las onde for permitido;\nII - cruzar pistas de rolamento nos viadutos, pontes, ou túneis, salvo onde exista permissão;\nIII - atravessar a via dentro das áreas de cruzamento, salvo quando houver sinalização para esse fim;\nIV - utilizar-se da via em agrupamentos capazes de perturbar o trânsito, ou para a prática de qualquer folguedo, esporte, desfiles e similares, salvo em casos especiais e com a devida licença da autoridade competente;\nV - andar fora da faixa própria, passarela, passagem aérea ou subterrânea;\nVI - desobedecer à sinalização de trânsito específica;\nInfração - leve;\nPenalidade - multa, em 50% (cinqüenta por cento) do valor da infração de natureza leve.\nVII - (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 1 (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 2 (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)\n§ 3 (VETADO).\n(Incluído pela Lei nº 13.281, de 2016)",
+   "textoHistorico": "º\nº\nº",
    "caput": "É proibido ao pedestre:"
   },
   {
@@ -25705,12 +25811,21 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º .",
+     "texto": "§ 1 .",
      "notas": [
       "(Revogado)",
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art258§1."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art258§1."
      ]
@@ -25750,8 +25865,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 258 As infrações punidas com multa classificam-se, de acordo com sua gravidade, em quatro categorias:\nI - infração de natureza gravíssima, punida com multa no valor de R$ 293,47 (duzentos e noventa e três reais e quarenta e sete centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nII - infração de natureza grave, punida com multa no valor de R$ 195,23 (cento e noventa e cinco reais e vinte e três centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - infração de natureza média, punida com multa no valor de R$ 130,16 (cento e trinta reais e dezesseis centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nIV - infração de natureza leve, punida com multa no valor de R$ 88,38 (oitenta e oito reais e trinta e oito centavos).\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º .\n(Revogado)\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º Quando se tratar de multa agravada, o fator multiplicador ou índice adicional específico é o previsto neste Código.\n§ 3º (VETADO)\n§ 4º (VETADO)",
-   "textoHistorico": "I - infração de natureza gravíssima, punida com multa de valor correspondente a 180 (cento e oitenta) UFIR;\nII - infração de natureza grave, punida com multa de valor correspondente a 120 (cento e vinte) UFIR;\nIII - infração de natureza média, punida com multa de valor correspondente a 80 (oitenta) UFIR;\nIV - infração de natureza leve, punida com multa de valor correspondente a 50 (cinqüenta) UFIR.\n§ 1º Os valores das multas serão corrigidos no primeiro dia útil de cada mês pela variação da UFIR ou outro índice legal de correção dos débitos fiscais.",
+   "texto": "Art. 258 As infrações punidas com multa classificam-se, de acordo com sua gravidade, em quatro categorias:\nI - infração de natureza gravíssima, punida com multa no valor de R$ 293,47 (duzentos e noventa e três reais e quarenta e sete centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nII - infração de natureza grave, punida com multa no valor de R$ 195,23 (cento e noventa e cinco reais e vinte e três centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - infração de natureza média, punida com multa no valor de R$ 130,16 (cento e trinta reais e dezesseis centavos);\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nIV - infração de natureza leve, punida com multa no valor de R$ 88,38 (oitenta e oito reais e trinta e oito centavos).\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1 .\n(Revogado)\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º Quando se tratar de multa agravada, o fator multiplicador ou índice adicional específico é o previsto neste Código.\n§ 3º (VETADO)\n§ 4º (VETADO)",
+   "textoHistorico": "I - infração de natureza gravíssima, punida com multa de valor correspondente a 180 (cento e oitenta) UFIR;\nII - infração de natureza grave, punida com multa de valor correspondente a 120 (cento e vinte) UFIR;\nIII - infração de natureza média, punida com multa de valor correspondente a 80 (oitenta) UFIR;\nIV - infração de natureza leve, punida com multa de valor correspondente a 50 (cinqüenta) UFIR.\n§ 1º Os valores das multas serão corrigidos no primeiro dia útil de cada mês pela variação da UFIR ou outro índice legal de correção dos débitos fiscais.\nº",
    "caput": "As infrações punidas com multa classificam-se, de acordo com sua gravidade, em quatro categorias:"
   },
   {
@@ -26267,11 +26382,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 7º O motorista que optar pelo curso previsto no § 5º não poderá fazer nova opção no período de 12 (doze) meses.",
+     "texto": "§ 7º O motorista que optar pelo curso previsto no § 5 não poderá fazer nova opção no período de 12 (doze) meses.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art261§7."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art261§7."
      ]
@@ -26365,8 +26489,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 261 A penalidade de suspensão do direito de dirigir será imposta nos seguintes casos:\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nI - sempre que, conforme a pontuação prevista no art. 259 deste Código, o infrator atingir, no período de 12 (doze) meses, a seguinte contagem de pontos:\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\na) 20 (vinte) pontos, caso constem 2 (duas) ou mais infrações gravíssimas na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nb) 30 (trinta) pontos, caso conste 1 (uma) infração gravíssima na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nc) 40 (quarenta) pontos, caso não conste nenhuma infração gravíssima na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nII - por transgressão às normas estabelecidas neste Código, cujas infrações preveem, de forma específica, a penalidade de suspensão do direito de dirigir.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 1º Os prazos para aplicação da penalidade de suspensão do direito de dirigir são os seguintes:\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nI - no caso do inciso I do caput: de 6 (seis) meses a 1 (um) ano e, no caso de reincidência no período de 12 (doze) meses, de 8 (oito) meses a 2 (dois) anos;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nII - no caso do inciso II do caput: de 2 (dois) a 8 (oito) meses, exceto para as infrações com prazo descrito no dispositivo infracional, e, no caso de reincidência no período de 12 (doze) meses, de 8 (oito) a 18 (dezoito) meses, respeitado o disposto no inciso II do art. 263.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 2º Quando ocorrer a suspensão do direito de dirigir, a Carteira Nacional de Habilitação será devolvida a seu titular imediatamente após cumprida a penalidade e o curso de reciclagem.\n§ 3º A imposição da penalidade de suspensão do direito de dirigir elimina a quantidade de pontos computados, prevista no inciso I do caput ou no § 5º deste artigo, para fins de contagem subsequente.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 4o (VETADO).\n(Incluído pela Lei nº 12.619, de 2012)\n(Vigência)\n§ 5º No caso do condutor que exerce atividade remunerada ao veículo, a penalidade de suspensão do direito de dirigir de que trata o caput deste artigo será imposta quando o infrator atingir o limite de pontos previsto na alínea c do inciso I do caput deste artigo, independentemente da natureza das infrações cometidas, facultado a ele participar de curso preventivo de reciclagem sempre que, no período de 12 (doze) meses, atingir 30 (trinta) pontos, conforme regulamentação do Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 6o Concluído o curso de reciclagem previsto no § 5o, o condutor terá eliminados os pontos que lhe tiverem sido atribuídos, para fins de contagem subsequente.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 7º O motorista que optar pelo curso previsto no § 5º não poderá fazer nova opção no período de 12 (doze) meses.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 8o A pessoa jurídica concessionária ou permissionária de serviço público tem o direito de ser informada dos pontos atribuídos, na forma do art. 259, aos motoristas que integrem seu quadro funcional, exercendo atividade remunerada ao volante, na forma que dispuser o Contran.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 9º Incorrerá na infração prevista no inciso II do art. 162 o condutor que, notificado da penalidade de que trata este artigo, dirigir veículo automotor em via pública.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 10. O processo de suspensão do direito de dirigir a que se refere o inciso II do caput deste artigo deverá ser instaurado concomitantemente ao processo de aplicação da penalidade de multa, e ambos serão de competência do órgão ou entidade responsável pela aplicação da multa, na forma definida pelo Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 11. O Contran regulamentará as disposições deste artigo.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 12. (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 13. (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)",
-   "textoHistorico": "A penalidade de suspensão do direito de dirigir será aplicada, nos casos previstos neste Código, pelo prazo mínimo de um mês até o máximo de um ano e, no caso de reincidência no período de doze meses, pelo prazo mínimo de seis meses até o máximo de dois anos, segundo critérios estabelecidos pelo CONTRAN.\nI - sempre que o infrator atingir a contagem de 20 (vinte) pontos, no período de 12 (doze) meses, conforme a pontuação prevista no art. 259;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Além dos casos previstos em outros artigos deste Código e excetuados aqueles especificados no art. 263, a suspensão do direito de dirigir será aplicada sempre que o infrator atingir a contagem de vinte pontos, prevista no art. 259.\n§ 1o Além dos casos previstos em outros artigos deste Código e excetuados aqueles especificados no art. 263, a suspensão do direito de dirigir será aplicada quando o infrator atingir, no período de 12 (doze) meses, a contagem de 20 (vinte) pontos, conforme pontuação indicada no art. 259.\n(Redação dada pela Lei nº 12.547, de 2011)\n§ 3o A imposição da penalidade de suspensão do direito de dirigir elimina os 20 (vinte) pontos computados para fins de contagem subsequente.\n(Incluído pela Lei nº 12.547, de 2011)\n§ 5o O condutor que exerce atividade remunerada em veículo, habilitado na categoria C, D ou E, será convocado pelo órgão executivo de trânsito estadual a participar de curso preventivo de reciclagem sempre que, no período de um ano, atingir quatorze pontos, conforme regulamentação do Contran.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 5º O condutor que exerce atividade remunerada em veículo, habilitado na categoria C, D ou E, poderá optar por participar de curso preventivo de reciclagem sempre que, no período de 1 (um) ano, atingir 14 (quatorze) pontos, conforme regulamentação do Contran.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 7o Após o término do curso de reciclagem, na forma do § 5o, o condutor não poderá ser novamente convocado antes de transcorrido o período de um ano.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 10. O processo de suspensão do direito de dirigir referente ao inciso II do caput deste artigo deverá ser instaurado concomitantemente com o processo de aplicação da penalidade de multa.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "texto": "Art. 261 A penalidade de suspensão do direito de dirigir será imposta nos seguintes casos:\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nI - sempre que, conforme a pontuação prevista no art. 259 deste Código, o infrator atingir, no período de 12 (doze) meses, a seguinte contagem de pontos:\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\na) 20 (vinte) pontos, caso constem 2 (duas) ou mais infrações gravíssimas na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nb) 30 (trinta) pontos, caso conste 1 (uma) infração gravíssima na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nc) 40 (quarenta) pontos, caso não conste nenhuma infração gravíssima na pontuação;\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)\nII - por transgressão às normas estabelecidas neste Código, cujas infrações preveem, de forma específica, a penalidade de suspensão do direito de dirigir.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 1º Os prazos para aplicação da penalidade de suspensão do direito de dirigir são os seguintes:\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\nI - no caso do inciso I do caput: de 6 (seis) meses a 1 (um) ano e, no caso de reincidência no período de 12 (doze) meses, de 8 (oito) meses a 2 (dois) anos;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nII - no caso do inciso II do caput: de 2 (dois) a 8 (oito) meses, exceto para as infrações com prazo descrito no dispositivo infracional, e, no caso de reincidência no período de 12 (doze) meses, de 8 (oito) a 18 (dezoito) meses, respeitado o disposto no inciso II do art. 263.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nIII - (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 2º Quando ocorrer a suspensão do direito de dirigir, a Carteira Nacional de Habilitação será devolvida a seu titular imediatamente após cumprida a penalidade e o curso de reciclagem.\n§ 3º A imposição da penalidade de suspensão do direito de dirigir elimina a quantidade de pontos computados, prevista no inciso I do caput ou no § 5º deste artigo, para fins de contagem subsequente.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 4o (VETADO).\n(Incluído pela Lei nº 12.619, de 2012)\n(Vigência)\n§ 5º No caso do condutor que exerce atividade remunerada ao veículo, a penalidade de suspensão do direito de dirigir de que trata o caput deste artigo será imposta quando o infrator atingir o limite de pontos previsto na alínea c do inciso I do caput deste artigo, independentemente da natureza das infrações cometidas, facultado a ele participar de curso preventivo de reciclagem sempre que, no período de 12 (doze) meses, atingir 30 (trinta) pontos, conforme regulamentação do Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 6o Concluído o curso de reciclagem previsto no § 5o, o condutor terá eliminados os pontos que lhe tiverem sido atribuídos, para fins de contagem subsequente.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 7º O motorista que optar pelo curso previsto no § 5 não poderá fazer nova opção no período de 12 (doze) meses.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 8o A pessoa jurídica concessionária ou permissionária de serviço público tem o direito de ser informada dos pontos atribuídos, na forma do art. 259, aos motoristas que integrem seu quadro funcional, exercendo atividade remunerada ao volante, na forma que dispuser o Contran.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 9º Incorrerá na infração prevista no inciso II do art. 162 o condutor que, notificado da penalidade de que trata este artigo, dirigir veículo automotor em via pública.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 10. O processo de suspensão do direito de dirigir a que se refere o inciso II do caput deste artigo deverá ser instaurado concomitantemente ao processo de aplicação da penalidade de multa, e ambos serão de competência do órgão ou entidade responsável pela aplicação da multa, na forma definida pelo Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 11. O Contran regulamentará as disposições deste artigo.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 12. (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)\n§ 13. (VETADO).\n(Incluído pela Lei nº 14.304, de 2022)\n(Vigência)",
+   "textoHistorico": "A penalidade de suspensão do direito de dirigir será aplicada, nos casos previstos neste Código, pelo prazo mínimo de um mês até o máximo de um ano e, no caso de reincidência no período de doze meses, pelo prazo mínimo de seis meses até o máximo de dois anos, segundo critérios estabelecidos pelo CONTRAN.\nI - sempre que o infrator atingir a contagem de 20 (vinte) pontos, no período de 12 (doze) meses, conforme a pontuação prevista no art. 259;\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Além dos casos previstos em outros artigos deste Código e excetuados aqueles especificados no art. 263, a suspensão do direito de dirigir será aplicada sempre que o infrator atingir a contagem de vinte pontos, prevista no art. 259.\n§ 1o Além dos casos previstos em outros artigos deste Código e excetuados aqueles especificados no art. 263, a suspensão do direito de dirigir será aplicada quando o infrator atingir, no período de 12 (doze) meses, a contagem de 20 (vinte) pontos, conforme pontuação indicada no art. 259.\n(Redação dada pela Lei nº 12.547, de 2011)\n§ 3o A imposição da penalidade de suspensão do direito de dirigir elimina os 20 (vinte) pontos computados para fins de contagem subsequente.\n(Incluído pela Lei nº 12.547, de 2011)\n§ 5o O condutor que exerce atividade remunerada em veículo, habilitado na categoria C, D ou E, será convocado pelo órgão executivo de trânsito estadual a participar de curso preventivo de reciclagem sempre que, no período de um ano, atingir quatorze pontos, conforme regulamentação do Contran.\n(Incluído pela Lei nº 13.154, de 2015)\n§ 5º O condutor que exerce atividade remunerada em veículo, habilitado na categoria C, D ou E, poderá optar por participar de curso preventivo de reciclagem sempre que, no período de 1 (um) ano, atingir 14 (quatorze) pontos, conforme regulamentação do Contran.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 7o Após o término do curso de reciclagem, na forma do § 5o, o condutor não poderá ser novamente convocado antes de transcorrido o período de um ano.\n(Incluído pela Lei nº 13.154, de 2015)\nº\n§ 10. O processo de suspensão do direito de dirigir referente ao inciso II do caput deste artigo deverá ser instaurado concomitantemente com o processo de aplicação da penalidade de multa.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
    "caput": "A penalidade de suspensão do direito de dirigir será imposta nos seguintes casos:"
   },
   {
@@ -27489,11 +27613,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 4º Não se apresentando condutor habilitado no local da infração, o veículo será removido a depósito, aplicando-se neste caso o disposto no art. 271.",
+     "texto": "§ 4 Não se apresentando condutor habilitado no local da infração, o veículo será removido a depósito, aplicando-se neste caso o disposto no art. 271.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art270§4."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art270§4."
      ]
@@ -27537,8 +27670,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 270 O veículo poderá ser retido nos casos expressos neste Código.\n§ 1º Quando a irregularidade puder ser sanada no local da infração, o veículo será liberado tão logo seja regularizada a situação.\n§ 2º Quando não for possível sanar a falha no local da infração, o veículo, desde que ofereça condições de segurança para circulação, deverá ser liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se ao condutor prazo razoável, não superior a 30 (trinta) dias, para regularizar a situação, e será considerado notificado para essa finalidade na mesma ocasião.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 3º O Certificado de Licenciamento Anual será devolvido ao condutor no órgão ou entidade aplicadores das medidas administrativas, tão logo o veículo seja apresentado à autoridade devidamente regularizado.\n§ 4º Não se apresentando condutor habilitado no local da infração, o veículo será removido a depósito, aplicando-se neste caso o disposto no art. 271.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º A critério do agente, não se dará a retenção imediata, quando se tratar de veículo de transporte coletivo transportando passageiros ou veículo transportando produto perigoso ou perecível, desde que ofereça condições de segurança para circulação em via pública.\n§ 6º Não efetuada a regularização no prazo a que se refere o § 2o, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivo de trânsito dos Estados e do Distrito Federal, que será retirada após comprovada a regularização.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 7o O descumprimento das obrigações estabelecidas no § 2o resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto no art. 271.\n(Incluído pela Lei nº 13.160, de 2015)",
-   "textoHistorico": "§ 2º Não sendo possível sanar a falha no local da infração, o veículo poderá ser retirado por condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra recibo, assinalando-se ao condutor prazo para sua regularização, para o que se considerará, desde logo, notificado.\n§ 2o Não sendo possível sanar a falha no local da infração, o veículo, desde que ofereça condições de segurança para circulação, poderá ser liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se prazo razoável ao condutor para regularizar a situação, para o que se considerará, desde logo, notificado.\n(Redação dada pela Lei nº 13.160, de 2015)\n§ 4º Não se apresentando condutor habilitado no local da infração, o veículo será recolhido ao depósito, aplicando-se neste caso o disposto nos parágrafos do art. 262.",
+   "texto": "Art. 270 O veículo poderá ser retido nos casos expressos neste Código.\n§ 1º Quando a irregularidade puder ser sanada no local da infração, o veículo será liberado tão logo seja regularizada a situação.\n§ 2º Quando não for possível sanar a falha no local da infração, o veículo, desde que ofereça condições de segurança para circulação, deverá ser liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se ao condutor prazo razoável, não superior a 30 (trinta) dias, para regularizar a situação, e será considerado notificado para essa finalidade na mesma ocasião.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 3º O Certificado de Licenciamento Anual será devolvido ao condutor no órgão ou entidade aplicadores das medidas administrativas, tão logo o veículo seja apresentado à autoridade devidamente regularizado.\n§ 4 Não se apresentando condutor habilitado no local da infração, o veículo será removido a depósito, aplicando-se neste caso o disposto no art. 271.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º A critério do agente, não se dará a retenção imediata, quando se tratar de veículo de transporte coletivo transportando passageiros ou veículo transportando produto perigoso ou perecível, desde que ofereça condições de segurança para circulação em via pública.\n§ 6º Não efetuada a regularização no prazo a que se refere o § 2o, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivo de trânsito dos Estados e do Distrito Federal, que será retirada após comprovada a regularização.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 7o O descumprimento das obrigações estabelecidas no § 2o resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto no art. 271.\n(Incluído pela Lei nº 13.160, de 2015)",
+   "textoHistorico": "§ 2º Não sendo possível sanar a falha no local da infração, o veículo poderá ser retirado por condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra recibo, assinalando-se ao condutor prazo para sua regularização, para o que se considerará, desde logo, notificado.\n§ 2o Não sendo possível sanar a falha no local da infração, o veículo, desde que ofereça condições de segurança para circulação, poderá ser liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se prazo razoável ao condutor para regularizar a situação, para o que se considerará, desde logo, notificado.\n(Redação dada pela Lei nº 13.160, de 2015)\n§ 4º Não se apresentando condutor habilitado no local da infração, o veículo será recolhido ao depósito, aplicando-se neste caso o disposto nos parágrafos do art. 262.\nº",
    "caput": "O veículo poderá ser retido nos casos expressos neste Código."
   },
   {
@@ -27602,10 +27735,19 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º Se o reparo referido no § 2º demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.",
+     "texto": "§ 3 Se o reparo referido no § 2 demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.",
      "notas": [
       "(Redação dada pela Lei nº 13. 281, de 2016)"
      ],
+     "ancoras": [
+      "art271§3."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ºº",
+     "notas": [],
      "ancoras": [
       "art271§3."
      ]
@@ -27624,10 +27766,19 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 4º Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.",
+     "texto": "§ 4 Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.",
      "notas": [
       "(Redação dada pela Lei nº 13. 281, de 2016)"
      ],
+     "ancoras": [
+      "art271§4."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art271§4."
      ]
@@ -27657,10 +27808,19 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 6º Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5º, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.",
+     "texto": "§ 6 Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)"
      ],
+     "ancoras": [
+      "art271§6."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ºº",
+     "notas": [],
      "ancoras": [
       "art271§6."
      ]
@@ -27849,8 +28009,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 271 O veículo será removido, nos casos previstos neste Código, para o depósito fixado pelo órgão ou entidade competente, com circunscrição sobre a via.\n§ 1o A restituição do veículo removido só ocorrerá mediante prévio pagamento de multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 2o A liberação do veículo removido é condicionada ao reparo de qualquer componente ou equipamento obrigatório que não esteja em perfeito estado de funcionamento.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 3º Se o reparo referido no § 2º demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.\n(Redação dada pela Lei nº 13. 281, de 2016)\n§ 4º Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.\n(Redação dada pela Lei nº 13. 281, de 2016)\n§ 5o O proprietário ou o condutor deverá ser notificado, no ato de remoção do veículo, sobre as providências necessárias à sua restituição e sobre o disposto no art. 328, conforme regulamentação do CONTRAN.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 6º Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5º, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.\n(Redação dada pela Lei nº 13.281, de 2016)\n§ 7o A notificação devolvida por desatualização do endereço do proprietário do veículo ou por recusa desse de recebê-la será considerada recebida para todos os efeitos\n(Incluído pela Lei nº 13.160, de 2015)\n§ 8o Em caso de veículo licenciado no exterior, a notificação será feita por edital.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 9º Não caberá remoção nos casos em que a irregularidade for sanada no local da infração.\n(Redação dada pela Lei nº 14.071, de 2020)\n§ 9º-B O disposto no § 9º-A não se aplica à infração prevista no inciso V do caput do art. 230.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-C Não efetuada a regularização no prazo a que se refere o § 9º-A, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivo de trânsito dos Estados e do Distrito Federal, que será retirada após comprovada a regularização.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-D O descumprimento das obrigações estabelecidas no § 9º-A resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto neste artigo.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-A. Quando não for possível sanar a irregularidade no local da infração, o veículo, desde que ofereça condições de segurança para circulação, será liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra a apresentação de recibo, e prazo razoável, não superior a 15 (quinze) dias, será assinalado ao condutor para regularizar a situação, o qual será considerado notificado para essa finalidade na mesma ocasião.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-B. O disposto no § 9º-A deste artigo não se aplica às infrações previstas no inciso V do caput do art. 230 e no inciso VIII do caput do art. 231 deste Código.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-C. Não efetuada a regularização no prazo referido no § 9º-A deste artigo, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivos de trânsito dos Estados ou do Distrito Federal, o qual será retirado após comprovada a regularização.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-D. O descumprimento da obrigação estabelecida no § 9º-A deste artigo resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto neste artigo.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 10. O pagamento das despesas de remoção e estada será correspondente ao período integral, contado em dias, em que efetivamente o veículo permanecer em depósito, limitado ao prazo de 6 (seis) meses.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 11. Os custos dos serviços de remoção e estada prestados por particulares poderão ser pagos pelo proprietário diretamente ao contratado.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 12. O disposto no § 11 não afasta a possibilidade de o respectivo ente da Federação estabelecer a cobrança por meio de taxa instituída em lei.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 13. No caso de o proprietário do veículo objeto do recolhimento comprovar, administrativa ou judicialmente, que o recolhimento foi indevido ou que houve abuso no período de retenção em depósito, é da responsabilidade do ente público a devolução das quantias pagas por força deste artigo, segundo os mesmos critérios da devolução de multas indevidas.\n(Incluído pela Lei nº 13.281, de 2016)",
-   "textoHistorico": "Parágrafo único. A restituição dos veículos removidos só ocorrerá mediante o pagamento das multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.\n§ 3o Se o reparo referido no § 2o demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, mediante autorização, assinalando prazo para reapresentação e vistoria.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 4o A remoção, o depósito e a guarda do veículo serão realizados diretamente por órgão público ou serão contratados por licitação pública.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 6o Caso o proprietário ou o condutor não esteja presente no momento de remoção do veículo, a autoridade de trânsito, no prazo de dez dias contado da data de apreensão, deverá expedir a notificação prevista no § 5o ao proprietário, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 9o Não caberá remoção nos casos em que a irregularidade puder ser sanada no local da infração.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 9º-A Quando não for possível sanar a irregularidade no local da infração, o veículo, desde que ofereça condições de segurança para circulação, será liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se ao condutor prazo razoável, não superior a quinze dias, para regularizar a situação, e será considerado notificado para essa finalidade na mesma ocasião.\n(Incluído pela Medida Provisória nº 1.050, de 2021)",
+   "texto": "Art. 271 O veículo será removido, nos casos previstos neste Código, para o depósito fixado pelo órgão ou entidade competente, com circunscrição sobre a via.\n§ 1o A restituição do veículo removido só ocorrerá mediante prévio pagamento de multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 2o A liberação do veículo removido é condicionada ao reparo de qualquer componente ou equipamento obrigatório que não esteja em perfeito estado de funcionamento.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 3 Se o reparo referido no § 2 demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, na forma transportada, mediante autorização, assinalando prazo para reapresentação.\n(Redação dada pela Lei nº 13. 281, de 2016)\n§ 4 Os serviços de remoção, depósito e guarda de veículo poderão ser realizados por órgão público, diretamente, ou por particular contratado por licitação pública, sendo o proprietário do veículo o responsável pelo pagamento dos custos desses serviços.\n(Redação dada pela Lei nº 13. 281, de 2016)\n§ 5o O proprietário ou o condutor deverá ser notificado, no ato de remoção do veículo, sobre as providências necessárias à sua restituição e sobre o disposto no art. 328, conforme regulamentação do CONTRAN.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 6 Caso o proprietário ou o condutor não esteja presente no momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 (dez) dias contado da data da remoção, deverá expedir ao proprietário a notificação prevista no § 5, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência, e, caso reste frustrada, a notificação poderá ser feita por edital.\n(Redação dada pela Lei nº 13.281, de 2016)\n§ 7o A notificação devolvida por desatualização do endereço do proprietário do veículo ou por recusa desse de recebê-la será considerada recebida para todos os efeitos\n(Incluído pela Lei nº 13.160, de 2015)\n§ 8o Em caso de veículo licenciado no exterior, a notificação será feita por edital.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 9º Não caberá remoção nos casos em que a irregularidade for sanada no local da infração.\n(Redação dada pela Lei nº 14.071, de 2020)\n§ 9º-B O disposto no § 9º-A não se aplica à infração prevista no inciso V do caput do art. 230.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-C Não efetuada a regularização no prazo a que se refere o § 9º-A, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivo de trânsito dos Estados e do Distrito Federal, que será retirada após comprovada a regularização.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-D O descumprimento das obrigações estabelecidas no § 9º-A resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto neste artigo.\n(Incluído pela Medida Provisória nº 1.050, de 2021)\n§ 9º-A. Quando não for possível sanar a irregularidade no local da infração, o veículo, desde que ofereça condições de segurança para circulação, será liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra a apresentação de recibo, e prazo razoável, não superior a 15 (quinze) dias, será assinalado ao condutor para regularizar a situação, o qual será considerado notificado para essa finalidade na mesma ocasião.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-B. O disposto no § 9º-A deste artigo não se aplica às infrações previstas no inciso V do caput do art. 230 e no inciso VIII do caput do art. 231 deste Código.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-C. Não efetuada a regularização no prazo referido no § 9º-A deste artigo, será feito registro de restrição administrativa no Renavam por órgão ou entidade executivos de trânsito dos Estados ou do Distrito Federal, o qual será retirado após comprovada a regularização.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 9º-D. O descumprimento da obrigação estabelecida no § 9º-A deste artigo resultará em recolhimento do veículo ao depósito, aplicando-se, nesse caso, o disposto neste artigo.\n(Incluído pela Lei nº 14.229, de 2021)\n§ 10. O pagamento das despesas de remoção e estada será correspondente ao período integral, contado em dias, em que efetivamente o veículo permanecer em depósito, limitado ao prazo de 6 (seis) meses.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 11. Os custos dos serviços de remoção e estada prestados por particulares poderão ser pagos pelo proprietário diretamente ao contratado.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 12. O disposto no § 11 não afasta a possibilidade de o respectivo ente da Federação estabelecer a cobrança por meio de taxa instituída em lei.\n(Incluído pela Lei nº 13.281, de 2016)\n§ 13. No caso de o proprietário do veículo objeto do recolhimento comprovar, administrativa ou judicialmente, que o recolhimento foi indevido ou que houve abuso no período de retenção em depósito, é da responsabilidade do ente público a devolução das quantias pagas por força deste artigo, segundo os mesmos critérios da devolução de multas indevidas.\n(Incluído pela Lei nº 13.281, de 2016)",
+   "textoHistorico": "Parágrafo único. A restituição dos veículos removidos só ocorrerá mediante o pagamento das multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.\n§ 3o Se o reparo referido no § 2o demandar providência que não possa ser tomada no depósito, a autoridade responsável pela remoção liberará o veículo para reparo, mediante autorização, assinalando prazo para reapresentação e vistoria.\n(Incluído pela Lei nº 13.160, de 2015)\nºº\n§ 4o A remoção, o depósito e a guarda do veículo serão realizados diretamente por órgão público ou serão contratados por licitação pública.\n(Incluído pela Lei nº 13.160, de 2015)\nº\n§ 6o Caso o proprietário ou o condutor não esteja presente no momento de remoção do veículo, a autoridade de trânsito, no prazo de dez dias contado da data de apreensão, deverá expedir a notificação prevista no § 5o ao proprietário, por remessa postal ou por outro meio tecnológico hábil que assegure a sua ciência.\n(Incluído pela Lei nº 13.160, de 2015)\nºº\n§ 9o Não caberá remoção nos casos em que a irregularidade puder ser sanada no local da infração.\n(Incluído pela Lei nº 13.160, de 2015)\n§ 9º-A Quando não for possível sanar a irregularidade no local da infração, o veículo, desde que ofereça condições de segurança para circulação, será liberado e entregue a condutor regularmente habilitado, mediante recolhimento do Certificado de Licenciamento Anual, contra apresentação de recibo, assinalando-se ao condutor prazo razoável, não superior a quinze dias, para regularizar a situação, e será considerado notificado para essa finalidade na mesma ocasião.\n(Incluído pela Medida Provisória nº 1.050, de 2021)",
    "caput": "O veículo será removido, nos casos previstos neste Código, para o depósito fixado pelo órgão ou entidade competente, com circunscrição sobre a via."
   },
   {
@@ -28325,11 +28485,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165-A deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.",
+     "texto": "§ 3 Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165-A deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art277§3."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art277§3."
      ]
@@ -28342,8 +28511,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 277 O condutor de veículo automotor envolvido em sinistro de trânsito ou que for alvo de fiscalização de trânsito poderá ser submetido a teste, exame clínico, perícia ou outro procedimento que, por meios técnicos ou científicos, na forma disciplinada pelo Contran, permita certificar influência de álcool ou outra substância psicoativa que determine dependência.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 1o .\n(Revogado)\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 2o A infração prevista no art. 165 também poderá ser caracterizada mediante imagem, vídeo, constatação de sinais que indiquem, na forma disciplinada pelo Contran, alteração da capacidade psicomotora ou produção de quaisquer outras provas em direito admitidas.\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 3º Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165-A deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "Todo condutor de veículo automotor, envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito, sob suspeita de haver excedido os limites previstos no artigo anterior, será submetido a testes de alcoolemia, exames clínicos, perícia, ou outro exame que por meios técnicos ou científicos, em aparelhos homologados pelo CONTRAN, permitam certificar seu estado.\nParágrafo único. Medida correspondente aplica-se no caso de suspeita de uso de substância entorpecente, tóxica ou de efeitos análogos.\nTodo condutor de veículo automotor, envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito, sob suspeita de dirigir sob a influência de álcool será submetido a testes de alcoolemia, exames clínicos, perícia ou outro exame que, por meios técnicos ou científicos, em aparelhos homologados pelo CONTRAN, permitam certificar seu estado.\n(Redação dada pela Lei nº 11.275, de 2006)\nO condutor de veículo automotor envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito poderá ser submetido a teste, exame clínico, perícia ou outro procedimento que, por meios técnicos ou científicos, na forma disciplinada pelo Contran, permita certificar influência de álcool ou outra substância psicoativa que determine dependência.\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 1o Medida correspondente aplica-se no caso de suspeita de uso de substância entorpecente, tóxica ou de efeitos análogos.\n(Renumerado do parágrafo único pela Lei nº 11.275, de 2006)\n§ 2o No caso de recusa do condutor à realização dos testes, exames e da perícia previstos no caput deste artigo, a infração poderá ser caracterizada mediante a obtenção de outras provas em direito admitidas pelo agente de trânsito acerca dos notórios sinais de embriaguez, excitação ou torpor, resultantes do consumo de álcool ou entorpecentes, apresentados pelo condutor.\n(Incluído pela Lei nº 11.275, de 2006)\n§ 2o A infração prevista no art. 165 deste Código poderá ser caracterizada pelo agente de trânsito mediante a obtenção de outras provas em direito admitidas, acerca dos notórios sinais de embriaguez, excitação ou torpor apresentados pelo condutor.\n(Redação dada pela Lei nº 11.705, de 2008)\n§ 3o Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165 deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.\n(Incluído pela Lei nº 11.705, de 2008)",
+   "texto": "Art. 277 O condutor de veículo automotor envolvido em sinistro de trânsito ou que for alvo de fiscalização de trânsito poderá ser submetido a teste, exame clínico, perícia ou outro procedimento que, por meios técnicos ou científicos, na forma disciplinada pelo Contran, permita certificar influência de álcool ou outra substância psicoativa que determine dependência.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 1o .\n(Revogado)\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 2o A infração prevista no art. 165 também poderá ser caracterizada mediante imagem, vídeo, constatação de sinais que indiquem, na forma disciplinada pelo Contran, alteração da capacidade psicomotora ou produção de quaisquer outras provas em direito admitidas.\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 3 Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165-A deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "Todo condutor de veículo automotor, envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito, sob suspeita de haver excedido os limites previstos no artigo anterior, será submetido a testes de alcoolemia, exames clínicos, perícia, ou outro exame que por meios técnicos ou científicos, em aparelhos homologados pelo CONTRAN, permitam certificar seu estado.\nParágrafo único. Medida correspondente aplica-se no caso de suspeita de uso de substância entorpecente, tóxica ou de efeitos análogos.\nTodo condutor de veículo automotor, envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito, sob suspeita de dirigir sob a influência de álcool será submetido a testes de alcoolemia, exames clínicos, perícia ou outro exame que, por meios técnicos ou científicos, em aparelhos homologados pelo CONTRAN, permitam certificar seu estado.\n(Redação dada pela Lei nº 11.275, de 2006)\nO condutor de veículo automotor envolvido em acidente de trânsito ou que for alvo de fiscalização de trânsito poderá ser submetido a teste, exame clínico, perícia ou outro procedimento que, por meios técnicos ou científicos, na forma disciplinada pelo Contran, permita certificar influência de álcool ou outra substância psicoativa que determine dependência.\n(Redação dada pela Lei nº 12.760, de 2012)\n§ 1o Medida correspondente aplica-se no caso de suspeita de uso de substância entorpecente, tóxica ou de efeitos análogos.\n(Renumerado do parágrafo único pela Lei nº 11.275, de 2006)\n§ 2o No caso de recusa do condutor à realização dos testes, exames e da perícia previstos no caput deste artigo, a infração poderá ser caracterizada mediante a obtenção de outras provas em direito admitidas pelo agente de trânsito acerca dos notórios sinais de embriaguez, excitação ou torpor, resultantes do consumo de álcool ou entorpecentes, apresentados pelo condutor.\n(Incluído pela Lei nº 11.275, de 2006)\n§ 2o A infração prevista no art. 165 deste Código poderá ser caracterizada pelo agente de trânsito mediante a obtenção de outras provas em direito admitidas, acerca dos notórios sinais de embriaguez, excitação ou torpor apresentados pelo condutor.\n(Redação dada pela Lei nº 11.705, de 2008)\n§ 3o Serão aplicadas as penalidades e medidas administrativas estabelecidas no art. 165 deste Código ao condutor que se recusar a se submeter a qualquer dos procedimentos previstos no caput deste artigo.\n(Incluído pela Lei nº 11.705, de 2008)\nº",
    "caput": "O condutor de veículo automotor envolvido em sinistro de trânsito ou que for alvo de fiscalização de trânsito poderá ser submetido a teste, exame clínico, perícia ou outro procedimento que, por meios técnicos ou científicos, na forma disciplinada pelo Contran, permita certificar influência de álcool ou outra substância psicoativa que determine dependência."
   },
   {
@@ -29059,18 +29228,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art282a§1"
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 1 O proprietário ou o condutor autuado que optar pela notificação por meio eletrônico deverá manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.",
+     "texto": "§ 1º O proprietário ou o condutor autuado que optar pela notificação por meio eletrônico deverá manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -29092,18 +29252,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art282a§2"
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 2 Na hipótese de notificação por meio eletrônico, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico.",
+     "texto": "§ 2º Na hipótese de notificação por meio eletrônico, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -29127,11 +29278,20 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º O sistema previsto no caput será certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
+     "texto": "§ 3 O sistema previsto no caput será certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art282a§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art282a§3"
      ]
@@ -29170,8 +29330,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 282-A O proprietário do veículo ou o condutor autuado poderá optar por ser notificado por meio eletrônico se o órgão do Sistema Nacional de Trânsito responsável pela autuação oferecer essa opção.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nArt. 282-A O órgão do Sistema Nacional de Trânsito responsável pela autuação deverá oferecer ao proprietário do veículo ou ao condutor autuado a opção de notificação por meio eletrônico, na forma definida pelo Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n(Vide Lei nº 14.440, de 2022)\n(Vigência)\nº\n§ 1º O proprietário e o condutor autuado deverão manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\nº\n§ 2º Na hipótese de notificação prevista no caput deste artigo, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico e do envio da respectiva mensagem.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 3º O sistema previsto no caput será certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º A coordenação do sistema de que trata o caput deste artigo é de responsabilidade do órgão máximo executivo de trânsito da União.\n(Incluído pela Lei nº 14.440, de 2022)\n§ 5º\n(Vide Lei nº 14.440, de 2022)\n(Vigência)",
-   "textoHistorico": "§ 1 O proprietário ou o condutor autuado que optar pela notificação por meio eletrônico deverá manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2 Na hipótese de notificação por meio eletrônico, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "texto": "Art. 282-A O proprietário do veículo ou o condutor autuado poderá optar por ser notificado por meio eletrônico se o órgão do Sistema Nacional de Trânsito responsável pela autuação oferecer essa opção.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nArt. 282-A O órgão do Sistema Nacional de Trânsito responsável pela autuação deverá oferecer ao proprietário do veículo ou ao condutor autuado a opção de notificação por meio eletrônico, na forma definida pelo Contran.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n(Vide Lei nº 14.440, de 2022)\n(Vigência)\n§ 1º O proprietário e o condutor autuado deverão manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 2º Na hipótese de notificação prevista no caput deste artigo, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico e do envio da respectiva mensagem.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 3 O sistema previsto no caput será certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º A coordenação do sistema de que trata o caput deste artigo é de responsabilidade do órgão máximo executivo de trânsito da União.\n(Incluído pela Lei nº 14.440, de 2022)\n§ 5º\n(Vide Lei nº 14.440, de 2022)\n(Vigência)",
+   "textoHistorico": "§ 1º O proprietário ou o condutor autuado que optar pela notificação por meio eletrônico deverá manter seu cadastro atualizado no órgão executivo de trânsito do Estado ou do Distrito Federal.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º Na hipótese de notificação por meio eletrônico, o proprietário ou o condutor autuado será considerado notificado 30 (trinta) dias após a inclusão da informação no sistema eletrônico.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\nº",
    "caput": "O proprietário do veículo ou o condutor autuado poderá optar por ser notificado por meio eletrônico se o órgão do Sistema Nacional de Trânsito responsável pela autuação oferecer essa opção."
   },
   {
@@ -29233,18 +29393,9 @@
      ]
     },
     {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "º",
-     "notas": [],
-     "ancoras": [
-      "art284§1"
-     ]
-    },
-    {
      "tipo": "paragrafo",
      "situacao": "historico",
-     "texto": "§ 1 Caso o infrator opte pelo sistema de notificação eletrônica, se disponível, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.",
+     "texto": "§ 1º Caso o infrator opte pelo sistema de notificação eletrônica, se disponível, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -29290,7 +29441,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º O recolhimento do valor da multa não implica renúncia ao questionamento administrativo, que pode ser realizado a qualquer momento, respeitado o disposto no § 1º.",
+     "texto": "§ 2 O recolhimento do valor da multa não implica renúncia ao questionamento administrativo, que pode ser realizado a qualquer momento, respeitado o disposto no § 1.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -29300,9 +29451,18 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ºº",
+     "notas": [],
+     "ancoras": [
+      "art284§2"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º Não incidirá cobrança moratória e não poderá ser aplicada qualquer restrição, inclusive para fins de licenciamento e transferência, enquanto não for encerrada a instância administrativa de julgamento de infrações e penalidades.",
+     "texto": "§ 3 Não incidirá cobrança moratória e não poderá ser aplicada qualquer restrição, inclusive para fins de licenciamento e transferência, enquanto não for encerrada a instância administrativa de julgamento de infrações e penalidades.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -29312,13 +29472,31 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art284§3"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 4º Encerrada a instância administrativa de julgamento de infrações e penalidades, a multa não paga até o vencimento será acrescida de juros de mora equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais acumulada mensalmente, calculados a partir do mês subsequente ao da consolidação até o mês anterior ao do pagamento, e de 1% (um por cento) relativamente ao mês em que o pagamento estiver sendo efetuado.",
+     "texto": "§ 4 Encerrada a instância administrativa de julgamento de infrações e penalidades, a multa não paga até o vencimento será acrescida de juros de mora equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais acumulada mensalmente, calculados a partir do mês subsequente ao da consolidação até o mês anterior ao do pagamento, e de 1% (um por cento) relativamente ao mês em que o pagamento estiver sendo efetuado.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art284§4"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art284§4"
      ]
@@ -29370,8 +29548,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 284 O pagamento da multa poderá ser efetuado até a data do vencimento expressa na notificação, por oitenta por cento do seu valor.\nº\n§ 1º Caso o infrator declare pelo sistema de notificação eletrônica de que trata o art. 282-A deste Código a opção por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, o pagamento da multa poderá ser efetuado por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento do prazo de pagamento da multa, desde que a adesão ao sistema seja realizada antes do correspondente envio da notificação da autuação.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 2º O recolhimento do valor da multa não implica renúncia ao questionamento administrativo, que pode ser realizado a qualquer momento, respeitado o disposto no § 1º.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º Não incidirá cobrança moratória e não poderá ser aplicada qualquer restrição, inclusive para fins de licenciamento e transferência, enquanto não for encerrada a instância administrativa de julgamento de infrações e penalidades.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4º Encerrada a instância administrativa de julgamento de infrações e penalidades, a multa não paga até o vencimento será acrescida de juros de mora equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais acumulada mensalmente, calculados a partir do mês subsequente ao da consolidação até o mês anterior ao do pagamento, e de 1% (um por cento) relativamente ao mês em que o pagamento estiver sendo efetuado.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º O sistema de notificação eletrônica de que trata o art. 282-A deste Código deve disponibilizar, na mesma plataforma, campo destinado à apresentação de defesa prévia e de recurso, quando o infrator não reconhecer o cometimento da infração, na forma regulamentada pelo Contran.\n(Redação dada pela Lei nº 14.440, de 2022)\n§ 6º O desconto previsto no § 1º deste artigo será concedido ainda que o órgão responsável pela aplicação da penalidade de multa não tiver aderido ao sistema de notificação eletrônica de que trata o art. 282-A deste Código, desde que o infrator tenha cumprido os requisitos nele descritos.\n(Incluído pela Lei nº 14.599, de 2023)",
-   "textoHistorico": "Parágrafo único. Não ocorrendo o pagamento da multa no prazo estabelecido, seu valor será atualizado à data do pagamento, pelo mesmo número de UFIR fixado no art. 258.\n§ 1 Caso o infrator opte pelo sistema de notificação eletrônica, se disponível, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Caso o infrator opte pelo sistema de notificação eletrônica, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 1º Caso o infrator declare pelo sistema de notificação eletrônica de que trata o art. 282-A deste Código a opção por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, o pagamento da multa poderá ser efetuado por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento do prazo de pagamento da multa.\n(Redação dada pela Lei nº 14.440, de 2022)\n§ 5º O sistema de notificação eletrônica, referido no § 1º deste artigo, deve disponibilizar, na mesma plataforma, campo destinado à apresentação de defesa prévia e de recurso, quando o condutor não reconhecer o cometimento da infração, na forma regulamentada pelo Contran.\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)",
+   "texto": "Art. 284 O pagamento da multa poderá ser efetuado até a data do vencimento expressa na notificação, por oitenta por cento do seu valor.\n§ 1º Caso o infrator declare pelo sistema de notificação eletrônica de que trata o art. 282-A deste Código a opção por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, o pagamento da multa poderá ser efetuado por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento do prazo de pagamento da multa, desde que a adesão ao sistema seja realizada antes do correspondente envio da notificação da autuação.\n(Redação dada pela Lei nº 14.599, de 2023)\n§ 2 O recolhimento do valor da multa não implica renúncia ao questionamento administrativo, que pode ser realizado a qualquer momento, respeitado o disposto no § 1.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3 Não incidirá cobrança moratória e não poderá ser aplicada qualquer restrição, inclusive para fins de licenciamento e transferência, enquanto não for encerrada a instância administrativa de julgamento de infrações e penalidades.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 4 Encerrada a instância administrativa de julgamento de infrações e penalidades, a multa não paga até o vencimento será acrescida de juros de mora equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais acumulada mensalmente, calculados a partir do mês subsequente ao da consolidação até o mês anterior ao do pagamento, e de 1% (um por cento) relativamente ao mês em que o pagamento estiver sendo efetuado.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 5º O sistema de notificação eletrônica de que trata o art. 282-A deste Código deve disponibilizar, na mesma plataforma, campo destinado à apresentação de defesa prévia e de recurso, quando o infrator não reconhecer o cometimento da infração, na forma regulamentada pelo Contran.\n(Redação dada pela Lei nº 14.440, de 2022)\n§ 6º O desconto previsto no § 1º deste artigo será concedido ainda que o órgão responsável pela aplicação da penalidade de multa não tiver aderido ao sistema de notificação eletrônica de que trata o art. 282-A deste Código, desde que o infrator tenha cumprido os requisitos nele descritos.\n(Incluído pela Lei nº 14.599, de 2023)",
+   "textoHistorico": "Parágrafo único. Não ocorrendo o pagamento da multa no prazo estabelecido, seu valor será atualizado à data do pagamento, pelo mesmo número de UFIR fixado no art. 258.\n§ 1º Caso o infrator opte pelo sistema de notificação eletrônica, se disponível, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Caso o infrator opte pelo sistema de notificação eletrônica, conforme regulamentação do Contran, e opte por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, poderá efetuar o pagamento da multa por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento da multa.\n(Redação dada pela Lei nº 14.071, de 2020)\n(Vigência)\n§ 1º Caso o infrator declare pelo sistema de notificação eletrônica de que trata o art. 282-A deste Código a opção por não apresentar defesa prévia nem recurso, reconhecendo o cometimento da infração, o pagamento da multa poderá ser efetuado por 60% (sessenta por cento) do seu valor, em qualquer fase do processo, até o vencimento do prazo de pagamento da multa.\n(Redação dada pela Lei nº 14.440, de 2022)\nºº\nº\nº\n§ 5º O sistema de notificação eletrônica, referido no § 1º deste artigo, deve disponibilizar, na mesma plataforma, campo destinado à apresentação de defesa prévia e de recurso, quando o condutor não reconhecer o cometimento da infração, na forma regulamentada pelo Contran.\n(Incluído pela Lei nº 14.071, de 2020)\n(Vigência)",
    "caput": "O pagamento da multa poderá ser efetuado até a data do vencimento expressa na notificação, por oitenta por cento do seu valor."
   },
   {
@@ -32184,7 +32362,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.",
+     "texto": "§ 1 O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.",
      "notas": [
       "(Redação dada pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -32194,13 +32372,31 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art320§1"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º O órgão responsável deverá publicar, anualmente, na rede mundial de computadores (internet), dados sobre a receita arrecadada com a cobrança de multas de trânsito e sua destinação.",
+     "texto": "§ 2 O órgão responsável deverá publicar, anualmente, na rede mundial de computadores (internet), dados sobre a receita arrecadada com a cobrança de multas de trânsito e sua destinação.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art320§2"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
      "ancoras": [
       "art320§2"
      ]
@@ -32246,8 +32442,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 320 A receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante, em educação de trânsito e em custeio do processo de habilitação de condutores de baixa renda. Vigência\n(Redação dada pela Lei nº 15.153, de 2025)\n§ 1º O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º O órgão responsável deverá publicar, anualmente, na rede mundial de computadores (internet), dados sobre a receita arrecadada com a cobrança de multas de trânsito e sua destinação.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º O valor total destinado à recomposição das perdas de receita das concessionárias de rodovias e vias urbanas, em decorrência do não pagamento de pedágio por usuários da via, não poderá ultrapassar o montante total arrecadado por meio das multas aplicadas com fundamento no art. 209-A deste Código, ressalvado o previsto em regulamento do Poder Executivo.\n(Incluído pela Lei nº 14.157, de 2021)\n§ 4º O custeio do processo de habilitação de condutores a que se refere o caput deste artigo contemplará as taxas e demais despesas relativas ao processo de formação de condutores e de concessão do documento de habilitação para candidatos de baixa renda. Vigência\n(Incluído pela Lei nº 15.153, de 2025)\n§ 5º O candidato de baixa renda de que trata o § 4º deste artigo será caracterizado pela sua inclusão no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico). Vigência\n(Incluído pela Lei nº 15.153, de 2025)",
-   "textoHistorico": "A receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, engenharia de tráfego, de campo, policiamento, fiscalização e educação de trânsito.\nParágrafo único. O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.\nA receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante, em educação de trânsito, em melhoria das condições de trabalho dos profissionais do segmento de transporte rodoviário e da segurança e do desempenho ambiental da frota circulante.\n(Redação dada pela Medida Provisória nº 1.112, de 2022)\nA receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante e em educação de trânsito.\n(Redação dada pela Lei nº 14.440, de 2022)",
+   "texto": "Art. 320 A receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante, em educação de trânsito e em custeio do processo de habilitação de condutores de baixa renda. Vigência\n(Redação dada pela Lei nº 15.153, de 2025)\n§ 1 O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2 O órgão responsável deverá publicar, anualmente, na rede mundial de computadores (internet), dados sobre a receita arrecadada com a cobrança de multas de trânsito e sua destinação.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º O valor total destinado à recomposição das perdas de receita das concessionárias de rodovias e vias urbanas, em decorrência do não pagamento de pedágio por usuários da via, não poderá ultrapassar o montante total arrecadado por meio das multas aplicadas com fundamento no art. 209-A deste Código, ressalvado o previsto em regulamento do Poder Executivo.\n(Incluído pela Lei nº 14.157, de 2021)\n§ 4º O custeio do processo de habilitação de condutores a que se refere o caput deste artigo contemplará as taxas e demais despesas relativas ao processo de formação de condutores e de concessão do documento de habilitação para candidatos de baixa renda. Vigência\n(Incluído pela Lei nº 15.153, de 2025)\n§ 5º O candidato de baixa renda de que trata o § 4º deste artigo será caracterizado pela sua inclusão no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico). Vigência\n(Incluído pela Lei nº 15.153, de 2025)",
+   "textoHistorico": "A receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, engenharia de tráfego, de campo, policiamento, fiscalização e educação de trânsito.\nParágrafo único. O percentual de cinco por cento do valor das multas de trânsito arrecadadas será depositado, mensalmente, na conta de fundo de âmbito nacional destinado à segurança e educação de trânsito.\nA receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante, em educação de trânsito, em melhoria das condições de trabalho dos profissionais do segmento de transporte rodoviário e da segurança e do desempenho ambiental da frota circulante.\n(Redação dada pela Medida Provisória nº 1.112, de 2022)\nA receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante e em educação de trânsito.\n(Redação dada pela Lei nº 14.440, de 2022)\nº\nº",
    "caput": "A receita arrecadada com a cobrança das multas de trânsito será aplicada, exclusivamente, em sinalização, em engenharia de tráfego, em engenharia de campo, em policiamento, em fiscalização, em renovação de frota circulante, em educação de trânsito e em custeio do processo de habilitação de condutores de baixa renda. Vigência"
   },
   {
@@ -32454,7 +32650,7 @@
     {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 1º Os documentos previstos no caput poderão ser gerados e tramitados eletronicamente, bem como arquivados e armazenados em meio digital, desde que assegurada a autenticidade, a fidedignidade, a confiabilidade e a segurança das informações, e serão válidos para todos os efeitos legais, sendo dispensada, nesse caso, a sua guarda física.",
+     "texto": "§ 1 Os documentos previstos no caput poderão ser gerados e tramitados eletronicamente, bem como arquivados e armazenados em meio digital, desde que assegurada a autenticidade, a fidedignidade, a confiabilidade e a segurança das informações, e serão válidos para todos os efeitos legais, sendo dispensada, nesse caso, a sua guarda física.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -32464,9 +32660,18 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art325§1"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 2º O Contran regulamentará a geração, a tramitação, o arquivamento, o armazenamento e a eliminação de documentos eletrônicos e físicos gerados em decorrência da aplicação das disposições deste Código.",
+     "texto": "§ 2 O Contran regulamentará a geração, a tramitação, o arquivamento, o armazenamento e a eliminação de documentos eletrônicos e físicos gerados em decorrência da aplicação das disposições deste Código.",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
@@ -32476,13 +32681,31 @@
      ]
     },
     {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "º",
+     "notas": [],
+     "ancoras": [
+      "art325§2"
+     ]
+    },
+    {
      "tipo": "paragrafo",
      "situacao": "vigente",
-     "texto": "§ 3º Na hipótese prevista nos §§ 1º e 2º, o sistema deverá ser certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
+     "texto": "§ 3 Na hipótese prevista nos §§ 1 e 2, o sistema deverá ser certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
      "notas": [
       "(Incluído pela Lei nº 13.281, de 2016)",
       "(Vigência)"
      ],
+     "ancoras": [
+      "art325§3"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "situacao": "historico",
+     "texto": "ººº",
+     "notas": [],
      "ancoras": [
       "art325§3"
      ]
@@ -32495,8 +32718,8 @@
      "notas": []
     }
    },
-   "texto": "Art. 325 As repartições de trânsito conservarão por, no mínimo, 5 (cinco) anos os documentos relativos à habilitação de condutores, ao registro e ao licenciamento de veículos e aos autos de infração de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1º Os documentos previstos no caput poderão ser gerados e tramitados eletronicamente, bem como arquivados e armazenados em meio digital, desde que assegurada a autenticidade, a fidedignidade, a confiabilidade e a segurança das informações, e serão válidos para todos os efeitos legais, sendo dispensada, nesse caso, a sua guarda física.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2º O Contran regulamentará a geração, a tramitação, o arquivamento, o armazenamento e a eliminação de documentos eletrônicos e físicos gerados em decorrência da aplicação das disposições deste Código.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3º Na hipótese prevista nos §§ 1º e 2º, o sistema deverá ser certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
-   "textoHistorico": "As repartições de trânsito conservarão por cinco anos os documentos relativos à habilitação de condutores e ao registro e licenciamento de veículos, podendo ser microfilmados ou armazenados em meio magnético ou óptico para todos os efeitos legais.",
+   "texto": "Art. 325 As repartições de trânsito conservarão por, no mínimo, 5 (cinco) anos os documentos relativos à habilitação de condutores, ao registro e ao licenciamento de veículos e aos autos de infração de trânsito.\n(Redação dada pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 1 Os documentos previstos no caput poderão ser gerados e tramitados eletronicamente, bem como arquivados e armazenados em meio digital, desde que assegurada a autenticidade, a fidedignidade, a confiabilidade e a segurança das informações, e serão válidos para todos os efeitos legais, sendo dispensada, nesse caso, a sua guarda física.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 2 O Contran regulamentará a geração, a tramitação, o arquivamento, o armazenamento e a eliminação de documentos eletrônicos e físicos gerados em decorrência da aplicação das disposições deste Código.\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)\n§ 3 Na hipótese prevista nos §§ 1 e 2, o sistema deverá ser certificado digitalmente, atendidos os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).\n(Incluído pela Lei nº 13.281, de 2016)\n(Vigência)",
+   "textoHistorico": "As repartições de trânsito conservarão por cinco anos os documentos relativos à habilitação de condutores e ao registro e licenciamento de veículos, podendo ser microfilmados ou armazenados em meio magnético ou óptico para todos os efeitos legais.\nº\nº\nººº",
    "caput": "As repartições de trânsito conservarão por, no mínimo, 5 (cinco) anos os documentos relativos à habilitação de condutores, ao registro e ao licenciamento de veículos e aos autos de infração de trânsito."
   },
   {

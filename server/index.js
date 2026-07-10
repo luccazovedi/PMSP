@@ -10,6 +10,7 @@ const RAIZ = path.join(__dirname, '..');
 const LEIS = {
   cp: { arquivo: 'codigo-penal.json' },
   ctb: { arquivo: 'ctb.json' },
+  rdpm: { arquivo: 'rdpm.json' },
 };
 
 for (const [id, cfg] of Object.entries(LEIS)) {
@@ -44,13 +45,13 @@ app.use('/api', (req, res, next) => {
 
 app.get('/api', (req, res) => {
   res.json({
-    nome: 'API de Legislação — Código Penal e Código de Trânsito Brasileiro',
+    nome: 'API de Legislação — Código Penal, CTB e RDPM da PMESP',
     leis: Object.fromEntries(
       Object.entries(LEIS).map(([id, cfg]) => [id, { ...cfg.dados.meta, totalArtigos: cfg.dados.artigos.length }]),
     ),
     rotas: {
       'GET /api': 'Esta descrição',
-      'GET /api/:lei/lei': 'Metadados, preâmbulo, fecho e anexos (lei = cp | ctb)',
+      'GET /api/:lei/lei': 'Metadados, preâmbulo, fecho e anexos (lei = cp | ctb | rdpm)',
       'GET /api/:lei/estrutura': 'Árvore hierárquica com os números dos artigos',
       'GET /api/:lei/artigos': 'Lista completa de artigos (aceita ?limit e ?offset)',
       'GET /api/:lei/artigos/:numero': 'Um artigo pelo número (ex.: 121, 165-A, anexo-i)',
