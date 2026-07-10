@@ -99,5 +99,64 @@ export function criarConsulta(lei) {
     return { tipo: 'texto', consulta: q, total: resultados.length, resultados };
   }
 
-  return { artigo, buscar };
+  /**
+   * Sugestões rápidas ("relacionados") para exibir enquanto o usuário digita.
+   * Prioridade: número do artigo > rubrica que começa pelo termo > rubrica que
+   * contém o termo > texto que contém o termo (ordenado por ocorrências).
+   */
+  function sugerir(consulta, limite = 8) {
+    const q = String(consulta || '').trim();
+    if (q.length < 1) return [];
+    const termo = normalizar(q);
+
+    const resumo = (art) => ({
+      numero: art.numero,
+      rotulo: art.rotulo,
+      situacao: art.situacao,
+      rubricas: art.rubricas,
+      descricao: art.rubricas[0] || (art.caput ? art.caput.slice(0, 90) : ''),
+    });
+
+    // Termo numérico: sugere artigos cujo número começa pelos dígitos digitados
+    const soNumero = termo.match(/^(?:art(?:igo)?\.?\s*)?(\d+)\s*-?\s*([a-z])?$/i);
+    if (soNumero) {
+      const prefixo = soNumero[1];
+      const sufixo = (soNumero[2] || '').toUpperCase();
+      const exatos = [];
+      const comecam = [];
+      for (const { artigo: art } of indice) {
+        const [base, letra] = art.numero.split('-');
+        if (base === prefixo && (!sufixo || (letra || '').startsWith(sufixo))) exatos.push(resumo(art));
+        else if (!sufixo && base.startsWith(prefixo)) comecam.push(resumo(art));
+      }
+      comecam.sort((a, b) => parseInt(a.numero, 10) - parseInt(b.numero, 10) || a.numero.localeCompare(b.numero));
+      return [...exatos, ...comecam].slice(0, limite);
+    }
+
+    if (termo.length < 2) return [];
+
+    const grupos = [[], [], []]; // começa na rubrica | contém na rubrica | contém no texto
+    for (const { artigo: art, textoNorm, rubricasNorm } of indice) {
+      const naRubrica = rubricasNorm.indexOf(termo);
+      if (naRubrica !== -1) {
+        const comeca = art.rubricas.some((r) => normalizar(r).startsWith(termo));
+        grupos[comeca ? 0 : 1].push({
+          ...resumo(art),
+          descricao: art.rubricas.find((r) => normalizar(r).includes(termo)) || art.rubricas[0] || '',
+        });
+        continue;
+      }
+      const pos = textoNorm.indexOf(termo);
+      if (pos !== -1) {
+        const ini = Math.max(0, pos - 30);
+        grupos[2].push({
+          ...resumo(art),
+          descricao: (ini > 0 ? '…' : '') + art.texto.slice(ini, pos + termo.length + 60).replace(/\n/g, ' ') + '…',
+        });
+      }
+    }
+    return [...grupos[0], ...grupos[1], ...grupos[2]].slice(0, limite);
+  }
+
+  return { artigo, buscar, sugerir };
 }

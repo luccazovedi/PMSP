@@ -49,8 +49,14 @@ body {
   margin: 0 auto;
 }
 
-.busca input {
+.campo-wrap {
+  position: relative;
   flex: 1;
+  text-align: left;
+}
+
+.busca input {
+  width: 100%;
   padding: 13px 16px;
   font-size: 1rem;
   font-family: inherit;
@@ -77,6 +83,53 @@ body {
 }
 
 .busca button:hover { background: #0e3d21; }
+
+.sugestoes {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--papel);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(30, 36, 48, 0.12);
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.sugestoes li {
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.sugestoes li:hover,
+.sugestoes li.ativa {
+  background: var(--destaque-claro);
+}
+
+.sugestoes .sug-rotulo {
+  font-weight: bold;
+  color: var(--destaque);
+  white-space: nowrap;
+}
+
+.sugestoes .sug-descricao {
+  font-size: 0.85rem;
+  color: var(--tinta-suave);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sugestoes .selo-revogado { flex-shrink: 0; }
 
 .resumo {
   min-height: 1.4em;

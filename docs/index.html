@@ -16,13 +16,20 @@
     </p>
 
     <form id="form-busca" class="busca" autocomplete="off">
-      <input
-        id="campo-busca"
-        type="search"
-        placeholder="Busque um artigo (ex.: 121, 157, 121-A) ou uma palavra (ex.: furto, arma de fogo)"
-        aria-label="Buscar artigo ou palavra"
-        required
-      >
+      <div class="campo-wrap">
+        <input
+          id="campo-busca"
+          type="search"
+          placeholder="Busque um artigo (ex.: 121, 157, 121-A) ou uma palavra (ex.: furto, arma de fogo)"
+          aria-label="Buscar artigo ou palavra"
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="sugestoes"
+          aria-autocomplete="list"
+          required
+        >
+        <ul id="sugestoes" class="sugestoes" role="listbox" hidden></ul>
+      </div>
       <button type="submit">Buscar</button>
     </form>
     <p id="resumo" class="resumo" role="status"></p>

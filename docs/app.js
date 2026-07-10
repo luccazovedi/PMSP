@@ -155,11 +155,87 @@ async function carregar() {
 
 const carregamento = carregar();
 
-form.addEventListener('submit', async (evento) => {
-  evento.preventDefault();
-  const termo = campo.value.trim();
-  if (!termo) return;
+// ---------------------------------------------------------------------------
+// Sugestões enquanto digita ("relacionados")
+// ---------------------------------------------------------------------------
 
+const listaSugestoes = document.getElementById('sugestoes');
+let sugestoesAtuais = [];
+let sugestaoAtiva = -1;
+let debounceSugestao = null;
+
+function fecharSugestoes() {
+  listaSugestoes.hidden = true;
+  listaSugestoes.replaceChildren();
+  campo.setAttribute('aria-expanded', 'false');
+  sugestoesAtuais = [];
+  sugestaoAtiva = -1;
+}
+
+function marcarAtiva(indice) {
+  sugestaoAtiva = indice;
+  [...listaSugestoes.children].forEach((li, i) => li.classList.toggle('ativa', i === indice));
+}
+
+function escolherSugestao(s) {
+  campo.value = s.numero;
+  fecharSugestoes();
+  executarBusca(s.numero);
+}
+
+function mostrarSugestoes(itens) {
+  if (!itens.length) { fecharSugestoes(); return; }
+  sugestoesAtuais = itens;
+  sugestaoAtiva = -1;
+  listaSugestoes.replaceChildren();
+  for (const s of itens) {
+    const li = el('li');
+    li.setAttribute('role', 'option');
+    li.appendChild(el('span', 'sug-rotulo', s.rotulo));
+    if (s.situacao === 'revogado') li.appendChild(el('span', 'selo-revogado', 'REVOGADO'));
+    if (s.descricao) li.appendChild(el('span', 'sug-descricao', s.descricao));
+    // mousedown para vencer o blur do campo
+    li.addEventListener('mousedown', (e) => { e.preventDefault(); escolherSugestao(s); });
+    listaSugestoes.appendChild(li);
+  }
+  listaSugestoes.hidden = false;
+  campo.setAttribute('aria-expanded', 'true');
+}
+
+campo.addEventListener('input', () => {
+  clearTimeout(debounceSugestao);
+  const valor = campo.value.trim();
+  if (!valor) { fecharSugestoes(); return; }
+  debounceSugestao = setTimeout(async () => {
+    const consulta = consultaPronta || (await carregamento);
+    if (!consulta || campo.value.trim() !== valor) return;
+    mostrarSugestoes(consulta.sugerir(valor, 8));
+  }, 120);
+});
+
+campo.addEventListener('keydown', (evento) => {
+  if (listaSugestoes.hidden || !sugestoesAtuais.length) return;
+  if (evento.key === 'ArrowDown') {
+    evento.preventDefault();
+    marcarAtiva((sugestaoAtiva + 1) % sugestoesAtuais.length);
+  } else if (evento.key === 'ArrowUp') {
+    evento.preventDefault();
+    marcarAtiva((sugestaoAtiva - 1 + sugestoesAtuais.length) % sugestoesAtuais.length);
+  } else if (evento.key === 'Enter' && sugestaoAtiva >= 0) {
+    evento.preventDefault();
+    escolherSugestao(sugestoesAtuais[sugestaoAtiva]);
+  } else if (evento.key === 'Escape') {
+    fecharSugestoes();
+  }
+});
+
+campo.addEventListener('blur', () => setTimeout(fecharSugestoes, 150));
+
+// ---------------------------------------------------------------------------
+// Busca
+// ---------------------------------------------------------------------------
+
+async function executarBusca(termo) {
   const consulta = consultaPronta || (await carregamento);
   if (!consulta) return;
 
@@ -183,4 +259,11 @@ form.addEventListener('submit', async (evento) => {
   for (const r of dados.resultados) {
     resultados.appendChild(renderResultadoBusca(r, termo, consulta));
   }
+}
+
+form.addEventListener('submit', (evento) => {
+  evento.preventDefault();
+  fecharSugestoes();
+  const termo = campo.value.trim();
+  if (termo) executarBusca(termo);
 });
