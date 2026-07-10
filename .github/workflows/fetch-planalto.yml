@@ -1,10 +1,12 @@
 name: Atualizar dados do Planalto
 
-# Baixa o HTML oficial do Código Penal, regera o JSON estruturado, valida e
-# commita. Rode manualmente (workflow_dispatch) sempre que quiser sincronizar
-# com o texto vigente no Planalto.
+# Baixa o HTML oficial das leis, regera o JSON estruturado, valida e commita.
+# Rode manualmente (workflow_dispatch) sempre que quiser sincronizar com o
+# texto vigente no Planalto.
 on:
   workflow_dispatch:
+  push:
+    paths: ['.github/workflows/fetch-planalto.yml']
 
 jobs:
   atualizar:
@@ -18,13 +20,16 @@ jobs:
         with:
           node-version: 22
 
-      - name: Baixar HTML do Código Penal (Planalto)
+      - name: Baixar HTML das leis (Planalto)
         run: |
           mkdir -p data/fonte
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
           curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
             "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm" \
             -o data/fonte/del2848.htm
+          curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
+            "https://www.planalto.gov.br/ccivil_03/leis/l9503.htm" \
+            -o data/fonte/l9503.htm
 
       - name: Regerar e validar o JSON e o site estático
         run: |
