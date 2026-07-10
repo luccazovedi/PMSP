@@ -5,7 +5,7 @@
   "ementa": "Código Penal.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm",
   "fonteSha256": "d405d020f56fbbd5f817a61f888fc712783eb67fccc88160ab5ea52e86973ae4",
-  "geradoEm": "2026-07-10T16:07:55.116Z",
+  "geradoEm": "2026-07-10T16:13:16.422Z",
   "notasGerais": [
    "(Vide Lei nº 1.521, de 1951)",
    "(Vide Lei nº 5.741, de 1971)",
@@ -662,8 +662,8 @@
        },
        {
         "tipo": "capitulo",
-        "rotulo": "CAPÍTULO I",
-        "nome": "-A",
+        "rotulo": "CAPÍTULO I-A",
+        "nome": "DA EXPOSIÇÃO DA INTIMIDADE SEXUAL",
         "filhos": [],
         "artigos": [
          "216-B"
@@ -939,7 +939,15 @@
          "308",
          "309",
          "310",
-         "311",
+         "311"
+        ]
+       },
+       {
+        "tipo": "capitulo",
+        "rotulo": "CAPÍTULO V",
+        "nome": null,
+        "filhos": [],
+        "artigos": [
          "311-A"
         ]
        }
@@ -1000,8 +1008,8 @@
        },
        {
         "tipo": "capitulo",
-        "rotulo": "CAPÍTULO II",
-        "nome": "-A",
+        "rotulo": "CAPÍTULO II-A",
+        "nome": "DOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
         "filhos": [],
         "artigos": [
          "337-B",
@@ -1011,8 +1019,8 @@
        },
        {
         "tipo": "capitulo",
-        "rotulo": "CAPÍTULO II",
-        "nome": "-B",
+        "rotulo": "CAPÍTULO II-B",
+        "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
         "filhos": [],
         "artigos": [
          "337-E",
@@ -1181,8 +1189,7 @@
      "ancoras": [
       "c1",
       "art1."
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -1213,8 +1220,7 @@
      "notas": [],
      "ancoras": [
       "art1"
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Anterioridade da Lei\nArt. 1 Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -1245,8 +1251,7 @@
      "ancoras": [
       "c2",
       "art2"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -1288,8 +1293,7 @@
      "notas": [],
      "ancoras": [
       "art2."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -1331,8 +1335,7 @@
      "ancoras": [
       "c3",
       "art3"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -1357,8 +1360,7 @@
      "notas": [],
      "ancoras": [
       "art3."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Lei excepcional ou temporária\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nArt. 3 A lei excepcional ou temporária, embora decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, aplica-se ao fato praticado durante sua vigência.\n(Redação dada pela Lei nº 7.209, de 1984)",
@@ -1389,8 +1391,7 @@
      "ancoras": [
       "c4",
       "art4"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -1421,8 +1422,7 @@
      "notas": [],
      "ancoras": [
       "art4."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Tempo do crime\nArt. 4 Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.\n(Redação dada pela Lei nº 7.209, de 1984)",
@@ -1453,8 +1453,7 @@
      "ancoras": [
       "c5",
       "art5"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -1503,8 +1502,7 @@
      "notas": [],
      "ancoras": [
       "art5."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -1699,8 +1697,7 @@
      "ancoras": [
       "c6",
       "art6"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -1731,8 +1728,7 @@
      "notas": [],
      "ancoras": [
       "art6."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Lugar do crime\n(Redação dada pela Lei nº 7.209, de 1984)\nArt. 6 Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado.\n(Redação dada pela Lei nº 7.209, de 1984)",
@@ -1765,8 +1761,7 @@
      "ancoras": [
       "c7",
       "art7"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -2002,8 +1997,7 @@
      "notas": [],
      "ancoras": [
       "art7."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -2081,8 +2075,7 @@
      "ancoras": [
       "c8",
       "art8"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2113,8 +2106,7 @@
      "notas": [],
      "ancoras": [
       "art8."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -2161,8 +2153,7 @@
      "ancoras": [
       "c9",
       "art9"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -2242,8 +2233,7 @@
      "notas": [],
      "ancoras": [
       "art9."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Eficácia de sentença estrangeira\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 9 A sentença estrangeira, quando a aplicação da lei brasileira produz na espécie as mesmas conseqüências, pode ser homologada no Brasil para:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - obrigar o condenado à reparação do dano, a restituições e a outros efeitos civis;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nII - sujeitá-lo a medida de segurança.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - A homologação depende:\n(Incluído pela Lei nº 7.209, de 11.7.1984)\na) para os efeitos previstos no inciso I, de pedido da parte interessada;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nb) para os outros efeitos, da existência de tratado de extradição com o país de cuja autoridade judiciária emanou a sentença, ou, na falta de tratado, de requisição do Ministro da Justiça.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -2276,8 +2266,7 @@
      "ancoras": [
       "c10",
       "art10"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2308,8 +2297,7 @@
      "notas": [],
      "ancoras": [
       "art10."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Contagem de prazo\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 10 O dia do começo inclui-se no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -2342,8 +2330,7 @@
      "ancoras": [
       "c11",
       "art11"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2386,8 +2373,7 @@
      "notas": [],
      "ancoras": [
       "art11."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -2433,8 +2419,7 @@
      "ancoras": [
       "c12",
       "art12"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2459,8 +2444,7 @@
      "notas": [],
      "ancoras": [
       "art12."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -2545,8 +2529,7 @@
      "ancoras": [
       "c13",
       "art13"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -2640,8 +2623,7 @@
      "notas": [],
      "ancoras": [
       "art13."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Relação de causalidade\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 13 O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nSuperveniência de causa independente\n(Incluído pela Lei nº 7.209, de 11.7.1984)\n§ 1º - A superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nRelevância da omissão\n(Incluído pela Lei nº 7.209, de 11.7.1984)\n§ 2º - A omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. O dever de agir incumbe a quem:\n(Incluído pela Lei nº 7.209, de 11.7.1984)\na) tenha por lei obrigação de cuidado, proteção ou vigilância;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nb) de outra forma, assumiu a responsabilidade de impedir o resultado;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nc) com seu comportamento anterior, criou o risco da ocorrência do resultado.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -2668,8 +2650,7 @@
      "ancoras": [
       "c14",
       "art14"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -2755,8 +2736,7 @@
      "notas": [],
      "ancoras": [
       "art14."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Art. 14 Diz-se o crime:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nCrime consumado\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nI - consumado, quando nele se reúnem todos os elementos de sua definição legal;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nTentativa\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nII - tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nPena de tentativa\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída de um a dois terços.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -2789,8 +2769,7 @@
      "ancoras": [
       "c15",
       "art15"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2819,8 +2798,7 @@
      "notas": [],
      "ancoras": [
       "art15."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -2887,8 +2865,7 @@
      "ancoras": [
       "c16",
       "art16"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2911,8 +2888,7 @@
      "notas": [],
      "ancoras": [
       "art16."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Arrependimento posterior\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 16 Nos crimes cometidos sem violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -2945,8 +2921,7 @@
      "ancoras": [
       "c17",
       "art17"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -2975,8 +2950,7 @@
      "notas": [],
      "ancoras": [
       "art17."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3048,8 +3022,7 @@
      "ancoras": [
       "c18",
       "art18"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3123,8 +3096,7 @@
      "notas": [],
      "ancoras": [
       "art18."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Art. 18 Diz-se o crime:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nCrime doloso\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nI - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nCrime culposo\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nII - culposo, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - Salvo os casos expressos em lei, ninguém pode ser punido por fato previsto como crime, senão quando o pratica dolosamente.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -3157,8 +3129,7 @@
      "ancoras": [
       "c19",
       "art19"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -3187,8 +3158,7 @@
      "notas": [],
      "ancoras": [
       "art19."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -3251,8 +3221,7 @@
      "ancoras": [
       "c20",
       "art20"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3334,8 +3303,7 @@
      "notas": [],
      "ancoras": [
       "art20."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -3386,8 +3354,7 @@
      "ancoras": [
       "c21",
       "art21"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -3425,8 +3392,7 @@
      "notas": [],
      "ancoras": [
       "art21."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3474,8 +3440,7 @@
      "ancoras": [
       "c22",
       "art22"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -3516,8 +3481,7 @@
      "notas": [],
      "ancoras": [
       "art22."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3566,8 +3530,7 @@
      "ancoras": [
       "c23",
       "art23"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -3649,8 +3612,7 @@
      "notas": [],
      "ancoras": [
       "art23."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Exclusão de ilicitude\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 23 Não há crime quando o agente pratica o fato:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - em estado de necessidade;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nII - em legítima defesa;\n(Incluído pela Lei nº 7.209, de 11.7.1984)\n(Vide ADPF 779)\nIII - em estrito cumprimento de dever legal ou no exercício regular de direito.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nExcesso punível\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - O agente, em qualquer das hipóteses deste artigo, responderá pelo excesso doloso ou culposo.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -3681,8 +3643,7 @@
      "ancoras": [
       "c24",
       "art24"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -3733,8 +3694,7 @@
      "notas": [],
      "ancoras": [
       "art24."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -3802,8 +3762,7 @@
      "ancoras": [
       "c25",
       "art25"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -3856,8 +3815,7 @@
      "notas": [],
      "ancoras": [
       "art25."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Legítima defesa\nArt. 25 Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n(Vide ADPF 779)\nParágrafo único. Observados os requisitos previstos no caput deste artigo, considera-se também em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes.\n(Incluído pela Lei nº 13.964, de 2019)\n(Vide ADPF 779)",
@@ -3889,8 +3847,7 @@
      "ancoras": [
       "c26",
       "art26"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -3936,8 +3893,7 @@
      "notas": [],
      "ancoras": [
       "art26."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Inimputáveis\nArt. 26 É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nRedução de pena\nParágrafo único - A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -3968,8 +3924,7 @@
      "ancoras": [
       "c27",
       "art27"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -3998,8 +3953,7 @@
      "notas": [],
      "ancoras": [
       "art27."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Menores de dezoito anos\nArt. 27 Os menores de 18 (dezoito) anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -4031,8 +3985,7 @@
      "ancoras": [
       "c28",
       "art28"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -4135,8 +4088,7 @@
      "notas": [],
      "ancoras": [
       "art28."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -4209,8 +4161,7 @@
      "ancoras": [
       "c29",
       "art29"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -4255,8 +4206,7 @@
      "notas": [],
      "ancoras": [
       "art29.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -4332,8 +4282,7 @@
      "ancoras": [
       "c30",
       "art30"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -4356,8 +4305,7 @@
      "notas": [],
      "ancoras": [
       "art30.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -4413,8 +4361,7 @@
      ],
      "ancoras": [
       "art30."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -4753,8 +4700,7 @@
      "ancoras": [
       "c31",
       "art31"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -4783,8 +4729,7 @@
      "notas": [],
      "ancoras": [
       "art31."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -4827,8 +4772,7 @@
      "ancoras": [
       "c32",
       "art32"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -4889,8 +4833,7 @@
      "notas": [],
      "ancoras": [
       "art32."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -4930,8 +4873,7 @@
      "ancoras": [
       "c33",
       "art33"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5068,8 +5010,7 @@
      "notas": [],
      "ancoras": [
       "art33."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Reclusão e detenção\nArt. 33 A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção, em regime semi-aberto, ou aberto, salvo necessidade de transferência a regime fechado.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 1º - Considera-se:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\na) regime fechado a execução da pena em estabelecimento de segurança máxima ou média;\nb) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar;\nc) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado.\n§ 2º - As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\na) o condenado a pena superior a 8 (oito) anos deverá começar a cumpri-la em regime fechado;\nb) o condenado não reincidente, cuja pena seja superior a 4 (quatro) anos e não exceda a 8 (oito), poderá, desde o princípio, cumpri-la em regime semi-aberto;\nc) o condenado não reincidente, cuja pena seja igual ou inferior a 4 (quatro) anos, poderá, desde o início, cumpri-la em regime aberto.\n§ 3º - A determinação do regime inicial de cumprimento da pena far-se-á com observância dos critérios previstos no art. 59 deste Código.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 4 o O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais.\n(Incluído pela Lei nº 10.763, de 12.11.2003)",
@@ -5100,8 +5041,7 @@
      "ancoras": [
       "c34",
       "art34"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5173,8 +5113,7 @@
      "notas": [],
      "ancoras": [
       "art34."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Regras do regime fechado\nArt. 34 O condenado será submetido, no início do cumprimento da pena, a exame criminológico de classificação para individualização da execução.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 1º - O condenado fica sujeito a trabalho no período diurno e a isolamento durante o repouso noturno.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 2º - O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da pena.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 3º - O trabalho externo é admissível, no regime fechado, em serviços ou obras públicas.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -5205,8 +5144,7 @@
      "ancoras": [
       "c35",
       "art35"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5279,8 +5217,7 @@
      "notas": [],
      "ancoras": [
       "art35."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Regras do regime semi-aberto\nArt. 35 Aplica-se a norma do art. 34 deste Código, caput, ao condenado que inicie o cumprimento da pena em regime semi-aberto.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 1º - O condenado fica sujeito a trabalho em comum durante o período diurno, em colônia agrícola, industrial ou estabelecimento similar.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 2º - O trabalho externo é admissível, bem como a freqüência a cursos supletivos profissionalizantes, de instrução de segundo grau ou superior.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -5311,8 +5248,7 @@
      "ancoras": [
       "c36",
       "art36"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5373,8 +5309,7 @@
      "notas": [],
      "ancoras": [
       "art36."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5414,8 +5349,7 @@
      "ancoras": [
       "c37",
       "art37"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5454,8 +5388,7 @@
      "notas": [],
      "ancoras": [
       "art37."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -5525,8 +5458,7 @@
      "ancoras": [
       "c38",
       "art38"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5565,8 +5497,7 @@
      "notas": [],
      "ancoras": [
       "art38."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -5612,8 +5543,7 @@
      "ancoras": [
       "c39",
       "art39"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5652,8 +5582,7 @@
      "notas": [],
      "ancoras": [
       "art39."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -5693,8 +5622,7 @@
      "ancoras": [
       "c40",
       "art40"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5733,8 +5661,7 @@
      "notas": [],
      "ancoras": [
       "art40."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Legislação especial\nArt. 40 A legislação especial regulará a matéria prevista nos arts. 38 e 39 deste Código, bem como especificará os deveres e direitos do preso, os critérios para revogação e transferência dos regimes e estabelecerá as infrações disciplinares e correspondentes sanções.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -5765,8 +5692,7 @@
      "ancoras": [
       "c41",
       "art41"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5805,8 +5731,7 @@
      "notas": [],
      "ancoras": [
       "art41."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Superveniência de doença mental\nArt. 41 O condenado a quem sobrevém doença mental deve ser recolhido a hospital de custódia e tratamento psiquiátrico ou, à falta, a outro estabelecimento adequado.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -5837,8 +5762,7 @@
      "ancoras": [
       "c42",
       "art42"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -5889,8 +5813,7 @@
      "notas": [],
      "ancoras": [
       "art42."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -5938,8 +5861,7 @@
      ],
      "ancoras": [
       "art43."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -5973,8 +5895,7 @@
      "ancoras": [
       "c43",
       "art43"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6079,8 +6000,7 @@
      "notas": [],
      "ancoras": [
       "art43.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -6111,8 +6031,7 @@
      ],
      "ancoras": [
       "art44"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6168,8 +6087,7 @@
      "ancoras": [
       "c44",
       "art44."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6296,8 +6214,7 @@
      "notas": [],
      "ancoras": [
       "art44.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6442,8 +6359,7 @@
      ],
      "ancoras": [
       "art45"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6486,8 +6402,7 @@
      "ancoras": [
       "c45",
       "art45."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -6570,8 +6485,7 @@
      "notas": [],
      "ancoras": [
       "art45.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6637,8 +6551,7 @@
      ],
      "ancoras": [
       "art46"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -6661,8 +6574,7 @@
      "ancoras": [
       "c46",
       "art46."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -6745,8 +6657,7 @@
      "notas": [],
      "ancoras": [
       "art46.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -6838,8 +6749,7 @@
      "ancoras": [
       "c47",
       "art47"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6933,8 +6843,7 @@
      "notas": [],
      "ancoras": [
       "art47.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -6963,8 +6872,7 @@
      ],
      "ancoras": [
       "art47."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Interdição temporária de direitos\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nArt. 47 As penas de interdição temporária de direitos são:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - proibição do exercício de cargo, função ou atividade pública, bem como de mandato eletivo;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nII - proibição do exercício de profissão, atividade ou ofício que dependam de habilitação especial, de licença ou autorização do poder público;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nIII - suspensão de autorização ou de habilitação para dirigir veículo.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\nIV - proibição de freqüentar determinados lugares.\n(Incluído pela Lei nº 9.714, de 1998)\nV - proibição de inscrever-se em concurso, avaliação ou exame públicos.\n(Incluído pela Lei nº 12.550, de 2011)",
@@ -6995,8 +6903,7 @@
      "ancoras": [
       "c48",
       "art48"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -7046,8 +6953,7 @@
      "notas": [],
      "ancoras": [
       "art48."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -7174,8 +7080,7 @@
      "ancoras": [
       "c49",
       "art49"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -7236,8 +7141,7 @@
      "notas": [],
      "ancoras": [
       "art49."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Multa\nArt. 49 A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de 10 (dez) e, no máximo, de 360 (trezentos e sessenta) dias-multa.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 1º - O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a 5 (cinco) vezes esse salário.\n(Incluído pela Lei nº 7.209, de 11.7.1984)\n§ 2º - O valor da multa será atualizado, quando da execução, pelos índices de correção monetária.\n(Incluído pela Lei nº 7.209, de 11.7.1984)",
@@ -7268,8 +7172,7 @@
      "ancoras": [
       "c50",
       "art50"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -7363,8 +7266,7 @@
      "notas": [],
      "ancoras": [
       "art50."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -7406,8 +7308,7 @@
      ],
      "ancoras": [
       "art51"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -7458,8 +7359,7 @@
      ],
      "ancoras": [
       "art51."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -7472,8 +7372,7 @@
      "ancoras": [
       "c51",
       "art51.0"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7512,8 +7411,7 @@
      "notas": [],
      "ancoras": [
       "art51.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -7574,8 +7472,7 @@
      "ancoras": [
       "c52",
       "art52"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7614,8 +7511,7 @@
      "notas": [],
      "ancoras": [
       "art52."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Suspensão da execução da multa\nArt. 52 É suspensa a execução da pena de multa, se sobrevém ao condenado doença mental.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -7646,8 +7542,7 @@
      "ancoras": [
       "c53",
       "art53"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7681,8 +7576,7 @@
      "notas": [],
      "ancoras": [
       "art53."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Penas privativas de liberdade\nArt. 53 As penas privativas de liberdade têm seus limites estabelecidos na sanção correspondente a cada tipo legal de crime.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -7713,8 +7607,7 @@
      "ancoras": [
       "c54",
       "art54"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7748,8 +7641,7 @@
      "notas": [],
      "ancoras": [
       "art54."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Penas restritivas de direitos\nArt. 54 As penas restritivas de direitos são aplicáveis, independentemente de cominação na parte especial, em substituição à pena privativa de liberdade, fixada em quantidade inferior a 1 (um) ano, ou nos crimes culposos.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -7771,8 +7663,7 @@
      ],
      "ancoras": [
       "art55"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -7784,8 +7675,7 @@
      "ancoras": [
       "c55",
       "art55."
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7819,8 +7709,7 @@
      "notas": [],
      "ancoras": [
       "art55.."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Art. 55 As penas restritivas de direitos referidas nos incisos III, IV, V e VI do art. 43 terão a mesma duração da pena privativa de liberdade substituída, ressalvado o disposto no § 4 o do art. 46.\n(Redação dada pela Lei nº 9.714, de 1998)",
@@ -7843,8 +7732,7 @@
      "ancoras": [
       "c56",
       "art56"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7878,8 +7766,7 @@
      "notas": [],
      "ancoras": [
       "art56."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Art. 56 As penas de interdição, previstas nos incisos I e II do art. 47 deste Código, aplicam-se para todo o crime cometido no exercício de profissão, atividade, ofício, cargo ou função, sempre que houver violação dos deveres que lhes são inerentes.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -7902,8 +7789,7 @@
      "ancoras": [
       "c57",
       "art57"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -7949,8 +7835,7 @@
      "notas": [],
      "ancoras": [
       "art57.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -7970,8 +7855,7 @@
      ],
      "ancoras": [
       "art57."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8037,8 +7921,7 @@
      "ancoras": [
       "c58",
       "art58"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -8081,8 +7964,7 @@
      "notas": [],
      "ancoras": [
       "art58."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Pena de multa\nArt. 58 A multa, prevista em cada tipo legal de crime, tem os limites fixados no art. 49 e seus parágrafos deste Código.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - A multa prevista no parágrafo único do art. 44 e no § 2º do art. 60 deste Código aplica-se independentemente de cominação na parte especial.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -8114,8 +7996,7 @@
      "ancoras": [
       "c59",
       "art59"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8189,8 +8070,7 @@
      "notas": [],
      "ancoras": [
       "art59."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8310,8 +8190,7 @@
      "ancoras": [
       "c60",
       "art60"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -8385,8 +8264,7 @@
      "notas": [],
      "ancoras": [
       "art60."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8486,8 +8364,7 @@
      "ancoras": [
       "c61",
       "art61"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8677,8 +8554,7 @@
      "notas": [],
      "ancoras": [
       "art61."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Circunstâncias agravantes\nArt. 61 São circunstâncias que sempre agravam a pena, quando não constituem ou qualificam o crime:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - a reincidência;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nII - ter o agente cometido o crime:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\na) por motivo fútil ou torpe;\nb) para facilitar ou assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime;\nc) à traição, de emboscada, ou mediante dissimulação, ou outro recurso que dificultou ou tornou impossível a defesa do ofendido;\nd) com emprego de veneno, fogo, explosivo, tortura ou outro meio insidioso ou cruel, ou de que podia resultar perigo comum;\ne) contra ascendente, descendente, irmão ou cônjuge;\nf) com abuso de autoridade ou prevalecendo-se de relações domésticas, de coabitação ou de hospitalidade, ou com violência contra a mulher na forma da lei específica;\n(Redação dada pela Lei nº 11.340, de 2006)\ng) com abuso de poder ou violação de dever inerente a cargo, ofício, ministério ou profissão;\nh) contra criança, maior de 60 (sessenta) anos, enfermo ou mulher grávida;\n(Redação dada pela Lei nº 10.741, de 2003)\ni) quando o ofendido estava sob a imediata proteção da autoridade;\nj) em ocasião de incêndio, naufrágio, inundação ou qualquer calamidade pública, ou de desgraça particular do ofendido;\nl) em estado de embriaguez preordenada.\nm) nas dependências de instituição de ensino.\n(Incluído pela Lei nº 15.159, de 2025)",
@@ -8709,8 +8585,7 @@
      "ancoras": [
       "c62",
       "art62"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8788,8 +8663,7 @@
      "notas": [],
      "ancoras": [
       "art62."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Agravantes no caso de concurso de pessoas\nArt. 62 A pena será ainda agravada em relação ao agente que:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - promove, ou organiza a cooperação no crime ou dirige a atividade dos demais agentes;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nII - coage ou induz outrem à execução material do crime;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nIII - instiga ou determina a cometer o crime alguém sujeito à sua autoridade ou não-punível em virtude de condição ou qualidade pessoal;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nIV - executa o crime, ou nele participa, mediante paga ou promessa de recompensa.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -8820,8 +8694,7 @@
      "ancoras": [
       "c63",
       "art63"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -8855,8 +8728,7 @@
      "notas": [],
      "ancoras": [
       "art63..."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -8867,8 +8739,7 @@
      ],
      "ancoras": [
       "art63."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -8879,8 +8750,7 @@
      ],
      "ancoras": [
       "art63.."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Reincidência\nArt. 63 Verifica-se a reincidência quando o agente comete novo crime, depois de transitar em julgado a sentença que, no País ou no estrangeiro, o tenha condenado por crime anterior.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -8903,8 +8773,7 @@
      "ancoras": [
       "c64",
       "art64"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -8960,8 +8829,7 @@
      "notas": [],
      "ancoras": [
       "art64.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -8972,8 +8840,7 @@
      ],
      "ancoras": [
       "art64."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9062,8 +8929,7 @@
      "ancoras": [
       "c65",
       "art65"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9186,8 +9052,7 @@
      "notas": [],
      "ancoras": [
       "art65."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Circunstâncias atenuantes\nArt. 65 São circunstâncias que sempre atenuam a pena:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - ser o agente menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentença, salvo se o crime envolver violência sexual contra a mulher;\n(Redação dada pela Lei nº 15.160, de 2025)\nII - o desconhecimento da lei;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nIII - ter o agente:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\na) cometido o crime por motivo de relevante valor social ou moral;\nb) procurado, por sua espontânea vontade e com eficiência, logo após o crime, evitar-lhe ou minorar-lhe as conseqüências, ou ter, antes do julgamento, reparado o dano;\nc) cometido o crime sob coação a que podia resistir, ou em cumprimento de ordem de autoridade superior, ou sob a influência de violenta emoção, provocada por ato injusto da vítima;\nd) confessado espontaneamente, perante a autoridade, a autoria do crime;\ne) cometido o crime sob a influência de multidão em tumulto, se não o provocou.",
@@ -9210,8 +9075,7 @@
      "ancoras": [
       "c66",
       "art66"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -9245,8 +9109,7 @@
      "notas": [],
      "ancoras": [
       "art66."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -9286,8 +9149,7 @@
      "ancoras": [
       "c67",
       "art67"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -9333,8 +9195,7 @@
      "notas": [],
      "ancoras": [
       "art67."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9392,8 +9253,7 @@
      "ancoras": [
       "c68",
       "art68"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -9438,8 +9298,7 @@
      "notas": [],
      "ancoras": [
       "art68."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9488,8 +9347,7 @@
      "ancoras": [
       "c69",
       "art69"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -9545,8 +9403,7 @@
      "notas": [],
      "ancoras": [
       "art69."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9766,8 +9623,7 @@
      "ancoras": [
       "c70",
       "art70"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -9810,8 +9666,7 @@
      "notas": [],
      "ancoras": [
       "art70."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -9869,8 +9724,7 @@
      "ancoras": [
       "c71",
       "art71"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -9915,8 +9769,7 @@
      "notas": [],
      "ancoras": [
       "art71."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Crime continuado\nArt. 71 Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, devem os subseqüentes ser havidos como continuação do primeiro, aplica-se-lhe a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, aumentada, em qualquer caso, de um sexto a dois terços.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - Nos crimes dolosos, contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa, poderá o juiz, considerando a culpabilidade, os antecedentes, a conduta social e a personalidade do agente, bem como os motivos e as circunstâncias, aumentar a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, até o triplo, observadas as regras do parágrafo único do art. 70 e do art. 75 deste Código.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -9947,8 +9800,7 @@
      "ancoras": [
       "c72",
       "art72"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -9982,8 +9834,7 @@
      "notas": [],
      "ancoras": [
       "art72."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "alinea",
@@ -10059,8 +9910,7 @@
      "ancoras": [
       "c73",
       "art73"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -10094,8 +9944,7 @@
      "notas": [],
      "ancoras": [
       "art73."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -10144,8 +9993,7 @@
      "ancoras": [
       "c74",
       "art74"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -10191,8 +10039,7 @@
      "notas": [],
      "ancoras": [
       "art74."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -10258,8 +10105,7 @@
      ],
      "ancoras": [
       "art75"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -10271,8 +10117,7 @@
      "ancoras": [
       "c75",
       "art75.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -10363,8 +10208,7 @@
      "notas": [],
      "ancoras": [
       "art75."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Limite das penas\nArt. 75 O tempo de cumprimento das penas privativas de liberdade não pode ser superior a 40 (quarenta) anos.\n(Redação dada pela Lei nº 13.964, de 2019)\n§ 1º Quando o agente for condenado a penas privativas de liberdade cuja soma seja superior a 40 (quarenta) anos, devem elas ser unificadas para atender ao limite máximo deste artigo.\n(Redação dada pela Lei nº 13.964, de 2019)\n§ 2º - Sobrevindo condenação por fato posterior ao início do cumprimento da pena, far-se-á nova unificação, desprezando-se, para esse fim, o período de pena já cumprido.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -10395,8 +10239,7 @@
      "ancoras": [
       "c76",
       "art76"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -10430,8 +10273,7 @@
      "notas": [],
      "ancoras": [
       "art76."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -10489,8 +10331,7 @@
      "ancoras": [
       "c77",
       "art77"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -10590,8 +10431,7 @@
      "notas": [],
      "ancoras": [
       "art77.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -10602,8 +10442,7 @@
      ],
      "ancoras": [
       "art77."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -10670,8 +10509,7 @@
      "ancoras": [
       "c78",
       "art78"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -10771,8 +10609,7 @@
      "notas": [],
      "ancoras": [
       "art78."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -10884,8 +10721,7 @@
      "ancoras": [
       "c79",
       "art79"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -10919,8 +10755,7 @@
      "notas": [],
      "ancoras": [
       "art79."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -10980,8 +10815,7 @@
      "ancoras": [
       "c80",
       "art80"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11015,8 +10849,7 @@
      "notas": [],
      "ancoras": [
       "art80."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -11058,8 +10891,7 @@
      "ancoras": [
       "c81",
       "art81"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -11171,8 +11003,7 @@
      "notas": [],
      "ancoras": [
       "art81."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -11248,8 +11079,7 @@
      "ancoras": [
       "c82",
       "art82"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11283,8 +11113,7 @@
      "notas": [],
      "ancoras": [
       "art82."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -11351,8 +11180,7 @@
      "ancoras": [
       "c83",
       "art83"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -11519,8 +11347,7 @@
      "notas": [],
      "ancoras": [
       "art83."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -11594,8 +11421,7 @@
      "ancoras": [
       "c84",
       "art84"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11629,8 +11455,7 @@
      "notas": [],
      "ancoras": [
       "art84."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -11679,8 +11504,7 @@
      "ancoras": [
       "c85",
       "art85"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11714,8 +11538,7 @@
      "notas": [],
      "ancoras": [
       "art85."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Especificações das condições\nArt. 85 A sentença especificará as condições a que fica subordinado o livramento.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -11746,8 +11569,7 @@
      "ancoras": [
       "c86",
       "art86"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -11803,8 +11625,7 @@
      "notas": [],
      "ancoras": [
       "art86."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Revogação do livramento\nArt. 86 Revoga-se o livramento, se o liberado vem a ser condenado a pena privativa de liberdade, em sentença irrecorrível:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - por crime cometido durante a vigência do benefício;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nII - por crime anterior, observado o disposto no art. 84 deste Código.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -11835,8 +11656,7 @@
      "ancoras": [
       "c87",
       "art87"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11870,8 +11690,7 @@
      "notas": [],
      "ancoras": [
       "art87."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -11911,8 +11730,7 @@
      "ancoras": [
       "c88",
       "art88"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -11958,8 +11776,7 @@
      "notas": [],
      "ancoras": [
       "art88."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -12074,8 +11891,7 @@
      "ancoras": [
       "c89",
       "art89"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -12109,8 +11925,7 @@
      "notas": [],
      "ancoras": [
       "art89."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -12148,8 +11963,7 @@
      "ancoras": [
       "c90",
       "art90"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -12183,8 +11997,7 @@
      "notas": [],
      "ancoras": [
       "art90."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -12224,8 +12037,7 @@
      "ancoras": [
       "c91",
       "art91"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -12323,8 +12135,7 @@
      "notas": [],
      "ancoras": [
       "art91."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -12446,8 +12257,7 @@
      "ancoras": [
       "c91a",
       "art91a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -12575,8 +12385,7 @@
      "ancoras": [
       "c92",
       "art92"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -12789,8 +12598,7 @@
      "notas": [],
      "ancoras": [
       "art92."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -12866,8 +12674,7 @@
      "ancoras": [
       "c93",
       "art93"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -12912,8 +12719,7 @@
      "notas": [],
      "ancoras": [
       "art93."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -12972,8 +12778,7 @@
      "ancoras": [
       "c94",
       "art94"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -13051,8 +12856,7 @@
      "notas": [],
      "ancoras": [
       "art94."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -13129,8 +12933,7 @@
      "ancoras": [
       "c95",
       "art95"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -13164,8 +12967,7 @@
      "notas": [],
      "ancoras": [
       "art95."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -13205,8 +13007,7 @@
      "ancoras": [
       "c96",
       "art96"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -13268,8 +13069,7 @@
      "notas": [],
      "ancoras": [
       "art96."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Espécies de medidas de segurança\nArt. 96 As medidas de segurança são:\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nI - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado;\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nII - sujeição a tratamento ambulatorial.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -13303,8 +13103,7 @@
      "ancoras": [
       "c97",
       "art97"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -13395,8 +13194,7 @@
      "notas": [],
      "ancoras": [
       "art97."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Imposição da medida de segurança para inimputável\nArt. 97 Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nPrazo\n§ 1º - A internação, ou tratamento ambulatorial, será por tempo indeterminado, perdurando enquanto não for averiguada, mediante perícia médica, a cessação de periculosidade. O prazo mínimo deverá ser de 1 (um) a 3 (três) anos.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nPerícia médica\n§ 2º - A perícia médica realizar-se-á ao termo do prazo mínimo fixado e deverá ser repetida de ano em ano, ou a qualquer tempo, se o determinar o juiz da execução.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nDesinternação ou liberação condicional\n§ 3º - A desinternação, ou a liberação, será sempre condicional devendo ser restabelecida a situação anterior se o agente, antes do decurso de 1 (um) ano, pratica fato indicativo de persistência de sua periculosidade.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 4º - Em qualquer fase do tratamento ambulatorial, poderá o juiz determinar a internação do agente, se essa providência for necessária para fins curativos.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -13427,8 +13225,7 @@
      "ancoras": [
       "c98",
       "art98"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -13457,8 +13254,7 @@
      "notas": [],
      "ancoras": [
       "art98."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -13507,8 +13303,7 @@
      "ancoras": [
       "c99",
       "art99"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -13537,8 +13332,7 @@
      "notas": [],
      "ancoras": [
       "art99."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -13587,8 +13381,7 @@
      "ancoras": [
       "c100",
       "art100"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -13661,8 +13454,7 @@
      "notas": [],
      "ancoras": [
       "art100."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Ação pública e de iniciativa privada\nArt. 100 A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 1º - A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 2º - A ação de iniciativa privada é promovida mediante queixa do ofendido ou de quem tenha qualidade para representá-lo.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 3º - A ação de iniciativa privada pode intentar-se nos crimes de ação pública, se o Ministério Público não oferece denúncia no prazo legal.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\n§ 4º - No caso de morte do ofendido ou de ter sido declarado ausente por decisão judicial, o direito de oferecer queixa ou de prosseguir na ação passa ao cônjuge, ascendente, descendente ou irmão.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -13693,8 +13485,7 @@
      "ancoras": [
       "c101",
       "art101"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -13723,8 +13514,7 @@
      "notas": [],
      "ancoras": [
       "art101."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "A ação penal no crime complexo\nArt. 101 Quando a lei considera como elemento ou circunstâncias do tipo legal fatos que, por si mesmos, constituem crimes, cabe ação pública em relação àquele, desde que, em relação a qualquer destes, se deva proceder por iniciativa do Ministério Público.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -13755,8 +13545,7 @@
      "ancoras": [
       "c102",
       "art102"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -13797,8 +13586,7 @@
      "notas": [],
      "ancoras": [
       "art102."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -13866,8 +13654,7 @@
      "ancoras": [
       "c103",
       "art103"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -13913,8 +13700,7 @@
      "notas": [],
      "ancoras": [
       "art103."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Decadência do direito de queixa ou de representação\nArt. 103 Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de 6 (seis) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nRenúncia expressa ou tácita do direito de queixa\nParágrafo único. Nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, a ofendida decai do direito de queixa ou de representação se não o exerce no prazo de 12 (doze) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.\n(Incluído pela Lei nº 15.438, de 2026)",
@@ -13937,8 +13723,7 @@
      "ancoras": [
       "c104",
       "art104"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -13976,8 +13761,7 @@
      "notas": [],
      "ancoras": [
       "art104."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Art. 104 O direito de queixa não pode ser exercido quando renunciado expressa ou tacitamente.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)\nParágrafo único - Importa renúncia tácita ao direito de queixa a prática de ato incompatível com a vontade de exercê-lo; não a implica, todavia, o fato de receber o ofendido a indenização do dano causado pelo crime.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -14008,8 +13792,7 @@
      "ancoras": [
       "c105",
       "art105"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -14038,8 +13821,7 @@
      "notas": [],
      "ancoras": [
       "art105."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Perdão do ofendido\nArt. 105 O perdão do ofendido, nos crimes em que somente se procede mediante queixa, obsta ao prosseguimento da ação.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -14062,8 +13844,7 @@
      "ancoras": [
       "c106",
       "art106"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -14147,8 +13928,7 @@
      "notas": [],
      "ancoras": [
       "art106."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -14188,8 +13968,7 @@
      "ancoras": [
       "c107",
       "art107"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -14321,8 +14100,7 @@
      "notas": [],
      "ancoras": [
       "art107."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -14399,8 +14177,7 @@
      "ancoras": [
       "c108",
       "art108"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -14441,8 +14218,7 @@
      "notas": [],
      "ancoras": [
       "art108."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -14585,8 +14361,7 @@
      ],
      "ancoras": [
       "art109"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -14598,8 +14373,7 @@
      "ancoras": [
       "c109",
       "art109."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -14710,8 +14484,7 @@
      "notas": [],
      "ancoras": [
       "art109.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -14796,8 +14569,7 @@
      "ancoras": [
       "c110",
       "art110"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -14871,8 +14643,7 @@
      "notas": [],
      "ancoras": [
       "art110."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -14940,8 +14711,7 @@
      "ancoras": [
       "c111",
       "art111"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15036,8 +14806,7 @@
      "notas": [],
      "ancoras": [
       "art111."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "alinea",
@@ -15104,8 +14873,7 @@
      "ancoras": [
       "c112",
       "art112"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15156,8 +14924,7 @@
      "notas": [],
      "ancoras": [
       "art112."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "alinea",
@@ -15206,8 +14973,7 @@
      "ancoras": [
       "c113",
       "art113"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -15236,8 +15002,7 @@
      "notas": [],
      "ancoras": [
       "art113."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Prescrição no caso de evasão do condenado ou de revogação do livramento condicional\nArt. 113 No caso de evadir-se o condenado ou de revogar-se o livramento condicional, a prescrição é regulada pelo tempo que resta da pena.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -15267,8 +15032,7 @@
      ],
      "ancoras": [
       "art114"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -15280,8 +15044,7 @@
      "ancoras": [
       "c114",
       "art114"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15332,8 +15095,7 @@
      "notas": [],
      "ancoras": [
       "art114."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -15370,8 +15132,7 @@
      ],
      "ancoras": [
       "art115"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -15383,8 +15144,7 @@
      "ancoras": [
       "c115",
       "art115.0"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -15407,8 +15167,7 @@
      "notas": [],
      "ancoras": [
       "art115."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Redução dos prazos de prescrição\nArt. 115 São reduzidos de metade os prazos de prescrição quando o criminoso era, ao tempo do crime, menor de 21 (vinte e um) anos ou, na data da sentença, maior de 70 (setenta) anos, salvo se o crime envolver violência sexual contra a mulher.\n(Redação dada pela Lei nº 15.160, de 2025)",
@@ -15439,8 +15198,7 @@
      "ancoras": [
       "c116",
       "art116"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15535,8 +15293,7 @@
      "notas": [],
      "ancoras": [
       "art116."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15594,8 +15351,7 @@
      "ancoras": [
       "c117",
       "art117"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15745,8 +15501,7 @@
      "notas": [],
      "ancoras": [
       "art117."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -15841,8 +15596,7 @@
      "ancoras": [
       "c118",
       "art118"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -15871,8 +15625,7 @@
      "notas": [],
      "ancoras": [
       "art118."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -15910,8 +15663,7 @@
      "ancoras": [
       "c119",
       "art119"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -15940,8 +15692,7 @@
      "notas": [],
      "ancoras": [
       "art119.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -16009,8 +15760,7 @@
      ],
      "ancoras": [
       "art119."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -16129,8 +15879,7 @@
      "ancoras": [
       "c120",
       "art120"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -16159,8 +15908,7 @@
      "notas": [],
      "ancoras": [
       "art120."
-     ],
-     "links": []
+     ]
     }
    ],
    "texto": "Perdão judicial\nArt. 120 A sentença que conceder perdão judicial não será considerada para efeitos de reincidência.\n(Redação dada pela Lei nº 7.209, de 11.7.1984)",
@@ -16194,8 +15942,7 @@
      "ancoras": [
       "c121",
       "art121"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -16845,8 +16592,7 @@
      ],
      "ancoras": [
       "art121a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17006,8 +16752,7 @@
      ],
      "ancoras": [
       "art121b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17099,8 +16844,7 @@
      "notas": [],
      "ancoras": [
       "art122"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17160,8 +16904,7 @@
      "ancoras": [
       "c122",
       "art122.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17346,8 +17089,7 @@
      "ancoras": [
       "c123",
       "art123"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17404,8 +17146,7 @@
      "ancoras": [
       "c124",
       "art124"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17460,8 +17201,7 @@
      "ancoras": [
       "c125",
       "art125"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17510,8 +17250,7 @@
      "ancoras": [
       "c126",
       "art126"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -17575,8 +17314,7 @@
      "ancoras": [
       "c127",
       "art127"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -17621,8 +17359,7 @@
      "ancoras": [
       "c128",
       "art128"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -17707,8 +17444,7 @@
      "ancoras": [
       "c129",
       "art129"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18321,8 +18057,7 @@
      "ancoras": [
       "c130",
       "art130"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18402,8 +18137,7 @@
      "ancoras": [
       "c131",
       "art131"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18458,8 +18192,7 @@
      "ancoras": [
       "c132",
       "art132"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18526,8 +18259,7 @@
      "ancoras": [
       "c133",
       "art133"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18691,8 +18423,7 @@
      "ancoras": [
       "c134",
       "art134"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18779,8 +18510,7 @@
      "ancoras": [
       "c135",
       "art135"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18849,8 +18579,7 @@
      "ancoras": [
       "c135a",
       "art135a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -18918,8 +18647,7 @@
      "ancoras": [
       "c136",
       "art136"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19050,8 +18778,7 @@
      "ancoras": [
       "c137",
       "art137"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19116,8 +18843,7 @@
      "ancoras": [
       "c138",
       "art138"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19233,8 +18959,7 @@
      "ancoras": [
       "c139",
       "art139"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19304,8 +19029,7 @@
      "ancoras": [
       "c140",
       "art140"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19454,8 +19178,7 @@
      "ancoras": [
       "c141",
       "art141"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -19616,8 +19339,7 @@
      "ancoras": [
       "c142",
       "art142"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -19701,8 +19423,7 @@
      "ancoras": [
       "c143",
       "art143"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -19753,8 +19474,7 @@
      "ancoras": [
       "c144",
       "art144"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -19794,8 +19514,7 @@
      "ancoras": [
       "c145",
       "art145"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -19864,8 +19583,7 @@
      "ancoras": [
       "c146",
       "art146"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -19978,8 +19696,7 @@
      "ancoras": [
       "c146a",
       "art146a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20068,8 +19785,7 @@
      "ancoras": [
       "c147",
       "art147"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20160,8 +19876,7 @@
      "ancoras": [
       "c147a",
       "art147a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20292,8 +20007,7 @@
      ],
      "ancoras": [
       "art147b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20359,8 +20073,7 @@
      ],
      "ancoras": [
       "art147c"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20424,8 +20137,7 @@
      "ancoras": [
       "c148",
       "art148"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20600,8 +20312,7 @@
      "notas": [],
      "ancoras": [
       "art149."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20620,8 +20331,7 @@
      "ancoras": [
       "c149",
       "art149"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -20755,8 +20465,7 @@
      "ancoras": [
       "c149a",
       "art149a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -20951,8 +20660,7 @@
      "ancoras": [
       "c150",
       "art150"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21141,8 +20849,7 @@
      "ancoras": [
       "c151",
       "art151"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21293,8 +21000,7 @@
      "ancoras": [
       "c152",
       "art152"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21363,8 +21069,7 @@
      "ancoras": [
       "c153",
       "art153"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21477,8 +21182,7 @@
      "ancoras": [
       "c154",
       "art154"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21551,9 +21255,6 @@
      ],
      "ancoras": [
       "art154a"
-     ],
-     "links": [
-      "../_Ato2011-2014/2012/Lei/L12737.htm#art4"
      ]
     },
     {
@@ -21575,8 +21276,7 @@
      "ancoras": [
       "c154a",
       "art154a.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -21771,9 +21471,6 @@
      "ancoras": [
       "c154b",
       "art154b"
-     ],
-     "links": [
-      "../_Ato2011-2014/2012/Lei/L12737.htm#art4"
      ]
     }
    ],
@@ -21828,8 +21525,7 @@
      "ancoras": [
       "c155",
       "art155"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -22218,8 +21914,7 @@
      "ancoras": [
       "c156",
       "art156"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -22292,8 +21987,7 @@
      "ancoras": [
       "c157",
       "art157"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -22675,8 +22369,7 @@
      "ancoras": [
       "c158",
       "art158"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -22773,9 +22466,6 @@
      "ancoras": [
       "c159",
       "art159"
-     ],
-     "links": [
-      "../LEIS/L8072.htm#art9"
      ]
     },
     {
@@ -22961,8 +22651,7 @@
      "ancoras": [
       "c160",
       "art160"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23019,8 +22708,7 @@
      "ancoras": [
       "c161",
       "art161"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23132,8 +22820,7 @@
      "ancoras": [
       "c162",
       "art162"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23189,8 +22876,7 @@
      "ancoras": [
       "c163",
       "art163"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23325,8 +23011,7 @@
      "ancoras": [
       "c164",
       "art164"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23381,8 +23066,7 @@
      "ancoras": [
       "c165",
       "art165"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23437,8 +23121,7 @@
      "ancoras": [
       "c166",
       "art166"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23493,8 +23176,7 @@
      "ancoras": [
       "c167",
       "art167"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -23543,8 +23225,7 @@
      "ancoras": [
       "c168",
       "art168"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23645,8 +23326,7 @@
      "ancoras": [
       "c168a",
       "art168a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23824,8 +23504,7 @@
      "ancoras": [
       "c169",
       "art169"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -23911,8 +23590,7 @@
      "ancoras": [
       "c170",
       "art170"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -23968,8 +23646,7 @@
      "ancoras": [
       "c171",
       "art171"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24422,9 +24099,6 @@
      ],
      "ancoras": [
       "art171a"
-     ],
-     "links": [
-      "../_Ato2019-2022/2022/Lei/L14478.htm#art14"
      ]
     },
     {
@@ -24481,8 +24155,7 @@
      "notas": [],
      "ancoras": [
       "art172.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24500,8 +24173,7 @@
      ],
      "ancoras": [
       "art172."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24522,8 +24194,7 @@
      "ancoras": [
       "c172",
       "art172"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24591,8 +24262,7 @@
      "ancoras": [
       "c173",
       "art173"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24647,8 +24317,7 @@
      "ancoras": [
       "c174",
       "art174"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24703,8 +24372,7 @@
      "ancoras": [
       "c175",
       "art175"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -24802,8 +24470,7 @@
      "ancoras": [
       "c176",
       "art176"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -24867,8 +24534,7 @@
      "ancoras": [
       "c177",
       "art177"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25024,8 +24690,7 @@
      "ancoras": [
       "c178",
       "art178"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25080,8 +24745,7 @@
      "ancoras": [
       "c179",
       "art179"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25145,8 +24809,7 @@
      "notas": [],
      "ancoras": [
       "art180.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25164,8 +24827,7 @@
      ],
      "ancoras": [
       "art180"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25257,8 +24919,7 @@
      "ancoras": [
       "c180",
       "art180."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25465,8 +25126,7 @@
      "ancoras": [
       "c180a",
       "art180a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25486,8 +25146,7 @@
      ],
      "ancoras": [
       "art180a.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25538,8 +25197,7 @@
      "ancoras": [
       "c181",
       "art181"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -25599,8 +25257,7 @@
      "ancoras": [
       "c182",
       "art182"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -25667,8 +25324,7 @@
      "ancoras": [
       "c183",
       "art183"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -25739,8 +25395,7 @@
      "ancoras": [
       "c183a",
       "art183a"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -25787,8 +25442,7 @@
      "notas": [],
      "ancoras": [
       "art184.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25815,8 +25469,7 @@
      ],
      "ancoras": [
       "art184."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -25910,8 +25563,7 @@
      "ancoras": [
       "c184",
       "art184"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -26030,8 +25682,7 @@
      "ancoras": [
       "c185",
       "art185"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -26086,8 +25737,7 @@
      "notas": [],
      "ancoras": [
       "art186.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -26098,8 +25748,7 @@
      ],
      "ancoras": [
       "art186."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -26111,8 +25760,7 @@
      "ancoras": [
       "c186",
       "art186"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -26202,8 +25850,7 @@
      "ancoras": [
       "c187",
       "art187"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26335,8 +25982,7 @@
      "ancoras": [
       "c188",
       "art188"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26417,8 +26063,7 @@
      "ancoras": [
       "c189",
       "art189"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26479,8 +26124,7 @@
      "ancoras": [
       "c190",
       "art190"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26535,8 +26179,7 @@
      "ancoras": [
       "c191",
       "art191"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26590,8 +26233,7 @@
      "ancoras": [
       "c192",
       "art192"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26706,8 +26348,7 @@
      "ancoras": [
       "c193",
       "art193"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26788,8 +26429,7 @@
      "ancoras": [
       "c194",
       "art194"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26844,8 +26484,7 @@
      "ancoras": [
       "c195",
       "art195"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -26899,8 +26538,7 @@
      "ancoras": [
       "c196",
       "art196"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -27160,8 +26798,7 @@
      "ancoras": [
       "c197",
       "art197"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -27236,8 +26873,7 @@
      "ancoras": [
       "c198",
       "art198"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27287,8 +26923,7 @@
      "ancoras": [
       "c199",
       "art199"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27338,8 +26973,7 @@
      "ancoras": [
       "c200",
       "art200"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27398,8 +27032,7 @@
      "ancoras": [
       "c201",
       "art201"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27449,8 +27082,7 @@
      "ancoras": [
       "c202",
       "art202"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27500,8 +27132,7 @@
      "ancoras": [
       "c203",
       "art203"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27604,8 +27235,7 @@
      "ancoras": [
       "c204",
       "art204"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27655,8 +27285,7 @@
      "ancoras": [
       "c205",
       "art205"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27705,8 +27334,7 @@
      "notas": [],
      "ancoras": [
       "art206."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27725,8 +27353,7 @@
      "ancoras": [
       "c206",
       "art206"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27778,8 +27405,7 @@
      "ancoras": [
       "c207",
       "art207"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27860,8 +27486,7 @@
      "ancoras": [
       "c208",
       "art208"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27925,8 +27550,7 @@
      "ancoras": [
       "c209",
       "art209"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -27990,8 +27614,7 @@
      "ancoras": [
       "c210",
       "art210"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28046,8 +27669,7 @@
      "ancoras": [
       "c211",
       "art211"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28102,8 +27724,7 @@
      "ancoras": [
       "c212",
       "art212"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28157,8 +27778,7 @@
      "notas": [],
      "ancoras": [
       "art213"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28208,8 +27828,7 @@
      "ancoras": [
       "c213",
       "art213."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28317,9 +27936,6 @@
      "ancoras": [
       "c214",
       "art214"
-     ],
-     "links": [
-      "../LEIS/L8072.htm#art9"
      ]
     },
     {
@@ -28446,8 +28062,7 @@
      "notas": [],
      "ancoras": [
       "art215.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -28458,8 +28073,7 @@
      ],
      "ancoras": [
       "art215"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28502,8 +28116,7 @@
      "ancoras": [
       "c215",
       "art215."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28579,8 +28192,7 @@
      "ancoras": [
       "c215a",
       "art215a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28647,8 +28259,7 @@
      "notas": [],
      "ancoras": [
       "art216."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -28660,8 +28271,7 @@
      "ancoras": [
       "c216",
       "art216"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -28817,8 +28427,7 @@
      "ancoras": [
       "c216a",
       "art216a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28854,13 +28463,6 @@
     {
      "tipo": "texto",
      "situacao": "vigente",
-     "texto": "DA EXPOSIÇÃO DA INTIMIDADE SEXUAL",
-     "notas": [],
-     "ancoras": []
-    },
-    {
-     "tipo": "texto",
-     "situacao": "vigente",
      "texto": "Registro não autorizado da intimidade sexual",
      "notas": [],
      "ancoras": []
@@ -28889,7 +28491,7 @@
      ]
     }
    },
-   "texto": "Assédio sexual\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nArt. 216-A Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.\"\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nPena - detenção, de 1 (um) a 2 (dois) anos.\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nParágrafo único. (VETADO)\n(Incluído pela Lei nº 10.224, de 15 de 2001)\n§ 2 o A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos.\n(Incluído pela Lei nº 12.015, de 2009)\nDA EXPOSIÇÃO DA INTIMIDADE SEXUAL\nRegistro não autorizado da intimidade sexual",
+   "texto": "Assédio sexual\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nArt. 216-A Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.\"\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nPena - detenção, de 1 (um) a 2 (dois) anos.\n(Incluído pela Lei nº 10.224, de 15 de 2001)\nParágrafo único. (VETADO)\n(Incluído pela Lei nº 10.224, de 15 de 2001)\n§ 2 o A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos.\n(Incluído pela Lei nº 12.015, de 2009)\nRegistro não autorizado da intimidade sexual",
    "textoHistorico": "",
    "caput": "Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função.\""
   },
@@ -28909,8 +28511,7 @@
      "ancoras": [
       "c216b",
       "art216b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -28970,8 +28571,8 @@
      ]
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO I",
-     "nome": "-A",
+     "rotulo": "CAPÍTULO I-A",
+     "nome": "DA EXPOSIÇÃO DA INTIMIDADE SEXUAL",
      "notas": [
       "(Incluído pela Lei nº 13.772, de 2018)"
      ]
@@ -29001,8 +28602,7 @@
      "ancoras": [
       "c217",
       "art217"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -29082,8 +28682,7 @@
      "ancoras": [
       "c217a",
       "art217a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29271,8 +28870,7 @@
      "notas": [],
      "ancoras": [
       "art218"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29291,8 +28889,7 @@
      "ancoras": [
       "c218",
       "art218."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29379,8 +28976,7 @@
      "ancoras": [
       "c218a",
       "art218a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29465,8 +29061,7 @@
      "ancoras": [
       "c218b",
       "art218b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29622,8 +29217,7 @@
      "ancoras": [
       "c218c",
       "art218c"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -29740,8 +29334,7 @@
      "ancoras": [
       "c219",
       "art219"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -29824,8 +29417,7 @@
      "ancoras": [
       "c220",
       "art220"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -29859,24 +29451,6 @@
       "(Revogado pela Lei nº 11.106, de 2005)"
      ],
      "ancoras": []
-    },
-    {
-     "tipo": "rubrica",
-     "situacao": "historico",
-     "texto": "Diminuição de pena",
-     "notas": []
-    },
-    {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": ".",
-     "notas": [
-      "(Revogado pela Lei nº 11.106, de 2005)"
-     ],
-     "ancoras": [
-      "c221",
-      "art221"
-     ]
     }
    ],
    "hierarquia": {
@@ -29902,8 +29476,8 @@
      ]
     }
    },
-   "texto": "(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n.\n(Revogado pela Lei nº 11.106, de 2005)",
-   "textoHistorico": "Rapto consensual\nSe a raptada é maior de catorze anos e menor de vinte e um, e o rapto se dá com seu consentimento:\nPena - detenção, de um a três anos.\nDiminuição de pena",
+   "texto": "(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)",
+   "textoHistorico": "Rapto consensual\nSe a raptada é maior de catorze anos e menor de vinte e um, e o rapto se dá com seu consentimento:\nPena - detenção, de um a três anos.",
    "caput": null
   },
   {
@@ -29913,6 +29487,12 @@
    "rubricas": [],
    "dispositivos": [
     {
+     "tipo": "rubrica",
+     "situacao": "historico",
+     "texto": "Diminuição de pena",
+     "notas": []
+    },
+    {
      "tipo": "caput",
      "situacao": "historico",
      "texto": "É diminuída de um terço a pena, se o rapto é para fim de casamento, e de metade, se o agente, sem ter praticado com a vítima qualquer ato libidinoso, a restitue à liberdade ou a coloca em lugar seguro, à disposição da família",
@@ -29920,8 +29500,15 @@
      "ancoras": [
       "c221",
       "art221"
-     ],
-     "links": []
+     ]
+    },
+    {
+     "tipo": "anotacao",
+     "situacao": "vigente",
+     "texto": "",
+     "notas": [
+      "(Revogado pela Lei nº 11.106, de 2005)"
+     ]
     },
     {
      "tipo": "texto",
@@ -29956,8 +29543,8 @@
      ]
     }
    },
-   "texto": "(Revogado pela Lei nº 11.106, de 2005)",
-   "textoHistorico": "É diminuída de um terço a pena, se o rapto é para fim de casamento, e de metade, se o agente, sem ter praticado com a vítima qualquer ato libidinoso, a restitue à liberdade ou a coloca em lugar seguro, à disposição da família",
+   "texto": "(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)",
+   "textoHistorico": "Diminuição de pena\nÉ diminuída de um terço a pena, se o rapto é para fim de casamento, e de metade, se o agente, sem ter praticado com a vítima qualquer ato libidinoso, a restitue à liberdade ou a coloca em lugar seguro, à disposição da família",
    "caput": null
   },
   {
@@ -29980,8 +29567,7 @@
      "ancoras": [
       "c222",
       "art222"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -30050,8 +29636,7 @@
      "ancoras": [
       "c223",
       "art223"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -30206,8 +29791,7 @@
      "ancoras": [
       "c224",
       "art224"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -30220,7 +29804,7 @@
     {
      "tipo": "texto",
      "situacao": "vigente",
-     "texto": ";",
+     "texto": "",
      "notas": [
       "(Revogado pela Lei nº 12.015, de 2009)"
      ],
@@ -30299,7 +29883,7 @@
      "notas": []
     }
    },
-   "texto": "(Revogado pela Lei nº 12.015, de 2009)\n;\n(Revogado pela Lei nº 12.015, de 2009)\n(Revogado pela Lei nº 12.015, de 2009)\n(Revogado pela Lei nº 12.015, de 2009)",
+   "texto": "(Revogado pela Lei nº 12.015, de 2009)\n(Revogado pela Lei nº 12.015, de 2009)\n(Revogado pela Lei nº 12.015, de 2009)\n(Revogado pela Lei nº 12.015, de 2009)",
    "textoHistorico": "Presunção de violência\nPresume-se a violência, se a vítima:\n(Vide Lei nº 8.072, de 25.7.90)\na) não é maior de catorze anos\nb) é alienada ou débil mental, e o agente conhecia esta circunstância;\nc) não pode, por qualquer outra causa, oferecer resistência.",
    "caput": null
   },
@@ -30324,8 +29908,7 @@
      "notas": [],
      "ancoras": [
       "art225."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -30372,8 +29955,7 @@
      ],
      "ancoras": [
       "art225"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -30396,8 +29978,7 @@
      "ancoras": [
       "c225",
       "art225.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -30460,8 +30041,7 @@
      "notas": [],
      "ancoras": [
       "art226."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -30491,8 +30071,7 @@
      "ancoras": [
       "c226",
       "art226"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -30678,8 +30257,7 @@
      "ancoras": [
       "c227",
       "art227"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -30789,8 +30367,7 @@
      "notas": [],
      "ancoras": [
       "art228."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -30833,8 +30410,7 @@
      "ancoras": [
       "c228",
       "art228"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -30939,8 +30515,7 @@
      "notas": [],
      "ancoras": [
       "art229."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -30952,8 +30527,7 @@
      "ancoras": [
       "c229",
       "art229"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31012,8 +30586,7 @@
      "ancoras": [
       "c230",
       "art230"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31151,8 +30724,7 @@
      "notas": [],
      "ancoras": [
       "art231.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31170,8 +30742,7 @@
      ],
      "ancoras": [
       "art231"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31279,8 +30850,7 @@
      "ancoras": [
       "c231",
       "art231."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31437,8 +31007,7 @@
      ],
      "ancoras": [
       "art231a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31492,8 +31061,7 @@
      "ancoras": [
       "c231a",
       "art231a."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31639,8 +31207,7 @@
      "ancoras": [
       "c232",
       "art232"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -31700,10 +31267,6 @@
      "ancoras": [
       "c232a",
       "art232a"
-     ],
-     "links": [
-      "../_Ato2015-2018/2017/Lei/L13445.htm#art115",
-      "../_Ato2015-2018/2017/Lei/L13445.htm#art125"
      ]
     },
     {
@@ -31808,8 +31371,7 @@
      "ancoras": [
       "c233",
       "art233"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31866,8 +31428,7 @@
      "ancoras": [
       "c234",
       "art234"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -31964,8 +31525,7 @@
      "ancoras": [
       "c234a",
       "art234a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -32077,8 +31637,7 @@
      "ancoras": [
       "c234b",
       "art234b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -32153,8 +31712,7 @@
      "ancoras": [
       "c234c",
       "art234c"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -32206,8 +31764,7 @@
      "ancoras": [
       "c235",
       "art235"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32280,8 +31837,7 @@
      "ancoras": [
       "c236",
       "art236"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32345,8 +31901,7 @@
      "ancoras": [
       "c237",
       "art237"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32401,8 +31956,7 @@
      "ancoras": [
       "c238",
       "art238"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32457,8 +32011,7 @@
      "ancoras": [
       "c239",
       "art239"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32520,8 +32073,7 @@
      "ancoras": [
       "c240",
       "art240"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -32630,7 +32182,7 @@
     {
      "tipo": "texto",
      "situacao": "vigente",
-     "texto": ".",
+     "texto": "",
      "notas": [
       "(Revogado pela Lei nº 11.106, de 2005)"
      ],
@@ -32729,7 +32281,7 @@
      "notas": []
     }
    },
-   "texto": "(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n.\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)",
+   "texto": "(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)\n(Revogado pela Lei nº 11.106, de 2005)",
    "textoHistorico": "Adultério\nCometer adultério:\nPena - detenção, de quinze dias a seis meses.\n§ 1º - Incorre na mesma pena o co-réu.\n§ 2º - A ação penal somente pode ser intentada pelo cônjuge ofendido, e dentro de 1 (um) mês após o conhecimento do fato.\n§ 3º - A ação penal não pode ser intentada:\nI - pelo cônjuge desquitado;\nII - pelo cônjuge que consentiu no adultério ou o perdoou, expressa ou tacitamente\n§ 4º - O juiz pode deixar de aplicar a pena:\nI - se havia cessado a vida em comum dos cônjuges;\nII - se o querelante havia praticado qualquer dos atos previstos no art. 317 do Código Civil.\n(Vide Lei nº 3.071, de 1916)",
    "caput": null
   },
@@ -32755,8 +32307,7 @@
      "ancoras": [
       "c241",
       "art241"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32810,8 +32361,7 @@
      "notas": [],
      "ancoras": [
       "art242."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32846,8 +32396,7 @@
      "ancoras": [
       "c242",
       "art242"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32924,8 +32473,7 @@
      "ancoras": [
       "c243",
       "art243"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32979,8 +32527,7 @@
      "notas": [],
      "ancoras": [
       "art244.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -32998,8 +32545,7 @@
      ],
      "ancoras": [
       "art244"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -33011,8 +32557,7 @@
      "ancoras": [
       "c244",
       "art244."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33079,8 +32624,7 @@
      "notas": [],
      "ancoras": [
       "art245"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33108,8 +32652,7 @@
      "ancoras": [
       "c245",
       "art245."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33188,8 +32731,7 @@
      "ancoras": [
       "c246",
       "art246"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33236,8 +32778,7 @@
      "ancoras": [
       "c247",
       "art247"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -33328,8 +32869,7 @@
      "ancoras": [
       "c248",
       "art2248"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33384,8 +32924,7 @@
      "ancoras": [
       "c249",
       "art249"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33460,8 +32999,7 @@
      "ancoras": [
       "c250",
       "art250"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33638,8 +33176,7 @@
      "ancoras": [
       "c251",
       "art251"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33741,8 +33278,7 @@
      "ancoras": [
       "c252",
       "art252"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33819,8 +33355,7 @@
      "ancoras": [
       "c253",
       "art2253"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33875,8 +33410,7 @@
      "ancoras": [
       "c254",
       "art254"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33931,8 +33465,7 @@
      "ancoras": [
       "c255",
       "art255"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -33988,8 +33521,7 @@
      "ancoras": [
       "c256",
       "art256"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34066,8 +33598,7 @@
      "ancoras": [
       "c257",
       "art257"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34122,8 +33653,7 @@
      "ancoras": [
       "c258",
       "art258"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -34172,8 +33702,7 @@
      "ancoras": [
       "c259",
       "art259"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34244,8 +33773,7 @@
      "ancoras": [
       "c260",
       "art260"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -34386,8 +33914,7 @@
      "ancoras": [
       "c261",
       "art261"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34501,8 +34028,7 @@
      "ancoras": [
       "c262",
       "art262"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34582,8 +34108,7 @@
      "ancoras": [
       "c263",
       "art263"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -34631,8 +34156,7 @@
      "ancoras": [
       "c264",
       "art264"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34696,8 +34220,7 @@
      "ancoras": [
       "c265",
       "art265"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34770,8 +34293,7 @@
      "ancoras": [
       "c266",
       "art266"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34908,8 +34430,7 @@
      "ancoras": [
       "c267",
       "art267"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -34991,8 +34512,7 @@
      "ancoras": [
       "c268",
       "art268"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35056,8 +34576,7 @@
      "ancoras": [
       "c269",
       "art269"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35113,8 +34632,7 @@
      "ancoras": [
       "c270",
       "art270"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35210,8 +34728,7 @@
      "ancoras": [
       "c271",
       "art271"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35289,8 +34806,7 @@
      "notas": [],
      "ancoras": [
       "art272."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35348,8 +34864,7 @@
      "ancoras": [
       "c272",
       "art272"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35454,8 +34969,7 @@
      "notas": [],
      "ancoras": [
       "art273."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -35531,8 +35045,7 @@
      "ancoras": [
       "c273",
       "art273"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35712,8 +35225,7 @@
      "ancoras": [
       "c274",
       "art274"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35776,8 +35288,7 @@
      "notas": [],
      "ancoras": [
       "art275."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35796,8 +35307,7 @@
      "ancoras": [
       "c275",
       "art275"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35854,8 +35364,7 @@
      "ancoras": [
       "c276",
       "art276"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35918,8 +35427,7 @@
      "notas": [],
      "ancoras": [
       "art277."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35938,8 +35446,7 @@
      "ancoras": [
       "c277",
       "art277"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -35997,8 +35504,7 @@
      "ancoras": [
       "c278",
       "art278"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -36075,8 +35581,7 @@
      "ancoras": [
       "c279",
       "art279"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -36141,8 +35646,7 @@
      "ancoras": [
       "c280",
       "art280"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -36216,8 +35720,7 @@
      "notas": [],
      "ancoras": [
       "art281..."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -36305,8 +35808,7 @@
      ],
      "ancoras": [
       "art281"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -36392,8 +35894,7 @@
      ],
      "ancoras": [
       "art281."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -36570,8 +36071,7 @@
      "ancoras": [
       "c281",
       "art281.."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -37192,8 +36692,7 @@
      "notas": [],
      "ancoras": [
       "art282"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37229,8 +36728,7 @@
      "ancoras": [
       "c282",
       "art282.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37332,8 +36830,7 @@
      "ancoras": [
       "c283",
       "art283"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37388,8 +36885,7 @@
      "ancoras": [
       "c284",
       "art284"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -37480,8 +36976,7 @@
      "ancoras": [
       "c285",
       "art285"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -37529,8 +37024,7 @@
      "ancoras": [
       "c286",
       "art286"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37592,8 +37086,7 @@
      "ancoras": [
       "c287",
       "287"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37643,8 +37136,7 @@
      ],
      "ancoras": [
       "art288"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37682,8 +37174,7 @@
      "ancoras": [
       "c288",
       "art288."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37771,8 +37262,7 @@
      "ancoras": [
       "c288a",
       "art288a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37824,8 +37314,7 @@
      "ancoras": [
       "c289",
       "art289"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -37934,8 +37423,7 @@
      "ancoras": [
       "c290",
       "art290"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38001,8 +37489,7 @@
      "ancoras": [
       "c291",
       "art291"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38057,8 +37544,7 @@
      "ancoras": [
       "c292",
       "art292"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38122,8 +37608,7 @@
      "ancoras": [
       "c293",
       "art293"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -38363,8 +37848,7 @@
      "ancoras": [
       "c294",
       "art294"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38411,8 +37895,7 @@
      "ancoras": [
       "c295",
       "art295"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -38460,8 +37943,7 @@
      "ancoras": [
       "c296",
       "art296"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -38581,8 +38063,7 @@
      "ancoras": [
       "c297",
       "art297"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38710,8 +38191,7 @@
      "ancoras": [
       "c298",
       "art298"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38786,8 +38266,7 @@
      "ancoras": [
       "c299",
       "art299"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38853,8 +38332,7 @@
      "ancoras": [
       "c300",
       "art300"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38912,8 +38390,7 @@
      "ancoras": [
       "c301",
       "art301"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -38999,8 +38476,7 @@
      "ancoras": [
       "c302",
       "art302"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39064,8 +38540,7 @@
      "ancoras": [
       "c303",
       "art303"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39129,8 +38604,7 @@
      "ancoras": [
       "c304",
       "art304"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39185,8 +38659,7 @@
      "ancoras": [
       "c305",
       "art305"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39241,8 +38714,7 @@
      "ancoras": [
       "c306",
       "art306"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39313,8 +38785,7 @@
      "ancoras": [
       "c307",
       "art307"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39361,8 +38832,7 @@
      "ancoras": [
       "c308",
       "art308"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39417,8 +38887,7 @@
      "ancoras": [
       "c309",
       "art309"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39484,8 +38953,7 @@
      "notas": [],
      "ancoras": [
       "art310."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39504,8 +38972,7 @@
      "ancoras": [
       "c310",
       "art310"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39546,7 +39013,6 @@
    "situacao": "vigente",
    "rubricas": [
     "Adulteração de sinal identificador de veículo",
-    "CAPÍTULO V",
     "das fraudes em certames de interesse público"
    ],
    "dispositivos": [
@@ -39563,8 +39029,7 @@
      "notas": [],
      "ancoras": [
       "art311."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39591,8 +39056,7 @@
      "ancoras": [
       "c311",
       "art311"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "rubrica",
@@ -39611,8 +39075,7 @@
      ],
      "ancoras": [
       "art311.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -39717,14 +39180,6 @@
     {
      "tipo": "rubrica",
      "situacao": "vigente",
-     "texto": "CAPÍTULO V",
-     "notas": [
-      "(Incluído pela Lei 12.550. de 2011)"
-     ]
-    },
-    {
-     "tipo": "rubrica",
-     "situacao": "vigente",
      "texto": "das fraudes em certames de interesse público",
      "notas": [
       "(Incluído pela Lei 12.550. de 2011)"
@@ -39759,7 +39214,7 @@
      "notas": []
     }
    },
-   "texto": "Adulteração de sinal identificador de veículo\n(Redação dada pela Lei nº 14.562, de 2023)\nArt. 311 Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente:\n(Redação dada pela Lei nº 14.562, de 2023)\nPena - reclusão, de três a seis anos, e multa.\n(Redação dada pela Lei nº 9.426, de 1996)\n§ 1º - Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de um terço.\n(Incluído pela Lei nº 9.426, de 1996)\n§ 2º Incorrem nas mesmas penas do caput deste artigo:\n(Redação dada pela Lei nº 14.562, de 2023)\nI – o funcionário público que contribui para o licenciamento ou registro do veículo remarcado ou adulterado, fornecendo indevidamente material ou informação oficial;\n(Incluído pela Lei nº 14.562, de 2023)\nII – aquele que adquire, recebe, transporta, oculta, mantém em depósito, fabrica, fornece, a título oneroso ou gratuito, possui ou guarda maquinismo, aparelho, instrumento ou objeto especialmente destinado à falsificação e/ou adulteração de que trata o caput deste artigo; ou\n(Incluído pela Lei nº 14.562, de 2023)\nIII – aquele que adquire, recebe, transporta, conduz, oculta, mantém em depósito, desmonta, monta, remonta, vende, expõe à venda, ou de qualquer forma utiliza, em proveito próprio ou alheio, veículo automotor, elétrico, híbrido, de reboque, semirreboque ou suas combinações ou partes, com número de chassi ou monobloco, placa de identificação ou qualquer sinal identificador veicular que devesse saber estar adulterado ou remarcado.\n(Incluído pela Lei nº 14.562, de 2023)\n§ 3º Praticar as condutas de que tratam os incisos II ou III do § 2º deste artigo no exercício de atividade comercial ou industrial:\n(Incluído pela Lei nº 14.562, de 2023)\nPena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa.\n(Incluído pela Lei nº 14.562, de 2023)\n§ 4º Equipara-se a atividade comercial, para efeito do disposto no § 3º deste artigo, qualquer forma de comércio irregular ou clandestino, inclusive aquele exercido em residência.\n(Incluído pela Lei nº 14.562, de 2023)\nCAPÍTULO V\n(Incluído pela Lei 12.550. de 2011)\ndas fraudes em certames de interesse público\n(Incluído pela Lei 12.550. de 2011)\nFraudes em certames de interesse público\n(Incluído pela Lei 12.550. de 2011)",
+   "texto": "Adulteração de sinal identificador de veículo\n(Redação dada pela Lei nº 14.562, de 2023)\nArt. 311 Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente:\n(Redação dada pela Lei nº 14.562, de 2023)\nPena - reclusão, de três a seis anos, e multa.\n(Redação dada pela Lei nº 9.426, de 1996)\n§ 1º - Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de um terço.\n(Incluído pela Lei nº 9.426, de 1996)\n§ 2º Incorrem nas mesmas penas do caput deste artigo:\n(Redação dada pela Lei nº 14.562, de 2023)\nI – o funcionário público que contribui para o licenciamento ou registro do veículo remarcado ou adulterado, fornecendo indevidamente material ou informação oficial;\n(Incluído pela Lei nº 14.562, de 2023)\nII – aquele que adquire, recebe, transporta, oculta, mantém em depósito, fabrica, fornece, a título oneroso ou gratuito, possui ou guarda maquinismo, aparelho, instrumento ou objeto especialmente destinado à falsificação e/ou adulteração de que trata o caput deste artigo; ou\n(Incluído pela Lei nº 14.562, de 2023)\nIII – aquele que adquire, recebe, transporta, conduz, oculta, mantém em depósito, desmonta, monta, remonta, vende, expõe à venda, ou de qualquer forma utiliza, em proveito próprio ou alheio, veículo automotor, elétrico, híbrido, de reboque, semirreboque ou suas combinações ou partes, com número de chassi ou monobloco, placa de identificação ou qualquer sinal identificador veicular que devesse saber estar adulterado ou remarcado.\n(Incluído pela Lei nº 14.562, de 2023)\n§ 3º Praticar as condutas de que tratam os incisos II ou III do § 2º deste artigo no exercício de atividade comercial ou industrial:\n(Incluído pela Lei nº 14.562, de 2023)\nPena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa.\n(Incluído pela Lei nº 14.562, de 2023)\n§ 4º Equipara-se a atividade comercial, para efeito do disposto no § 3º deste artigo, qualquer forma de comércio irregular ou clandestino, inclusive aquele exercido em residência.\n(Incluído pela Lei nº 14.562, de 2023)\ndas fraudes em certames de interesse público\n(Incluído pela Lei 12.550. de 2011)\nFraudes em certames de interesse público\n(Incluído pela Lei 12.550. de 2011)",
    "textoHistorico": "Falsidade em prejuizo da nacionalização de sociedade\nPrestar-se a figurar como proprietário ou possuidor de ação, título ou valor pertencente a estrangeiro, nos casos em que a este é vedada por lei a propriedade ou a posse de tais bens:\nPena - detenção, de seis meses a três anos, e multa, de cinco contos a vinte contos de réis.\nAdulteração de sinal identificador de veículo automotor\n(Redação dada pela Lei nº 9.426, de 1996)\nAdulterar ou remarcar número de chassi ou qualquer sinal identificador de veículo automotor, de seu componente ou equipamento:\n(Redação dada pela Lei nº 9.426, de 1996)\n§ 2º - Incorre nas mesmas penas o funcionário público que contribui para o licenciamento ou registro do veículo remarcado ou adulterado, fornecendo indevidamente material ou informação oficial.\n(Incluído pela Lei nº 9.426, de 1996)",
    "caput": "Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa de identificação, ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, bem como de seus componentes ou equipamentos, sem autorização do órgão competente:"
   },
@@ -39779,8 +39234,7 @@
      "ancoras": [
       "c311a",
       "art311a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -39892,9 +39346,11 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO IV",
-     "nome": "DE OUTRAS FALSIDADES",
-     "notas": []
+     "rotulo": "CAPÍTULO V",
+     "nome": null,
+     "notas": [
+      "(Incluído pela Lei 12.550. de 2011)"
+     ]
     }
    },
    "texto": "Art. 311-A Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de:\n(Incluído pela Lei 12.550. de 2011)\nI - concurso público;\n(Incluído pela Lei 12.550. de 2011)\nII - avaliação ou exame públicos;\n(Incluído pela Lei 12.550. de 2011)\nIII - processo seletivo para ingresso no ensino superior; ou\n(Incluído pela Lei 12.550. de 2011)\nIV - exame ou processo seletivo previstos em lei:\n(Incluído pela Lei 12.550. de 2011)\nPena - reclusão, de 1 (um) a 4 (quatro) anos, e multa.\n(Incluído pela Lei 12.550. de 2011)\n§ 1 o Nas mesmas penas incorre quem permite ou facilita, por qualquer meio, o acesso de pessoas não autorizadas às informações mencionadas no caput.\n(Incluído pela Lei 12.550. de 2011)\n§ 2 o Se da ação ou omissão resulta dano à administração pública:\n(Incluído pela Lei 12.550. de 2011)\nPena - reclusão, de 2 (dois) a 6 (seis) anos, e multa.\n(Incluído pela Lei 12.550. de 2011)\n§ 3 o Aumenta-se a pena de 1/3 (um terço) se o fato é cometido por funcionário público.\n(Incluído pela Lei 12.550. de 2011)",
@@ -39924,8 +39380,7 @@
      "ancoras": [
       "c312",
       "art312"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40020,8 +39475,7 @@
      "ancoras": [
       "c313",
       "art313"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40080,8 +39534,7 @@
      "ancoras": [
       "c313a",
       "art313a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40142,8 +39595,7 @@
      "ancoras": [
       "c313b",
       "art313b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40211,8 +39663,7 @@
      "ancoras": [
       "c314",
       "art314"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40267,8 +39718,7 @@
      "ancoras": [
       "c315",
       "art315"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40324,8 +39774,7 @@
      "ancoras": [
       "c316",
       "art316"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40442,8 +39891,7 @@
      "ancoras": [
       "c317",
       "art317"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40532,8 +39980,7 @@
      "ancoras": [
       "c318",
       "art318"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40599,8 +40046,7 @@
      "ancoras": [
       "c319",
       "art319"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40649,8 +40095,7 @@
      "ancoras": [
       "c319a",
       "art319a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -40705,8 +40150,7 @@
      "ancoras": [
       "c320",
       "art320"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40761,8 +40205,7 @@
      "ancoras": [
       "c321",
       "art321"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40833,8 +40276,7 @@
      "ancoras": [
       "c322",
       "art322"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40889,8 +40331,7 @@
      "ancoras": [
       "c323",
       "art323"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -40977,8 +40418,7 @@
      "ancoras": [
       "c324",
       "art324"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41033,8 +40473,7 @@
      "ancoras": [
       "c325",
       "art325"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41142,8 +40581,7 @@
      "ancoras": [
       "c326",
       "art326"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41198,8 +40636,7 @@
      "ancoras": [
       "c327",
       "art327"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -41280,8 +40717,7 @@
      "ancoras": [
       "c328",
       "art328"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41352,8 +40788,7 @@
      "ancoras": [
       "c329",
       "art329"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41433,8 +40868,7 @@
      "ancoras": [
       "c330",
       "art330"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41489,8 +40923,7 @@
      "ancoras": [
       "c331",
       "art331"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41544,8 +40977,7 @@
      "notas": [],
      "ancoras": [
       "art332."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -41574,8 +41006,7 @@
      "ancoras": [
       "c332",
       "art332"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41643,8 +41074,7 @@
      "ancoras": [
       "c333",
       "art333"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41843,8 +41273,7 @@
      "ancoras": [
       "c334",
       "art334."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -41990,8 +41419,7 @@
      "ancoras": [
       "c334a",
       "art334a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42136,8 +41564,7 @@
      "ancoras": [
       "c335",
       "art335"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42201,8 +41628,7 @@
      "ancoras": [
       "c336",
       "art336"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42257,8 +41683,7 @@
      "ancoras": [
       "c337",
       "art337"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42317,8 +41742,7 @@
      "ancoras": [
       "c337a",
       "art337a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -42447,13 +41871,6 @@
       "(Incluído pela Lei Complementar nº 225, de 2026)"
      ],
      "ancoras": []
-    },
-    {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "DOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
-     "notas": [],
-     "ancoras": []
     }
    ],
    "hierarquia": {
@@ -42475,7 +41892,7 @@
      "notas": []
     }
    },
-   "texto": "Sonegação de contribuição previdenciária\n(Incluído pela Lei nº 9.983, de 2000)\nArt. 337-A Suprimir ou reduzir contribuição social previdenciária e qualquer acessório, mediante as seguintes condutas:\n(Incluído pela Lei nº 9.983, de 2000)\nI - omitir de folha de pagamento da empresa ou de documento de informações previsto pela legislação previdenciária segurados empregado, empresário, trabalhador avulso ou trabalhador autônomo ou a este equiparado que lhe prestem serviços;\n(Incluído pela Lei nº 9.983, de 2000)\nII - deixar de lançar mensalmente nos títulos próprios da contabilidade da empresa as quantias descontadas dos segurados ou as devidas pelo empregador ou pelo tomador de serviços;\n(Incluído pela Lei nº 9.983, de 2000)\nIII - omitir, total ou parcialmente, receitas ou lucros auferidos, remunerações pagas ou creditadas e demais fatos geradores de contribuições sociais previdenciárias:\n(Incluído pela Lei nº 9.983, de 2000)\nPena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 1 o É extinta a punibilidade se o agente, espontaneamente, declara e confessa as contribuições, importâncias ou valores e presta as informações devidas à previdência social, na forma definida em lei ou regulamento, antes do início da ação fiscal.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 2 o É facultado ao juiz deixar de aplicar a pena ou aplicar somente a de multa se o agente for primário e de bons antecedentes, desde que:\n(Incluído pela Lei nº 9.983, de 2000)\nI - (VETADO)\n(Incluído pela Lei nº 9.983, de 2000)\nII - o valor das contribuições devidas, inclusive acessórios, seja igual ou inferior àquele estabelecido pela previdência social, administrativamente, como sendo o mínimo para o ajuizamento de suas execuções fiscais.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 3 o Se o empregador não é pessoa jurídica e sua folha de pagamento mensal não ultrapassa R$ 1.510,00 (um mil, quinhentos e dez reais), o juiz poderá reduzir a pena de um terço até a metade ou aplicar apenas a de multa.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 4 o O valor a que se refere o parágrafo anterior será reajustado nas mesmas datas e nos mesmos índices do reajuste dos benefícios da previdência social.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 5º A extinção de punibilidade de que trata o § 1º deste artigo não se aplica ao agente declarado devedor contumaz em decisão administrativa definitiva e inscrito no Cadastro Informativo dos créditos não quitados do setor público federal (Cadin), previsto na Lei nº 10.522, de 19 de julho de 2002.\n(Incluído pela Lei Complementar nº 225, de 2026)\n§ 6º O fato de o agente deixar de ser considerado devedor contumaz não afasta o disposto no § 5º deste artigo em relação aos atos praticados no período em que era assim considerado.\n(Incluído pela Lei Complementar nº 225, de 2026)\nDOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
+   "texto": "Sonegação de contribuição previdenciária\n(Incluído pela Lei nº 9.983, de 2000)\nArt. 337-A Suprimir ou reduzir contribuição social previdenciária e qualquer acessório, mediante as seguintes condutas:\n(Incluído pela Lei nº 9.983, de 2000)\nI - omitir de folha de pagamento da empresa ou de documento de informações previsto pela legislação previdenciária segurados empregado, empresário, trabalhador avulso ou trabalhador autônomo ou a este equiparado que lhe prestem serviços;\n(Incluído pela Lei nº 9.983, de 2000)\nII - deixar de lançar mensalmente nos títulos próprios da contabilidade da empresa as quantias descontadas dos segurados ou as devidas pelo empregador ou pelo tomador de serviços;\n(Incluído pela Lei nº 9.983, de 2000)\nIII - omitir, total ou parcialmente, receitas ou lucros auferidos, remunerações pagas ou creditadas e demais fatos geradores de contribuições sociais previdenciárias:\n(Incluído pela Lei nº 9.983, de 2000)\nPena - reclusão, de 2 (dois) a 5 (cinco) anos, e multa.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 1 o É extinta a punibilidade se o agente, espontaneamente, declara e confessa as contribuições, importâncias ou valores e presta as informações devidas à previdência social, na forma definida em lei ou regulamento, antes do início da ação fiscal.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 2 o É facultado ao juiz deixar de aplicar a pena ou aplicar somente a de multa se o agente for primário e de bons antecedentes, desde que:\n(Incluído pela Lei nº 9.983, de 2000)\nI - (VETADO)\n(Incluído pela Lei nº 9.983, de 2000)\nII - o valor das contribuições devidas, inclusive acessórios, seja igual ou inferior àquele estabelecido pela previdência social, administrativamente, como sendo o mínimo para o ajuizamento de suas execuções fiscais.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 3 o Se o empregador não é pessoa jurídica e sua folha de pagamento mensal não ultrapassa R$ 1.510,00 (um mil, quinhentos e dez reais), o juiz poderá reduzir a pena de um terço até a metade ou aplicar apenas a de multa.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 4 o O valor a que se refere o parágrafo anterior será reajustado nas mesmas datas e nos mesmos índices do reajuste dos benefícios da previdência social.\n(Incluído pela Lei nº 9.983, de 2000)\n§ 5º A extinção de punibilidade de que trata o § 1º deste artigo não se aplica ao agente declarado devedor contumaz em decisão administrativa definitiva e inscrito no Cadastro Informativo dos créditos não quitados do setor público federal (Cadin), previsto na Lei nº 10.522, de 19 de julho de 2002.\n(Incluído pela Lei Complementar nº 225, de 2026)\n§ 6º O fato de o agente deixar de ser considerado devedor contumaz não afasta o disposto no § 5º deste artigo em relação aos atos praticados no período em que era assim considerado.\n(Incluído pela Lei Complementar nº 225, de 2026)",
    "textoHistorico": "",
    "caput": "Suprimir ou reduzir contribuição social previdenciária e qualquer acessório, mediante as seguintes condutas:"
   },
@@ -42503,8 +41920,7 @@
      "ancoras": [
       "c337b",
       "art337b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42541,8 +41957,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-A",
+     "rotulo": "CAPÍTULO II-A",
+     "nome": "DOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
      "notas": [
       "(Incluído pela Lei nº 10.467, de 11.6.2002)"
      ]
@@ -42578,8 +41994,7 @@
      "ancoras": [
       "c337c",
       "art337c"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42616,8 +42031,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-A",
+     "rotulo": "CAPÍTULO II-A",
+     "nome": "DOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
      "notas": [
       "(Incluído pela Lei nº 10.467, de 11.6.2002)"
      ]
@@ -42653,8 +42068,7 @@
      "ancoras": [
       "c337d",
       "art337d"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "paragrafo",
@@ -42666,13 +42080,6 @@
      "ancoras": [
       "art337dp"
      ]
-    },
-    {
-     "tipo": "texto",
-     "situacao": "vigente",
-     "texto": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
-     "notas": [],
-     "ancoras": []
     },
     {
      "tipo": "texto",
@@ -42707,14 +42114,14 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-A",
+     "rotulo": "CAPÍTULO II-A",
+     "nome": "DOS CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO PÚBLICA ESTRANGEIRA",
      "notas": [
       "(Incluído pela Lei nº 10.467, de 11.6.2002)"
      ]
     }
    },
-   "texto": "Funcionário público estrangeiro\n(Incluído pela Lei nº 10.467, de 11.6.2002)\nArt. 337-D Considera-se funcionário público estrangeiro, para os efeitos penais, quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro.\n(Incluído pela Lei nº 10.467, de 11.6.2002)\nParágrafo único. Equipara-se a funcionário público estrangeiro quem exerce cargo, emprego ou função em empresas controladas, diretamente ou indiretamente, pelo Poder Público de país estrangeiro ou em organizações públicas internacionais.\n(Incluído pela Lei nº 10.467, de 11.6.2002)\nDOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS\n(Incluído pela Lei nº 14.133, de 2021)\nContratação direta ilegal\n(Incluído pela Lei nº 14.133, de 2021)",
+   "texto": "Funcionário público estrangeiro\n(Incluído pela Lei nº 10.467, de 11.6.2002)\nArt. 337-D Considera-se funcionário público estrangeiro, para os efeitos penais, quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro.\n(Incluído pela Lei nº 10.467, de 11.6.2002)\nParágrafo único. Equipara-se a funcionário público estrangeiro quem exerce cargo, emprego ou função em empresas controladas, diretamente ou indiretamente, pelo Poder Público de país estrangeiro ou em organizações públicas internacionais.\n(Incluído pela Lei nº 10.467, de 11.6.2002)\n(Incluído pela Lei nº 14.133, de 2021)\nContratação direta ilegal\n(Incluído pela Lei nº 14.133, de 2021)",
    "textoHistorico": "",
    "caput": "Considera-se funcionário público estrangeiro, para os efeitos penais, quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro."
   },
@@ -42734,8 +42141,7 @@
      "ancoras": [
       "c337e",
       "art337e"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42770,8 +42176,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -42795,8 +42201,7 @@
      "ancoras": [
       "c337f",
       "art337f"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42831,8 +42236,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -42856,8 +42261,7 @@
      "ancoras": [
       "c337g",
       "art337g"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42892,8 +42296,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -42917,8 +42321,7 @@
      "ancoras": [
       "c337h",
       "art337h"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -42953,8 +42356,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -42978,8 +42381,7 @@
      "ancoras": [
       "c337i",
       "art337i"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43014,8 +42416,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43039,8 +42441,7 @@
      "ancoras": [
       "c337j",
       "art337j"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43075,8 +42476,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43100,8 +42501,7 @@
      "ancoras": [
       "c337k",
       "art337k"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43145,8 +42545,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43170,8 +42570,7 @@
      "ancoras": [
       "c337l",
       "art337l"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "inciso",
@@ -43261,8 +42660,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43286,8 +42685,7 @@
      "ancoras": [
       "c337m",
       "art337m"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43353,8 +42751,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43378,8 +42776,7 @@
      "ancoras": [
       "c337n",
       "art337n"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43414,8 +42811,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43439,8 +42836,7 @@
      "ancoras": [
       "c337o",
       "art337o"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43488,8 +42884,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43513,8 +42909,7 @@
      "ancoras": [
       "c337p",
       "art337p"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -43531,8 +42926,8 @@
      "notas": []
     },
     "capitulo": {
-     "rotulo": "CAPÍTULO II",
-     "nome": "-B",
+     "rotulo": "CAPÍTULO II-B",
+     "nome": "DOS CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS",
      "notas": []
     }
    },
@@ -43562,8 +42957,7 @@
      "ancoras": [
       "c338",
       "art338"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43622,8 +43016,7 @@
      "ancoras": [
       "c338a",
       "art338a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43706,8 +43099,7 @@
      "notas": [],
      "ancoras": [
       "art339."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -43718,8 +43110,7 @@
      ],
      "ancoras": [
       "art339"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -43731,8 +43122,7 @@
      "ancoras": [
       "c339",
       "art339.0"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43805,8 +43195,7 @@
      "ancoras": [
       "c340",
       "art340"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43861,8 +43250,7 @@
      "ancoras": [
       "c341",
       "art341"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -43916,8 +43304,7 @@
      "notas": [],
      "ancoras": [
       "art342."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -43929,8 +43316,7 @@
      "ancoras": [
       "c342",
       "art342"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44022,8 +43408,7 @@
      "notas": [],
      "ancoras": [
       "art343."
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44049,8 +43434,7 @@
      "ancoras": [
       "c343",
       "art343"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44118,8 +43502,7 @@
      "ancoras": [
       "c344",
       "art344"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44185,8 +43568,7 @@
      "ancoras": [
       "c345",
       "art345"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44242,8 +43624,7 @@
      "ancoras": [
       "c346",
       "art346"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44298,8 +43679,7 @@
      "ancoras": [
       "c347",
       "art347"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44363,8 +43743,7 @@
      "ancoras": [
       "c348",
       "art348"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44444,8 +43823,7 @@
      "ancoras": [
       "c349",
       "art349"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44494,8 +43872,7 @@
      "ancoras": [
       "c349a",
       "art349a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -44552,8 +43929,7 @@
      "ancoras": [
       "c350",
       "art350"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "anotacao",
@@ -44732,8 +44108,7 @@
      "ancoras": [
       "c351",
       "art351"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44824,8 +44199,7 @@
      "ancoras": [
       "c352",
       "art352"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44880,8 +44254,7 @@
      "ancoras": [
       "c353",
       "art353"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44936,8 +44309,7 @@
      "ancoras": [
       "c354",
       "art354"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -44993,8 +44365,7 @@
      "ancoras": [
       "c355",
       "art355"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45064,8 +44435,7 @@
      "ancoras": [
       "c356",
       "art356"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45120,8 +44490,7 @@
      "ancoras": [
       "c357",
       "art357"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45185,8 +44554,7 @@
      "ancoras": [
       "c358",
       "art358"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45241,8 +44609,7 @@
      "ancoras": [
       "c359",
       "art359"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45299,8 +44666,7 @@
      "ancoras": [
       "c359a",
       "art359a"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45396,8 +44762,7 @@
      "ancoras": [
       "c359b",
       "art359b"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45460,8 +44825,7 @@
      "ancoras": [
       "c359c",
       "art359c"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45524,8 +44888,7 @@
      "ancoras": [
       "c359d",
       "art359d"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45588,8 +44951,7 @@
      "ancoras": [
       "c359e",
       "art359e"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45652,8 +45014,7 @@
      "ancoras": [
       "c359f",
       "art359f"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45716,8 +45077,7 @@
      "ancoras": [
       "c359g",
       "art359g"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45780,8 +45140,7 @@
      "ancoras": [
       "c359h",
       "art359h"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45846,8 +45205,7 @@
      "ancoras": [
       "c359i",
       "art359i"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -45950,8 +45308,7 @@
      "ancoras": [
       "c359j",
       "art359j"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46020,8 +45377,7 @@
      "ancoras": [
       "c359k",
       "art359k"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46159,8 +45515,7 @@
      "ancoras": [
       "c359l",
       "art359l"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46229,8 +45584,7 @@
      "ancoras": [
       "c359m",
       "art359m"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46252,8 +45606,7 @@
      "ancoras": [
       "c359ma",
       "art359ma"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "caput",
@@ -46265,8 +45618,7 @@
      "ancoras": [
       "c359mb",
       "art359mb"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -46326,8 +45678,7 @@
      "ancoras": [
       "c359n",
       "art359n"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46396,8 +45747,7 @@
      "ancoras": [
       "c359o",
       "art359o"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -46456,8 +45806,7 @@
      "ancoras": [
       "c359p",
       "art359p"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46526,8 +45875,7 @@
      "ancoras": [
       "c359q",
       "art359q"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -46587,8 +45935,7 @@
      "ancoras": [
       "c359r",
       "art359r"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "pena",
@@ -46657,8 +46004,7 @@
      "ancoras": [
       "c359t",
       "art359t"
-     ],
-     "links": []
+     ]
     },
     {
      "tipo": "texto",
@@ -46717,8 +46063,7 @@
      "ancoras": [
       "c359u",
       "art359u"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -46764,8 +46109,7 @@
      "ancoras": [
       "c360",
       "art360"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -46793,8 +46137,7 @@
      "ancoras": [
       "c361",
       "art361"
-     ],
-     "links": []
+     ]
     }
    ],
    "hierarquia": {
@@ -46817,5 +46160,6 @@
    "GETÚLIO VARGAS Francisco Campos",
    "Este texto não substitui o publicado no DOU de 31.12.1940 e retificado em 3.1.1941"
   ]
- }
+ },
+ "anexos": []
 }

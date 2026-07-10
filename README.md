@@ -1,24 +1,25 @@
-# Código Penal — API + Landing Page
+# Consulta de Legislação — Código Penal e CTB
 
-API do **Código Penal brasileiro** (Decreto-Lei nº 2.848, de 7 de dezembro de 1940),
-gerada a partir do HTML oficial do Planalto
-([del2848.htm](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm)),
-com uma landing page simples para buscar por **número de artigo** ou por **palavra**.
+API e landing page de busca para o **Código Penal** (Decreto-Lei nº 2.848/1940) e o
+**Código de Trânsito Brasileiro** (Lei nº 9.503/1997), gerados a partir do HTML
+oficial do Planalto. Busque por **número de artigo** ou por **palavra**; no CTB,
+cada artigo de infração exibe uma **ficha operacional** com gravidade, penalidade
+e medidas administrativas (as providências a cargo do agente de fiscalização).
 
 ## Site publicado (GitHub Pages)
 
 **https://luccazovedi.github.io/PMSP/**
 
-O Pages serve a pasta **`docs/`** (Settings → Pages → Deploy from a branch → `/docs`),
-gerada por `npm run build-site` a partir de `public/` + `lib/` + `data/` e commitada
-no repositório. Não edite `docs/` à mão — regenere com o script.
+O Pages serve a pasta **`docs/`** (Settings → Pages → Deploy from a branch → `main` → `/docs`),
+gerada por `npm run build-site`. Não edite `docs/` à mão — regenere com o script.
 
-No Pages tudo é estático: a busca roda no navegador (mesma lógica do servidor, via
-`lib/consulta.js`) e a API vira arquivos JSON pré-gerados:
+No Pages tudo é estático: a busca e as sugestões rodam no navegador (mesma lógica do
+servidor, via `lib/consulta.js`) e a API vira arquivos JSON pré-gerados por lei:
 
-- `api/lei.json`, `api/estrutura.json`, `api/artigos.json`
-- `api/artigos/121.json`, `api/artigos/121-A.json`, … (um por artigo)
-- `data/codigo-penal.json` (dados completos)
+- `api/index.json` — índice das leis
+- `api/cp/lei.json`, `api/cp/estrutura.json`, `api/cp/artigos.json`, `api/cp/artigos/121.json`, …
+- `api/ctb/lei.json` (inclui os anexos), `api/ctb/artigos/165.json`, `api/ctb/artigos/ANEXO-I.json`, …
+- `data/codigo-penal.json` e `data/ctb.json` (dados completos)
 
 ## Como rodar localmente
 
@@ -28,95 +29,77 @@ npm start          # http://localhost:3000
 ```
 
 - `http://localhost:3000/` — landing page de busca
-- `http://localhost:3000/api` — documentação viva da API (inclui `/api/busca?q=`)
+- `http://localhost:3000/api` — documentação viva da API
 
-## Endpoints
+## Endpoints (servidor Node)
+
+`:lei` = `cp` (Código Penal) ou `ctb` (Código de Trânsito Brasileiro).
 
 | Rota | Descrição |
 |---|---|
-| `GET /api` | Metadados e lista de rotas |
-| `GET /api/lei` | Metadados da lei, preâmbulo e fecho (data e assinaturas) |
-| `GET /api/estrutura` | Árvore Parte → Título → Capítulo → Seção com os artigos de cada nível |
-| `GET /api/artigos` | Todos os artigos (aceita `?limit=` e `?offset=`) |
-| `GET /api/artigos/:numero` | Um artigo — aceita `121`, `121-A`, `art 121`, `Art. 121-a`… |
-| `GET /api/busca?q=termo` | Busca full-text sem distinção de acento/caixa; se `q` for um número de artigo, devolve o artigo direto |
+| `GET /api` | Metadados das leis e lista de rotas |
+| `GET /api/:lei/lei` | Metadados, preâmbulo, fecho e anexos |
+| `GET /api/:lei/estrutura` | Árvore Parte → Título → Capítulo → Seção com os artigos |
+| `GET /api/:lei/artigos` | Todos os artigos (aceita `?limit=` e `?offset=`) |
+| `GET /api/:lei/artigos/:numero` | Um artigo — aceita `121`, `165-A`, `art 121`, `anexo-i`… |
+| `GET /api/:lei/busca?q=termo` | Busca full-text sem distinção de acento/caixa |
+| `GET /api/:lei/sugestoes?q=termo` | Sugestões de relacionados (as mesmas da landing page) |
 
-### Formato de um artigo
+Rotas sem o prefixo da lei (`/api/artigos/121`) continuam respondendo pelo Código
+Penal, por compatibilidade.
 
-```jsonc
-{
-  "numero": "121",
-  "rotulo": "Art. 121",
-  "situacao": "vigente",            // vigente | revogado
-  "rubricas": ["Homicídio simples", "Homicídio qualificado", ...],
-  "caput": "Matar alguem:",
-  "hierarquia": {
-    "parte":    { "rotulo": "PARTE ESPECIAL", "nome": null },
-    "titulo":   { "rotulo": "TÍTULO I", "nome": "DOS CRIMES CONTRA A PESSOA" },
-    "capitulo": { "rotulo": "CAPÍTULO I", "nome": "DOS CRIMES CONTRA A VIDA" }
-  },
-  "dispositivos": [                  // TUDO, na ordem do texto oficial
-    {
-      "tipo": "caput",               // caput | paragrafo | inciso | alinea | pena | rubrica | texto | anotacao
-      "situacao": "vigente",         // vigente | historico (texto riscado no Planalto)
-      "texto": "Matar alguem:",
-      "notas": ["(Redação dada pela Lei nº ...)"]  // anotações oficiais do Planalto
-    }
-  ],
-  "versoesAnteriores": [...],        // redações antigas riscadas, quando houver
-  "texto": "...",                    // texto vigente concatenado (para busca)
-  "textoHistorico": "..."            // redações históricas concatenadas
-}
-```
+### Campos estruturados do CTB
+
+Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, os dispositivos do CTB
+são classificados como `infracao`, `penalidade` e `medida-administrativa` — é disso
+que a landing page monta a ficha operacional (gravidade da infração, penalidade e
+providências do agente). O Anexo I (conceitos e definições) vira o registro
+pesquisável `ANEXO-I`.
 
 ## Fidelidade dos dados — nada fica de fora
 
 O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial do Planalto
-(cópia versionada em `data/fonte/del2848.htm`), preservando:
+(cópias versionadas em `data/fonte/`), preservando, para as duas leis:
 
-- **todos os 432 artigos** (404 vigentes e 28 revogados, do art. 1º ao 361, incluindo
-  os com sufixo — 121-A, 359-U etc.);
-- os dispositivos completos de cada artigo: caput, parágrafos, incisos, alíneas e penas;
-- as **rubricas** (nomes marginais, ex.: "Homicídio simples");
-- as **anotações oficiais**: "(Redação dada pela Lei…)", "(Incluído pela…)",
-  "(Revogado pela…)", "(Vide…)", "(VETADO)";
-- as **redações históricas riscadas** no texto do Planalto (marcadas `situacao: "historico"`),
-  inclusive a Parte Geral original de 1940;
-- preâmbulo, fecho, assinaturas e a observação "Este texto não substitui o publicado no DOU".
+- todos os artigos (CP: 432 registros, arts. 1º a 361; CTB: 393 registros, arts. 1º
+  a 341, mais sufixados como 165-A e o Anexo I);
+- os dispositivos completos na ordem do texto oficial;
+- as rubricas (nomes marginais), as anotações oficiais ("Redação dada pela…",
+  "Incluído pela…", "Revogado pela…", "Vide…", "(VETADO)");
+- as redações históricas riscadas (marcadas `situacao: "historico"`);
+- preâmbulo, fecho, assinaturas, observações de publicação e anexos.
 
-`npm test` valida essas invariantes (cobertura do art. 1º ao 361, sem duplicatas,
-sem sobras de HTML, artigos-chave com o conteúdo esperado).
-
-O SHA-256 do HTML de origem e a data de geração ficam registrados em `meta` no JSON
-(exposto em `/api/lei`).
+`npm test` valida as invariantes das duas leis (cobertura completa da numeração,
+sem duplicatas, sem sobras de HTML, artigos-chave com o conteúdo esperado e
+contagens mínimas de infrações/penalidades/medidas no CTB).
 
 ## Atualizando quando a lei mudar
 
-O Planalto bloqueia acesso de datacenters, então o download é feito pelo GitHub Actions:
-rode o workflow **"Atualizar dados do Planalto"** (aba Actions → Run workflow). Ele baixa
-o HTML atual, regera o JSON, valida e commita. Localmente, com acesso à internet aberta:
-
-```bash
-curl -A "Mozilla/5.0" https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm -o data/fonte/del2848.htm
-npm run build-data && npm test
-```
+O Planalto bloqueia acesso de datacenters, então o download é feito pelo GitHub
+Actions: rode o workflow **"Atualizar dados do Planalto"** (aba Actions → Run
+workflow). Ele baixa os HTML atuais, regera os JSON, valida, regenera `docs/` e
+commita — e o Pages republica sozinho.
 
 ## Estrutura do projeto
 
 ```
-data/fonte/del2848.htm   HTML oficial do Planalto (fonte da verdade, versionada)
-data/codigo-penal.json   dados estruturados gerados (não editar à mão)
-scripts/build-data.js    parser HTML → JSON
+data/fonte/              HTML oficial do Planalto (fonte da verdade, versionada)
+data/codigo-penal.json   dados estruturados do CP (gerado — não editar à mão)
+data/ctb.json            dados estruturados do CTB (gerado)
+scripts/build-data.js    parser HTML → JSON (multi-lei)
 scripts/validate-data.js validação de integridade (npm test)
 scripts/build-site.js    gera o site estático em docs/ (npm run build-site)
 server/index.js          API Express + arquivos estáticos
 public/                  landing page (HTML/CSS/JS puro, sem framework)
-lib/consulta.js          lógica de busca compartilhada (servidor e navegador)
+lib/consulta.js          busca e sugestões compartilhadas (servidor e navegador)
 docs/                    site estático publicado no GitHub Pages (gerado)
 ```
 
 ## Avisos
 
-- Este projeto não substitui o texto oficial publicado no DOU nem o site do Planalto.
-- O texto da lei é dado público (art. 8º, I, da Lei 9.610/98 exclui atos oficiais de
-  proteção autoral).
+- Este projeto não substitui os textos oficiais publicados no DOU nem o site do
+  Planalto.
+- A ficha operacional reproduz exatamente o que a lei comina (infração, penalidade,
+  medida administrativa); não é orientação procedimental além do texto legal.
+- O texto das leis é dado público (art. 8º, I, da Lei 9.610/98 exclui atos oficiais
+  de proteção autoral).

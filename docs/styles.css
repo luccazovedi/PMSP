@@ -42,6 +42,40 @@ body {
 
 .subtitulo a { color: inherit; }
 
+.seletor-lei {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.pilula input { position: absolute; opacity: 0; }
+
+.pilula span {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  background: var(--papel);
+  color: var(--tinta-suave);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.pilula input:checked + span {
+  background: var(--destaque);
+  border-color: var(--destaque);
+  color: #fff;
+  font-weight: 600;
+}
+
+.pilula input:focus-visible + span {
+  outline: 2px solid var(--destaque);
+  outline-offset: 2px;
+}
+
 .busca {
   display: flex;
   gap: 8px;
@@ -239,6 +273,92 @@ body {
   color: var(--tinta-suave);
   margin-top: 14px;
 }
+
+/* ---- ficha estruturada do CTB ---- */
+
+.ficha {
+  background: var(--destaque-claro);
+  border: 1px solid #cfe5d8;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 10px 0 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.ficha-titulo {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--destaque);
+}
+
+.ficha-linha {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  margin: 6px 0;
+}
+
+.ficha-rotulo {
+  flex: 0 0 170px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.ficha-valores { flex: 1; }
+.ficha-valores p { margin: 0 0 4px; font-size: 0.92rem; }
+
+.ficha-nota {
+  margin: 10px 0 0;
+  font-size: 0.78rem;
+  color: var(--tinta-suave);
+  font-style: italic;
+}
+
+.selo-gravidade {
+  font-size: 0.72rem;
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 4px;
+  padding: 2px 8px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: var(--tinta-suave);
+  vertical-align: middle;
+}
+
+.gravidade-gravissima { background: #8f1d1d; }
+.gravidade-grave { background: #b45309; }
+.gravidade-media { background: #a16207; }
+.gravidade-leve { background: #15803d; }
+
+.etiqueta {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 1px 7px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.etiqueta-infracao { background: #fde8e8; color: #8f1d1d; }
+.etiqueta-penalidade { background: #fef3c7; color: #92400e; }
+.etiqueta-medida-administrativa { background: #dbeafe; color: #1e40af; }
+.etiqueta-pena { background: #ede9fe; color: #5b21b6; }
+
+.dispositivo.tipo-infracao,
+.dispositivo.tipo-penalidade,
+.dispositivo.tipo-medida-administrativa,
+.dispositivo.tipo-pena { padding-left: 1.5em; }
 
 .vazio {
   text-align: center;
