@@ -41,6 +41,15 @@ export const LEIS = [
     ementa: 'Institui o Código de Trânsito Brasileiro.',
   },
   {
+    id: 'cpp',
+    arquivo: 'del3689.htm',
+    saida: 'cpp.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm',
+    lei: 'Decreto-Lei nº 3.689, de 3 de outubro de 1941',
+    apelido: 'Código de Processo Penal',
+    ementa: 'Código de Processo Penal.',
+  },
+  {
     id: 'rdpm',
     arquivo: 'lc893.html',
     saida: 'rdpm.json',
@@ -103,7 +112,7 @@ const RE_PENALIDADE = /^Penalidade(s)?\s*[-–—]/;
 const RE_MEDIDA_ADM = /^Medida(s)?\s+administrativa(s)?\s*[-–—]/i;
 const RE_HIERARQUIA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[CÇ][CÇ]?[ÃA]O|DISPOSI[CÇ][ÕO]ES FINAIS)/i;
 const RE_ROTULO_HIER = /^(PARTE\s+\w+|LIVRO\s+[IVXLC]+|T[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|CAP[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|SE[CÇ][CÇ]?[ÃA]O\s+[IVXLC]+(?:-[A-Z])?|DISPOSI[CÇ][ÕO]ES FINAIS|PARTE GERAL|PARTE ESPECIAL)/i;
-const RE_FECHO = /^(?:(Rio de Janeiro|Bras[íi]lia)\s*,\s*\d+[ºo°]?\s+de\s+\w+\s+de\s+\d{4}.*da\s+Rep[úu]blica\.?|Pal[áa]cio dos Bandeirantes\s*,\s*(aos\s+)?\d+.*\d{4}\s*\.?)$/i;
+const RE_FECHO = /^(?:(Rio de Janeiro|Bras[íi]lia)\s*,\s*(?:em\s+|aos\s+)?\d+[ºo°]?\s+de\s+\w+\s+de\s+\d{4}.*da\s+Rep[úu]blica\.?|Pal[áa]cio dos Bandeirantes\s*,\s*(?:aos\s+|em\s+)?\d+.*\d{4}\s*\.?)$/i;
 const RE_ANEXO = /^ANEXO\s+([IVXLC]+|\d+)\b/i;
 
 const RE_ITEM = /^\d+(?:\.\d+)*\s*[-–—]\s/; // transgressões numeradas do RDPM
@@ -197,7 +206,10 @@ function parseLei(cfg) {
   if (cfg.formato === 'alesp') html = preprocessarAlesp(html);
 
   // ---- tokenização em blocos (<p> e <li>) ----------------------------------
-  const posPreambulo = html.search(cfg.rePreambulo || /O\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
+  // Busca no HTML cru: sem o "O" inicial, que pode vir separado por tags
+  // (<strong>O</strong> <strong>PRESIDENTE...) — e a 1ª ocorrência é sempre o
+  // preâmbulo, nunca menções posteriores a "do Presidente da República".
+  const posPreambulo = html.search(cfg.rePreambulo || /PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
   if (posPreambulo === -1) throw new Error(`[${cfg.id}] preâmbulo não encontrado — o HTML da fonte mudou?`);
   const inicioCorpo = Math.max(0, html.toLowerCase().lastIndexOf('<p', posPreambulo));
 

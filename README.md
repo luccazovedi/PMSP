@@ -1,9 +1,9 @@
-# Consulta de Legislação — Código Penal, CTB e RDPM
+# Consulta de Legislação — CP, CPP, CTB e RDPM
 
-API e landing page de busca para o **Código Penal** (Decreto-Lei nº 2.848/1940), o
-**Código de Trânsito Brasileiro** (Lei nº 9.503/1997) e o **RDPM da PMESP**
-(Lei Complementar estadual nº 893/2001), gerados a partir do HTML oficial do
-Planalto e da ALESP. Busque por **número de artigo** ou por **palavra**; no CTB,
+API e landing page de busca para o **Código Penal** (DEL 2.848/1940), o **Código
+de Processo Penal** (DEL 3.689/1941), o **Código de Trânsito Brasileiro**
+(Lei 9.503/1997) e o **RDPM da PMESP** (LC estadual 893/2001), gerados a partir
+do HTML oficial do Planalto e da ALESP. Busque por **número de artigo** ou por **palavra**; no CTB,
 cada artigo de infração exibe uma **ficha operacional** com gravidade, penalidade
 e medidas administrativas (as providências a cargo do agente de fiscalização).
 
@@ -19,9 +19,10 @@ servidor, via `lib/consulta.js`) e a API vira arquivos JSON pré-gerados por lei
 
 - `api/index.json` — índice das leis
 - `api/cp/lei.json`, `api/cp/estrutura.json`, `api/cp/artigos.json`, `api/cp/artigos/121.json`, …
+- `api/cpp/artigos/301.json`, `api/cpp/estrutura.json`, …
 - `api/ctb/lei.json` (inclui os anexos), `api/ctb/artigos/165.json`, `api/ctb/artigos/ANEXO-I.json`, …
 - `api/rdpm/lei.json`, `api/rdpm/artigos/13.json`, …
-- `data/codigo-penal.json`, `data/ctb.json` e `data/rdpm.json` (dados completos)
+- `data/codigo-penal.json`, `data/cpp.json`, `data/ctb.json` e `data/rdpm.json` (dados completos)
 
 ## Como rodar localmente
 
@@ -35,8 +36,8 @@ npm start          # http://localhost:3000
 
 ## Endpoints (servidor Node)
 
-`:lei` = `cp` (Código Penal), `ctb` (Código de Trânsito Brasileiro) ou `rdpm`
-(Regulamento Disciplinar da PMESP).
+`:lei` = `cp` (Código Penal), `cpp` (Código de Processo Penal), `ctb` (Código de
+Trânsito Brasileiro) ou `rdpm` (Regulamento Disciplinar da PMESP).
 
 | Rota | Descrição |
 |---|---|
@@ -67,8 +68,8 @@ page exibe a gravidade de cada uma — (G) grave, (M) média, (L) leve — como 
 O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial do Planalto
 (cópias versionadas em `data/fonte/`), preservando, para as duas leis:
 
-- todos os artigos (CP: 432 registros, arts. 1º a 361; CTB: 393 registros, arts. 1º
-  a 341, mais sufixados como 165-A e o Anexo I; RDPM: 89 artigos);
+- todos os artigos (CP: arts. 1º a 361; CPP: arts. 1º a 811; CTB: arts. 1º a 341
+  mais o Anexo I; RDPM: arts. 1º a 89 — incluindo sufixados como 121-A e 3-B);
 - os dispositivos completos na ordem do texto oficial;
 - as rubricas (nomes marginais), as anotações oficiais ("Redação dada pela…",
   "Incluído pela…", "Revogado pela…", "Vide…", "(VETADO)");
@@ -91,6 +92,7 @@ commita — e o Pages republica sozinho.
 ```
 data/fonte/              HTML oficial do Planalto (fonte da verdade, versionada)
 data/codigo-penal.json   dados estruturados do CP (gerado — não editar à mão)
+data/cpp.json            dados estruturados do CPP (gerado)
 data/ctb.json            dados estruturados do CTB (gerado)
 data/rdpm.json           dados estruturados do RDPM (gerado)
 scripts/build-data.js    parser HTML → JSON (multi-lei)

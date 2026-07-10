@@ -31,6 +31,23 @@ const REGRAS = [
     extras: () => [],
   },
   {
+    arquivo: 'cpp.json',
+    ultimoArtigo: 811,
+    fechoContem: '3 de outubro de 1941',
+    conteudos: [
+      ['1', 'processo penal reger-se-á'],
+      ['5', 'inquérito policial'],
+      ['244', 'busca pessoal'],
+      ['282', 'medidas cautelares'],
+      ['301', 'Qualquer do povo poderá'],
+      ['302', 'flagrante delito'],
+      ['310', 'audiência de custódia'],
+      ['810', 'janeiro de 1942'],
+      ['811', 'Revogam-se'],
+    ],
+    extras: () => [],
+  },
+  {
     arquivo: 'rdpm.json',
     ultimoArtigo: 89,
     preambuloContem: 'GOVERNADOR DO ESTADO',

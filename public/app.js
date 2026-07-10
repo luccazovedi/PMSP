@@ -17,6 +17,18 @@ const LEIS = {
       { q: '331', nome: 'Desacato' },
     ],
   },
+  cpp: {
+    arquivo: 'cpp.json',
+    exemplo: 'ex.: 301, 302, 244 — ou flagrante, busca pessoal, fiança',
+    atalhos: [
+      { q: '301', nome: 'Prisão em flagrante' },
+      { q: '302', nome: 'Situações de flagrante' },
+      { q: '244', nome: 'Busca pessoal' },
+      { q: '6', nome: 'Local de crime' },
+      { q: '282', nome: 'Cautelares' },
+      { q: '322', nome: 'Fiança' },
+    ],
+  },
   ctb: {
     arquivo: 'ctb.json',
     exemplo: 'ex.: 165, 306, 165-B — ou capacete, celular, álcool',
