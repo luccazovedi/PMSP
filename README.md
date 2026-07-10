@@ -7,8 +7,11 @@ com uma landing page simples para buscar por **número de artigo** ou por **pala
 
 ## Site publicado (GitHub Pages)
 
-O site é publicado automaticamente pelo workflow **"Publicar no GitHub Pages"** a cada
-push na branch: **https://luccazovedi.github.io/PMSP/**
+**https://luccazovedi.github.io/PMSP/**
+
+O Pages serve a pasta **`docs/`** (Settings → Pages → Deploy from a branch → `/docs`),
+gerada por `npm run build-site` a partir de `public/` + `lib/` + `data/` e commitada
+no repositório. Não edite `docs/` à mão — regenere com o script.
 
 No Pages tudo é estático: a busca roda no navegador (mesma lógica do servidor, via
 `lib/consulta.js`) e a API vira arquivos JSON pré-gerados:
@@ -16,9 +19,6 @@ No Pages tudo é estático: a busca roda no navegador (mesma lógica do servidor
 - `api/lei.json`, `api/estrutura.json`, `api/artigos.json`
 - `api/artigos/121.json`, `api/artigos/121-A.json`, … (um por artigo)
 - `data/codigo-penal.json` (dados completos)
-
-> O repositório precisa estar **público** (ou ter plano GitHub Pro) para o GitHub
-> Pages funcionar. `npm run build-site` gera a mesma versão estática em `_site/`.
 
 ## Como rodar localmente
 
@@ -108,8 +108,11 @@ data/fonte/del2848.htm   HTML oficial do Planalto (fonte da verdade, versionada)
 data/codigo-penal.json   dados estruturados gerados (não editar à mão)
 scripts/build-data.js    parser HTML → JSON
 scripts/validate-data.js validação de integridade (npm test)
+scripts/build-site.js    gera o site estático em docs/ (npm run build-site)
 server/index.js          API Express + arquivos estáticos
 public/                  landing page (HTML/CSS/JS puro, sem framework)
+lib/consulta.js          lógica de busca compartilhada (servidor e navegador)
+docs/                    site estático publicado no GitHub Pages (gerado)
 ```
 
 ## Avisos

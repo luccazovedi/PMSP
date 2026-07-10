@@ -1,5 +1,5 @@
 /**
- * Gera a versão estática do site em _site/ para publicação no GitHub Pages.
+ * Gera a versão estática do site em docs/ para publicação no GitHub Pages.
  *
  * O GitHub Pages não roda servidor, então:
  *  - a landing page (public/) busca no navegador, sobre data/codigo-penal.json;
@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
-const SITE = path.join(RAIZ, '_site');
+const SITE = path.join(RAIZ, 'docs');
 
 const lei = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'codigo-penal.json'), 'utf8'));
 
@@ -67,4 +67,4 @@ for (const artigo of lei.artigos) {
 fs.writeFileSync(path.join(SITE, '.nojekyll'), '');
 
 const total = fs.readdirSync(path.join(api, 'artigos')).length;
-console.log(`OK: site estático gerado em _site/ (${total} artigos na API estática).`);
+console.log(`OK: site estático gerado em docs/ (${total} artigos na API estática).`);

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código Penal — Consulta</title>
+  <meta name="description" content="Consulta ao Código Penal brasileiro (Decreto-Lei nº 2.848/1940): busque por artigo ou palavra.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Código Penal</h1>
+    <p class="subtitulo">Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — texto compilado do
+      <a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm" target="_blank" rel="noopener">Planalto</a>
+    </p>
+
+    <form id="form-busca" class="busca" autocomplete="off">
+      <input
+        id="campo-busca"
+        type="search"
+        placeholder="Busque um artigo (ex.: 121, 157, 121-A) ou uma palavra (ex.: furto, arma de fogo)"
+        aria-label="Buscar artigo ou palavra"
+        required
+      >
+      <button type="submit">Buscar</button>
+    </form>
+    <p id="resumo" class="resumo" role="status"></p>
+  </header>
+
+  <main id="resultados" class="resultados" aria-live="polite"></main>
+
+  <footer class="rodape">
+    <p id="info-fonte"></p>
+    <p>Dados abertos: <a href="api/lei.json" target="_blank" rel="noopener"><code>api/lei.json</code></a> ·
+      <a href="api/artigos/121.json" target="_blank" rel="noopener"><code>api/artigos/121.json</code></a> ·
+      <a href="api/estrutura.json" target="_blank" rel="noopener"><code>api/estrutura.json</code></a> ·
+      <a href="data/codigo-penal.json" target="_blank" rel="noopener"><code>data/codigo-penal.json</code></a></p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
