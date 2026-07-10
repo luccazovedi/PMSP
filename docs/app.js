@@ -5,8 +5,30 @@
 import { criarConsulta } from './lib/consulta.js';
 
 const LEIS = {
-  cp: { arquivo: 'codigo-penal.json', exemplo: 'ex.: 121, 157, 121-A — ou furto, arma de fogo' },
-  ctb: { arquivo: 'ctb.json', exemplo: 'ex.: 165, 306, 165-B — ou capacete, celular, álcool' },
+  cp: {
+    arquivo: 'codigo-penal.json',
+    exemplo: 'ex.: 121, 157, 121-A — ou furto, arma de fogo',
+    atalhos: [
+      { q: '121', nome: 'Homicídio' },
+      { q: '155', nome: 'Furto' },
+      { q: '157', nome: 'Roubo' },
+      { q: '171', nome: 'Estelionato' },
+      { q: '147-A', nome: 'Perseguição' },
+      { q: '331', nome: 'Desacato' },
+    ],
+  },
+  ctb: {
+    arquivo: 'ctb.json',
+    exemplo: 'ex.: 165, 306, 165-B — ou capacete, celular, álcool',
+    atalhos: [
+      { q: '165', nome: 'Embriaguez' },
+      { q: '162', nome: 'Sem CNH' },
+      { q: '252', nome: 'Celular' },
+      { q: '244', nome: 'Capacete' },
+      { q: '302', nome: 'Homicídio culposo' },
+      { q: '306', nome: 'Crime de embriaguez' },
+    ],
+  },
 };
 
 const form = document.getElementById('form-busca');
@@ -139,7 +161,7 @@ function renderArtigo(artigo, termo) {
   const cartao = el('article', 'cartao');
 
   const titulo = el('h2');
-  titulo.appendChild(el('span', null, artigo.rotulo));
+  titulo.appendChild(el('span', 'num-artigo', artigo.rotulo));
   if (artigo.situacao === 'revogado') titulo.appendChild(el('span', 'selo-revogado', 'REVOGADO'));
   if (artigo.rubricas.length) titulo.appendChild(el('span', 'rubrica', artigo.rubricas.join(' · ')));
   cartao.appendChild(titulo);
@@ -152,14 +174,30 @@ function renderArtigo(artigo, termo) {
     if (ficha) cartao.appendChild(renderFicha(ficha));
   }
 
+  // Dispositivos históricos consecutivos ficam recolhidos num <details>,
+  // para o texto vigente ser lido sem interrupções
+  let grupoHistorico = null;
   for (const d of artigo.dispositivos) {
+    let no;
     if (d.tipo === 'rubrica') {
-      cartao.appendChild(el('p', `dispositivo tipo-rubrica${d.situacao === 'historico' ? ' historico' : ''}`, d.texto));
-      continue;
+      no = el('p', `dispositivo tipo-rubrica${d.situacao === 'historico' ? ' historico' : ''}`, d.texto);
+    } else {
+      no = renderDispositivo({ ...d, rotuloArtigo: d.tipo === 'caput' ? artigo.rotulo : null }, termo);
     }
-    cartao.appendChild(
-      renderDispositivo({ ...d, rotuloArtigo: d.tipo === 'caput' ? artigo.rotulo : null }, termo),
-    );
+    if (d.situacao === 'historico') {
+      if (!grupoHistorico) {
+        grupoHistorico = el('details', 'historico-grupo');
+        grupoHistorico.appendChild(el('summary', null, 'redação anterior'));
+        cartao.appendChild(grupoHistorico);
+      }
+      grupoHistorico.appendChild(no);
+      const n = grupoHistorico.querySelectorAll('.dispositivo').length;
+      grupoHistorico.querySelector('summary').textContent =
+        n > 1 ? `redações anteriores (${n} dispositivos)` : 'redação anterior';
+    } else {
+      grupoHistorico = null;
+      cartao.appendChild(no);
+    }
   }
 
   if (artigo.versoesAnteriores && artigo.versoesAnteriores.length) {
@@ -183,7 +221,7 @@ function renderResultadoBusca(r, termo, consulta) {
   const cartao = el('article', 'cartao');
 
   const titulo = el('h2');
-  titulo.appendChild(el('span', null, r.rotulo));
+  titulo.appendChild(el('span', 'num-artigo', r.rotulo));
   if (r.situacao === 'revogado') titulo.appendChild(el('span', 'selo-revogado', 'REVOGADO'));
   if (r.rubricas.length) titulo.appendChild(el('span', 'rubrica', r.rubricas.join(' · ')));
 
@@ -249,9 +287,27 @@ function atualizarCabecalho(meta) {
     'Este site não substitui o texto publicado no DOU.';
 }
 
+const atalhosEl = document.getElementById('atalhos');
+
+function renderAtalhos(id) {
+  atalhosEl.replaceChildren();
+  for (const { q, nome } of LEIS[id].atalhos) {
+    const b = el('button');
+    b.type = 'button';
+    b.appendChild(el('strong', null, nome));
+    b.appendChild(document.createTextNode(` · art. ${q}`));
+    b.addEventListener('click', () => {
+      campo.value = q;
+      executarBusca(q);
+    });
+    atalhosEl.appendChild(b);
+  }
+}
+
 async function trocarLei(id) {
   leiAtual = id;
   campo.placeholder = `Busque um artigo ou uma palavra (${LEIS[id].exemplo})`;
+  renderAtalhos(id);
   fecharSugestoes();
   resultados.replaceChildren();
   resumo.textContent = '';
