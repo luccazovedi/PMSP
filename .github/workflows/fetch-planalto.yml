@@ -33,6 +33,9 @@ jobs:
           curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
             "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" \
             -o data/fonte/del3689.htm
+          curl -fSL --retry 3 --retry-delay 5 -A "$UA" \
+            "https://www.planalto.gov.br/ccivil_03/decreto-lei/del1001.htm" \
+            -o data/fonte/del1001.htm
 
       - name: Baixar RDPM da PMESP (LC 893/2001 — ALESP)
         run: |
