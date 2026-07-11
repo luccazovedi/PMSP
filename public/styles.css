@@ -220,6 +220,8 @@ mark {
   font-family: system-ui, sans-serif;
 }
 
+.atalhos[hidden] { display: none; }
+
 .atalhos button {
   border: 1px solid var(--borda);
   background: var(--papel);
@@ -773,21 +775,9 @@ mark {
   .busca input { font-size: 16px; padding: 13px 15px 13px 44px; }
   .busca button { padding: 13px; }
 
-  /* atalhos: trilho rolável */
-  .atalhos {
-    contain: layout inline-size;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    margin-top: 12px;
-    padding-bottom: 4px;
-    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
-    mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
-  }
-  .atalhos::-webkit-scrollbar { display: none; }
-  .atalhos button { white-space: nowrap; flex-shrink: 0; padding: 7px 13px; }
+  /* atalhos: centralizados, quebrando linha conforme o espaço */
+  .atalhos { margin-top: 12px; gap: 6px; }
+  .atalhos button, .atalhos .atalho-integra { padding: 6px 12px; font-size: 0.76rem; }
 
   .resumo { font-size: 0.8rem; margin-top: 12px; }
 

@@ -110,6 +110,7 @@ function atualizarCabecalho(meta) {
 const atalhosEl = document.getElementById('atalhos');
 
 function renderAtalhos(id) {
+  atalhosEl.hidden = false;
   atalhosEl.replaceChildren();
   for (const { q, nome } of LEIS[id].atalhos) {
     const b = el('button');
@@ -210,7 +211,14 @@ function mostrarSugestoes(itens) {
 campo.addEventListener('input', () => {
   clearTimeout(debounceSugestao);
   const valor = campo.value.trim();
-  if (!valor) { fecharSugestoes(); return; }
+  if (!valor) {
+    // campo limpo: atalhos voltam e os resultados anteriores saem
+    fecharSugestoes();
+    atalhosEl.hidden = false;
+    resultados.replaceChildren();
+    resumo.textContent = '';
+    return;
+  }
   debounceSugestao = setTimeout(async () => {
     try {
       const { consulta } = await carregarLei(leiAtual);
@@ -252,6 +260,8 @@ async function executarBusca(termo) {
     return;
   }
 
+  // ao buscar, os atalhos saem de cena para dar lugar aos resultados
+  atalhosEl.hidden = true;
   resultados.replaceChildren();
   const dados = consulta.buscar(termo);
 
