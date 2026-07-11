@@ -12,18 +12,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { REGISTRO_LEIS as LEIS } from '../lib/leis.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
 const SITE = path.join(RAIZ, 'docs');
-
-const LEIS = {
-  cp: { arquivo: 'codigo-penal.json' },
-  cpp: { arquivo: 'cpp.json' },
-  cpm: { arquivo: 'cpm.json' },
-  ctb: { arquivo: 'ctb.json' },
-  rdpm: { arquivo: 'rdpm.json' },
-};
 
 fs.rmSync(SITE, { recursive: true, force: true });
 fs.mkdirSync(SITE, { recursive: true });

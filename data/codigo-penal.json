@@ -5,7 +5,7 @@
   "ementa": "Código Penal.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm",
   "fonteSha256": "4aa525d277c2f3f2a489d2f749e8e6954849e5e5480775a5e94cc212c82de644",
-  "geradoEm": "2026-07-11T10:52:33.047Z",
+  "geradoEm": "2026-07-11T11:01:04.825Z",
   "notasGerais": [
    "(Vide Lei nº 1.521, de 1951)",
    "(Vide Lei nº 5.741, de 1971)",
@@ -524,22 +524,18 @@
          "180",
          "180-A"
         ]
-       },
-       {
-        "tipo": "capitulo",
-        "rotulo": "CAPÍTULO VIII",
-        "nome": "DISPOSIÇÕES GERAIS",
-        "filhos": [],
-        "artigos": [
-         "181",
-         "182",
-         "183",
-         "183-A"
-        ]
        }
       ],
       "artigos": []
-     },
+     }
+    ],
+    "artigos": []
+   },
+   {
+    "tipo": "parte",
+    "rotulo": "DISPOSIÇÕES GERAIS",
+    "nome": null,
+    "filhos": [
      {
       "tipo": "titulo",
       "rotulo": "TÍTULO III",
@@ -694,58 +690,35 @@
          "221",
          "222"
         ]
-       },
-       {
-        "tipo": "capitulo",
-        "rotulo": "CAPÍTULO IV",
-        "nome": "DISPOSIÇÕES GERAIS",
-        "filhos": [],
-        "artigos": [
-         "223",
-         "224",
-         "225",
-         "226"
-        ]
-       },
-       {
-        "tipo": "capitulo",
-        "rotulo": "CAPÍTULO V",
-        "nome": "DO LENOCÍNIO E DO TRÁFICO DE PESSOA PARA FIM DE PROSTITUIÇÃO OU OUTRA FORMA DE EXPLORAÇÃO SEXUAL",
-        "filhos": [],
-        "artigos": [
-         "227",
-         "228",
-         "229",
-         "230",
-         "231",
-         "231-A",
-         "232",
-         "232-A"
-        ]
-       },
-       {
-        "tipo": "capitulo",
-        "rotulo": "CAPÍTULO VI",
-        "nome": "DO ULTRAJE PÚBLICO AO PUDOR",
-        "filhos": [],
-        "artigos": [
-         "233",
-         "234"
-        ]
-       },
-       {
-        "tipo": "capitulo",
-        "rotulo": "CAPÍTULO VII",
-        "nome": "DISPOSIÇÕES GERAIS",
-        "filhos": [],
-        "artigos": [
-         "234-A",
-         "234-B",
-         "234-C"
-        ]
        }
       ],
       "artigos": []
+     },
+     {
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO V",
+      "nome": "DO LENOCÍNIO E DO TRÁFICO DE PESSOA PARA FIM DE PROSTITUIÇÃO OU OUTRA FORMA DE EXPLORAÇÃO SEXUAL",
+      "filhos": [],
+      "artigos": [
+       "227",
+       "228",
+       "229",
+       "230",
+       "231",
+       "231-A",
+       "232",
+       "232-A"
+      ]
+     },
+     {
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO VI",
+      "nome": "DO ULTRAJE PÚBLICO AO PUDOR",
+      "filhos": [],
+      "artigos": [
+       "233",
+       "234"
+      ]
      },
      {
       "tipo": "titulo",
@@ -1149,7 +1122,19 @@
       "artigos": []
      }
     ],
-    "artigos": []
+    "artigos": [
+     "181",
+     "182",
+     "183",
+     "183-A",
+     "223",
+     "224",
+     "225",
+     "226",
+     "234-A",
+     "234-B",
+     "234-C"
+    ]
    },
    {
     "tipo": "parte",
@@ -25220,20 +25205,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO II",
-     "nome": "DOS CRIMES CONTRA O PATRIMÔNIO",
-     "notas": []
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VIII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -25289,20 +25262,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO II",
-     "nome": "DOS CRIMES CONTRA O PATRIMÔNIO",
-     "notas": []
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VIII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -25358,20 +25319,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO II",
-     "nome": "DOS CRIMES CONTRA O PATRIMÔNIO",
-     "notas": []
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VIII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -25400,20 +25349,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO II",
-     "nome": "DOS CRIMES CONTRA O PATRIMÔNIO",
-     "notas": []
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VIII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -25639,11 +25576,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -25703,11 +25638,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -25809,11 +25742,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -25941,11 +25872,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26022,11 +25951,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26083,11 +26010,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26144,11 +26069,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26192,11 +26115,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26307,11 +26228,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26388,11 +26307,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26449,11 +26366,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26497,11 +26412,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26755,11 +26668,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO III",
@@ -26835,11 +26746,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -26885,11 +26794,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -26935,11 +26842,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -26994,11 +26899,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27044,11 +26947,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27094,11 +26995,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27197,11 +27096,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27247,11 +27144,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27297,11 +27192,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27367,11 +27260,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27448,11 +27339,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO IV",
@@ -27507,11 +27396,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO V",
@@ -27571,11 +27458,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO V",
@@ -27626,11 +27511,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO V",
@@ -27681,11 +27564,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO V",
@@ -27736,11 +27617,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO V",
@@ -27891,11 +27770,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28016,11 +27893,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28141,11 +28016,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28215,11 +28088,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28376,11 +28247,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28470,11 +28339,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28557,11 +28424,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28631,11 +28496,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28824,11 +28687,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -28925,11 +28786,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29020,11 +28879,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29164,11 +29021,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29289,11 +29144,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29372,11 +29225,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29455,11 +29306,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29522,11 +29371,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29589,11 +29436,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
+     "notas": []
     },
     "titulo": {
      "rotulo": "TÍTULO VI",
@@ -29746,22 +29591,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO IV",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -29864,22 +29695,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO IV",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -29995,22 +29812,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO IV",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -30212,22 +30015,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO IV",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": []
     }
    },
@@ -30321,18 +30110,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -30469,18 +30249,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -30539,18 +30310,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -30670,18 +30432,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -30957,18 +30710,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -31168,18 +30912,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -31220,18 +30955,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -31324,18 +31050,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO V",
@@ -31383,18 +31100,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO VI",
@@ -31476,18 +31184,9 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
+     "notas": []
     },
     "capitulo": {
      "rotulo": "CAPÍTULO VI",
@@ -31596,22 +31295,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": [
       "(Incluído pela Lei nº 12.015, de 2009)"
      ]
@@ -31671,22 +31356,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": [
       "(Incluído pela Lei nº 12.015, de 2009)"
      ]
@@ -31717,22 +31388,8 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
-     "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
-     ]
-    },
-    "titulo": {
-     "rotulo": "TÍTULO VI",
-     "nome": "DOS CRIMES CONTRA A DIGNIDADE SEXUAL",
-     "notas": [
-      "(Redação dada pela Lei nº 12.015, de 2009)"
-     ]
-    },
-    "capitulo": {
-     "rotulo": "CAPÍTULO VII",
-     "nome": "DISPOSIÇÕES GERAIS",
      "notas": [
       "(Incluído pela Lei nº 12.015, de 2009)"
      ]
@@ -31794,10 +31451,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -31858,10 +31515,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -31913,10 +31570,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -31968,10 +31625,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32032,10 +31689,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32264,10 +31921,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32319,10 +31976,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32430,10 +32087,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32485,10 +32142,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32582,10 +32239,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32688,10 +32345,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32743,10 +32400,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32826,10 +32483,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32881,10 +32538,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -32954,10 +32611,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33131,10 +32788,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33234,10 +32891,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33312,10 +32969,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33367,10 +33024,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33422,10 +33079,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33477,10 +33134,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33555,10 +33212,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33610,10 +33267,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33658,10 +33315,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33729,10 +33386,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33868,10 +33525,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -33985,10 +33642,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34065,10 +33722,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34113,10 +33770,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34177,10 +33834,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34258,10 +33915,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34387,10 +34044,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34469,10 +34126,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34533,10 +34190,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34588,10 +34245,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34684,10 +34341,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34769,10 +34426,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -34926,10 +34583,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35182,10 +34839,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35246,10 +34903,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35321,10 +34978,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35385,10 +35042,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35460,10 +35117,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35538,10 +35195,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35602,10 +35259,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -35680,10 +35337,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -36650,10 +36307,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -36787,10 +36444,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -36842,10 +36499,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -36933,10 +36590,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -36981,10 +36638,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37048,10 +36705,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37098,10 +36755,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37230,10 +36887,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37276,10 +36933,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37380,10 +37037,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37446,10 +37103,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37501,10 +37158,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37565,10 +37222,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37805,10 +37462,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37860,10 +37517,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -37900,10 +37557,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38020,10 +37677,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38148,10 +37805,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38223,10 +37880,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38289,10 +37946,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38346,10 +38003,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38433,10 +38090,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38497,10 +38154,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38561,10 +38218,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38616,10 +38273,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38671,10 +38328,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38742,10 +38399,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38797,10 +38454,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38844,10 +38501,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38919,10 +38576,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -38986,10 +38643,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39197,10 +38854,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39334,10 +38991,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39432,10 +39089,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39487,10 +39144,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39548,10 +39205,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39620,10 +39277,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39675,10 +39332,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39730,10 +39387,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39848,10 +39505,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -39937,10 +39594,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40001,10 +39658,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40058,10 +39715,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40107,10 +39764,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40162,10 +39819,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40233,10 +39890,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40288,10 +39945,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40375,10 +40032,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40430,10 +40087,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40538,10 +40195,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40593,10 +40250,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40674,10 +40331,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40745,10 +40402,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40825,10 +40482,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40880,10 +40537,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -40935,10 +40592,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41031,10 +40688,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41226,10 +40883,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41382,10 +41039,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41521,10 +41178,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41585,10 +41242,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41640,10 +41297,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41695,10 +41352,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41875,10 +41532,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -41945,10 +41602,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42019,10 +41676,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42102,10 +41759,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42164,10 +41821,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42224,10 +41881,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42284,10 +41941,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42344,10 +42001,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42404,10 +42061,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42464,10 +42121,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42533,10 +42190,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42648,10 +42305,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42739,10 +42396,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42799,10 +42456,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42872,10 +42529,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42914,10 +42571,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -42969,10 +42626,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43057,10 +42714,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43152,10 +42809,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43207,10 +42864,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43262,10 +42919,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43374,10 +43031,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43459,10 +43116,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43525,10 +43182,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43589,10 +43246,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43636,10 +43293,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43700,10 +43357,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43780,10 +43437,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43835,10 +43492,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -43886,10 +43543,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44065,10 +43722,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44156,10 +43813,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44211,10 +43868,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44266,10 +43923,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44321,10 +43978,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44392,10 +44049,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44447,10 +44104,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44511,10 +44168,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44566,10 +44223,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44621,10 +44278,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44713,10 +44370,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44776,10 +44433,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44839,10 +44496,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44902,10 +44559,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -44965,10 +44622,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45028,10 +44685,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45091,10 +44748,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45154,10 +44811,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45264,10 +44921,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45333,10 +44990,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45460,10 +45117,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45540,10 +45197,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45623,10 +45280,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45703,10 +45360,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45762,10 +45419,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45831,10 +45488,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45880,10 +45537,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -45960,10 +45617,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -46019,10 +45676,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {
@@ -46068,10 +45725,10 @@
    ],
    "hierarquia": {
     "parte": {
-     "rotulo": "PARTE ESPECIAL",
+     "rotulo": "DISPOSIÇÕES GERAIS",
      "nome": null,
      "notas": [
-      "(Vide Lei nº 7.209, de 1984)"
+      "(Incluído pela Lei nº 12.015, de 2009)"
      ]
     },
     "titulo": {

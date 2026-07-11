@@ -1,28 +1,49 @@
-# Consulta de Legislação — CP, CPP, CPM, CTB e RDPM
+# Consulta de Legislação — PMSP
 
-API e landing page de busca para o **Código Penal** (DEL 2.848/1940), o **Código
-de Processo Penal** (DEL 3.689/1941), o **Código Penal Militar** (DEL 1.001/1969),
-o **Código de Trânsito Brasileiro** (Lei 9.503/1997) e o **RDPM da PMESP**
-(LC estadual 893/2001), gerados a partir do HTML oficial do Planalto e da ALESP. Busque por **número de artigo** ou por **palavra**; no CTB,
-cada artigo de infração exibe uma **ficha operacional** com gravidade, penalidade
-e medidas administrativas (as providências a cargo do agente de fiscalização).
+API e landing page de busca para a legislação de uso operacional, gerada a partir
+do HTML oficial do Planalto e da ALESP. Busque por **número de artigo** ou por
+**palavra**, com sugestões enquanto digita, ficha operacional das infrações de
+trânsito e selos de gravidade nas transgressões disciplinares.
+
+## Leis implementadas
+
+| id | Norma |
+|---|---|
+| `cf` | Constituição Federal de 1988 (arts. 1º a 250 + ADCT completo) |
+| `cp` | Código Penal — DEL 2.848/1940 |
+| `cpp` | Código de Processo Penal — DEL 3.689/1941 |
+| `cpm` | Código Penal Militar — DEL 1.001/1969 |
+| `cppm` | Código de Processo Penal Militar — DEL 1.002/1969 |
+| `ctb` | Código de Trânsito Brasileiro — Lei 9.503/1997 (com Anexo I) |
+| `drogas` | Lei de Drogas — Lei 11.343/2006 |
+| `mariapenha` | Lei Maria da Penha — Lei 11.340/2006 |
+| `armas` | Estatuto do Desarmamento — Lei 10.826/2003 |
+| `abuso` | Lei de Abuso de Autoridade — Lei 13.869/2019 |
+| `eca` | Estatuto da Criança e do Adolescente — Lei 8.069/1990 |
+| `idoso` | Estatuto da Pessoa Idosa — Lei 10.741/2003 |
+| `orcrim` | Lei de Organizações Criminosas — Lei 12.850/2013 |
+| `hediondos` | Lei dos Crimes Hediondos — Lei 8.072/1990 |
+| `lcp` | Lei das Contravenções Penais — DEL 3.688/1941 |
+| `rdpm` | RDPM da PMESP — LC estadual 893/2001 |
+
+`npm test` valida as invariantes das 16 leis: **4.129 artigos ativos**, numeração
+completa, sem duplicatas, sem sobras de HTML e artigos-chave com o conteúdo
+esperado.
 
 ## Site publicado (GitHub Pages)
 
 **https://luccazovedi.github.io/PMSP/**
 
-O Pages serve a pasta **`docs/`** (Settings → Pages → Deploy from a branch → `main` → `/docs`),
-gerada por `npm run build-site`. Não edite `docs/` à mão — regenere com o script.
+O Pages serve a pasta **`docs/`** (Settings → Pages → `main` → `/docs`), gerada por
+`npm run build-site`. Não edite `docs/` à mão — regenere com o script.
 
-No Pages tudo é estático: a busca e as sugestões rodam no navegador (mesma lógica do
-servidor, via `lib/consulta.js`) e a API vira arquivos JSON pré-gerados por lei:
+No Pages tudo é estático: a busca e as sugestões rodam no navegador (mesma lógica
+do servidor, via `lib/consulta.js`) e a API vira arquivos JSON pré-gerados por lei:
 
 - `api/index.json` — índice das leis
-- `api/cp/lei.json`, `api/cp/estrutura.json`, `api/cp/artigos.json`, `api/cp/artigos/121.json`, …
-- `api/cpp/artigos/301.json`, `api/cpm/artigos/187.json`, …
-- `api/ctb/lei.json` (inclui os anexos), `api/ctb/artigos/165.json`, `api/ctb/artigos/ANEXO-I.json`, …
-- `api/rdpm/lei.json`, `api/rdpm/artigos/13.json`, …
-- `data/codigo-penal.json`, `data/cpp.json`, `data/cpm.json`, `data/ctb.json` e `data/rdpm.json`
+- `api/<id>/lei.json`, `api/<id>/estrutura.json`, `api/<id>/artigos.json`
+- `api/<id>/artigos/<numero>.json` (ex.: `api/cf/artigos/ADCT-2.json`)
+- `data/<arquivo>.json` — dados completos de cada lei
 
 ## Como rodar localmente
 
@@ -31,86 +52,72 @@ npm install
 npm start          # http://localhost:3000
 ```
 
-- `http://localhost:3000/` — landing page de busca
-- `http://localhost:3000/api` — documentação viva da API
-
 ## Endpoints (servidor Node)
 
-`:lei` = `cp` (Código Penal), `cpp` (Código de Processo Penal), `cpm` (Código
-Penal Militar), `ctb` (Código de Trânsito Brasileiro) ou `rdpm` (Regulamento
-Disciplinar da PMESP).
+`:lei` = um dos ids da tabela acima.
 
 | Rota | Descrição |
 |---|---|
 | `GET /api` | Metadados das leis e lista de rotas |
 | `GET /api/:lei/lei` | Metadados, preâmbulo, fecho e anexos |
-| `GET /api/:lei/estrutura` | Árvore Parte → Título → Capítulo → Seção com os artigos |
+| `GET /api/:lei/estrutura` | Árvore Parte → Livro → Título → Capítulo → Seção → Subseção |
 | `GET /api/:lei/artigos` | Todos os artigos (aceita `?limit=` e `?offset=`) |
-| `GET /api/:lei/artigos/:numero` | Um artigo — aceita `121`, `165-A`, `art 121`, `anexo-i`… |
+| `GET /api/:lei/artigos/:numero` | Um artigo — aceita `121`, `165-A`, `art 121`, `ADCT-2`, `anexo-i`… |
 | `GET /api/:lei/busca?q=termo` | Busca full-text sem distinção de acento/caixa |
 | `GET /api/:lei/sugestoes?q=termo` | Sugestões de relacionados (as mesmas da landing page) |
 
-Rotas sem o prefixo da lei (`/api/artigos/121`) continuam respondendo pelo Código
-Penal, por compatibilidade.
+Rotas sem o prefixo da lei (`/api/artigos/121`) respondem pelo Código Penal, por
+compatibilidade.
 
-### Campos estruturados do CTB
+## Campos estruturados
 
-Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, os dispositivos do CTB
-são classificados como `infracao`, `penalidade` e `medida-administrativa` — é disso
-que a landing page monta a ficha operacional (gravidade da infração, penalidade e
-providências do agente). O Anexo I (conceitos e definições) vira o registro
-pesquisável `ANEXO-I`.
+Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, o parser classifica:
 
-No RDPM, as 132 transgressões do art. 13 viram dispositivos `item`, e a landing
-page exibe a gravidade de cada uma — (G) grave, (M) média, (L) leve — como selo.
+- **CTB**: `infracao`, `penalidade`, `medida-administrativa` — a landing page monta
+  a ficha operacional (gravidade, penalidade e providências do agente); o Anexo I
+  vira o registro pesquisável `ANEXO-I`;
+- **RDPM**: as 132 transgressões do art. 13 viram dispositivos `item` com selo de
+  gravidade (G/M/L);
+- **Leis que alteram outras normas** (ECA, Maria da Penha, Abuso, Idoso, ORCRIM,
+  Hediondos): o texto citado da lei alterada vira dispositivo `citacao`, anexado ao
+  artigo que faz a alteração — sem criar artigos falsos;
+- **CF**: o ADCT reinicia a numeração e é indexado com o prefixo `ADCT-`.
 
 ## Fidelidade dos dados — nada fica de fora
 
-O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial do Planalto
-(cópias versionadas em `data/fonte/`), preservando, para as duas leis:
-
-- todos os artigos (CP: 1º a 361; CPP: 1º a 811; CPM: 1º a 410; CTB: 1º a 341
-  mais o Anexo I; RDPM: 1º a 89 — incluindo sufixados como 121-A e 3-B);
-- os dispositivos completos na ordem do texto oficial;
-- as rubricas (nomes marginais), as anotações oficiais ("Redação dada pela…",
-  "Incluído pela…", "Revogado pela…", "Vide…", "(VETADO)");
-- as redações históricas riscadas (marcadas `situacao: "historico"`);
-- preâmbulo, fecho, assinaturas, observações de publicação e anexos.
-
-`npm test` valida as invariantes das duas leis (cobertura completa da numeração,
-sem duplicatas, sem sobras de HTML, artigos-chave com o conteúdo esperado e
-contagens mínimas de infrações/penalidades/medidas no CTB).
+O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial (cópias
+versionadas em `data/fonte/`), preservando para todas as leis: dispositivos
+completos na ordem do texto, rubricas, anotações oficiais ("Redação dada pela…",
+"Revogado pela…", "Vide…", "(VETADO)"), redações históricas riscadas (marcadas
+`situacao: "historico"`), preâmbulo, fecho, assinaturas, observações e anexos.
+O SHA-256 de cada fonte fica registrado em `meta`.
 
 ## Atualizando quando a lei mudar
 
-O Planalto e a ALESP bloqueiam/limitam acesso de datacenters, então o download é feito pelo GitHub
-Actions: rode o workflow **"Atualizar dados do Planalto"** (aba Actions → Run
-workflow). Ele baixa os HTML atuais, regera os JSON, valida, regenera `docs/` e
-commita — e o Pages republica sozinho.
+O Planalto e a ALESP bloqueiam acesso de datacenters, então o download é feito pelo
+GitHub Actions: rode o workflow **"Atualizar dados do Planalto"** (aba Actions →
+Run workflow). Ele baixa os HTML atuais, regera os JSON, valida, regenera `docs/`
+e commita — e o Pages republica sozinho.
 
 ## Estrutura do projeto
 
 ```
-data/fonte/              HTML oficial do Planalto (fonte da verdade, versionada)
-data/codigo-penal.json   dados estruturados do CP (gerado — não editar à mão)
-data/cpp.json            dados estruturados do CPP (gerado)
-data/cpm.json            dados estruturados do CPM (gerado)
-data/ctb.json            dados estruturados do CTB (gerado)
-data/rdpm.json           dados estruturados do RDPM (gerado)
-scripts/build-data.js    parser HTML → JSON (multi-lei)
+data/fonte/              HTML oficial (fonte da verdade, versionada)
+data/*.json              dados estruturados gerados (não editar à mão)
+lib/leis.js              registro central das leis
+lib/consulta.js          busca e sugestões compartilhadas (servidor e navegador)
+scripts/build-data.js    parser HTML → JSON (multi-lei, multi-formato)
 scripts/validate-data.js validação de integridade (npm test)
 scripts/build-site.js    gera o site estático em docs/ (npm run build-site)
 server/index.js          API Express + arquivos estáticos
 public/                  landing page (HTML/CSS/JS puro, sem framework)
-lib/consulta.js          busca e sugestões compartilhadas (servidor e navegador)
 docs/                    site estático publicado no GitHub Pages (gerado)
 ```
 
 ## Avisos
 
-- Este projeto não substitui os textos oficiais publicados no DOU nem o site do
-  Planalto.
-- A ficha operacional reproduz exatamente o que a lei comina (infração, penalidade,
-  medida administrativa); não é orientação procedimental além do texto legal.
+- Este projeto não substitui os textos oficiais publicados no Diário Oficial.
+- A ficha operacional reproduz exatamente o que a lei comina; não é orientação
+  procedimental além do texto legal.
 - O texto das leis é dado público (art. 8º, I, da Lei 9.610/98 exclui atos oficiais
   de proteção autoral).

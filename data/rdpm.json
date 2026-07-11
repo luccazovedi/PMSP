@@ -5,7 +5,7 @@
   "ementa": "Institui o Regulamento Disciplinar da Polícia Militar do Estado de São Paulo.",
   "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/lei.complementar/2001/lei.complementar-893-09.03.2001.html",
   "fonteSha256": "b6c3a1428a7a7b7b0ffbfd3bb83ac9f311b4407f8e17afe009dfd9ca1b73ed57",
-  "geradoEm": "2026-07-11T10:52:33.337Z",
+  "geradoEm": "2026-07-11T11:01:05.400Z",
   "notasGerais": []
  },
  "preambulo": "O GOVERNADOR DO ESTADO DE SÃO PAULO:",
@@ -99,19 +99,10 @@
     "artigos": []
    },
    {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO V",
-    "nome": "Das Sanções Administrativas Disciplinares",
+    "tipo": "parte",
+    "rotulo": "Disposições Gerais",
+    "nome": null,
     "filhos": [
-     {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO I",
-      "nome": "Disposições Gerais",
-      "filhos": [],
-      "artigos": [
-       "14"
-      ]
-     },
      {
       "tipo": "secao",
       "rotulo": "SEÇÃO II",
@@ -186,180 +177,162 @@
       "artigos": [
        "25"
       ]
-     }
-    ],
-    "artigos": []
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO VI",
-    "nome": "Do Recolhimento Disciplinar",
-    "filhos": [],
-    "artigos": [
-     "26"
-    ]
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO VII",
-    "nome": "Do Procedimento Disciplinar",
-    "filhos": [
+     },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO I",
-      "nome": "Da Comunicação Disciplinar",
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO VI",
+      "nome": "Do Recolhimento Disciplinar",
       "filhos": [],
       "artigos": [
-       "27",
-       "28",
-       "29"
+       "26"
       ]
      },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO II",
-      "nome": "Da Representação",
-      "filhos": [],
-      "artigos": [
-       "30"
-      ]
-     }
-    ],
-    "artigos": []
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO VIII",
-    "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
-    "filhos": [
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO VII",
+      "nome": "Do Procedimento Disciplinar",
+      "filhos": [
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO I",
+        "nome": "Da Comunicação Disciplinar",
+        "filhos": [],
+        "artigos": [
+         "27",
+         "28",
+         "29"
+        ]
+       },
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO II",
+        "nome": "Da Representação",
+        "filhos": [],
+        "artigos": [
+         "30"
+        ]
+       }
+      ],
+      "artigos": []
+     },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO I",
-      "nome": "Da Competência",
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO VIII",
+      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
+      "filhos": [
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO I",
+        "nome": "Da Competência",
+        "filhos": [],
+        "artigos": [
+         "31"
+        ]
+       },
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO II",
+        "nome": "Dos Limites de Competência das Autoridades",
+        "filhos": [],
+        "artigos": [
+         "32"
+        ]
+       },
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO III",
+        "nome": "Do Julgamento",
+        "filhos": [],
+        "artigos": [
+         "33",
+         "34",
+         "35",
+         "36"
+        ]
+       },
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO IV",
+        "nome": "Da Aplicação",
+        "filhos": [],
+        "artigos": [
+         "37",
+         "38",
+         "39",
+         "40",
+         "41",
+         "42",
+         "43",
+         "44",
+         "45",
+         "46",
+         "47",
+         "48"
+        ]
+       },
+       {
+        "tipo": "secao",
+        "rotulo": "SEÇÃO V",
+        "nome": "Do Cumprimento e da Contagem de Tempo",
+        "filhos": [],
+        "artigos": [
+         "49",
+         "50",
+         "51",
+         "52"
+        ]
+       }
+      ],
+      "artigos": []
+     },
+     {
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO IX",
+      "nome": "Do Comportamento",
       "filhos": [],
       "artigos": [
-       "31"
+       "53",
+       "54",
+       "55"
       ]
      },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO II",
-      "nome": "Dos Limites de Competência das Autoridades",
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO X",
+      "nome": "Dos Recursos Disciplinares",
       "filhos": [],
       "artigos": [
-       "32"
+       "56",
+       "57",
+       "58",
+       "59",
+       "60",
+       "61"
       ]
      },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO III",
-      "nome": "Do Julgamento",
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO XI",
+      "nome": "Da Revisão dos Atos Disciplinares",
       "filhos": [],
       "artigos": [
-       "33",
-       "34",
-       "35",
-       "36"
+       "62",
+       "63",
+       "64",
+       "65",
+       "66"
       ]
      },
      {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO IV",
-      "nome": "Da Aplicação",
+      "tipo": "capitulo",
+      "rotulo": "CAPÍTULO XII",
+      "nome": "Das Recompensas Policiais-Militares",
       "filhos": [],
       "artigos": [
-       "37",
-       "38",
-       "39",
-       "40",
-       "41",
-       "42",
-       "43",
-       "44",
-       "45",
-       "46",
-       "47",
-       "48"
-      ]
-     },
-     {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO V",
-      "nome": "Do Cumprimento e da Contagem de Tempo",
-      "filhos": [],
-      "artigos": [
-       "49",
-       "50",
-       "51",
-       "52"
-      ]
-     }
-    ],
-    "artigos": []
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO IX",
-    "nome": "Do Comportamento",
-    "filhos": [],
-    "artigos": [
-     "53",
-     "54",
-     "55"
-    ]
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO X",
-    "nome": "Dos Recursos Disciplinares",
-    "filhos": [],
-    "artigos": [
-     "56",
-     "57",
-     "58",
-     "59",
-     "60",
-     "61"
-    ]
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO XI",
-    "nome": "Da Revisão dos Atos Disciplinares",
-    "filhos": [],
-    "artigos": [
-     "62",
-     "63",
-     "64",
-     "65",
-     "66"
-    ]
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO XII",
-    "nome": "Das Recompensas Policiais-Militares",
-    "filhos": [],
-    "artigos": [
-     "67",
-     "68",
-     "69",
-     "70"
-    ]
-   },
-   {
-    "tipo": "capitulo",
-    "rotulo": "CAPÍTULO XIII",
-    "nome": "Do Processo Regular",
-    "filhos": [
-     {
-      "tipo": "secao",
-      "rotulo": "SEÇÃO I",
-      "nome": "Disposições Gerais",
-      "filhos": [],
-      "artigos": [
-       "71",
-       "72"
+       "67",
+       "68",
+       "69",
+       "70"
       ]
      },
      {
@@ -399,7 +372,11 @@
       ]
      }
     ],
-    "artigos": []
+    "artigos": [
+     "14",
+     "71",
+     "72"
+    ]
    },
    {
     "tipo": "parte",
@@ -2477,14 +2454,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
-     "notas": []
-    },
-    "secao": {
-     "rotulo": "SEÇÃO I",
-     "nome": "Disposições Gerais",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     }
    },
@@ -2514,9 +2486,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2551,9 +2523,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2588,9 +2560,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2646,9 +2618,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2697,9 +2669,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2741,9 +2713,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2785,9 +2757,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2836,9 +2808,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2950,9 +2922,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -2980,9 +2952,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -3010,9 +2982,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO V",
-     "nome": "Das Sanções Administrativas Disciplinares",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -3082,6 +3054,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VI",
      "nome": "Do Recolhimento Disciplinar",
@@ -3107,6 +3084,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VII",
      "nome": "Do Procedimento Disciplinar",
@@ -3172,6 +3154,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VII",
      "nome": "Do Procedimento Disciplinar",
@@ -3230,6 +3217,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VII",
      "nome": "Do Procedimento Disciplinar",
@@ -3288,6 +3280,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VII",
      "nome": "Do Procedimento Disciplinar",
@@ -3360,6 +3357,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3432,6 +3434,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3462,6 +3469,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3527,6 +3539,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3613,6 +3630,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3706,6 +3728,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3736,6 +3763,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3850,6 +3882,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3887,6 +3924,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3917,6 +3959,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -3968,6 +4015,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4019,6 +4071,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4049,6 +4106,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4086,6 +4148,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4116,6 +4183,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4146,6 +4218,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4183,6 +4260,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4213,6 +4295,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4250,6 +4337,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4280,6 +4372,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4317,6 +4414,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4368,6 +4470,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO VIII",
      "nome": "Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares",
@@ -4398,6 +4505,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO IX",
      "nome": "Do Comportamento",
@@ -4486,6 +4598,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO IX",
      "nome": "Do Comportamento",
@@ -4511,6 +4628,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO IX",
      "nome": "Do Comportamento",
@@ -4557,6 +4679,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4624,6 +4751,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4712,6 +4844,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4737,6 +4874,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4776,6 +4918,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4801,6 +4948,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO X",
      "nome": "Dos Recursos Disciplinares",
@@ -4868,6 +5020,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XI",
      "nome": "Da Revisão dos Atos Disciplinares",
@@ -4893,6 +5050,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XI",
      "nome": "Da Revisão dos Atos Disciplinares",
@@ -4918,6 +5080,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XI",
      "nome": "Da Revisão dos Atos Disciplinares",
@@ -4950,6 +5117,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XI",
      "nome": "Da Revisão dos Atos Disciplinares",
@@ -4975,6 +5147,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XI",
      "nome": "Da Revisão dos Atos Disciplinares",
@@ -5000,6 +5177,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XII",
      "nome": "Das Recompensas Policiais-Militares",
@@ -5046,6 +5228,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XII",
      "nome": "Das Recompensas Policiais-Militares",
@@ -5078,6 +5265,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XII",
      "nome": "Das Recompensas Policiais-Militares",
@@ -5117,6 +5309,11 @@
     }
    ],
    "hierarquia": {
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
+     "notas": []
+    },
     "capitulo": {
      "rotulo": "CAPÍTULO XII",
      "nome": "Das Recompensas Policiais-Militares",
@@ -5163,14 +5360,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
-     "notas": []
-    },
-    "secao": {
-     "rotulo": "SEÇÃO I",
-     "nome": "Disposições Gerais",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     }
    },
@@ -5193,14 +5385,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
-     "notas": []
-    },
-    "secao": {
-     "rotulo": "SEÇÃO I",
-     "nome": "Disposições Gerais",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     }
    },
@@ -5230,9 +5417,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5288,9 +5475,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5318,9 +5505,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5369,9 +5556,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5399,9 +5586,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5443,9 +5630,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5480,9 +5667,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5531,9 +5718,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5561,9 +5748,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5598,9 +5785,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5637,9 +5824,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {
@@ -5683,9 +5870,9 @@
     }
    ],
    "hierarquia": {
-    "capitulo": {
-     "rotulo": "CAPÍTULO XIII",
-     "nome": "Do Processo Regular",
+    "parte": {
+     "rotulo": "Disposições Gerais",
+     "nome": null,
      "notas": []
     },
     "secao": {

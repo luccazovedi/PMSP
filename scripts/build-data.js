@@ -23,6 +23,19 @@ const RAIZ = path.join(__dirname, '..');
 
 export const LEIS = [
   {
+    id: 'cf',
+    arquivo: 'constituicao.htm',
+    saida: 'cf.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm',
+    lei: 'Constituição da República Federativa do Brasil de 1988',
+    apelido: 'Constituição Federal',
+    ementa: 'Constituição da República Federativa do Brasil.',
+    rePreambulo: /N[óo]s,\s+representantes\s+do\s+povo\s+brasileiro/i,
+    reFecho: /^Bras[íi]lia,\s+5\s+de\s+outubro\s+de\s+1988\.?$/i,
+    // O ADCT vem depois das assinaturas e reinicia a numeração dos artigos
+    retomadas: [{ re: /^ATO DAS DISPOSI[ÇC][ÕO]ES CONSTITUCIONAIS TRANSIT[ÓO]RIAS/i, prefixo: 'ADCT-' }],
+  },
+  {
     id: 'cp',
     arquivo: 'del2848.htm',
     saida: 'codigo-penal.json',
@@ -59,6 +72,103 @@ export const LEIS = [
     ementa: 'Código Penal Militar.',
     // O CPM foi decretado pela junta militar, não pelo Presidente
     rePreambulo: /MINISTROS\s+DA\s+MARINHA/i,
+  },
+  {
+    id: 'cppm',
+    arquivo: 'del1002.htm',
+    saida: 'cppm.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/del1002.htm',
+    lei: 'Decreto-Lei nº 1.002, de 21 de outubro de 1969',
+    apelido: 'Código de Processo Penal Militar',
+    ementa: 'Código de Processo Penal Militar.',
+    rePreambulo: /MINISTROS\s+DA\s+MARINHA/i,
+  },
+  {
+    id: 'drogas',
+    arquivo: 'l11343.htm',
+    saida: 'drogas.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm',
+    lei: 'Lei nº 11.343, de 23 de agosto de 2006',
+    apelido: 'Lei de Drogas',
+    ementa: 'Institui o Sistema Nacional de Políticas Públicas sobre Drogas — Sisnad.',
+  },
+  {
+    id: 'mariapenha',
+    citacoesEmBlockquote: true,
+    arquivo: 'l11340.htm',
+    saida: 'maria-da-penha.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm',
+    lei: 'Lei nº 11.340, de 7 de agosto de 2006',
+    apelido: 'Lei Maria da Penha',
+    ementa: 'Cria mecanismos para coibir a violência doméstica e familiar contra a mulher.',
+  },
+  {
+    id: 'armas',
+    arquivo: 'l10826.htm',
+    saida: 'desarmamento.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm',
+    lei: 'Lei nº 10.826, de 22 de dezembro de 2003',
+    apelido: 'Estatuto do Desarmamento',
+    ementa: 'Dispõe sobre registro, posse e comercialização de armas de fogo e munição.',
+  },
+  {
+    id: 'abuso',
+    citacoesEmBlockquote: true,
+    arquivo: 'l13869.htm',
+    saida: 'abuso-de-autoridade.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13869.htm',
+    lei: 'Lei nº 13.869, de 5 de setembro de 2019',
+    apelido: 'Lei de Abuso de Autoridade',
+    ementa: 'Dispõe sobre os crimes de abuso de autoridade.',
+  },
+  {
+    id: 'eca',
+    citacoesEmBlockquote: true,
+    arquivo: 'l8069.htm',
+    saida: 'eca.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/leis/l8069.htm',
+    lei: 'Lei nº 8.069, de 13 de julho de 1990',
+    apelido: 'ECA — Estatuto da Criança e do Adolescente',
+    ementa: 'Dispõe sobre o Estatuto da Criança e do Adolescente.',
+  },
+  {
+    id: 'idoso',
+    citacoesEmBlockquote: true,
+    arquivo: 'l10741.htm',
+    saida: 'idoso.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm',
+    lei: 'Lei nº 10.741, de 1º de outubro de 2003',
+    apelido: 'Estatuto da Pessoa Idosa',
+    ementa: 'Dispõe sobre o Estatuto da Pessoa Idosa.',
+  },
+  {
+    id: 'orcrim',
+    citacoesEmBlockquote: true,
+    arquivo: 'l12850.htm',
+    saida: 'organizacoes-criminosas.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm',
+    lei: 'Lei nº 12.850, de 2 de agosto de 2013',
+    apelido: 'Lei de Organizações Criminosas',
+    ementa: 'Define organização criminosa e dispõe sobre a investigação criminal.',
+  },
+  {
+    id: 'hediondos',
+    citacoesEmBlockquote: true,
+    arquivo: 'l8072.htm',
+    saida: 'crimes-hediondos.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/leis/l8072.htm',
+    lei: 'Lei nº 8.072, de 25 de julho de 1990',
+    apelido: 'Lei dos Crimes Hediondos',
+    ementa: 'Dispõe sobre os crimes hediondos.',
+  },
+  {
+    id: 'lcp',
+    arquivo: 'del3688.htm',
+    saida: 'contravencoes.json',
+    url: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm',
+    lei: 'Decreto-Lei nº 3.688, de 3 de outubro de 1941',
+    apelido: 'Lei das Contravenções Penais',
+    ementa: 'Lei das Contravenções Penais.',
   },
   {
     id: 'rdpm',
@@ -121,8 +231,8 @@ const RE_PENA = /^(Pena|Penas)\s*[-–—]/;
 const RE_INFRACAO = /^Infra[cç][aã]o\s*[-–—]/;
 const RE_PENALIDADE = /^Penalidade(s)?\s*[-–—]/;
 const RE_MEDIDA_ADM = /^Medida(s)?\s+administrativa(s)?\s*[-–—]/i;
-const RE_HIERARQUIA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[CÇ][CÇ]?[ÃA]O|DISPOSI[CÇ][ÕO]ES FINAIS)/i;
-const RE_ROTULO_HIER = /^(PARTE\s+\w+|LIVRO\s+[IVXLC]+|T[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|CAP[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|SE[CÇ][CÇ]?[ÃA]O\s+[IVXLC]+(?:-[A-Z])?|DISPOSI[CÇ][ÕO]ES FINAIS|PARTE GERAL|PARTE ESPECIAL)/i;
+const RE_HIERARQUIA = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SUBSE[CÇ][CÇ]?[ÃA]O|SE[CÇ][CÇ]?[ÃA]O|DISPOSI[CÇ][ÕO]ES (FINAIS|GERAIS|TRANSIT))/i;
+const RE_ROTULO_HIER = /^(PARTE\s+\w+|LIVRO\s+[IVXLC]+|T[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|CAP[ÍI]TULO\s+[IVXLC]+(?:-[A-Z])?|SUBSE[CÇ][CÇ]?[ÃA]O\s+[IVXLC]+(?:-[A-Z])?|SE[CÇ][CÇ]?[ÃA]O\s+[IVXLC]+(?:-[A-Z])?|DISPOSI[CÇ][ÕO]ES (FINAIS|GERAIS|CONSTITUCIONAIS)( E TRANSIT[ÓO]RIAS)?|PARTE GERAL|PARTE ESPECIAL)/i;
 const RE_FECHO = /^(?:(Rio de Janeiro|Bras[íi]lia)\s*,\s*(?:em\s+|aos\s+)?\d+[ºo°]?\s+de\s+\w+\s+de\s+\d{4}.*da\s+Rep[úu]blica\.?|Pal[áa]cio dos Bandeirantes\s*,\s*(?:aos\s+|em\s+)?\d+.*\d{4}\s*\.?)$/i;
 const RE_ANEXO = /^ANEXO\s+([IVXLC]+|\d+)\b/i;
 
@@ -146,10 +256,11 @@ function chaveHierarquia(texto) {
   if (t.startsWith('LIVRO')) return 'livro';
   if (t.startsWith('T')) return 'titulo';
   if (t.startsWith('CAP')) return 'capitulo';
+  if (t.startsWith('SUBSE')) return 'subsecao';
   return 'secao';
 }
 
-const NIVEIS = ['parte', 'livro', 'titulo', 'capitulo', 'secao'];
+const NIVEIS = ['parte', 'livro', 'titulo', 'capitulo', 'secao', 'subsecao'];
 
 /** Remove as anotações "(Redação dada pela...)" do texto e as devolve à parte. */
 function separarAnotacoes(texto) {
@@ -200,7 +311,11 @@ function preprocessarAlesp(html) {
 function parseLei(cfg) {
   const bruto = fs.readFileSync(path.join(RAIZ, 'data', 'fonte', cfg.arquivo));
   let html;
-  if (cfg.charset === 'utf-8') {
+  if (bruto[0] === 0xff && bruto[1] === 0xfe) {
+    html = bruto.toString('utf16le'); // BOM UTF-16 LE (algumas páginas do Planalto)
+  } else if (bruto[0] === 0xef && bruto[1] === 0xbb && bruto[2] === 0xbf) {
+    html = bruto.subarray(3).toString('utf8');
+  } else if (cfg.charset === 'utf-8') {
     html = bruto.toString('utf8');
   } else {
     try {
@@ -223,7 +338,7 @@ function parseLei(cfg) {
   // Busca no HTML cru: sem o "O" inicial, que pode vir separado por tags
   // (<strong>O</strong> <strong>PRESIDENTE...) — e a 1ª ocorrência é sempre o
   // preâmbulo, nunca menções posteriores a "do Presidente da República".
-  const posPreambulo = html.search(cfg.rePreambulo || /PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
+  const posPreambulo = html.search(cfg.rePreambulo || /PRESIDENT[EA](?:\s|&nbsp;)+DA(?:\s|&nbsp;)+REP[ÚU]BLICA/i);
   if (posPreambulo === -1) throw new Error(`[${cfg.id}] preâmbulo não encontrado — o HTML da fonte mudou?`);
   const inicioCorpo = Math.max(0, html.toLowerCase().lastIndexOf('<p', posPreambulo));
 
@@ -237,6 +352,19 @@ function parseLei(cfg) {
     anterior = { tag: m[1].toLowerCase(), abre: m[0], fim: reBloco.lastIndex };
   }
   if (anterior) blocosBrutos.push({ tag: anterior.tag, abre: anterior.abre, html: html.slice(anterior.fim) });
+
+  // Em leis que alteram outras normas, o texto citado vem em <blockquote>.
+  // Marca cada bloco com o estado de citação NO SEU INÍCIO (a tag de abertura
+  // fica no html do bloco anterior).
+  if (cfg.citacoesEmBlockquote) {
+    let profundidade = 0;
+    for (const b of blocosBrutos) {
+      b.emCitacao = profundidade > 0;
+      profundidade += (b.html.match(/<blockquote/gi) || []).length;
+      profundidade -= (b.html.match(/<\/blockquote/gi) || []).length;
+      if (profundidade < 0) profundidade = 0;
+    }
+  }
 
   // ---- análise de cada bloco ------------------------------------------------
   // Mantém estado de <strike>/<del> ENTRE blocos: o Planalto às vezes abre o
@@ -284,6 +412,7 @@ function parseLei(cfg) {
 
     return {
       tag: b.tag,
+      emCitacao: b.emCitacao || false,
       vigente: limparEspacos(vigente),
       riscado: limparEspacos(riscado),
       textoNegrito: limparEspacos(textoNegrito),
@@ -323,11 +452,13 @@ function parseLei(cfg) {
   let aguardandoNomeDe = null;
   let fimDoCodigo = false;
   let anexoAtual = null;
+  let prefixoNumero = ''; // ex.: "ADCT-" após o Ato das Disposições Transitórias
 
-  function novoRegistro(numero, situacaoInicial) {
+  function novoRegistro(numeroBase, situacaoInicial) {
+    const numero = prefixoNumero + numeroBase;
     registroAtual = {
       numero,
-      rotulo: `Art. ${numero}`,
+      rotulo: prefixoNumero ? `Art. ${numeroBase} (${prefixoNumero.replace(/-$/, '')})` : `Art. ${numeroBase}`,
       situacao: situacaoInicial,
       rubricas: [],
       dispositivos: [],
@@ -355,8 +486,19 @@ function parseLei(cfg) {
     const temRiscado = bloco.riscado.length > 0;
     if (!temVigente && !temRiscado) continue;
 
-    // ---- depois do fecho: observações e anexos -------------------------------
+    // ---- depois do fecho: observações, anexos e retomadas (ADCT) -------------
     if (fimDoCodigo) {
+      // A CF retoma a numeração após as assinaturas (Ato das Disposições
+      // Constitucionais Transitórias)
+      const retomada = (cfg.retomadas || []).find((r) => r.re.test(bloco.vigente));
+      if (retomada) {
+        fimDoCodigo = false;
+        prefixoNumero = retomada.prefixo;
+        registroAtual = null;
+        for (const n of NIVEIS) hierarquiaAtual[n] = null;
+        hierarquiaAtual.parte = { rotulo: limparEspacos(separarAnotacoes(bloco.vigente).texto), nome: null, notas: [] };
+        continue;
+      }
       for (const [conteudo, situacao] of [[bloco.vigente, 'vigente'], [bloco.riscado, 'historico']]) {
         if (!conteudo) continue;
         const { texto, notas } = separarAnotacoes(conteudo);
@@ -372,6 +514,17 @@ function parseLei(cfg) {
         } else if (texto) {
           fecho.observacoes.push(texto);
         }
+      }
+      continue;
+    }
+
+    // ---- citação de outra lei (texto alterado por esta lei) ------------------
+    if (bloco.emCitacao && registroAtual) {
+      for (const [conteudo, situacao] of [[bloco.vigente, 'vigente'], [bloco.riscado, 'historico']]) {
+        if (!conteudo) continue;
+        const { texto, notas } = separarAnotacoes(conteudo);
+        if (!texto && !notas.length) continue;
+        registroAtual.dispositivos.push({ tipo: 'citacao', situacao, texto, notas });
       }
       continue;
     }
@@ -406,7 +559,7 @@ function parseLei(cfg) {
 
     // ---- preâmbulo -----------------------------------------------------------
     if (!registroAtual && registros.length === 0 && temVigente &&
-        (cfg.rePreambulo || /PRESIDENTE DA REP/i).test(bloco.vigente)) {
+        (cfg.rePreambulo || /PRESIDENT[EA] DA REP/i).test(bloco.vigente)) {
       preambulo = separarAnotacoes(bloco.vigente).texto;
       continue;
     }
@@ -437,7 +590,7 @@ function parseLei(cfg) {
       }
 
       // Fecho da lei
-      if (RE_FECHO.test(texto)) {
+      if ((cfg.reFecho || RE_FECHO).test(texto)) {
         fimDoCodigo = true;
         fecho.texto.push(texto);
         continue;

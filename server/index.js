@@ -3,17 +3,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { criarConsulta } from '../lib/consulta.js';
+import { REGISTRO_LEIS } from '../lib/leis.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
 
-const LEIS = {
-  cp: { arquivo: 'codigo-penal.json' },
-  cpp: { arquivo: 'cpp.json' },
-  cpm: { arquivo: 'cpm.json' },
-  ctb: { arquivo: 'ctb.json' },
-  rdpm: { arquivo: 'rdpm.json' },
-};
+const LEIS = Object.fromEntries(
+  Object.entries(REGISTRO_LEIS).map(([id, cfg]) => [id, { ...cfg }]),
+);
 
 for (const [id, cfg] of Object.entries(LEIS)) {
   cfg.dados = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', cfg.arquivo), 'utf8'));

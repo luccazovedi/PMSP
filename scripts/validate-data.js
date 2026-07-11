@@ -12,6 +12,136 @@ const RAIZ = path.join(__dirname, '..');
 
 const REGRAS = [
   {
+    arquivo: 'cf.json',
+    ultimoArtigo: 250,
+    preambuloContem: 'representantes do povo brasileiro',
+    fechoContem: '5 de outubro de 1988',
+    conteudos: [
+      ['1', 'fundamentos'],
+      ['5', 'Todos são iguais perante a lei'],
+      ['37', 'legalidade, impessoalidade, moralidade'],
+      ['144', 'segurança pública'],
+      ['144', 'polícias militares'],
+      ['ADCT-2', 'plebiscito'],
+    ],
+    extras: (dados) => {
+      const erros = [];
+      const adct = dados.artigos.filter((a) => a.numero.startsWith('ADCT-'));
+      if (adct.length < 100) erros.push(`cf: ADCT com apenas ${adct.length} artigos`);
+      return erros;
+    },
+  },
+  {
+    arquivo: 'cppm.json',
+    ultimoArtigo: 711,
+    preambuloContem: 'Ministros da Marinha',
+    fechoContem: '21 de outubro de 1969',
+    conteudos: [
+      ['8', 'polícia judiciária militar'],
+      ['243', 'flagrante delito'],
+      ['244', 'flagrante'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'drogas.json',
+    ultimoArtigo: 75,
+    fechoContem: '23 de agosto de 2006',
+    conteudos: [
+      ['28', 'consumo pessoal'],
+      ['33', 'Importar, exportar'],
+      ['35', 'Associarem-se duas ou mais pessoas'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'maria-da-penha.json',
+    ultimoArtigo: 46,
+    fechoContem: '7 de agosto de 2006',
+    conteudos: [
+      ['5', 'violência doméstica e familiar contra a mulher'],
+      ['22', 'medidas protetivas'],
+      ['24-A', 'Descumprir decisão judicial'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'desarmamento.json',
+    ultimoArtigo: 37,
+    fechoContem: '22 de dezembro de 2003',
+    conteudos: [
+      ['12', 'Possuir ou manter sob sua guarda'],
+      ['14', 'Portar, deter, adquirir'],
+      ['16', 'uso restrito'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'abuso-de-autoridade.json',
+    ultimoArtigo: 45,
+    fechoContem: '5 de setembro de 2019',
+    conteudos: [
+      ['9', 'privação da liberdade'],
+      ['13', 'Constranger o preso'],
+      ['22', 'imóvel alheio'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'eca.json',
+    ultimoArtigo: 267,
+    fechoContem: '13 de julho de 1990',
+    conteudos: [
+      ['2', 'doze anos de idade incompletos'],
+      ['103', 'ato infracional'],
+      ['106', 'flagrante'],
+      ['122', 'internação'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'idoso.json',
+    ultimoArtigo: 118,
+    fechoContem: '1o de outubro de 2003',
+    conteudos: [
+      ['1', 'igual ou superior a 60'],
+      ['96', 'Discriminar pessoa idosa'],
+      ['99', 'Expor a perigo'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'organizacoes-criminosas.json',
+    ultimoArtigo: 27,
+    fechoContem: '2 de agosto de 2013',
+    conteudos: [
+      ['1', '4 (quatro) ou mais pessoas'],
+      ['2', 'Promover, constituir, financiar'],
+      ['3-A', 'colaboração premiada'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'crimes-hediondos.json',
+    ultimoArtigo: 9,
+    fechoContem: '25 de julho de 1990',
+    conteudos: [
+      ['1', 'hediondos'],
+      ['2', 'anistia, graça e indulto'],
+    ],
+    extras: () => [],
+  },
+  {
+    arquivo: 'contravencoes.json',
+    ultimoArtigo: 70,
+    fechoContem: '3 de outubro de 1941',
+    conteudos: [
+      ['21', 'vias de fato'],
+      ['42', 'sossego'],
+    ],
+    extras: () => [],
+  },
+  {
     arquivo: 'codigo-penal.json',
     ultimoArtigo: 361,
     fechoContem: '7 de dezembro de 1940',
@@ -161,7 +291,8 @@ for (const regra of REGRAS) {
     `${rotulo}: estrutura tem ${contar(dados.estrutura)} artigos, esperado ${ativos.length}`);
 
   // 7. Metadados e molduras
-  ok(dados.preambulo.includes(regra.preambuloContem || 'PRESIDENTE DA REPÚBLICA'), `${rotulo}: preâmbulo ausente`);
+  ok(dados.preambulo.toLowerCase().includes((regra.preambuloContem || 'president').toLowerCase()),
+    `${rotulo}: preâmbulo ausente`);
   ok(dados.fecho.texto.some((t) => t.includes(regra.fechoContem)), `${rotulo}: fecho ausente`);
   ok(/planalto\.gov\.br|al\.sp\.gov\.br/.test(dados.meta.fonte), `${rotulo}: fonte ausente nos metadados`);
 

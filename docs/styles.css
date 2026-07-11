@@ -395,6 +395,15 @@ mark {
 .dispositivo.tipo-medida-administrativa { padding-left: 1.6em; }
 .dispositivo.tipo-alinea { padding-left: 3.1em; }
 
+.dispositivo.tipo-citacao {
+  margin-left: 1.6em;
+  padding: 4px 12px;
+  border-left: 3px solid var(--borda);
+  background: var(--papel-2);
+  font-size: 0.92rem;
+  color: var(--tinta-suave);
+}
+
 .dispositivo.historico {
   text-decoration: line-through;
   color: var(--tinta-suave);
