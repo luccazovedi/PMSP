@@ -568,6 +568,155 @@ mark {
   padding: 48px 0;
 }
 
+.link-integra {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--destaque);
+  text-decoration: none;
+}
+
+.link-integra:hover { text-decoration: underline; }
+
+.atalhos .atalho-integra {
+  border: 1px solid var(--destaque);
+  background: var(--destaque-claro);
+  color: var(--destaque);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.atalhos .atalho-integra:hover { background: var(--destaque); color: #fff; }
+
+/* --------------------------------------------- página da lei completa */
+
+.topo-lei { padding-bottom: 4px; }
+
+.voltar {
+  text-align: left;
+  margin: 0 0 10px;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+
+.voltar a { color: var(--tinta-suave); text-decoration: none; }
+.voltar a:hover { color: var(--destaque); }
+
+.ementa {
+  margin: 2px 0 10px;
+  font-style: italic;
+  color: var(--tinta-suave);
+  font-size: 0.92rem;
+}
+
+.sumario {
+  background: var(--papel);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.sumario > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--destaque);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.sumario nav {
+  margin-top: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.sumario-item {
+  display: block;
+  padding: 3px 0;
+  color: var(--tinta);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.sumario-item:hover { color: var(--destaque); }
+.sumario-parte { font-weight: 700; margin-top: 8px; }
+.sumario-livro { font-weight: 600; padding-left: 12px; }
+.sumario-titulo { padding-left: 24px; }
+.sumario-capitulo { padding-left: 40px; color: var(--tinta-suave); }
+
+.preambulo {
+  font-style: italic;
+  color: var(--tinta-suave);
+  padding: 4px 8px 12px;
+}
+
+.hier-cabecalho {
+  text-align: center;
+  margin: 34px 0 14px;
+  padding-left: calc(var(--grau, 0) * 0);
+  scroll-margin-top: 12px;
+}
+
+.hier-rotulo {
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--tinta-suave);
+  text-transform: uppercase;
+}
+
+.hier-nome {
+  font-weight: 700;
+  color: var(--destaque);
+  font-size: 1.05rem;
+}
+
+.hier-parte .hier-nome, .hier-parte .hier-rotulo { font-size: 1.2rem; color: var(--destaque); }
+.hier-secao .hier-nome, .hier-subsecao .hier-nome { font-size: 0.95rem; }
+
+.documento .cartao {
+  border: none;
+  border-top: 1px solid var(--borda-suave);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 18px 6px;
+  scroll-margin-top: 10px;
+}
+
+.documento .cartao:hover { border-color: var(--borda-suave); }
+
+/* no fluxo do documento os cabeçalhos já mostram a hierarquia */
+.documento .caminho { display: none; }
+
+.documento .cartao:target {
+  background: var(--destaque-claro);
+  border-radius: 10px;
+}
+
+.fecho-lei {
+  border-top: 1px solid var(--borda);
+  margin-top: 24px;
+  padding: 18px 6px;
+  text-align: center;
+}
+
+.fecho-data { font-style: italic; }
+.fecho-obs {
+  font-family: system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: var(--tinta-suave);
+  margin: 4px 0;
+}
+
 /* ------------------------------------------------------------------ rodapé */
 
 .rodape {

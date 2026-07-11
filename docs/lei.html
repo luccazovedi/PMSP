@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lei completa — Consulta de Legislação</title>
+  <meta name="description" content="Leitura da íntegra da lei: todos os artigos na ordem oficial, com sumário navegável.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topo topo-lei">
+    <p class="voltar"><a href="./">← Voltar à busca</a></p>
+    <h1 id="titulo-lei">Carregando…</h1>
+    <p id="subtitulo" class="subtitulo"></p>
+    <p id="ementa" class="ementa"></p>
+  </header>
+
+  <main class="resultados">
+    <details id="sumario" class="sumario">
+      <summary>Sumário</summary>
+      <nav id="sumario-lista" aria-label="Sumário da lei"></nav>
+    </details>
+
+    <div id="documento" class="documento" aria-live="polite"></div>
+  </main>
+
+  <footer class="rodape">
+    <p id="info-fonte"></p>
+  </footer>
+
+  <script type="module" src="lei.js"></script>
+</body>
+</html>
