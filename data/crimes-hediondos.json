@@ -5,7 +5,7 @@
   "ementa": "Dispõe sobre os crimes hediondos.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm",
   "fonteSha256": "91fe054f38f6356807bc6bf93045ce0d163a24adc768378163ad02b0cbf22109",
-  "geradoEm": "2026-07-11T11:01:05.384Z",
+  "geradoEm": "2026-07-11T11:37:28.296Z",
   "notasGerais": []
  },
  "preambulo": "O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:",
@@ -750,13 +750,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "\"Art. 83. ..............................................................",
+     "texto": "\"Art. 83 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -767,7 +767,7 @@
     }
    ],
    "hierarquia": {},
-   "texto": "Art. 5 Ao art. 83 do Código Penal é acrescido o seguinte inciso:\n\"Art. 83. ..............................................................\n........................................................................\nV - cumprido mais de dois terços da pena, nos casos de condenação por crime hediondo, prática da tortura, tráfico ilícito de entorpecentes e drogas afins, e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\"",
+   "texto": "Art. 5 Ao art. 83 do Código Penal é acrescido o seguinte inciso:\n\"Art. 83 (...)\n(...)\nV - cumprido mais de dois terços da pena, nos casos de condenação por crime hediondo, prática da tortura, tráfico ilícito de entorpecentes e drogas afins, e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\"",
    "textoHistorico": "",
    "caput": "Ao art. 83 do Código Penal é acrescido o seguinte inciso:"
   },
@@ -789,7 +789,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "\"Art. 157. .............................................................",
+     "texto": "\"Art. 157 (...)",
      "notas": []
     },
     {
@@ -801,13 +801,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "Art. 159. ...............................................................",
+     "texto": "Art. 159 (...)",
      "notas": []
     },
     {
@@ -819,7 +819,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "§ 1º .................................................................",
+     "texto": "§ 1º (...)",
      "notas": []
     },
     {
@@ -831,7 +831,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "§ 2º .................................................................",
+     "texto": "§ 2º (...)",
      "notas": []
     },
     {
@@ -843,7 +843,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "§ 3º .................................................................",
+     "texto": "§ 3º (...)",
      "notas": []
     },
     {
@@ -855,25 +855,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "Art. 213. ...............................................................",
-     "notas": []
-    },
-    {
-     "tipo": "citacao",
-     "situacao": "vigente",
-     "texto": "Pena - reclusão, de seis a dez anos.",
-     "notas": []
-    },
-    {
-     "tipo": "citacao",
-     "situacao": "vigente",
-     "texto": "Art. 214. ...............................................................",
+     "texto": "Art. 213 (...)",
      "notas": []
     },
     {
@@ -885,13 +873,25 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "Art. 214 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "Art. 223. ...............................................................",
+     "texto": "Pena - reclusão, de seis a dez anos.",
+     "notas": []
+    },
+    {
+     "tipo": "citacao",
+     "situacao": "vigente",
+     "texto": "(...)",
+     "notas": []
+    },
+    {
+     "tipo": "citacao",
+     "situacao": "vigente",
+     "texto": "Art. 223 (...)",
      "notas": []
     },
     {
@@ -903,7 +903,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "Parágrafo único. ........................................................",
+     "texto": "Parágrafo único (...)",
      "notas": []
     },
     {
@@ -915,31 +915,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "Art. 267. ...............................................................",
-     "notas": []
-    },
-    {
-     "tipo": "citacao",
-     "situacao": "vigente",
-     "texto": "Pena - reclusão, de dez a quinze anos.",
-     "notas": []
-    },
-    {
-     "tipo": "citacao",
-     "situacao": "vigente",
-     "texto": "........................................................................",
-     "notas": []
-    },
-    {
-     "tipo": "citacao",
-     "situacao": "vigente",
-     "texto": "Art. 270. ...............................................................",
+     "texto": "Art. 267 (...)",
      "notas": []
     },
     {
@@ -951,12 +933,30 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": ".......................................................................\"",
+     "texto": "(...)",
+     "notas": []
+    },
+    {
+     "tipo": "citacao",
+     "situacao": "vigente",
+     "texto": "Art. 270 (...)",
+     "notas": []
+    },
+    {
+     "tipo": "citacao",
+     "situacao": "vigente",
+     "texto": "Pena - reclusão, de dez a quinze anos.",
+     "notas": []
+    },
+    {
+     "tipo": "citacao",
+     "situacao": "vigente",
+     "texto": "(...) \"",
      "notas": []
     }
    ],
    "hierarquia": {},
-   "texto": "Art. 6 Os arts. 157, § 3º; 159, caput e seus §§ 1º, 2º e 3º; 213; 214; 223, caput e seu parágrafo único; 267, caput e 270; caput, todos do Código Penal, passam a vigorar com a seguinte redação:\n\"Art. 157. .............................................................\n§ 3º Se da violência resulta lesão corporal grave, a pena é de reclusão, de cinco a quinze anos, além da multa; se resulta morte, a reclusão é de vinte a trinta anos, sem prejuízo da multa.\n........................................................................\nArt. 159. ...............................................................\nPena - reclusão, de oito a quinze anos.\n§ 1º .................................................................\nPena - reclusão, de doze a vinte anos.\n§ 2º .................................................................\nPena - reclusão, de dezesseis a vinte e quatro anos.\n§ 3º .................................................................\nPena - reclusão, de vinte e quatro a trinta anos.\n........................................................................\nArt. 213. ...............................................................\nPena - reclusão, de seis a dez anos.\nArt. 214. ...............................................................\nPena - reclusão, de seis a dez anos.\n........................................................................\nArt. 223. ...............................................................\nPena - reclusão, de oito a doze anos.\nParágrafo único. ........................................................\nPena - reclusão, de doze a vinte e cinco anos.\n........................................................................\nArt. 267. ...............................................................\nPena - reclusão, de dez a quinze anos.\n........................................................................\nArt. 270. ...............................................................\nPena - reclusão, de dez a quinze anos.\n.......................................................................\"",
+   "texto": "Art. 6 Os arts. 157, § 3º; 159, caput e seus §§ 1º, 2º e 3º; 213; 214; 223, caput e seu parágrafo único; 267, caput e 270; caput, todos do Código Penal, passam a vigorar com a seguinte redação:\n\"Art. 157 (...)\n§ 3º Se da violência resulta lesão corporal grave, a pena é de reclusão, de cinco a quinze anos, além da multa; se resulta morte, a reclusão é de vinte a trinta anos, sem prejuízo da multa.\n(...)\nArt. 159 (...)\nPena - reclusão, de oito a quinze anos.\n§ 1º (...)\nPena - reclusão, de doze a vinte anos.\n§ 2º (...)\nPena - reclusão, de dezesseis a vinte e quatro anos.\n§ 3º (...)\nPena - reclusão, de vinte e quatro a trinta anos.\n(...)\nArt. 213 (...)\nPena - reclusão, de seis a dez anos.\nArt. 214 (...)\nPena - reclusão, de seis a dez anos.\n(...)\nArt. 223 (...)\nPena - reclusão, de oito a doze anos.\nParágrafo único (...)\nPena - reclusão, de doze a vinte e cinco anos.\n(...)\nArt. 267 (...)\nPena - reclusão, de dez a quinze anos.\n(...)\nArt. 270 (...)\nPena - reclusão, de dez a quinze anos.\n(...) \"",
    "textoHistorico": "",
    "caput": "Os arts. 157, § 3º; 159, caput e seus §§ 1º, 2º e 3º; 213; 214; 223, caput e seu parágrafo único; 267, caput e 270; caput, todos do Código Penal, passam a vigorar com a seguinte redação:"
   },
@@ -978,13 +978,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "\"Art. 159. ..............................................................",
+     "texto": "\"Art. 159 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -995,7 +995,7 @@
     }
    ],
    "hierarquia": {},
-   "texto": "Art. 7 Ao art. 159 do Código Penal fica acrescido o seguinte parágrafo:\n\"Art. 159. ..............................................................\n........................................................................\n§ 4º Se o crime é cometido por quadrilha ou bando, o co-autor que denunciá-lo à autoridade, facilitando a libertação do seqüestrado, terá sua pena reduzida de um a dois terços.\"",
+   "texto": "Art. 7 Ao art. 159 do Código Penal fica acrescido o seguinte parágrafo:\n\"Art. 159 (...)\n(...)\n§ 4º Se o crime é cometido por quadrilha ou bando, o co-autor que denunciá-lo à autoridade, facilitando a libertação do seqüestrado, terá sua pena reduzida de um a dois terços.\"",
    "textoHistorico": "",
    "caput": "Ao art. 159 do Código Penal fica acrescido o seguinte parágrafo:"
   },
@@ -1068,7 +1068,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "\"Art. 35. ................................................................",
+     "texto": "\"Art. 35 (...)",
      "notas": []
     },
     {
@@ -1079,7 +1079,7 @@
     }
    ],
    "hierarquia": {},
-   "texto": "Art. 10 O art. 35 da Lei nº 6.368, de 21 de outubro de 1976, passa a vigorar acrescido de parágrafo único, com a seguinte redação:\n\"Art. 35. ................................................................\nParágrafo único. Os prazos procedimentais deste capítulo serão contados em dobro quando se tratar dos crimes previstos nos arts. 12, 13 e 14.\"",
+   "texto": "Art. 10 O art. 35 da Lei nº 6.368, de 21 de outubro de 1976, passa a vigorar acrescido de parágrafo único, com a seguinte redação:\n\"Art. 35 (...)\nParágrafo único. Os prazos procedimentais deste capítulo serão contados em dobro quando se tratar dos crimes previstos nos arts. 12, 13 e 14.\"",
    "textoHistorico": "",
    "caput": "O art. 35 da Lei nº 6.368, de 21 de outubro de 1976, passa a vigorar acrescido de parágrafo único, com a seguinte redação:"
   },

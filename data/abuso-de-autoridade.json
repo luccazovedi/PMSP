@@ -5,7 +5,7 @@
   "ementa": "Dispõe sobre os crimes de abuso de autoridade.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13869.htm",
   "fonteSha256": "9c9911ddc099cb5964261cfac700343ed2dc040eb2115dd732cc425c13452b7a",
-  "geradoEm": "2026-07-11T11:01:05.288Z",
+  "geradoEm": "2026-07-11T11:37:28.183Z",
   "notasGerais": []
  },
  "preambulo": "O PRESIDENTE DA REPÚBLICA",
@@ -2158,13 +2158,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art.2º .......................................................................................................",
+     "texto": "“Art.2º (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -2176,7 +2176,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": ".........................................................................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -2199,7 +2199,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 40 O art. 2º da Lei nº 7.960, de 21 de dezembro de 1989, passa a vigorar com a seguinte redação:\n“Art.2º .......................................................................................................\n........................................................................................................................\n§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado.\n.........................................................................................................................\n§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva.\n§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária.” (NR)",
+   "texto": "Art. 40 O art. 2º da Lei nº 7.960, de 21 de dezembro de 1989, passa a vigorar com a seguinte redação:\n“Art.2º (...)\n(...)\n§ 4º-A O mandado de prisão conterá necessariamente o período de duração da prisão temporária estabelecido no caput deste artigo, bem como o dia em que o preso deverá ser libertado.\n(...)\n§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva.\n§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária.” (NR)",
    "textoHistorico": "",
    "caput": "O art. 2º da Lei nº 7.960, de 21 de dezembro de 1989, passa a vigorar com a seguinte redação:"
   },
@@ -2419,11 +2419,11 @@
    "II - substituir a prisão preventiva por medida cautelar diversa ou de conceder liberdade provisória, quando manifestamente cabível;",
    "III - deferir liminar ou ordem de habeas corpus, quando manifestamente cabível.’",
    "‘Art. 13. Constranger o preso ou o detento, mediante violência, grave ameaça ou redução de sua capacidade de resistência, a:",
-   ".........................................................................................................................",
+   "(...)",
    "III - produzir prova contra si mesmo ou contra terceiro:",
-   "........................................................................................................................’",
+   "(...) ’",
    "‘Art. 15. Constranger a depor, sob ameaça de prisão, pessoa que, em razão de função, ministério, ofício ou profissão, deva guardar segredo ou resguardar sigilo:",
-   ".........................................................................................................................",
+   "(...)",
    "Parágrafo único. Incorre na mesma pena quem prossegue com o interrogatório:",
    "I - de pessoa que tenha decidido exercer o direito ao silêncio; ou",
    "II - de pessoa que tenha optado por ser assistida por advogado ou defensor público, sem a presença de seu patrono.’",
@@ -2440,7 +2440,7 @@
    "‘Art. 38. Antecipar o responsável pelas investigações, por meio de comunicação, inclusive rede social, atribuição de culpa, antes de concluídas as apurações e formalizada a acusação:",
    "Pena - detenção, de 6 (seis) meses a 2 (dois) anos, e multa.’”",
    "“CAPÍTULO VIII DISPOSIÇÕES FINAIS",
-   ".......................................................................................................................",
+   "(...)",
    "Art. 43. A Lei nº 8.906, de 4 de julho de 1994, passa a vigorar acrescida do seguinte art. 7º-B:",
    "‘Art. 7º-B Constitui crime violar direito ou prerrogativa de advogado previstos nos incisos II, III, IV e V do caput do art. 7º desta Lei:",
    "Pena - detenção, de 3 (três) meses a 1 (um) ano, e multa.’”",

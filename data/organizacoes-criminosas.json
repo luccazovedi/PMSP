@@ -5,7 +5,7 @@
   "ementa": "Define organização criminosa e dispõe sobre a investigação criminal.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
   "fonteSha256": "1f9e505ba7b0228bfa78f5efa0412c0bda1130c9a4b7f3e1c490451c78cd8a3c",
-  "geradoEm": "2026-07-11T11:01:05.379Z",
+  "geradoEm": "2026-07-11T11:37:28.291Z",
   "notasGerais": []
  },
  "preambulo": "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
@@ -2562,7 +2562,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art. 342. ...................................................................................",
+     "texto": "“Art. 342 (...)",
      "notas": []
     },
     {
@@ -2574,7 +2574,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "..................................................................................................” (NR)",
+     "texto": "(...) ” (NR)",
      "notas": []
     }
    ],
@@ -2585,7 +2585,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 25 O art. 342 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:\n“Art. 342. ...................................................................................\nPena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n..................................................................................................” (NR)",
+   "texto": "Art. 25 O art. 342 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:\n“Art. 342 (...)\nPena - reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n(...) ” (NR)",
    "textoHistorico": "",
    "caput": "O art. 342 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:"
   },

@@ -5,7 +5,7 @@
   "ementa": "Cria mecanismos para coibir a violência doméstica e familiar contra a mulher.",
   "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
   "fonteSha256": "5d713f6a40b2819627fb4a6e357dad87ee4df0e2f5fcf0bfb5f329476c19a560",
-  "geradoEm": "2026-07-11T11:01:05.261Z",
+  "geradoEm": "2026-07-11T11:37:28.091Z",
   "notasGerais": [
    "(Vide ADI nº 4424)",
    "(Vide Lei nº 14.149, de 2021)",
@@ -3356,13 +3356,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art. 313. .................................................",
+     "texto": "“Art. 313 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -3379,7 +3379,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 42 O art. 313 do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), passa a vigorar acrescido do seguinte inciso IV:\n“Art. 313. .................................................\n................................................................\nIV - se o crime envolver violência doméstica e familiar contra a mulher, nos termos da lei específica, para garantir a execução das medidas protetivas de urgência.” (NR)",
+   "texto": "Art. 42 O art. 313 do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), passa a vigorar acrescido do seguinte inciso IV:\n“Art. 313 (...)\n(...)\nIV - se o crime envolver violência doméstica e familiar contra a mulher, nos termos da lei específica, para garantir a execução das medidas protetivas de urgência.” (NR)",
    "textoHistorico": "",
    "caput": "O art. 313 do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), passa a vigorar acrescido do seguinte inciso IV:"
   },
@@ -3401,25 +3401,25 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art. 61. ..................................................",
+     "texto": "“Art. 61 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": ".................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "II - ............................................................",
+     "texto": "II - (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": ".................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -3431,7 +3431,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "........................................................... ” (NR)",
+     "texto": "(...) ” (NR)",
      "notas": []
     }
    ],
@@ -3442,7 +3442,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 43 A alínea f do inciso II do art. 61 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:\n“Art. 61. ..................................................\n.................................................................\nII - ............................................................\n.................................................................\nf) com abuso de autoridade ou prevalecendo-se de relações domésticas, de coabitação ou de hospitalidade, ou com violência contra a mulher na forma da lei específica;\n........................................................... ” (NR)",
+   "texto": "Art. 43 A alínea f do inciso II do art. 61 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:\n“Art. 61 (...)\n(...)\nII - (...)\n(...)\nf) com abuso de autoridade ou prevalecendo-se de relações domésticas, de coabitação ou de hospitalidade, ou com violência contra a mulher na forma da lei específica;\n(...) ” (NR)",
    "textoHistorico": "",
    "caput": "A alínea f do inciso II do art. 61 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:"
   },
@@ -3464,13 +3464,13 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art. 129. ..................................................",
+     "texto": "“Art. 129 (...)",
      "notas": []
     },
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "..................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -3488,7 +3488,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "..................................................................",
+     "texto": "(...)",
      "notas": []
     },
     {
@@ -3505,7 +3505,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 44 O art. 129 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com as seguintes alterações:\n“Art. 129. ..................................................\n..................................................................\n§ 9º Se a lesão for praticada contra ascendente, descendente, irmão, cônjuge ou companheiro, ou com quem conviva ou tenha convivido, ou, ainda, prevalecendo-se o agente das relações domésticas, de coabitação ou de hospitalidade:\nPena - detenção, de 3 (três) meses a 3 (três) anos.\n..................................................................\n§ 11. Na hipótese do § 9º deste artigo, a pena será aumentada de um terço se o crime for cometido contra pessoa portadora de deficiência.” (NR)",
+   "texto": "Art. 44 O art. 129 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com as seguintes alterações:\n“Art. 129 (...)\n(...)\n§ 9º Se a lesão for praticada contra ascendente, descendente, irmão, cônjuge ou companheiro, ou com quem conviva ou tenha convivido, ou, ainda, prevalecendo-se o agente das relações domésticas, de coabitação ou de hospitalidade:\nPena - detenção, de 3 (três) meses a 3 (três) anos.\n(...)\n§ 11. Na hipótese do § 9º deste artigo, a pena será aumentada de um terço se o crime for cometido contra pessoa portadora de deficiência.” (NR)",
    "textoHistorico": "",
    "caput": "O art. 129 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com as seguintes alterações:"
   },
@@ -3527,7 +3527,7 @@
     {
      "tipo": "citacao",
      "situacao": "vigente",
-     "texto": "“Art. 152. ...................................................",
+     "texto": "“Art. 152 (...)",
      "notas": []
     },
     {
@@ -3544,7 +3544,7 @@
      "notas": []
     }
    },
-   "texto": "Art. 45 O art. 152 da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), passa a vigorar com a seguinte redação:\n“Art. 152. ...................................................\nParágrafo único. Nos casos de violência doméstica contra a mulher, o juiz poderá determinar o comparecimento obrigatório do agressor a programas de recuperação e reeducação.” (NR)",
+   "texto": "Art. 45 O art. 152 da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), passa a vigorar com a seguinte redação:\n“Art. 152 (...)\nParágrafo único. Nos casos de violência doméstica contra a mulher, o juiz poderá determinar o comparecimento obrigatório do agressor a programas de recuperação e reeducação.” (NR)",
    "textoHistorico": "",
    "caput": "O art. 152 da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), passa a vigorar com a seguinte redação:"
   },

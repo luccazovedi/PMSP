@@ -313,6 +313,8 @@ mark {
 }
 
 .cartao {
+  /* nunca deixa palavras longas (URLs, pontilhados) estourarem a tela */
+  overflow-wrap: anywhere;
   background: var(--papel);
   border: 1px solid var(--borda-suave);
   border-radius: 14px;
@@ -720,6 +722,7 @@ mark {
 /* ------------------------------------------------------------------ rodapé */
 
 .rodape {
+  overflow-wrap: anywhere;
   max-width: 880px;
   margin: 0 auto;
   padding: 0 20px 44px;
@@ -745,8 +748,11 @@ mark {
   .topo h1 { font-size: 1.65rem; }
   .subtitulo { font-size: 0.78rem; margin: 4px 0 16px; }
 
-  /* seletor de leis: trilho rolável de uma linha */
+  /* seletor de leis: trilho rolável de uma linha. O containment impede o
+     Chrome mobile de expandir o viewport para caber o conteúdo do trilho
+     (zoom-out que estourava a tela em aparelhos reais). */
   .seletor-lei {
+    contain: layout inline-size;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -769,6 +775,7 @@ mark {
 
   /* atalhos: trilho rolável */
   .atalhos {
+    contain: layout inline-size;
     flex-wrap: nowrap;
     justify-content: flex-start;
     overflow-x: auto;

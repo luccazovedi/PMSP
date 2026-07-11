@@ -210,8 +210,14 @@ function decodificarEntidades(s) {
 }
 
 function limparEspacos(s) {
-  // Remove também "<"/">" órfãos deixados por tags malformadas do Planalto
-  return s.replace(/[<>]/g, ' ').replace(/\s+/g, ' ').trim();
+  // Remove "<"/">" órfãos de tags malformadas do Planalto e normaliza as
+  // linhas pontilhadas de texto suprimido ("Art. 121 ...........") para
+  // "(...)", que quebra de linha normalmente em telas pequenas
+  return s
+    .replace(/[<>]/g, ' ')
+    .replace(/(?:\.\s*){5,}/g, ' (...) ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 // ---------------------------------------------------------------------------
