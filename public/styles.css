@@ -46,6 +46,12 @@
 
 * { box-sizing: border-box; }
 
+html, body {
+  /* nada além dos trilhos internos pode rolar na horizontal */
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', serif;
@@ -583,10 +589,78 @@ mark {
   padding: 1px 6px;
 }
 
-@media (max-width: 600px) {
-  .topo h1 { font-size: 1.9rem; }
-  .busca { flex-direction: column; }
+/* ------------------------------------------------------- telas pequenas */
+
+@media (max-width: 640px) {
+  .topo { padding: 26px 14px 6px; }
+  .topo h1 { font-size: 1.65rem; }
+  .subtitulo { font-size: 0.78rem; margin: 4px 0 16px; }
+
+  /* seletor de leis: trilho rolável de uma linha */
+  .seletor-lei {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    border-radius: 14px;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+  }
+  .seletor-lei::-webkit-scrollbar { display: none; }
+  .pilula { flex-shrink: 0; }
+  .pilula span { padding: 8px 13px; font-size: 0.84rem; white-space: nowrap; }
+
+  .busca { flex-direction: column; gap: 8px; }
+  /* 16px evita o zoom automático do iOS ao focar o campo */
+  .busca input { font-size: 16px; padding: 13px 15px 13px 44px; }
   .busca button { padding: 13px; }
-  .ficha-linha { flex-direction: column; gap: 2px; }
+
+  /* atalhos: trilho rolável */
+  .atalhos {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-top: 12px;
+    padding-bottom: 4px;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+  }
+  .atalhos::-webkit-scrollbar { display: none; }
+  .atalhos button { white-space: nowrap; flex-shrink: 0; padding: 7px 13px; }
+
+  .resumo { font-size: 0.8rem; margin-top: 12px; }
+
+  .resultados { padding: 0 12px; margin: 12px auto 40px; }
+  .cartao { padding: 16px 15px; margin-bottom: 12px; border-radius: 12px; }
+  .cartao h2 { font-size: 0.98rem; gap: 8px; margin-bottom: 2px; }
+  .cartao h2 .num-artigo { font-size: 0.88rem; padding: 3px 10px; }
+  .cartao h2 .rubrica { font-size: 0.88rem; }
+  .caminho { font-size: 0.66rem; margin-bottom: 12px; }
+  .trecho { font-size: 0.93rem; padding-left: 10px; margin: 8px 0; }
+
+  .dispositivo { font-size: 0.95rem; }
+  .dispositivo.tipo-pena,
+  .dispositivo.tipo-inciso,
+  .dispositivo.tipo-infracao,
+  .dispositivo.tipo-penalidade,
+  .dispositivo.tipo-medida-administrativa { padding-left: 1em; }
+  .dispositivo.tipo-alinea { padding-left: 2em; }
+  .dispositivo.tipo-citacao { margin-left: 0.6em; padding: 4px 10px; }
+  .nota { margin-left: 0; margin-top: 3px; }
+
+  .ficha { padding: 12px 14px; }
+  .ficha-linha { flex-direction: column; gap: 2px; margin: 10px 0; }
   .ficha-rotulo { flex: none; }
+
+  .sugestoes { max-height: 260px; }
+  .sugestoes li { padding: 11px 10px; }
+  .sugestoes .sug-descricao { font-size: 0.8rem; }
+
+  .rodape { font-size: 0.7rem; padding-bottom: 28px; }
+  .rodape code { padding: 0 4px; }
 }
