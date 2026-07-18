@@ -3,6 +3,8 @@
 
 import { LEIS } from './leis-config.js';
 import { el, renderArtigo } from './render.js';
+import { enriquecerArtigo } from './lib/consulta.js';
+import { PALAVRAS_CHAVE } from './lib/palavras-chave.js';
 
 const params = new URLSearchParams(location.search);
 const leiId = LEIS[params.get('lei')] ? params.get('lei') : 'cp';
@@ -15,6 +17,15 @@ const documentoEl = document.getElementById('documento');
 const infoFonteEl = document.getElementById('info-fonte');
 
 const NIVEIS = ['parte', 'livro', 'titulo', 'capitulo', 'secao', 'subsecao'];
+
+// Nav bar fixa com as leis (links para a íntegra de cada uma)
+const seletor = document.getElementById('seletor-lei');
+for (const [id, cfgLei] of Object.entries(LEIS)) {
+  const a = el('a', 'pilula-link' + (id === leiId ? ' ativa' : ''), cfgLei.nome);
+  a.href = `lei.html?lei=${id}`;
+  a.title = cfgLei.nomeLongo;
+  seletor.appendChild(a);
+}
 
 function idCabecalho(nivel, h) {
   return `h-${nivel}-${(h.rotulo + '-' + (h.nome || '')).toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 60)}`;
@@ -38,6 +49,8 @@ async function carregar() {
   }
   const lei = await resposta.json();
   const { meta } = lei;
+  const chaves = PALAVRAS_CHAVE[leiId] || {};
+  for (const artigo of lei.artigos) enriquecerArtigo(artigo, chaves[artigo.numero]);
 
   // Cabeçalho da página
   const nomeFonte = meta.fonte.includes('al.sp.gov.br') ? 'ALESP' : 'Planalto';

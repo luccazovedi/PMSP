@@ -3,6 +3,7 @@
  * servida pelo Express quanto como site estático (GitHub Pages). */
 
 import { criarConsulta } from './lib/consulta.js';
+import { PALAVRAS_CHAVE } from './lib/palavras-chave.js';
 import { LEIS } from './leis-config.js';
 import {
   el, caminhoDe, comDestaque, extrairFicha, classeGravidade, renderArtigo,
@@ -85,7 +86,7 @@ async function carregarLei(id) {
   const resposta = await fetch(`./data/${LEIS[id].arquivo}`);
   if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
   const lei = await resposta.json();
-  consultas[id] = { consulta: criarConsulta(lei), meta: lei.meta };
+  consultas[id] = { consulta: criarConsulta(lei, PALAVRAS_CHAVE[id] || {}), meta: lei.meta };
   resumo.textContent = '';
   return consultas[id];
 }

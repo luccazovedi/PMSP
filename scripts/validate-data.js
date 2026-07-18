@@ -6,9 +6,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { criarConsulta } from '../lib/consulta.js';
+import { PALAVRAS_CHAVE } from '../lib/palavras-chave.js';
+import { REGISTRO_LEIS } from '../lib/leis.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
+
+const ARQUIVO_PARA_ID = Object.fromEntries(
+  Object.entries(REGISTRO_LEIS).map(([id, cfg]) => [cfg.arquivo, id]),
+);
 
 const REGRAS = [
   {
@@ -249,7 +256,18 @@ let totalAtivos = 0;
 for (const regra of REGRAS) {
   const rotulo = regra.arquivo.replace('.json', '');
   const dados = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', regra.arquivo), 'utf8'));
+  const leiId = ARQUIVO_PARA_ID[regra.arquivo];
+  const chaves = PALAVRAS_CHAVE[leiId] || {};
+  // deriva caput/rubricas/texto dos dispositivos (não gravados no JSON)
+  criarConsulta(dados, chaves);
   const artigos = dados.artigos;
+
+  // Toda palavra-chave precisa apontar para um artigo existente
+  const numerosExistentes = new Set(artigos.map((a) => String(a.numero)));
+  for (const numero of Object.keys(chaves)) {
+    ok(numerosExistentes.has(String(numero)),
+      `${rotulo}: palavra-chave aponta para artigo inexistente "${numero}"`);
+  }
   const ativos = artigos.filter((a) => a.situacao !== 'historico');
   totalAtivos += ativos.length;
   const numeros = new Set(ativos.map((a) => a.numero));

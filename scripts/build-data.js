@@ -696,6 +696,8 @@ function parseLei(cfg) {
 
   const artigos = [...vigentes.values()];
 
+  // Campos derivados (caput, rubricas, texto de busca) NÃO são gravados: o
+  // lib/consulta.js os deriva dos dispositivos na carga, evitando duplicidade
   for (const a of artigos) {
     const dispVigentes = a.dispositivos.filter((d) => d.situacao === 'vigente' && d.tipo !== 'rubrica');
     const soRevogacao = dispVigentes.every(
@@ -703,30 +705,12 @@ function parseLei(cfg) {
     );
     const notaRevogacao = dispVigentes.some((d) => d.notas.some((n) => /revogad/i.test(n)) || /revogad/i.test(d.texto));
     a.situacao = soRevogacao && notaRevogacao ? 'revogado' : 'vigente';
-
-    const pedacos = [];
-    for (const d of a.dispositivos) {
-      if (d.situacao !== 'vigente') continue;
-      if (d.texto) pedacos.push(d.tipo === 'caput' ? `${a.rotulo} ${d.texto}` : d.texto);
-      pedacos.push(...d.notas);
-    }
-    a.texto = pedacos.join('\n');
-
-    const antigos = [];
-    for (const d of [...a.dispositivos, ...(a.versoesAnteriores || [])]) {
-      if (d.situacao !== 'historico') continue;
-      if (d.texto) antigos.push(d.texto);
-      antigos.push(...d.notas);
-    }
-    a.textoHistorico = antigos.join('\n');
-    a.caput = (a.dispositivos.find((d) => d.tipo === 'caput' && d.situacao === 'vigente') || {}).texto || null;
+    delete a.rubricas;
   }
 
   for (const r of historicosSemVigente) {
     r.situacao = 'historico';
-    r.texto = '';
-    r.caput = null;
-    r.textoHistorico = r.dispositivos.map((d) => [d.texto, ...d.notas].filter(Boolean).join(' ')).join('\n');
+    delete r.rubricas;
     artigos.push(r);
   }
 
@@ -742,12 +726,13 @@ function parseLei(cfg) {
       numero,
       rotulo: anexo.titulo,
       situacao: 'vigente',
-      rubricas: [],
-      caput: itensVigentes[0].texto,
       hierarquia: {},
-      dispositivos: anexo.itens.map((i) => ({ tipo: 'texto', situacao: i.situacao, texto: i.texto, notas: i.notas })),
-      texto: [anexo.titulo, ...itensVigentes.map((i) => i.texto), ...anexo.notas].join('\n'),
-      textoHistorico: anexo.itens.filter((i) => i.situacao === 'historico').map((i) => i.texto).join('\n'),
+      dispositivos: anexo.itens.map((i, idx) => ({
+        tipo: i === itensVigentes[0] ? 'caput' : 'texto',
+        situacao: i.situacao,
+        texto: i.texto,
+        notas: idx === 0 ? [...i.notas, ...anexo.notas] : i.notas,
+      })),
     });
   }
 

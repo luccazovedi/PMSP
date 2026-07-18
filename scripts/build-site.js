@@ -13,6 +13,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { REGISTRO_LEIS as LEIS } from '../lib/leis.js';
+import { criarConsulta } from '../lib/consulta.js';
+import { PALAVRAS_CHAVE } from '../lib/palavras-chave.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
@@ -43,8 +45,11 @@ let totalArquivos = 0;
 for (const [id, cfg] of Object.entries(LEIS)) {
   const lei = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', cfg.arquivo), 'utf8'));
 
-  // Dados completos (compactados: o Pages serve com gzip)
+  // Dados completos SEM os campos derivados (o navegador os deriva na carga)
   fs.writeFileSync(path.join(SITE, 'data', cfg.arquivo), JSON.stringify(lei));
+
+  // Para os arquivos da API, enriquece com caput/rubricas/texto/palavras-chave
+  criarConsulta(lei, PALAVRAS_CHAVE[id] || {});
 
   const api = path.join(SITE, 'api', id);
   fs.mkdirSync(path.join(api, 'artigos'), { recursive: true });

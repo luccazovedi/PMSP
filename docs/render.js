@@ -145,6 +145,12 @@ export function renderArtigo(artigo, termo, leiId) {
   const caminho = caminhoDe(artigo.hierarquia);
   if (caminho) cartao.appendChild(el('p', 'caminho', caminho));
 
+  if (artigo.palavrasChave && artigo.palavrasChave.length) {
+    const tags = el('p', 'tags-chave');
+    for (const chave of artigo.palavrasChave) tags.appendChild(el('span', 'tag-chave', chave));
+    cartao.appendChild(tags);
+  }
+
   if (leiId === 'ctb' && artigo.situacao === 'vigente') {
     const ficha = extrairFicha(artigo);
     if (ficha) cartao.appendChild(renderFicha(ficha));

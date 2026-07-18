@@ -69,6 +69,14 @@ npm start          # http://localhost:3000
 Rotas sem o prefixo da lei (`/api/artigos/121`) respondem pelo Código Penal, por
 compatibilidade.
 
+## Palavras-chave
+
+`lib/palavras-chave.js` associa os artigos mais procurados a termos populares
+("lei seca" → CTB 165, "golpe" → CP 171, "medidas protetivas" → Maria da Penha
+22…). Elas têm prioridade máxima na busca e nas sugestões e aparecem como
+etiquetas 🔑 no artigo. O `npm test` garante que toda chave aponta para um
+artigo existente.
+
 ## Campos estruturados
 
 Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, o parser classifica:
@@ -85,8 +93,10 @@ Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, o parser classifica:
 
 ## Fidelidade dos dados — nada fica de fora
 
-O JSON é gerado por `scripts/build-data.js` diretamente do HTML oficial (cópias
-versionadas em `data/fonte/`), preservando para todas as leis: dispositivos
+O JSON gravado não tem duplicidade: campos de conveniência (`caput`,
+`rubricas`, `texto` de busca, `textoHistorico`) são derivados dos dispositivos
+na carga, por `lib/consulta.js` (`enriquecerArtigo`) — no servidor, no navegador
+e nos arquivos estáticos da API. O parser preserva para todas as leis: dispositivos
 completos na ordem do texto, rubricas, anotações oficiais ("Redação dada pela…",
 "Revogado pela…", "Vide…", "(VETADO)"), redações históricas riscadas (marcadas
 `situacao: "historico"`), preâmbulo, fecho, assinaturas, observações e anexos.
@@ -105,7 +115,8 @@ e commita — e o Pages republica sozinho.
 data/fonte/              HTML oficial (fonte da verdade, versionada)
 data/*.json              dados estruturados gerados (não editar à mão)
 lib/leis.js              registro central das leis
-lib/consulta.js          busca e sugestões compartilhadas (servidor e navegador)
+lib/consulta.js          busca, sugestões e derivação de campos (servidor e navegador)
+lib/palavras-chave.js    termos populares associados aos artigos famosos
 scripts/build-data.js    parser HTML → JSON (multi-lei, multi-formato)
 scripts/validate-data.js validação de integridade (npm test)
 scripts/build-site.js    gera o site estático em docs/ (npm run build-site)

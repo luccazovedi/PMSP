@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { criarConsulta } from '../lib/consulta.js';
 import { REGISTRO_LEIS } from '../lib/leis.js';
+import { PALAVRAS_CHAVE } from '../lib/palavras-chave.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
@@ -14,7 +15,7 @@ const LEIS = Object.fromEntries(
 
 for (const [id, cfg] of Object.entries(LEIS)) {
   cfg.dados = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', cfg.arquivo), 'utf8'));
-  cfg.consulta = criarConsulta(cfg.dados);
+  cfg.consulta = criarConsulta(cfg.dados, PALAVRAS_CHAVE[id] || {});
 }
 
 const app = express();
