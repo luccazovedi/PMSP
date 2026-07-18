@@ -44,6 +44,30 @@ jobs:
           baixar del3688.htm      "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm"
           ls -la data/fonte
 
+      - name: Baixar tabela de enquadramentos RENAINF (SENATRAN)
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          URLBASE="https://www.gov.br/transportes/pt-br/centrais-de-conteudo/tabela-codigo-infracoes-renainf-xlsx"
+          baixou=""
+          for u in "$URLBASE/@@download/file" "$URLBASE"; do
+            curl -fSL --retry 2 --retry-delay 5 -A "$UA" "$u" -o /tmp/renainf.bin || continue
+            if file /tmp/renainf.bin | grep -qi 'zip\|excel\|spreadsheet'; then baixou=sim; break; fi
+            # veio uma página HTML: procura o link do .xlsx dentro dela
+            link=$(grep -o 'https[^"]*\.xlsx' /tmp/renainf.bin | head -1 || true)
+            if [ -n "$link" ]; then
+              curl -fSL -A "$UA" "$link" -o /tmp/renainf.bin || continue
+              file /tmp/renainf.bin | grep -qi 'zip\|excel\|spreadsheet' && baixou=sim && break
+            fi
+          done
+          if [ "$baixou" = "sim" ]; then
+            mv /tmp/renainf.bin data/fonte/renainf.xlsx
+            ls -la data/fonte/renainf.xlsx
+          else
+            echo "AVISO: não foi possível baixar a tabela RENAINF"
+            file /tmp/renainf.bin || true
+            head -c 600 /tmp/renainf.bin || true
+          fi
+
       - name: Baixar RDPM da PMESP (LC 893/2001 — ALESP)
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
