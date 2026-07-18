@@ -50,7 +50,16 @@ async function carregar() {
   const lei = await resposta.json();
   const { meta } = lei;
   const chaves = PALAVRAS_CHAVE[leiId] || {};
-  for (const artigo of lei.artigos) enriquecerArtigo(artigo, chaves[artigo.numero]);
+  let enquadramentos = {};
+  if (leiId === 'ctb') {
+    try {
+      const r = await fetch('./data/enquadramentos-ctb.json');
+      if (r.ok) enquadramentos = (await r.json()).porArtigo;
+    } catch { /* opcional */ }
+  }
+  for (const artigo of lei.artigos) {
+    enriquecerArtigo(artigo, chaves[artigo.numero], enquadramentos[artigo.numero]);
+  }
 
   // Cabeçalho da página
   const nomeFonte = meta.fonte.includes('al.sp.gov.br') ? 'ALESP' : 'Planalto';

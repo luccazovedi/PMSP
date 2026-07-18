@@ -83,7 +83,13 @@ Além de `caput`, `paragrafo`, `inciso`, `alinea` e `pena`, o parser classifica:
 
 - **CTB**: `infracao`, `penalidade`, `medida-administrativa` — a landing page monta
   a ficha operacional (gravidade, penalidade e providências do agente); o Anexo I
-  vira o registro pesquisável `ANEXO-I`;
+  vira o registro pesquisável `ANEXO-I`. A ficha ainda traz **pontos na CNH**
+  (art. 259) e **valor da multa** (art. 258, com o multiplicador da penalidade) e os
+  **enquadramentos RENAINF/SENATRAN** — código do auto de infração, descrição,
+  infrator, gravidade e órgão competente — da tabela oficial do gov.br
+  (`data/enquadramentos-ctb.json`, gerada por `npm run build-mbft` a partir de
+  `data/fonte/renainf.xlsx`; API em `api/ctb/enquadramentos.json`). As descrições
+  dos enquadramentos também são pesquisáveis;
 - **RDPM**: as 132 transgressões do art. 13 viram dispositivos `item` com selo de
   gravidade (G/M/L);
 - **Leis que alteram outras normas** (ECA, Maria da Penha, Abuso, Idoso, ORCRIM,

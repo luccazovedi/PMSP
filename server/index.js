@@ -13,9 +13,18 @@ const LEIS = Object.fromEntries(
   Object.entries(REGISTRO_LEIS).map(([id, cfg]) => [id, { ...cfg }]),
 );
 
+// Enquadramentos RENAINF/SENATRAN, anexados aos artigos do CTB
+let enquadramentosCtb = {};
+try {
+  enquadramentosCtb = JSON.parse(
+    fs.readFileSync(path.join(RAIZ, 'data', 'enquadramentos-ctb.json'), 'utf8'),
+  ).porArtigo;
+} catch { /* opcional */ }
+
 for (const [id, cfg] of Object.entries(LEIS)) {
   cfg.dados = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', cfg.arquivo), 'utf8'));
-  cfg.consulta = criarConsulta(cfg.dados, PALAVRAS_CHAVE[id] || {});
+  cfg.consulta = criarConsulta(cfg.dados, PALAVRAS_CHAVE[id] || {},
+    id === 'ctb' ? { enquadramentos: enquadramentosCtb } : {});
 }
 
 const app = express();

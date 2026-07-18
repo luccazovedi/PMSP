@@ -8,6 +8,7 @@
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
     "build-data": "node scripts/build-data.js",
+    "build-mbft": "node scripts/build-mbft.js",
     "test": "node scripts/validate-data.js",
     "build-site": "node scripts/build-site.js"
   },
@@ -15,7 +16,8 @@
     "node": ">=18"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "xlsx": "^0.18.5"
   },
   "license": "MIT"
 }

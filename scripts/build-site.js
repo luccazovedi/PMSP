@@ -20,6 +20,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(__dirname, '..');
 const SITE = path.join(RAIZ, 'docs');
 
+let enquadramentosCtb = {};
+try {
+  enquadramentosCtb = JSON.parse(
+    fs.readFileSync(path.join(RAIZ, 'data', 'enquadramentos-ctb.json'), 'utf8'),
+  ).porArtigo;
+} catch { /* opcional */ }
+
 fs.rmSync(SITE, { recursive: true, force: true });
 fs.mkdirSync(SITE, { recursive: true });
 
@@ -49,7 +56,8 @@ for (const [id, cfg] of Object.entries(LEIS)) {
   fs.writeFileSync(path.join(SITE, 'data', cfg.arquivo), JSON.stringify(lei));
 
   // Para os arquivos da API, enriquece com caput/rubricas/texto/palavras-chave
-  criarConsulta(lei, PALAVRAS_CHAVE[id] || {});
+  criarConsulta(lei, PALAVRAS_CHAVE[id] || {},
+    id === 'ctb' ? { enquadramentos: enquadramentosCtb } : {});
 
   const api = path.join(SITE, 'api', id);
   fs.mkdirSync(path.join(api, 'artigos'), { recursive: true });
@@ -65,6 +73,13 @@ for (const [id, cfg] of Object.entries(LEIS)) {
   indice.leis[id] = { ...lei.meta, totalArtigos: lei.artigos.length };
   totalArquivos += lei.artigos.length;
 }
+
+// Enquadramentos RENAINF ficam disponíveis para o navegador e como API
+try {
+  const enq = fs.readFileSync(path.join(RAIZ, 'data', 'enquadramentos-ctb.json'), 'utf8');
+  fs.writeFileSync(path.join(SITE, 'data', 'enquadramentos-ctb.json'), JSON.stringify(JSON.parse(enq)));
+  fs.writeFileSync(path.join(SITE, 'api', 'ctb', 'enquadramentos.json'), JSON.stringify(JSON.parse(enq)));
+} catch { /* opcional */ }
 
 fs.writeFileSync(path.join(SITE, 'api', 'index.json'), JSON.stringify(indice));
 

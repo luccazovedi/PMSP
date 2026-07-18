@@ -79,6 +79,7 @@ jobs:
         run: |
           npm ci
           npm run build-data
+          npm run build-mbft || echo "tabela RENAINF indisponível — mantendo a anterior"
           npm test
           npm run build-site || true
 

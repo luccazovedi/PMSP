@@ -86,7 +86,17 @@ async function carregarLei(id) {
   const resposta = await fetch(`./data/${LEIS[id].arquivo}`);
   if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
   const lei = await resposta.json();
-  consultas[id] = { consulta: criarConsulta(lei, PALAVRAS_CHAVE[id] || {}), meta: lei.meta };
+
+  // No CTB, os enquadramentos RENAINF entram na ficha e na busca
+  const extras = {};
+  if (id === 'ctb') {
+    try {
+      const r = await fetch('./data/enquadramentos-ctb.json');
+      if (r.ok) extras.enquadramentos = (await r.json()).porArtigo;
+    } catch { /* opcional */ }
+  }
+
+  consultas[id] = { consulta: criarConsulta(lei, PALAVRAS_CHAVE[id] || {}, extras), meta: lei.meta };
   resumo.textContent = '';
   return consultas[id];
 }

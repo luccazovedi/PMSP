@@ -47,6 +47,21 @@ export const ROTULOS_FICHA = {
   pena: 'Pena (crime de trânsito)',
 };
 
+// Valores do art. 258 e pontuação do art. 259 do CTB, por natureza da infração
+const TABELA_CTB = {
+  gravissima: { valor: 293.47, pontos: 7 },
+  grave: { valor: 195.23, pontos: 5 },
+  media: { valor: 130.16, pontos: 4 },
+  leve: { valor: 88.38, pontos: 3 },
+};
+
+const MULTIPLICADORES = {
+  duas: 2, tres: 3, cinco: 5, dez: 10, vinte: 20,
+  quarenta: 40, sessenta: 60, cem: 100,
+};
+
+const REAIS = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+
 export function extrairFicha(artigo) {
   const campos = { infracao: [], penalidade: [], 'medida-administrativa': [], pena: [] };
   for (const d of artigo.dispositivos) {
@@ -59,7 +74,23 @@ export function extrairFicha(artigo) {
 
   const textoInfracoes = campos.infracao.join(' ');
   const gravidade = (textoInfracoes.match(/grav[íi]ssima|grave|m[ée]dia|leve/i) || [null])[0];
-  return { campos, gravidade };
+
+  // Multa e pontos derivados dos arts. 258 e 259 do CTB
+  let multa = null;
+  let pontos = null;
+  const base = gravidade && TABELA_CTB[normalizar(gravidade).replace(/[^a-z]/g, '')];
+  if (base) {
+    pontos = base.pontos;
+    const m = campos.penalidade.join(' ').match(/multa\s*\(\s*([a-zà-ÿ]+)\s+vezes\s*\)/i);
+    const fator = m ? MULTIPLICADORES[normalizar(m[1])] : null;
+    multa = {
+      valorBase: REAIS.format(base.valor),
+      fator: fator || 1,
+      valorFinal: REAIS.format(base.valor * (fator || 1)),
+    };
+  }
+
+  return { campos, gravidade, pontos, multa, enquadramentos: artigo.enquadramentos || [] };
 }
 
 export function classeGravidade(gravidade) {
@@ -78,7 +109,16 @@ export function renderFicha(ficha) {
   if (ficha.gravidade) {
     const linha = el('div', 'ficha-linha');
     linha.appendChild(el('span', 'ficha-rotulo', 'Gravidade'));
-    linha.appendChild(el('span', `selo-gravidade ${classeGravidade(ficha.gravidade)}`, ficha.gravidade.toUpperCase()));
+    const valores = el('div', 'ficha-valores ficha-gravidade');
+    valores.appendChild(el('span', `selo-gravidade ${classeGravidade(ficha.gravidade)}`, ficha.gravidade.toUpperCase()));
+    if (ficha.pontos) valores.appendChild(el('span', 'ficha-metrica', `${ficha.pontos} pontos na CNH`));
+    if (ficha.multa) {
+      valores.appendChild(el('span', 'ficha-metrica',
+        ficha.multa.fator > 1
+          ? `multa ${ficha.multa.valorFinal} (${ficha.multa.valorBase} × ${ficha.multa.fator})`
+          : `multa ${ficha.multa.valorFinal}`));
+    }
+    linha.appendChild(valores);
     painel.appendChild(linha);
   }
 
@@ -92,10 +132,38 @@ export function renderFicha(ficha) {
     painel.appendChild(linha);
   }
 
-  if (ficha.campos['medida-administrativa'].length) {
-    painel.appendChild(el('p', 'ficha-nota',
-      'Medida administrativa é a providência imediata a cargo do agente de fiscalização (art. 269 do CTB), além da lavratura do auto de infração.'));
+  if (ficha.enquadramentos.length) {
+    const linha = el('div', 'ficha-linha');
+    linha.appendChild(el('span', 'ficha-rotulo', 'Enquadramentos'));
+    const lista = el('div', 'ficha-valores');
+    for (const e of ficha.enquadramentos) {
+      const p = el('p', 'enquadramento');
+      p.appendChild(el('span', 'cod-enquadramento', e.codigo));
+      p.appendChild(document.createTextNode(' ' + e.descricao));
+      const extras = [
+        e.gravidade,
+        e.pontos ? `${e.pontos} pts` : null,
+        e.infrator ? `infrator: ${e.infrator}` : null,
+        e.competencia,
+      ].filter(Boolean).join(' · ');
+      if (extras) p.appendChild(el('small', 'nota', extras));
+      lista.appendChild(p);
+    }
+    linha.appendChild(lista);
+    painel.appendChild(linha);
   }
+
+  const notas = [];
+  if (ficha.campos['medida-administrativa'].length) {
+    notas.push('Medida administrativa é a providência imediata a cargo do agente de fiscalização (art. 269 do CTB), além da lavratura do auto de infração.');
+  }
+  if (ficha.pontos || ficha.multa) {
+    notas.push('Valor da multa conforme o art. 258 e pontuação conforme o art. 259 do CTB.');
+  }
+  if (ficha.enquadramentos.length) {
+    notas.push('Códigos de enquadramento da tabela oficial RENAINF/SENATRAN, usados no auto de infração.');
+  }
+  for (const n of notas) painel.appendChild(el('p', 'ficha-nota', n));
   return painel;
 }
 

@@ -244,6 +244,18 @@ const REGRAS = [
       if (conta('infracao') < 100) erros.push('CTB: menos de 100 dispositivos de infração classificados');
       if (conta('penalidade') < 100) erros.push('CTB: menos de 100 penalidades classificadas');
       if (conta('medida-administrativa') < 50) erros.push('CTB: menos de 50 medidas administrativas classificadas');
+
+      // Enquadramentos RENAINF: todos precisam apontar para artigos existentes
+      try {
+        const enq = JSON.parse(fs.readFileSync(path.join(RAIZ, 'data', 'enquadramentos-ctb.json'), 'utf8'));
+        const numeros = new Set(dados.artigos.map((a) => a.numero));
+        if (enq.meta.total < 200) erros.push(`CTB: apenas ${enq.meta.total} enquadramentos RENAINF (esperado 200+)`);
+        for (const numero of Object.keys(enq.porArtigo)) {
+          if (!numeros.has(numero)) erros.push(`CTB: enquadramento aponta para artigo inexistente "${numero}"`);
+        }
+      } catch {
+        erros.push('CTB: data/enquadramentos-ctb.json ausente ou inválido');
+      }
       return erros;
     },
   },
